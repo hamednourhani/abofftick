@@ -7,8 +7,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-wp-i18n' );
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-curl');
-    grunt.loadNpmTasks('grunt-phpdocumentor');
     grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		
@@ -121,23 +119,6 @@ module.exports = function(grunt) {
 		  }
 		},//clean
 
-		curl: {
-		    'google-fonts-source': {
-		        src: 'https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyBSO5nOEdE6OwYNtLBVDdVO1jsy9Or5wHQ',
-		        dest: 'fonts/vendor/google-fonts-source.json'
-		    }
-		},//cUrl
-		
-		
-	    phpdocumentor: {
-	        dist: {
-	            options: {
-	                ignore: ['node_modules'],
-	                directory : '',
-	                target : 'docs'
-	            }
-	        }
-	    },//phpdocumentor
 
 
 		img: {
@@ -164,14 +145,7 @@ module.exports = function(grunt) {
     			files : ['css/sass/**/*.scss'],
     			tasks : ['compass:dev','compass:dist','copy:css','clean']
     		},
-    		php : {
-    			files : ['*.php','**/*.php'],
-    			tasks : ['makepot']
-    		},
-    		readme: {
-    			files : ['readme.txt'],
-    			tasks : ['copy:readme']
-    		}
+
     	}//watch
   
 		
