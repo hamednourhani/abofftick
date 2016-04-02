@@ -1,43 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <title>offtick</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-<div class="site-header">
-    <div class="top-bar">
-        <section class="layout">
-            <a href="http://offtick.com" class="site-logo-link">
-                <img src="images/offtick-logo.png" alt="" class="site-logo">
-            </a>
+<div class="body-wrapper">
+
+    <div class="site-header">
+        <div class="top-bar">
+            <section class="layout">
+                <a href="http://offtick.com" class="site-logo-link">
+                    <img src="images/offtick-logo-65x50.png" alt="" class="site-logo">
+                </a>
+
+                <div class="search-container">
+                    <form name="searchform" class="search-form">
+                        <select name="city" id="" class="search-city">
+                            <option value="tehran">تهران</option>
+                            <option value="esfehan">اصفهان</option>
+                            <option value="shiraz">شیراز</option>
+                            <option value="mashahd">مشهد</option>
+                            <option value="kerman">کرمان</option>
+                            <option value="khozestan">خوزستان</option>
+                        </select>
+                        <input type="text" name="s"/>
+                        <input type="submit"/>
+                    </form>
+                </div>
+                <!--search-container-->
+
+                <div class="cart-wrapper">
+                    <i class="fa fa-cart"></i>
+                </div>
+                <!--cart-wrapper-->
+
+                <div class="panel-links">
+                    <span class="login-button">ورود</span>
+                    <span class="register-button">عضویت</span>
+                </div>
+                <!--panel-links-->
+
             <span class="menu-toggler">
                 <i class="fa fa-bars"></i>
             </span>
 
-        </section>
+            </section>
+
+        </div>
+        <!--top-bar-->
+
+        <nav class="mobile-nav">
+            <ul class="mobile-menu">
+                <li class="menu-item"><span class="menu-content">ITEM</span></li>
+                <li class="menu-item"><span class="menu-content">ITEM</span></li>
+                <li class="menu-item"><span class="menu-content">ITEM</span></li>
+                <li class="menu-item"><span class="menu-content">ITEM</span></li>
+                <li class="menu-item"><span class="menu-content">ITEM</span></li>
+                <li class="menu-item"><span class="menu-content">ITEM</span></li>
+            </ul>
+        </nav>
+        <!--mobile-nav-->
+
+        <div class="menu-bar">
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li class="menu-item">Item</li>
+                    <li class="menu-item">Item</li>
+                    <li class="menu-item">Item</li>
+                    <li class="menu-item">Item</li>
+                    <li class="menu-item">Item</li>
+                    <li class="menu-item">Item</li>
+                    <li class="menu-item">Item</li>
+                </ul>
+            </nav>
+            <div class="category-icons-">
+                <ul class="icons-list">
+                    <li class="cat-icon allofftiks">
+                        <a href="#">
+                            <span class="icon-title">همه آفتیک ها</span>
+                        </a>
+                    </li>
+                    <li class="cat-icon resturant">
+                        <a href="#">
+                            <span class="icon-title">رستوران و کافه</span>
+                    </li>
+                    <li class="cat-icon travel">
+                        <a href="#">
+                            <span class="icon-title">تور مسافرتی </span>
+                        </a>
+                    </li>
+                    <li class="cat-icon theater">
+                        <a href="#">
+                            <span class="icon-title">تئاتر و هنر</span>
+                        </a>
+                    </li>
+                    <li class="cat-icon sport">
+                        <a href="#">
+                            <span class="icon-title">تفریحی و ورزشی</span>
+                        </a>
+                    </li>
+                    <li class="cat-icon health">
+                        <a href="#">
+                            <span class="icon-title">سلامتی و پزشکی</span>
+                        </a>
+                    </li>
+                    <li class="cat-icon sale">
+                        <a href="#">
+                            <span class="icon-title">کالا</span>
+                        </a>
+                    </li>
+                    <li class="cat-icon education">
+                        <a href="#">
+                            <span class="icon-title">آموزشی</span>
+                        </a>
+                    </li>
+                    <li class="cat-icon beauty">
+                        <a href="#">
+                            <span class="icon-title">زیبایی و آرایشی</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </div>
-    <div class="menu-bar"></div>
-</div>
-<!--site-header-->
+    <!--site-header-->
 
-<div class="site-main">
-    <div class="main-wrapper">  
-        <section class="layout">
-            <div class="site-content"></div>
-        </section>
+    <div class="site-main">
+        <div class="main-wrapper">
+
+            <section class="layout">
+                <div class="adds-grid">
+
+                    <article class="grid-item">
+                        <main class="item-container">
+                            <img src="images/adds/Kari20160206083341320.jpg" alt="" class="add-img">
+                            <div class="add-content">
+                                some content
+                            </div>
+                        </main>
+                    </article>
+                    <!--add-item-->
+
+
+                </div>
+                <!--adds-grid-->
+            </section>
+            <!--layout-->
+        </div>
+        <!--main-wrapper-->
     </div>
-</div>
-<!--site-main-->
+    <!--site-main-->
 
-<div class="site-footer">
+    <footer class="site-footer">
 
-</div>
-<!--site-footer-->
+        <div class="footer-columns">
+            <section class="layout">
+                <aside class="footer-col">
+                    <h4 class="aside-title">Title</h4>
+                    <div class="aside-content">some content</div>
+                </aside>
+            </section>
+        </div>
+        <!--footer-columns-->
+
+        <nav class="footer-nav">
+            <ul class="footer-icons">
+                <li class="mobile-footer-icon"><a href="#"><span>item</span></a></li>
+                <li class="mobile-footer-icon"><a href="#"><span>item</span></a></li>
+                <li class="mobile-footer-icon"><a href="#"><span>item</span></a></li>
+                <li class="mobile-footer-icon"><a href="#"><span>item</span></a></li>
+                <li class="mobile-footer-icon"><a href="#"><span>item</span></a></li>
+            </ul>
+        </nav>
+    </footer>
+    <!--site-footer-->
 
 </body>
 <!--body-->
+<script type="text/javascript" src="js/lib/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/lib/slick.min.js"></script>
 </html>
