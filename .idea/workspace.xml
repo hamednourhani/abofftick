@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d053bc3-77eb-475f-bdec-78fb19a0e0a0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/base/_base.scss" afterPath="$PROJECT_DIR$/css/sass/base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/base/_variables.scss" afterPath="$PROJECT_DIR$/css/sass/base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/layout/_footer.scss" afterPath="$PROJECT_DIR$/css/sass/layout/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/layout/_header.scss" afterPath="$PROJECT_DIR$/css/sass/layout/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/layout/_main.scss" afterPath="$PROJECT_DIR$/css/sass/layout/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="offtick.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.692307">
-              <caret line="262" column="14" selection-start-line="262" selection-start-column="14" selection-end-line="262" selection-end-column="14" />
+            <state vertical-scroll-proportion="-16.884615">
+              <caret line="205" column="30" selection-start-line="146" selection-start-column="20" selection-end-line="205" selection-end-column="30" />
               <folding>
                 <element signature="n#a#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -69,20 +61,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/sass/layout/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.52040815">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/sass/layout/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7632653">
+            <state vertical-scroll-proportion="-14.384615">
               <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding />
             </state>
@@ -130,10 +122,10 @@
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/css/sass/base/_variables.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/sass/layout/_main.scss" />
         <option value="$PROJECT_DIR$/css/sass/layout/_header.scss" />
         <option value="$PROJECT_DIR$/css/sass/base/_base.scss" />
         <option value="$PROJECT_DIR$/css/sass/layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/css/sass/layout/_main.scss" />
       </list>
     </option>
   </component>
@@ -814,12 +806,12 @@
       <workItem from="1459404574208" duration="2395000" />
       <workItem from="1459517684205" duration="145000" />
       <workItem from="1459577906824" duration="21395000" />
-      <workItem from="1459778403448" duration="6742000" />
+      <workItem from="1459778403448" duration="6856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31934000" />
+    <option name="totallyTimeSpent" value="32048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="766" extended-state="0" />
@@ -1182,14 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/layout/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/sass/base/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.807693">
@@ -1206,10 +1190,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/sass/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.692307">
-          <caret line="262" column="14" selection-start-line="262" selection-start-column="14" selection-end-line="262" selection-end-column="14" />
+        <state vertical-scroll-proportion="-16.884615">
+          <caret line="205" column="30" selection-start-line="146" selection-start-column="20" selection-end-line="205" selection-end-column="30" />
           <folding>
             <element signature="n#a#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1221,10 +1213,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/layout/_footer.scss">
+    <entry file="file://$PROJECT_DIR$/css/sass/layout/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7632653">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.52040815">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding />
         </state>
       </provider>
