@@ -1,0 +1,48 @@
+.site-footer{
+  background-color: $black1;
+  color : $white;
+  h4,h3{
+    color : $grey1;
+  }
+  a{
+    color : $grey1;
+    &:hover{
+      color : $gol;
+    }
+  }
+}
+
+
+.footer-columns{
+  .footer-col{
+    @include span-columns(12,12);
+    @include at-breakpoint($medium){
+      @include span-columns(3,12);
+      margin-right : auto;
+    }
+    &:nth-of-type(4n){
+      @include span-columns(12,12);
+      @include at-breakpoint($medium){
+        @include span-columns(3 omega,12);
+        margin-right : auto;
+      }
+    }
+  }
+}
+nav.footer-nav{
+  background-color: $grey3;
+  text-align: center;
+  display : block;
+  position: fixed;
+  bottom : 0px;
+  right : 0px;
+  left : 0px;
+  @include at-breakpoint($medium){
+    display : none;
+  }
+  ul.footer-icons{
+    li.mobile-footer-icon{
+      display : inline-block;
+    }
+  }
+}

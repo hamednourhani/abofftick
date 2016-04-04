@@ -1,16 +1,59 @@
-
-// ---------- keyframes---------------------------------
-@include keyframes(move-up) {
-  0%   { opacity : 0;display:none; }
-  100% { opacity : 1;display :inline-block; }
+.site-header{
+  padding : 0px;
+  margin : 0px;
 }
-@include keyframes(move-down) {
-  0%   { opacity : 1;display : inline-block; }
-  100% { opacity : 0;display : none  }
+.top-bar{
+  width : 100%;
+  padding : 0px;
+  margin : 0px;
+  background-color: $white;
+  .site-logo-link{
+    display : inline-block;
+    float : left ;
+  }
+  .search-container{
+    float : left;
+  }
+  .plus-icon-wrapper{
+    
+  }
+  .menu-toggler{
+    float : right;
+  }
+  .panel-links{
+    float : right;
+  }
+  .cart-wrapper{
+    float : right;
+  }
+  .contact-wrapper{
+    float : right;
+  }
+
+
+}
+nav.mobile-nav{
+  position : absolute;
+  top : 0px;
+  right : 0px;
+  height : 100%;
+
+  @include at-breakpoint($medium){
+    display : none;
+  }
 }
 
-@include keyframes(move-slow) {
-  0%   { opacity : 1;display : inline-block; }
-  100% { opacity : 1;display : inline-block  }
+.menu-bar{
+  background-color: $gol;
+  .category-icons{
+    float : left;
+    ul.icons-list{
+      li.cat-icon{
+        display : inline-block;
+      }
+    }
+  }
+
+
 }
 

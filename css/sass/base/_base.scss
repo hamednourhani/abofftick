@@ -32,11 +32,8 @@ body {
 	margin-top : -1px;
 	overflow : hidden;
 	position : relative;
-	background: image-url("side-back.png");
-	background-position : top left;
-	background-repeat : no-repeat;
-	background-attachment: fixed;
-	
+	background-color: $grey1;
+
 }
 .layout{
 	@include container;
@@ -50,9 +47,9 @@ body {
 }
 a{
 	text-decoration : none;
-	color : $black2;
+	color : $blue;
 	&:hover{
-		color : $green;
+		color : $gol;
 	}
 }
 // #wpadminbar{

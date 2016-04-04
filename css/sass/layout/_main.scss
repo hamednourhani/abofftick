@@ -1,0 +1,21 @@
+.site-main{
+  .main-wrapper{
+
+  }
+}
+.content-grids{
+  article{
+    @include span-columns(12,12);
+    @include at-breakpoint($medium){
+      @include span-columns(4,12);
+      margin-right : auto;
+    }
+    &:nth-of-type(3n){
+      @include span-columns(12,12);
+      @include at-breakpoint($medium){
+        @include span-columns(4 omega,12);
+        margin-right : auto;
+      }
+    }
+  }
+}
