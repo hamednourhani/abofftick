@@ -19,9 +19,24 @@
   }
   .menu-toggler{
     float : right;
+    @include at-breakpoint($medium){
+      display : none;
+    }
   }
   .panel-links{
     float : right;
+    .login-button{
+      @extend .fa;
+      &::before{
+        content : "";
+      }
+    }
+    .register-button{
+      @extend .fa;
+      &::before{
+        content : "";
+      }
+    }
   }
   .cart-wrapper{
     float : right;

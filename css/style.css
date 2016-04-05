@@ -818,7 +818,7 @@ body {
     clear: both; }
 
 /* line 45, sass/base/_base.scss */
-.fa {
+.fa, .top-bar .panel-links .login-button, .top-bar .panel-links .register-button {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -1028,34 +1028,44 @@ img.wp-smiley,
   /* line 20, sass/layout/_header.scss */
   .top-bar .menu-toggler {
     float: right; }
-  /* line 23, sass/layout/_header.scss */
+    @media (min-width: 45em) {
+      /* line 20, sass/layout/_header.scss */
+      .top-bar .menu-toggler {
+        display: none; } }
+  /* line 26, sass/layout/_header.scss */
   .top-bar .panel-links {
     float: right; }
-  /* line 26, sass/layout/_header.scss */
+    /* line 30, sass/layout/_header.scss */
+    .top-bar .panel-links .login-button::before {
+      content: ""; }
+    /* line 36, sass/layout/_header.scss */
+    .top-bar .panel-links .register-button::before {
+      content: ""; }
+  /* line 41, sass/layout/_header.scss */
   .top-bar .cart-wrapper {
     float: right; }
-  /* line 29, sass/layout/_header.scss */
+  /* line 44, sass/layout/_header.scss */
   .top-bar .contact-wrapper {
     float: right; }
 
-/* line 35, sass/layout/_header.scss */
+/* line 50, sass/layout/_header.scss */
 nav.mobile-nav {
   position: absolute;
   top: 0px;
   right: 0px;
   height: 100%; }
   @media (min-width: 45em) {
-    /* line 35, sass/layout/_header.scss */
+    /* line 50, sass/layout/_header.scss */
     nav.mobile-nav {
       display: none; } }
 
-/* line 46, sass/layout/_header.scss */
+/* line 61, sass/layout/_header.scss */
 .menu-bar {
   background-color: #FF585B; }
-  /* line 48, sass/layout/_header.scss */
+  /* line 63, sass/layout/_header.scss */
   .menu-bar .category-icons {
     float: left; }
-    /* line 51, sass/layout/_header.scss */
+    /* line 66, sass/layout/_header.scss */
     .menu-bar .category-icons ul.icons-list li.cat-icon {
       display: inline-block; }
 
