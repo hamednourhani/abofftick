@@ -14,7 +14,7 @@
 
 
 .footer-columns{
-  .footer-col{
+  aside.footer-col{
     @include span-columns(12,12);
     @include at-breakpoint($medium){
       @include span-columns(3,12);
@@ -27,7 +27,15 @@
         margin-right : auto;
       }
     }
+
+    h4.aside-title{
+
+    }
+    .aside-content{
+      
+    }
   }
+
 }
 nav.footer-nav{
   background-color: $grey3;
