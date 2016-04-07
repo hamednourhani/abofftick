@@ -46,7 +46,7 @@
     padding : 10px;
     top : 0px ;
     right : 46%;
-    span.content-plus-icon{
+    a.plus-icon{
       @extend .gol-box-shadow;
       @extend .def-transition;
       cursor: pointer;
@@ -54,8 +54,13 @@
       display: inline-block;
       padding : 10px 15px;
       background-color: $gol;
+      position : relative;
       &:hover,&:focus{
         @include box-shadow(0px 0px 2px $grey3);
+      }
+      &:hover > span.plus-icon-title {
+        opacity: 0.9;
+        top: 60px;
       }
       i.fa-plus{
         &::before{
@@ -63,6 +68,13 @@
           color : $white;
           vertical-align: middle;
         }
+      }
+      span.plus-icon-title{
+        @extend .bottom-tooltip;
+        left : 76%;
+        background-color: $gol;
+        color : $white;
+        @extend .gol-box-shadow;
       }
     }
   }
@@ -80,7 +92,7 @@
       @extend .def-transition;
       padding : 10px 7px;
       color : $black1;
-      font-weight: 600;
+      font-weight: 500;
       font-size: 90%;
       &:hover{
         color : $gol;
@@ -117,20 +129,63 @@
       vertical-align: middle;
       color : $gol;
       background-color: $grey1;
-      padding : 9px 12px;
+      padding : 9px 11px;
       @include border-radius(50%);
     }
-    span.cart-items{
+    span.orders-qty{
       cursor: pointer;
       position : absolute;
-      top : 3px;
+      top : 6px;
       right : -2px;
       color : $white;
       background-color: $blue;
       @include border-radius(50%);
-      padding : 0px 10px;
-      font-size: 90%;
+      padding : 0px 11px;
+      font-size: 80%;
     }
+    .cart-content{
+      @extend .bottom-tooltip;
+      @extend .dark-box-shadow;
+      text-align : right;
+      z-index : 999;
+      width : 250px;
+      left : auto;
+      right : 0%;
+      top : 80px;
+      background-color: $white;
+      border-color : $grey2;
+      &::before, &::after {
+        top: -15px;
+        left: auto;
+        right : 5%;
+      }
+      ul{
+        margin : 0px;
+        padding : 0px;
+        li{
+          padding : 10px;
+          border-bottom : 1px dashed $grey2;
+          img.item-thumb{
+            float : right;
+            max-width: 32px;
+            max-height : 32px;
+            margin-top: -6px;
+            margin-left: 10px;
+          }
+          span.item-title{
+            float : right;
+          }
+          span.order-qty{
+            float : left;
+          }
+        }
+      }
+    }
+    &:hover>.cart-content{
+      top : 70px;
+      opacity : 1;
+    }
+
   }
   .contact-wrapper{
     display: none;
@@ -177,84 +232,98 @@ nav.mobile-nav{
 
       margin : 0px ;
       padding : 10px 20px 0px;
-      li.cat-icon{
-        @extend .def-transition;
-        display : inline-block;
-        border : 1px solid $grey2;
-        @include border-radius(50%);
-
-        width : 40px;
-        height : 40px;
-        padding : 5px;
-        background: image-url("icons/icons.png");
-        cursor: pointer;
-        &:hover{
-          background-color: $white;
-        }
-        &.allofftiks{
-          background-position: 34px 75px;
-          &:hover{
-            background-position: 34px 35px;
+      li.cat-icon {
+          display : inline-block;
+        a {
+          @extend .def-transition;
+          display: block;
+          width: 40px;
+          height: 40px;
+          @include border-radius(50%);
+          margin: 0 2px;
+          outline: none;
+          position: relative;
+          border: 1px solid $grey2;
+          padding: 5px;
+          background: image-url("icons/icons.png");
+          cursor: pointer;
+          &:hover {
+            background-color: $white;
           }
-        }
-
-        &.resturant{
-          background-position: 483px 75px;
-          &:hover{
-            background-position: 483px 35px;
+          &:hover > span.icon-title {
+            opacity: 0.9;
+            top: 50px;
           }
-        }
 
-        &.travel{
-          background-position: 234px 76px;
-          &:hover{
-            background-position: 234px 35px;
-          }
-        }
 
-        &.theater{
-          background-position: 834px 75px;
-          &:hover{
-            background-position: 834px 35px;
-          }
-        }
 
-        &.sport{
-          background-position: 1030px 75px;
-          &:hover{
-            background-position: 1030px 35px;
+          &.allofftiks {
+            background-position: 34px 75px;
+            &:hover {
+              background-position: 34px 35px;
+            }
           }
-        }
 
-        &.health{
-          background-position: 984px 76px;
-          &:hover{
-            background-position: 984px 36px;
+          &.resturant {
+            background-position: 483px 75px;
+            &:hover {
+              background-position: 483px 35px;
+            }
           }
-        }
 
-        &.sale{
-          background-position: 432px 75px;
-          &:hover{
-            background-position: 432px 35px;
+          &.travel {
+            background-position: 234px 76px;
+            &:hover {
+              background-position: 234px 35px;
+            }
           }
-        }
 
-        &.education{
-          background-position: 884px 75px;
-          &:hover{
-            background-position: 884px 35px;
+          &.theater {
+            background-position: 834px 75px;
+            &:hover {
+              background-position: 834px 35px;
+            }
           }
-        }
 
-        &.beauty{
-          background-position: 683px 75px;
-          &:hover{
-            background-position: 683px 35px;
+          &.sport {
+            background-position: 1030px 75px;
+            &:hover {
+              background-position: 1030px 35px;
+            }
           }
-        }
-        span.icon-title{
-          display : none;
+
+          &.health {
+            background-position: 984px 76px;
+            &:hover {
+              background-position: 984px 36px;
+            }
+          }
+
+          &.sale {
+            background-position: 432px 75px;
+            &:hover {
+              background-position: 432px 35px;
+            }
+          }
+
+          &.education {
+            background-position: 884px 75px;
+            &:hover {
+              background-position: 884px 35px;
+            }
+          }
+
+          &.beauty {
+            background-position: 683px 75px;
+            &:hover {
+              background-position: 683px 35px;
+            }
+          }
+          span.icon-title {
+           @extend .bottom-tooltip;
+
+          }
+
         }
       }
     }

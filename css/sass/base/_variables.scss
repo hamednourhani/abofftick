@@ -82,6 +82,9 @@ $glassyWhite : rgba(255, 255, 255, 0.85);
 .def-box-shadow{
 	@include box-shadow(0px 0px 7px $grey2);
 }
+.dark-box-shadow{
+  @include box-shadow(0px 0px 5px $grey3);
+}
 .gol-box-shadow{
   @include box-shadow(0px 0px 8px $gol);
 }
@@ -103,3 +106,42 @@ $glassyWhite : rgba(255, 255, 255, 0.85);
 }
 
 
+//---------------------tooltip--------------------
+.bottom-tooltip {
+  @extend .def-box-shadow;
+  @extend .def-transition;
+  @include border-radius(5px);
+  width: 100px;
+  height: auto;
+  line-height: 20px;
+  padding: 10px;
+  left: 88%;
+  margin-left: -64px;
+  color: $blue;
+  text-align: center;
+  border: 4px solid $grey1;
+  background: $glassyWhite;
+  text-indent: 0px;
+
+  position: absolute;
+  pointer-events: none;
+  top: 70px;
+  opacity: 0;
+  &::before, &::after {
+	content: '';
+	position: absolute;
+	top: -15px;
+	left: 50%;
+	margin-left: -9px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+  }
+  &::after {
+	top: -14px;
+	margin-left: -10px;
+	border-bottom: 10px solid $white;
+  }
+}

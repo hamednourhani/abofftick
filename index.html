@@ -6,8 +6,6 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="css/html5tooltips.animation.css"/>
-    <link rel="stylesheet" href="css/html5tooltips.css"/>
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -38,9 +36,10 @@
                 <!--search-container-->
 
                 <div class="plus-icon-wrapper">
-                    <span class="content-plus-icon">
+                    <a href="#" class="plus-icon">
                         <i class="fa fa-plus"></i>
-                    </span>
+                        <span class="plus-icon-title">افزودن محتوا</span>
+                    </a>
                 </div>
                 <!--plus-icon-wrapper-->
 
@@ -51,7 +50,21 @@
 
                 <div class="cart-wrapper">
                     <i class="fa fa-shopping-cart"></i>
-                    <span class="cart-items">2</span>
+                    <span class="orders-qty">2</span>
+                    <div class="cart-content">
+                        <ul class="cart-list">
+                            <li>
+                                <img src="images/adds/item-thumb.png" alt="" class="item-thumb"/>
+                                <span class="item-name">Item One</span>
+                                <span class="order-qty">2</span>
+                            </li>
+                            <li>
+                                <img src="images/adds/item-thumb.png" alt="" class="item-thumb"/>
+                                <span class="item-name">Item Two</span>
+                                <span class="order-qty">1</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <!--cart-wrapper-->
 
@@ -92,49 +105,48 @@
             <div class="category-icons">
 
                 <ul class="icons-list">
-                    <li class="cat-icon allofftiks">
-                        <a href="#" data-tooltip="Refresh" data-tooltip-stickto="right" data-tooltip-color="bamboo"
-                           data-tooltip-animate-function="foldin">
+                    <li class="cat-icon">
+                        <a class="allofftiks" href="#" >
                             <span class="icon-title">همه آفتیک ها</span>
                         </a>
                     </li>
-                    <li class="cat-icon resturant">
-                        <a href="#">
+                    <li class="cat-icon ">
+                        <a class="resturant" href="#">
                             <span class="icon-title">رستوران و کافه</span>
                         </a>
                     </li>
-                    <li class="cat-icon travel">
-                        <a href="#">
+                    <li class="cat-icon">
+                        <a class="travel" href="#">
                             <span class="icon-title">تور مسافرتی </span>
                         </a>
                     </li>
-                    <li class="cat-icon theater">
-                        <a href="#">
+                    <li class="cat-icon">
+                        <a class="theater" href="#">
                             <span class="icon-title">تئاتر و هنر</span>
                         </a>
                     </li>
-                    <li class="cat-icon sport">
-                        <a href="#">
+                    <li class="cat-icon">
+                        <a class="sport" href="#">
                             <span class="icon-title">تفریحی و ورزشی</span>
                         </a>
                     </li>
-                    <li class="cat-icon health">
-                        <a href="#">
+                    <li class="cat-icon ">
+                        <a class="health" href="#">
                             <span class="icon-title">سلامتی و پزشکی</span>
                         </a>
                     </li>
-                    <li class="cat-icon sale">
-                        <a href="#">
+                    <li class="cat-icon ">
+                        <a class="sale" href="#">
                             <span class="icon-title">کالا</span>
                         </a>
                     </li>
-                    <li class="cat-icon education">
-                        <a href="#">
+                    <li class="cat-icon ">
+                        <a class="education" href="#">
                             <span class="icon-title">آموزشی</span>
                         </a>
                     </li>
-                    <li class="cat-icon beauty">
-                        <a href="#">
+                    <li class="cat-icon ">
+                        <a class="beauty" href="#">
                             <span class="icon-title">زیبایی و آرایشی</span>
                         </a>
                     </li>
@@ -275,7 +287,6 @@
 </body>
 <!--body-->
 <script type="text/javascript" src="js/lib/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="js/lib/html5tooltips.js"></script>
 <script type="text/javascript" src="js/lib/slick.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 </html>
