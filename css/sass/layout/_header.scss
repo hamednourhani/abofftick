@@ -151,13 +151,13 @@
       width : 250px;
       left : auto;
       right : 0%;
-      top : 80px;
+      top : 75px;
       background-color: $white;
       border-color : $grey2;
       &::before, &::after {
         top: -15px;
         left: auto;
-        right : 5%;
+        right : 8%;
       }
       ul{
         margin : 0px;
@@ -182,7 +182,11 @@
       }
     }
     &:hover>.cart-content{
-      top : 70px;
+      top : 65px;
+      opacity : 1;
+    }
+    .cart-content:hover{
+      top : 65px;
       opacity : 1;
     }
 

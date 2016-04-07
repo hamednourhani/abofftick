@@ -1,6 +1,7 @@
 .site-main{
   .main-wrapper{
-
+  padding-top : 15px;
+    padding-bottom : 30px;
   }
 }
 .content-grids{
@@ -9,6 +10,7 @@
     @include at-breakpoint($medium){
       @include span-columns(4,12);
       margin-right : auto;
+      margin-top : 15px;
     }
     &:nth-of-type(3n){
       @include span-columns(12,12);
@@ -26,83 +28,196 @@ article.grid-item{
   @include border-radius(5px);
   background-color: $white;
 
-  header.item-header{
-    .user-avater-container{
+  div.item-header{
+    padding-top : 5px;
+    display: block;
+    overflow: hidden;
+    .user-avatar-container{
+      float : right;
+      width : 50px;
+      text-align : center;
+      padding-top : 5px;
       img.user-avatar{
+        max-width : 40px;
+        max-height : 40px;
 
       }
       span.buyers{
-
+        display : none;
       }
     }
-    span.username{
-
-    }
-    span.useroffer{
-
-    }
-    span.counter{
-
+    .username-container {
+     float : left;
+      width : calc(100% - 50px);
+      span.username {
+        color: $blue;
+        font-size: 90%;
+      }
+      span.useroffer {
+        color : darken($grey2,20%);
+        //display : inline-block;
+        font-size: 80%;
+        width : 100%;
+      }
+      span.counter {
+        @extend .fa;
+        color : $gol;
+        float : left;
+        padding : 5px;
+        &::before{
+          content: "\f253";
+          padding-right : 5px;
+        }
+      }
     }
   }//header.item-header
 
   main.add-container{
+    @extend .def-transition;
+    text-align : center;
+    position : relative;
+    width : 100%;
+    height : 260px;
     img.add-img{
-
+      width : 100%;
+      height : 100%;
     }
     span.sales-icon{
-
+      position : absolute;
+      bottom : 10px;
+      left : 10px;
+      z-index : 99;
+      max-width : 70px;
+      img{
+        max-width : 100%;
+      }
     }
     .add-content{
+      @extend .def-transition;
+      opacity : 0;
+      width : 100%;
+      height : 100%;
+      background-color: $glassyBlack;
+      position: absolute;
+      top : 0px;
+      left : 0px;
+      z-index : 999;
+      color : $white;
       ul.content-list{
+        padding: 10px 0px 0px;
+        margin: 0px;
+        span{
+          width : 100%;
+          display : inline-block;
+          font-size: 120%;
+          &.item-discounted-price{
+            font-size: 140%;
+            color : $gol;
+          }
+        }
         li{
+          padding : 10px;
+          text-align : center;
+          border-bottom : 1px dashed $grey2;
+          overflow: hidden;
+          &:last-child{
+            border-bottom : 0px;
+          }
           .right-side{
-
+            width : 50%;
+            float : right;
+            border-left : 1px dashed $grey2;
           }
           .left-side{
-
+            width : 50%;
+            float : left;
           }
           .item-button{
+            @extend .gol-box-shadow;
+            @include border-radius(5px);
+            background-color: $gol;
+            color : $white;
+            margin-top : 10px;
+            padding : 10px 20px;
+            display : inline-block;
 
           }
         }
       }
+      &:hover{
+        opacity: 0.9;
+      }
     }
+
   }//main.add-container
+
+
 
   footer.item-footer{
 
     ul.comments-container{
+      display : none;
       li.single-comment{
         img.commenter-avatar{
-
+          max-width : 40px;
+          float : right;
         }
         span.commenter-username{
-
+          float : right;
         }
         span.comment-content{
-
+          float : right;
         }
       }
     }//ul.comments-container
 
     ul.item-data{
-      li.item-views{
-
+      float : left;
+      padding : 10px;
+      margin : 0px;
+      li{
+        @extend .fa;
+        color : $blue;
+        cursor: pointer;
+        display : inline-block;
+        margin-left : 8px;
+        &::after{
+          color : darken($grey2,10%);
+        }
       }
-      li.item-comments{
-
+      li.item-views{
+        &::after {
+          content: "\f06e";
+          margin-left : 3px;
+        }
+      }
+      li.item-comments{content : "\f075";
+        &::after {
+          content: "\f075";
+          margin-left : 3px;
+        }
       }
       li.item-likes{
-
+        &::after {
+          content: "\f004";
+          margin-left : 3px;
+        }
       }
       li.item-sales{
-
+        &::after {
+          content: "\f07a";
+          margin-left : 3px;
+        }
       }
     }//ul.item-data
 
     span.item-address{
-
+      float : right;
+      padding : 10px;
+      i::before{
+        color: $gol;
+        margin-left : 5px;
+      }
     }
 
   }//footer.item-footer
