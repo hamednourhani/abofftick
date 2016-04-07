@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/html5tooltips.animation.css"/>
+    <link rel="stylesheet" href="css/html5tooltips.css"/>
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -47,16 +49,19 @@
             </span>
                 <!--menu-toggler-->
 
+                <div class="cart-wrapper">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="cart-items">2</span>
+                </div>
+                <!--cart-wrapper-->
+
                 <div class="panel-links">
                     <a href="#" class="register-button">ثبت نام</a> |
                     <a href="#" class="login-button">ورود</a>
                 </div>
                 <!--panel-links-->
 
-                <div class="cart-wrapper">
-                    <i class="fa fa-shopping-cart"></i>
-                </div>
-                <!--cart-wrapper-->
+
 
                 <div class="contact-wrapper">
                     <span class="contact-phone">021-<em>66926649</em></span>
@@ -88,7 +93,8 @@
 
                 <ul class="icons-list">
                     <li class="cat-icon allofftiks">
-                        <a href="#">
+                        <a href="#" data-tooltip="Refresh" data-tooltip-stickto="right" data-tooltip-color="bamboo"
+                           data-tooltip-animate-function="foldin">
                             <span class="icon-title">همه آفتیک ها</span>
                         </a>
                     </li>
@@ -269,5 +275,7 @@
 </body>
 <!--body-->
 <script type="text/javascript" src="js/lib/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/lib/html5tooltips.js"></script>
 <script type="text/javascript" src="js/lib/slick.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 </html>

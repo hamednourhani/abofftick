@@ -20,6 +20,11 @@
   }
 }
 article.grid-item{
+  @extend .def-transition;
+  @extend .def-box-shadow;
+  border : 1px solid darken($grey2,10%);
+  @include border-radius(5px);
+  background-color: $white;
 
   header.item-header{
     .user-avater-container{
