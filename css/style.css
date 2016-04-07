@@ -686,7 +686,7 @@ p {
 /*------ colors -----------*/
 /*----------------transition-shadow----------------------*/
 /* line 76, sass/base/_variables.scss */
-.def-transition {
+.def-transition, .top-bar .plus-icon-wrapper span.content-plus-icon, .menu-bar .category-icons ul.icons-list li.cat-icon {
   -moz-transition: all 0.4s ease-in-out 0s;
   -o-transition: all 0.4s ease-in-out 0s;
   -webkit-transition: all 0.4s ease-in-out;
@@ -694,11 +694,17 @@ p {
   transition: all 0.4s ease-in-out 0s; }
 
 /*----------------box-shadow----------------------*/
-/* line 81, sass/base/_variables.scss */
+/* line 82, sass/base/_variables.scss */
 .def-box-shadow {
-  -moz-box-shadow: 0px 0px 7px #4E4E4E;
-  -webkit-box-shadow: 0px 0px 7px #4E4E4E;
-  box-shadow: 0px 0px 7px #4E4E4E; }
+  -moz-box-shadow: 0px 0px 7px #E6E7E7;
+  -webkit-box-shadow: 0px 0px 7px #E6E7E7;
+  box-shadow: 0px 0px 7px #E6E7E7; }
+
+/* line 85, sass/base/_variables.scss */
+.gol-box-shadow, .top-bar .plus-icon-wrapper span.content-plus-icon {
+  -moz-box-shadow: 0px 0px 8px #FF585B;
+  -webkit-box-shadow: 0px 0px 8px #FF585B;
+  box-shadow: 0px 0px 8px #FF585B; }
 
 @-moz-keyframes move-up {
   0% {
@@ -818,7 +824,7 @@ body {
     clear: both; }
 
 /* line 45, sass/base/_base.scss */
-.fa, .top-bar .panel-links .login-button, .top-bar .panel-links .register-button {
+.fa, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, .top-bar .contact-wrapper .contact-phone {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -1017,57 +1023,234 @@ img.wp-smiley,
   width: 100%;
   padding: 0px;
   margin: 0px;
+  position: relative;
   background-color: #FFFFFF; }
-  /* line 10, sass/layout/_header.scss */
+  /* line 11, sass/layout/_header.scss */
   .top-bar .site-logo-link {
     display: inline-block;
-    float: left; }
-  /* line 14, sass/layout/_header.scss */
+    float: left;
+    padding: 10px;
+    max-height: 70px; }
+  /* line 17, sass/layout/_header.scss */
   .top-bar .search-container {
+    padding: 15px 10px;
     float: left; }
-  /* line 20, sass/layout/_header.scss */
+    /* line 21, sass/layout/_header.scss */
+    .top-bar .search-container input, .top-bar .search-container select {
+      padding: 7px;
+      margin: 0px; }
+    /* line 26, sass/layout/_header.scss */
+    .top-bar .search-container select.search-city {
+      border: 1px solid #bfc2c2;
+      -moz-border-radius-topright: 10px;
+      -webkit-border-top-right-radius: 10px;
+      border-top-right-radius: 10px;
+      -moz-border-radius-bottomright: 10px;
+      -webkit-border-bottom-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin-left: -5px;
+      padding: 6px; }
+    /* line 32, sass/layout/_header.scss */
+    .top-bar .search-container input.search-text {
+      border: 1px solid #bfc2c2;
+      -moz-border-radius-topleft: 10px;
+      -webkit-border-top-left-radius: 10px;
+      border-top-left-radius: 10px;
+      -moz-border-radius-bottomleft: 10px;
+      -webkit-border-bottom-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      -moz-border-radius-topright: 0px;
+      -webkit-border-top-right-radius: 0px;
+      border-top-right-radius: 0px;
+      -moz-border-radius-bottomright: 0px;
+      -webkit-border-bottom-right-radius: 0px;
+      border-bottom-right-radius: 0px; }
+    /* line 37, sass/layout/_header.scss */
+    .top-bar .search-container input.searchbutton {
+      background: none;
+      border: 0px;
+      outline: none; }
+  /* line 44, sass/layout/_header.scss */
+  .top-bar .plus-icon-wrapper {
+    position: absolute;
+    padding: 10px;
+    top: 0px;
+    right: 46%; }
+    /* line 49, sass/layout/_header.scss */
+    .top-bar .plus-icon-wrapper span.content-plus-icon {
+      cursor: pointer;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #FF585B; }
+      /* line 57, sass/layout/_header.scss */
+      .top-bar .plus-icon-wrapper span.content-plus-icon:hover, .top-bar .plus-icon-wrapper span.content-plus-icon:focus {
+        -moz-box-shadow: 0px 0px 2px #4E4E4E;
+        -webkit-box-shadow: 0px 0px 2px #4E4E4E;
+        box-shadow: 0px 0px 2px #4E4E4E; }
+      /* line 61, sass/layout/_header.scss */
+      .top-bar .plus-icon-wrapper span.content-plus-icon i.fa-plus::before {
+        font-size: 200%;
+        color: #FFFFFF;
+        vertical-align: middle; }
+  /* line 69, sass/layout/_header.scss */
   .top-bar .menu-toggler {
     float: right; }
     @media (min-width: 45em) {
-      /* line 20, sass/layout/_header.scss */
+      /* line 69, sass/layout/_header.scss */
       .top-bar .menu-toggler {
         display: none; } }
-  /* line 26, sass/layout/_header.scss */
+  /* line 75, sass/layout/_header.scss */
   .top-bar .panel-links {
-    float: right; }
-    /* line 30, sass/layout/_header.scss */
+    float: right;
+    padding-top: 15px; }
+    /* line 78, sass/layout/_header.scss */
+    .top-bar .panel-links .register-button, .top-bar .panel-links .login-button {
+      padding: 10px;
+      color: #111; }
+      /* line 82, sass/layout/_header.scss */
+      .top-bar .panel-links .register-button:hover, .top-bar .panel-links .login-button:hover {
+        color: #FF585B; }
+    /* line 87, sass/layout/_header.scss */
     .top-bar .panel-links .login-button::before {
-      content: ""; }
-    /* line 36, sass/layout/_header.scss */
+      content: "\f090";
+      padding-left: 5px;
+      vertical-align: middle; }
+    /* line 94, sass/layout/_header.scss */
     .top-bar .panel-links .register-button::before {
-      content: ""; }
-  /* line 41, sass/layout/_header.scss */
+      content: "\f040";
+      padding-left: 5px;
+      vertical-align: middle; }
+  /* line 102, sass/layout/_header.scss */
   .top-bar .cart-wrapper {
-    float: right; }
-  /* line 44, sass/layout/_header.scss */
+    float: right;
+    padding: 20px 10px 10px; }
+    /* line 105, sass/layout/_header.scss */
+    .top-bar .cart-wrapper i.fa::before, .top-bar .cart-wrapper .panel-links i.register-button::before, .top-bar .panel-links .cart-wrapper i.register-button::before, .top-bar .cart-wrapper .panel-links i.login-button::before, .top-bar .panel-links .cart-wrapper i.login-button::before, .top-bar .cart-wrapper .contact-wrapper i.contact-phone::before, .top-bar .contact-wrapper .cart-wrapper i.contact-phone::before {
+      font-size: 130%;
+      vertical-align: middle;
+      color: #FF585B;
+      background-color: #F2F2F2;
+      padding: 7px 10px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%; }
+  /* line 114, sass/layout/_header.scss */
   .top-bar .contact-wrapper {
-    float: right; }
+    float: right;
+    padding: 20px 10px 10px; }
+    /* line 118, sass/layout/_header.scss */
+    .top-bar .contact-wrapper .contact-phone {
+      background-color: #E6E7E7;
+      padding: 7px 0px; }
+      /* line 121, sass/layout/_header.scss */
+      .top-bar .contact-wrapper .contact-phone em {
+        padding: 7px 10px;
+        background-color: #F2F2F2; }
+      /* line 126, sass/layout/_header.scss */
+      .top-bar .contact-wrapper .contact-phone::before {
+        content: "\f095";
+        color: #FFFFFF;
+        background-color: #125688;
+        padding: 7px;
+        margin-right: 7px;
+        vertical-align: middle; }
 
-/* line 50, sass/layout/_header.scss */
+/* line 139, sass/layout/_header.scss */
 nav.mobile-nav {
   position: absolute;
   top: 0px;
   right: 0px;
   height: 100%; }
   @media (min-width: 45em) {
-    /* line 50, sass/layout/_header.scss */
+    /* line 139, sass/layout/_header.scss */
     nav.mobile-nav {
       display: none; } }
 
-/* line 61, sass/layout/_header.scss */
+/* line 150, sass/layout/_header.scss */
 .menu-bar {
-  background-color: #FF585B; }
-  /* line 63, sass/layout/_header.scss */
+  background-color: #125688; }
+  /* line 152, sass/layout/_header.scss */
   .menu-bar .category-icons {
     float: left; }
-    /* line 66, sass/layout/_header.scss */
-    .menu-bar .category-icons ul.icons-list li.cat-icon {
-      display: inline-block; }
+    /* line 154, sass/layout/_header.scss */
+    .menu-bar .category-icons ul.icons-list {
+      margin: 0px;
+      padding: 10px 20px 0px; }
+      /* line 157, sass/layout/_header.scss */
+      .menu-bar .category-icons ul.icons-list li.cat-icon {
+        display: inline-block;
+        border: 1px solid #E6E7E7;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+        background: url('../images/icons/icons.png?1459745561');
+        cursor: pointer; }
+        /* line 168, sass/layout/_header.scss */
+        .menu-bar .category-icons ul.icons-list li.cat-icon:hover {
+          background-color: #FFFFFF; }
+        /* line 171, sass/layout/_header.scss */
+        .menu-bar .category-icons ul.icons-list li.cat-icon.allofftiks {
+          background-position: 34px 75px; }
+          /* line 173, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon.allofftiks:hover {
+            background-position: 34px 35px; }
+        /* line 178, sass/layout/_header.scss */
+        .menu-bar .category-icons ul.icons-list li.cat-icon.resturant {
+          background-position: 483px 75px; }
+          /* line 180, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon.resturant:hover {
+            background-position: 483px 35px; }
+        /* line 185, sass/layout/_header.scss */
+        .menu-bar .category-icons ul.icons-list li.cat-icon.travel {
+          background-position: 234px 76px; }
+          /* line 187, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon.travel:hover {
+            background-position: 234px 35px; }
+        /* line 192, sass/layout/_header.scss */
+        .menu-bar .category-icons ul.icons-list li.cat-icon.theater {
+          background-position: 834px 75px; }
+          /* line 194, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon.theater:hover {
+            background-position: 834px 35px; }
+        /* line 199, sass/layout/_header.scss */
+        .menu-bar .category-icons ul.icons-list li.cat-icon.sport {
+          background-position: 1030px 75px; }
+          /* line 201, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon.sport:hover {
+            background-position: 1030px 35px; }
+        /* line 206, sass/layout/_header.scss */
+        .menu-bar .category-icons ul.icons-list li.cat-icon.health {
+          background-position: 984px 76px; }
+          /* line 208, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon.health:hover {
+            background-position: 984px 36px; }
+        /* line 213, sass/layout/_header.scss */
+        .menu-bar .category-icons ul.icons-list li.cat-icon.sale {
+          background-position: 432px 75px; }
+          /* line 215, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon.sale:hover {
+            background-position: 432px 35px; }
+        /* line 220, sass/layout/_header.scss */
+        .menu-bar .category-icons ul.icons-list li.cat-icon.education {
+          background-position: 884px 75px; }
+          /* line 222, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon.education:hover {
+            background-position: 884px 35px; }
+        /* line 227, sass/layout/_header.scss */
+        .menu-bar .category-icons ul.icons-list li.cat-icon.beauty {
+          background-position: 683px 75px; }
+          /* line 229, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon.beauty:hover {
+            background-position: 683px 35px; }
+        /* line 233, sass/layout/_header.scss */
+        .menu-bar .category-icons ul.icons-list li.cat-icon span.icon-title {
+          display: none; }
 
 /* line 7, sass/layout/_main.scss */
 .content-grids article {

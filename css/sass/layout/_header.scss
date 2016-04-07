@@ -6,16 +6,65 @@
   width : 100%;
   padding : 0px;
   margin : 0px;
+  position : relative;
   background-color: $white;
   .site-logo-link{
     display : inline-block;
     float : left ;
+    padding: 10px;
+    max-height: 70px;
   }
   .search-container{
+    //@extend .fa;
+    padding : 15px 10px;
     float : left;
+    input,select{
+      padding : 7px;
+      margin : 0px;
+
+    }
+    select.search-city{
+      border : 1px solid darken($grey2,15%);
+      @include border-right-radius(10px);
+      margin-left : -5px;
+      padding : 6px;
+    }
+    input.search-text{
+      border : 1px solid darken($grey2,15%);
+      @include border-left-radius(10px);
+      @include border-right-radius(0px);
+    }
+    input.searchbutton{
+      background: none;
+      border : 0px;
+      outline : none;
+
+    }
   }
   .plus-icon-wrapper{
-    
+    position : absolute;
+    padding : 10px;
+    top : 0px ;
+    right : 46%;
+    span.content-plus-icon{
+      @extend .gol-box-shadow;
+      @extend .def-transition;
+      cursor: pointer;
+      @include border-radius(50%);
+      display: inline-block;
+      padding : 10px 15px;
+      background-color: $gol;
+      &:hover,&:focus{
+        @include box-shadow(0px 0px 2px $grey3);
+      }
+      i.fa-plus{
+        &::before{
+          font-size : 200%;
+          color : $white;
+          vertical-align: middle;
+        }
+      }
+    }
   }
   .menu-toggler{
     float : right;
@@ -25,24 +74,64 @@
   }
   .panel-links{
     float : right;
-    .login-button{
+    padding-top : 15px;
+    .register-button,.login-button{
       @extend .fa;
+      padding : 10px;
+      color : $black1;
+      &:hover{
+        color : $gol;
+      }
+    }
+    .login-button{
       &::before{
-        content : "";
+        content : "\f090";
+        padding-left : 5px;
+        vertical-align: middle;
       }
     }
     .register-button{
-      @extend .fa;
       &::before{
-        content : "";
+        content : "\f040";
+        padding-left : 5px;
+        vertical-align: middle;
+
       }
     }
   }
   .cart-wrapper{
     float : right;
+    padding : 20px 10px 10px;
+    i.fa::before{
+      font-size: 130%;
+      vertical-align: middle;
+      color : $gol;
+      background-color: $grey1;
+      padding : 7px 10px;
+      @include border-radius(50%);
+    }
   }
   .contact-wrapper{
     float : right;
+    padding : 20px 10px 10px;
+
+    .contact-phone{
+      background-color: $grey2;
+      padding : 7px 0px;
+      em{
+        padding : 7px 10px;
+        background-color: $grey1;
+      }
+      @extend .fa;
+      &::before {
+        content: "\f095";
+        color : $white;
+        background-color: $blue;
+        padding: 7px;
+        margin-right : 7px;
+        vertical-align: middle;
+      }
+    }
   }
 
 
@@ -59,12 +148,91 @@ nav.mobile-nav{
 }
 
 .menu-bar{
-  background-color: $gol;
+  background-color: $blue;
   .category-icons{
     float : left;
     ul.icons-list{
+      margin : 0px ;
+      padding : 10px 20px 0px;
       li.cat-icon{
+        @extend .def-transition;
         display : inline-block;
+        border : 1px solid $grey2;
+        @include border-radius(50%);
+
+        width : 40px;
+        height : 40px;
+        padding : 5px;
+        background: image-url("icons/icons.png");
+        cursor: pointer;
+        &:hover{
+          background-color: $white;
+        }
+        &.allofftiks{
+          background-position: 34px 75px;
+          &:hover{
+            background-position: 34px 35px;
+          }
+        }
+
+        &.resturant{
+          background-position: 483px 75px;
+          &:hover{
+            background-position: 483px 35px;
+          }
+        }
+
+        &.travel{
+          background-position: 234px 76px;
+          &:hover{
+            background-position: 234px 35px;
+          }
+        }
+
+        &.theater{
+          background-position: 834px 75px;
+          &:hover{
+            background-position: 834px 35px;
+          }
+        }
+
+        &.sport{
+          background-position: 1030px 75px;
+          &:hover{
+            background-position: 1030px 35px;
+          }
+        }
+
+        &.health{
+          background-position: 984px 76px;
+          &:hover{
+            background-position: 984px 36px;
+          }
+        }
+
+        &.sale{
+          background-position: 432px 75px;
+          &:hover{
+            background-position: 432px 35px;
+          }
+        }
+
+        &.education{
+          background-position: 884px 75px;
+          &:hover{
+            background-position: 884px 35px;
+          }
+        }
+
+        &.beauty{
+          background-position: 683px 75px;
+          &:hover{
+            background-position: 683px 35px;
+          }
+        }
+        span.icon-title{
+          display : none;
+        }
       }
     }
   }
