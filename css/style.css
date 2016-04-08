@@ -1602,35 +1602,57 @@ article.grid-item {
     /* line 9, sass/layout/_footer.scss */
     .site-footer a:hover {
       color: #FF585B; }
+  /* line 13, sass/layout/_footer.scss */
+  .site-footer .site-credit {
+    padding: 8px;
+    text-align: center;
+    background-color: #353535;
+    color: #FFFFFF;
+    font-size: 70%; }
+    /* line 19, sass/layout/_footer.scss */
+    .site-footer .site-credit span {
+      display: inline-block;
+      width: 100%; }
 
-/* line 17, sass/layout/_footer.scss */
-.footer-columns aside.footer-col {
-  width: 100%;
-  float: right;
-  margin-left: 1.53846%;
-  display: inline; }
-  @media (min-width: 45em) {
-    /* line 17, sass/layout/_footer.scss */
-    .footer-columns aside.footer-col {
-      width: 23.84615%;
-      float: right;
-      margin-left: 1.53846%;
-      margin-right: auto; } }
-  /* line 23, sass/layout/_footer.scss */
-  .footer-columns aside.footer-col:nth-of-type(4n) {
+/* line 27, sass/layout/_footer.scss */
+.footer-columns {
+  padding: 20px 0px; }
+  /* line 29, sass/layout/_footer.scss */
+  .footer-columns aside.footer-col {
     width: 100%;
     float: right;
     margin-left: 1.53846%;
     display: inline; }
     @media (min-width: 45em) {
-      /* line 23, sass/layout/_footer.scss */
-      .footer-columns aside.footer-col:nth-of-type(4n) {
+      /* line 29, sass/layout/_footer.scss */
+      .footer-columns aside.footer-col {
         width: 23.84615%;
-        float: left;
-        margin-left: 0;
+        float: right;
+        margin-left: 1.53846%;
         margin-right: auto; } }
+    /* line 35, sass/layout/_footer.scss */
+    .footer-columns aside.footer-col:nth-of-type(4n) {
+      width: 100%;
+      float: right;
+      margin-left: 1.53846%;
+      display: inline; }
+      @media (min-width: 45em) {
+        /* line 35, sass/layout/_footer.scss */
+        .footer-columns aside.footer-col:nth-of-type(4n) {
+          width: 23.84615%;
+          float: left;
+          margin-left: 0;
+          margin-right: auto; } }
+    /* line 43, sass/layout/_footer.scss */
+    .footer-columns aside.footer-col h4.aside-title {
+      border-bottom: 1px dashed #989c9c;
+      margin: 10px 0px;
+      padding-bottom: 5px; }
+    /* line 48, sass/layout/_footer.scss */
+    .footer-columns aside.footer-col .aside-content {
+      font-size: 90%; }
 
-/* line 40, sass/layout/_footer.scss */
+/* line 55, sass/layout/_footer.scss */
 nav.footer-nav {
   background-color: #4E4E4E;
   text-align: center;
@@ -1640,10 +1662,10 @@ nav.footer-nav {
   right: 0px;
   left: 0px; }
   @media (min-width: 45em) {
-    /* line 40, sass/layout/_footer.scss */
+    /* line 55, sass/layout/_footer.scss */
     nav.footer-nav {
       display: none; } }
-  /* line 52, sass/layout/_footer.scss */
+  /* line 67, sass/layout/_footer.scss */
   nav.footer-nav ul.footer-icons li.mobile-footer-icon {
     display: inline-block; }
 

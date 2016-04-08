@@ -10,10 +10,22 @@
       color : $gol;
     }
   }
+  .site-credit{
+    padding : 8px;
+    text-align : center;
+    background-color: darken($grey3, 10%);
+    color : $white;
+    font-size : 70%;
+    span {
+      display: inline-block;
+      width : 100%;
+    }
+  }
 }
 
 
 .footer-columns{
+  padding : 20px 0px;
   aside.footer-col{
     @include span-columns(12,12);
     @include at-breakpoint($medium){
@@ -29,12 +41,15 @@
     }
 
     h4.aside-title{
-
+      border-bottom : 1px dashed darken($grey2,30%);
+      margin : 10px 0px;
+      padding-bottom : 5px;
     }
     .aside-content{
-
+      font-size: 90%;
     }
   }
+  
 
 }
 nav.footer-nav{
