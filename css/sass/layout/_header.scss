@@ -229,7 +229,7 @@ nav.mobile-nav{
 }
 
 .menu-bar{
-  background-color: $blue;
+  background-color: $gol;
   .category-icons{
     float : left;
     ul.icons-list{
@@ -262,65 +262,83 @@ nav.mobile-nav{
 
 
           &.allofftiks {
-            background-position: 34px 75px;
+            background-position: 40px 81px;
             &:hover {
-              background-position: 34px 35px;
+              background-position: 40px 41px;
+            }
+          }
+          &.feature {
+            background-position: 139px 80px;
+            &:hover {
+              background-position: 139px 40px;
+            }
+          }
+          &.building {
+            background-position: 88px 80px;
+            &:hover {
+              background-position: 88px 40px;
+            }
+          }
+          &.car {
+            background-position: 189px 80px;
+            &:hover {
+              background-position: 189px 40px;
             }
           }
 
           &.resturant {
-            background-position: 483px 75px;
+            background-position: 337px 81px;
             &:hover {
-              background-position: 483px 35px;
+              background-position: 337px 41px;
             }
           }
 
           &.travel {
-            background-position: 234px 76px;
+            background-position: 238px 81px;
             &:hover {
-              background-position: 234px 35px;
+              background-position: 238px 41px;
             }
           }
 
           &.theater {
-            background-position: 834px 75px;
+            background-position: 1029px 80px;
             &:hover {
-              background-position: 834px 35px;
+              background-position: 1029px 40px;
             }
           }
 
           &.sport {
-            background-position: 1030px 75px;
+            background-position: 1176px 80px;
             &:hover {
-              background-position: 1030px 35px;
+              background-position: 1176px 40px;
             }
           }
 
           &.health {
-            background-position: 984px 76px;
+            background-position: 537px 81px;
             &:hover {
-              background-position: 984px 36px;
+              background-position: 537px 41px;
             }
           }
 
           &.sale {
-            background-position: 432px 75px;
+            background-position: 288px 81px;
             &:hover {
-              background-position: 432px 35px;
+              background-position: 288px 41px;
             }
           }
 
           &.education {
-            background-position: 884px 75px;
+            background-position: 1077px 80px;
             &:hover {
-              background-position: 884px 35px;
+              background-position: 1077px 40px;
             }
           }
 
           &.beauty {
-            background-position: 683px 75px;
+            background-position: 976px 80px;
             &:hover {
-              background-position: 683px 35px;
+              background-position: 976px 40px;
             }
           }
           span.icon-title {

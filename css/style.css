@@ -2,8 +2,8 @@
 /* fonts */
 @font-face {
   font-family: "Weblogma_Yekan";
-  src: url('fonts/Weblogma_Yekan.eot?1446133651');
-  src: url('fonts/Weblogma_Yekan.eot?&1446133651#iefix') format('embedded-opentype'), url('fonts/Weblogma_Yekan.ttf?1446133651') format('truetype'), url('fonts/Weblogma_Yekan.woff?1446133651') format('woff');
+  src: url('fonts/Weblogma_Yekan.eot?1459745561');
+  src: url('fonts/Weblogma_Yekan.eot?&1459745561#iefix') format('embedded-opentype'), url('fonts/Weblogma_Yekan.ttf?1459745561') format('truetype'), url('fonts/Weblogma_Yekan.woff?1459745561') format('woff');
   font-weight: "Weblogma_Yekan.svg"; }
 /* normalize style */
 /* normalize-scss 3.0.2+normalize.3.0.2 | MIT/GPLv2 License | bit.ly/normalize-scss */
@@ -12,7 +12,7 @@
  * and $rhythm-unit variables. Also, correct text resizing oddly in IE 6/7 when
  * body `font-size` is set using `em` units.
  */
-/* line 106, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em; }
@@ -614,7 +614,7 @@ p {
   font-feature-settings: "liga", "dlig"; }
 
 /* ------------susy-------- */
-/* line 14, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.2/sass/susy/language/susyone/_grid.scss */
+/* line 14, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susyone/_grid.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -790,6 +790,7 @@ p {
   text-align: center;
   border: 4px solid #F2F2F2;
   background: rgba(255, 255, 255, 0.85);
+  z-index: 9999;
   text-indent: 0px;
   position: absolute;
   pointer-events: none;
@@ -861,7 +862,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: relative; }
-  /* line 38, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   .layout:after {
     content: "";
     display: table;
@@ -1291,7 +1292,7 @@ nav.mobile-nav {
 
 /* line 231, sass/layout/_header.scss */
 .menu-bar {
-  background-color: #125688; }
+  background-color: #FF585B; }
   /* line 233, sass/layout/_header.scss */
   .menu-bar .category-icons {
     float: left; }
@@ -1315,7 +1316,7 @@ nav.mobile-nav {
           position: relative;
           border: 1px solid #E6E7E7;
           padding: 5px;
-          background: url('../images/icons/icons.png?1459676056');
+          background: url('../images/icons/icons.png?1461475896');
           cursor: pointer; }
           /* line 254, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a:hover {
@@ -1326,58 +1327,76 @@ nav.mobile-nav {
             top: 50px; }
           /* line 264, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.allofftiks {
-            background-position: 34px 75px; }
+            background-position: 40px 81px; }
             /* line 266, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.allofftiks:hover {
-              background-position: 34px 35px; }
-          /* line 271, sass/layout/_header.scss */
+              background-position: 40px 41px; }
+          /* line 270, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon a.feature {
+            background-position: 139px 80px; }
+            /* line 272, sass/layout/_header.scss */
+            .menu-bar .category-icons ul.icons-list li.cat-icon a.feature:hover {
+              background-position: 139px 40px; }
+          /* line 276, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon a.building {
+            background-position: 88px 80px; }
+            /* line 278, sass/layout/_header.scss */
+            .menu-bar .category-icons ul.icons-list li.cat-icon a.building:hover {
+              background-position: 88px 40px; }
+          /* line 282, sass/layout/_header.scss */
+          .menu-bar .category-icons ul.icons-list li.cat-icon a.car {
+            background-position: 189px 80px; }
+            /* line 284, sass/layout/_header.scss */
+            .menu-bar .category-icons ul.icons-list li.cat-icon a.car:hover {
+              background-position: 189px 40px; }
+          /* line 289, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.resturant {
-            background-position: 483px 75px; }
-            /* line 273, sass/layout/_header.scss */
+            background-position: 337px 81px; }
+            /* line 291, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.resturant:hover {
-              background-position: 483px 35px; }
-          /* line 278, sass/layout/_header.scss */
+              background-position: 337px 41px; }
+          /* line 296, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.travel {
-            background-position: 234px 76px; }
-            /* line 280, sass/layout/_header.scss */
+            background-position: 238px 81px; }
+            /* line 298, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.travel:hover {
-              background-position: 234px 35px; }
-          /* line 285, sass/layout/_header.scss */
+              background-position: 238px 41px; }
+          /* line 303, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.theater {
-            background-position: 834px 75px; }
-            /* line 287, sass/layout/_header.scss */
+            background-position: 1029px 80px; }
+            /* line 305, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.theater:hover {
-              background-position: 834px 35px; }
-          /* line 292, sass/layout/_header.scss */
+              background-position: 1029px 40px; }
+          /* line 310, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.sport {
-            background-position: 1030px 75px; }
-            /* line 294, sass/layout/_header.scss */
+            background-position: 1176px 80px; }
+            /* line 312, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.sport:hover {
-              background-position: 1030px 35px; }
-          /* line 299, sass/layout/_header.scss */
+              background-position: 1176px 40px; }
+          /* line 317, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.health {
-            background-position: 984px 76px; }
-            /* line 301, sass/layout/_header.scss */
+            background-position: 537px 81px; }
+            /* line 319, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.health:hover {
-              background-position: 984px 36px; }
-          /* line 306, sass/layout/_header.scss */
+              background-position: 537px 41px; }
+          /* line 324, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.sale {
-            background-position: 432px 75px; }
-            /* line 308, sass/layout/_header.scss */
+            background-position: 288px 81px; }
+            /* line 326, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.sale:hover {
-              background-position: 432px 35px; }
-          /* line 313, sass/layout/_header.scss */
+              background-position: 288px 41px; }
+          /* line 331, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.education {
-            background-position: 884px 75px; }
-            /* line 315, sass/layout/_header.scss */
+            background-position: 1077px 80px; }
+            /* line 333, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.education:hover {
-              background-position: 884px 35px; }
-          /* line 320, sass/layout/_header.scss */
+              background-position: 1077px 40px; }
+          /* line 338, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.beauty {
-            background-position: 683px 75px; }
-            /* line 322, sass/layout/_header.scss */
+            background-position: 976px 80px; }
+            /* line 340, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.beauty:hover {
-              background-position: 683px 35px; }
+              background-position: 976px 40px; }
 
 /* line 2, sass/layout/_main.scss */
 .site-main .main-wrapper {
@@ -1470,16 +1489,37 @@ article.grid-item {
       width: 100%;
       height: 100%; }
     /* line 85, sass/layout/_main.scss */
-    article.grid-item main.add-container span.sales-icon {
+    article.grid-item main.add-container div.sales-icon {
       position: absolute;
-      bottom: 10px;
+      bottom: 0px;
       left: 10px;
       z-index: 99;
-      max-width: 70px; }
+      max-width: 110px; }
       /* line 91, sass/layout/_main.scss */
-      article.grid-item main.add-container span.sales-icon img {
+      article.grid-item main.add-container div.sales-icon span.discount-percent {
+        color: #125688;
+        position: absolute;
+        top: 33px;
+        right: 46px;
+        font-size: 26px; }
+      /* line 98, sass/layout/_main.scss */
+      article.grid-item main.add-container div.sales-icon span.discount-price {
+        color: #125688;
+        position: absolute;
+        top: 31px;
+        right: 50px;
+        font-size: 26px; }
+      /* line 105, sass/layout/_main.scss */
+      article.grid-item main.add-container div.sales-icon span.discount-price-currency {
+        position: absolute;
+        top: 49px;
+        right: 34px;
+        font-size: 16px;
+        color: black; }
+      /* line 112, sass/layout/_main.scss */
+      article.grid-item main.add-container div.sales-icon img {
         max-width: 100%; }
-    /* line 95, sass/layout/_main.scss */
+    /* line 116, sass/layout/_main.scss */
     article.grid-item main.add-container .add-content {
       opacity: 0;
       width: 100%;
@@ -1490,38 +1530,38 @@ article.grid-item {
       left: 0px;
       z-index: 999;
       color: #FFFFFF; }
-      /* line 106, sass/layout/_main.scss */
+      /* line 127, sass/layout/_main.scss */
       article.grid-item main.add-container .add-content ul.content-list {
         padding: 10px 0px 0px;
         margin: 0px; }
-        /* line 109, sass/layout/_main.scss */
+        /* line 130, sass/layout/_main.scss */
         article.grid-item main.add-container .add-content ul.content-list span {
           width: 100%;
           display: inline-block;
           font-size: 120%; }
-          /* line 113, sass/layout/_main.scss */
+          /* line 134, sass/layout/_main.scss */
           article.grid-item main.add-container .add-content ul.content-list span.item-discounted-price {
             font-size: 140%;
             color: #FF585B; }
-        /* line 118, sass/layout/_main.scss */
+        /* line 139, sass/layout/_main.scss */
         article.grid-item main.add-container .add-content ul.content-list li {
           padding: 10px;
           text-align: center;
           border-bottom: 1px dashed #E6E7E7;
           overflow: hidden; }
-          /* line 123, sass/layout/_main.scss */
+          /* line 144, sass/layout/_main.scss */
           article.grid-item main.add-container .add-content ul.content-list li:last-child {
             border-bottom: 0px; }
-          /* line 126, sass/layout/_main.scss */
+          /* line 147, sass/layout/_main.scss */
           article.grid-item main.add-container .add-content ul.content-list li .right-side {
             width: 50%;
             float: right;
             border-left: 1px dashed #E6E7E7; }
-          /* line 131, sass/layout/_main.scss */
+          /* line 152, sass/layout/_main.scss */
           article.grid-item main.add-container .add-content ul.content-list li .left-side {
             width: 50%;
             float: left; }
-          /* line 135, sass/layout/_main.scss */
+          /* line 156, sass/layout/_main.scss */
           article.grid-item main.add-container .add-content ul.content-list li .item-button {
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
@@ -1531,60 +1571,62 @@ article.grid-item {
             margin-top: 10px;
             padding: 10px 20px;
             display: inline-block; }
-      /* line 147, sass/layout/_main.scss */
+      /* line 168, sass/layout/_main.scss */
       article.grid-item main.add-container .add-content:hover {
         opacity: 0.9; }
-  /* line 158, sass/layout/_main.scss */
+  /* line 179, sass/layout/_main.scss */
   article.grid-item footer.item-footer ul.comments-container {
     display: none; }
-    /* line 161, sass/layout/_main.scss */
+    /* line 182, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.comments-container li.single-comment img.commenter-avatar {
       max-width: 40px;
       float: right; }
-    /* line 165, sass/layout/_main.scss */
+    /* line 186, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.comments-container li.single-comment span.commenter-username {
       float: right; }
-    /* line 168, sass/layout/_main.scss */
+    /* line 189, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.comments-container li.single-comment span.comment-content {
       float: right; }
-  /* line 174, sass/layout/_main.scss */
+  /* line 195, sass/layout/_main.scss */
   article.grid-item footer.item-footer ul.item-data {
     float: left;
-    padding: 10px;
+    padding: 10px 5px;
+    max-width: 45%;
     margin: 0px; }
-    /* line 178, sass/layout/_main.scss */
+    /* line 200, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.item-data li {
       color: #125688;
       cursor: pointer;
       display: inline-block;
       margin-left: 8px; }
-      /* line 184, sass/layout/_main.scss */
+      /* line 206, sass/layout/_main.scss */
       article.grid-item footer.item-footer ul.item-data li::after {
         color: #cccece; }
-    /* line 189, sass/layout/_main.scss */
+    /* line 211, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.item-data li.item-views::after {
       content: "\f06e";
       margin-left: 3px; }
-    /* line 194, sass/layout/_main.scss */
+    /* line 216, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.item-data li.item-comments {
       content: "\f075"; }
-      /* line 195, sass/layout/_main.scss */
+      /* line 217, sass/layout/_main.scss */
       article.grid-item footer.item-footer ul.item-data li.item-comments::after {
         content: "\f075";
         margin-left: 3px; }
-    /* line 201, sass/layout/_main.scss */
+    /* line 223, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.item-data li.item-likes::after {
       content: "\f004";
       margin-left: 3px; }
-    /* line 207, sass/layout/_main.scss */
+    /* line 229, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.item-data li.item-sales::after {
       content: "\f07a";
       margin-left: 3px; }
-  /* line 214, sass/layout/_main.scss */
+  /* line 236, sass/layout/_main.scss */
   article.grid-item footer.item-footer span.item-address {
     float: right;
-    padding: 10px; }
-    /* line 217, sass/layout/_main.scss */
+    padding: 10px 10px 10px 5px;
+    max-width: 45%; }
+    /* line 240, sass/layout/_main.scss */
     article.grid-item footer.item-footer span.item-address i::before {
       color: #FF585B;
       margin-left: 5px; }
