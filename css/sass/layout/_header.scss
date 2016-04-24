@@ -16,6 +16,10 @@
   }
   .search-container{
     //@extend .fa;
+    display : none;
+    @include at-breakpoint($mediumplus){
+      display: block;
+    }
     padding : 15px 10px;
     float : left;
     input,select{
@@ -45,7 +49,10 @@
     position : absolute;
     padding : 10px;
     top : 0px ;
-    right : 46%;
+   right : 38%;
+    @include at-breakpoint($medium){
+      right : 46%;
+    }
     a.plus-icon{
       @extend .gol-box-shadow;
       @extend .def-transition;
@@ -79,12 +86,36 @@
     }
   }
   .menu-toggler{
+    @extend .def-transition;
     float : right;
+    cursor: pointer;
+    display: inline-block;
+    padding : 7px 11px 0px;
+    border : 1px dashed $grey3;
+    margin-top : 14px;
+    margin-right : 10px;
     @include at-breakpoint($medium){
       display : none;
     }
+    i.fa-bars:before{
+      @extend .def-transition;
+      font-size : 180%;
+      color : $grey3;
+    }
+    &:hover{
+      border-color : $gol;
+      i.fa-bars:before{
+        color : $gol;
+
+      }
+    }
+
   }
   .panel-links{
+    display : none;
+    @include at-breakpoint($medium){
+      display: block;
+    }
     float : right;
     padding-top : 15px;
     .register-button,.login-button{
@@ -119,6 +150,10 @@
     }
   }
   .cart-wrapper{
+    display : none;
+    @include at-breakpoint($medium){
+      display: block;
+    }
     float : right;
     padding : 20px 10px 10px;
     position : relative;
@@ -217,23 +252,63 @@
 
 
 }
-nav.mobile-nav{
-  position : absolute;
-  top : 0px;
-  right : 0px;
-  height : 100%;
 
-  @include at-breakpoint($medium){
-    display : none;
+nav.mobile-nav {
+  //position : absolute;
+  //top : 0px;
+  //right : 0px;
+  height: 100%;
+  background-color: $grey3;
+  color : $white2;
+  display: none;
+  @include at-breakpoint($medium) {
+    display: none;
+    height : 0px;
   }
-}
+  ul.mobile-menu {
+    margin: 0px;
+    padding: 0px;
+    li{
+      width : 100%;
+      display:block;
+      border-bottom : 1px dashed darken($grey2,20%);
+      &:last-child{
+        border-bottom: 0px;
+      }
+      a{
+        @extend .def-transition;
+        display: block;
+        width : 100%;
+        padding : 10px;
+        color : $grey2;
+
+        span.menu-content{
+          padding-right : 8px;
+        }
+        i:before{
+          font-size: 130%;
+          vertical-align: middle;
+        }
+        &:hover,
+        &:focus{
+          color : $gol;
+          background-color: lighten($grey3,10%);
+        }
+      }
+    }
+  }
+ }
 
 .menu-bar{
+  @include box-shadow(0px 0px 5px 0px $grey3);
   background-color: $gol;
   .category-icons{
     float : left;
+    direction: ltr;
     ul.icons-list{
-
+      &.owl-carousel .owl-stage-outer {
+        overflow: visible;
+      }
       margin : 0px ;
       padding : 10px 20px 0px;
       li.cat-icon {

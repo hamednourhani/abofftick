@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>offtick</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -43,9 +43,9 @@
                 </div>
                 <!--plus-icon-wrapper-->
 
-                <span class="menu-toggler">
-                <i class="fa fa-bars"></i>
-            </span>
+                <span id="menu-toggler" class="menu-toggler">
+                    <i class="fa fa-bars"></i>
+                </span>
                 <!--menu-toggler-->
 
                 <div class="cart-wrapper">
@@ -89,12 +89,24 @@
 
         <nav class="mobile-nav">
             <ul class="mobile-menu">
-                <li class="menu-item"><span class="menu-content">ITEM</span></li>
-                <li class="menu-item"><span class="menu-content">ITEM</span></li>
-                <li class="menu-item"><span class="menu-content">ITEM</span></li>
-                <li class="menu-item"><span class="menu-content">ITEM</span></li>
-                <li class="menu-item"><span class="menu-content">ITEM</span></li>
-                <li class="menu-item"><span class="menu-content">ITEM</span></li>
+                <li class="menu-item">
+                    <a href="#">
+                        <i class="fa fa-sign-in"></i>
+                        <span class="menu-content">ورود</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">
+                        <i class="fa fa-pencil"></i>
+                        <span class="menu-content">ثبت نام</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="menu-content">سبد خرید</span>
+                    </a>
+                </li>
             </ul>
         </nav>
         <!--mobile-nav-->
@@ -104,18 +116,18 @@
 
             <div class="category-icons">
 
-                <ul class="icons-list">
+                <ul class="icons-list owl-carousel owl-theme">
                     <li class="cat-icon">
                         <a class="allofftiks" href="#" >
                             <span class="icon-title">همه آفتیک ها</span>
                         </a>
                     </li>
-                    <li class="cat-icon">
+                    <li class="cat-icon ">
                         <a class="feature" href="#" >
                            <span class="icon-title">ویژه</span>
                         </a>
                     </li>
-                    <li class="cat-icon">
+                    <li class="cat-icon ">
                         <a class="building" href="#" >
                             <span class="icon-title">املاک</span>
                         </a>
@@ -125,12 +137,12 @@
                             <span class="icon-title">اتومبیل</span>
                         </a>
                     </li>
-                    <li class="cat-icon ">
+                    <li class="cat-icon">
                         <a class="resturant" href="#">
                             <span class="icon-title">رستوران و کافه</span>
                         </a>
                     </li>
-                    <li class="cat-icon">
+                    <li class="cat-icon ">
                         <a class="travel" href="#">
                             <span class="icon-title">تور مسافرتی </span>
                         </a>
@@ -140,7 +152,7 @@
                             <span class="icon-title">تئاتر و هنر</span>
                         </a>
                     </li>
-                    <li class="cat-icon">
+                    <li class="cat-icon ">
                         <a class="sport" href="#">
                             <span class="icon-title">تفریحی و ورزشی</span>
                         </a>
@@ -504,7 +516,7 @@
                            <!--comments-container-->
                            <ul class="item-data">
                                <li class="item-views">2</li>
-                              
+
                                <li class="item-likes">6</li>
                                <li class="item-sales">2</li>
                            </ul>
@@ -624,6 +636,6 @@
 </body>
 <!--body-->
 <script type="text/javascript" src="js/lib/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="js/lib/slick.min.js"></script>
+<script type="text/javascript" src="js/lib/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 </html>

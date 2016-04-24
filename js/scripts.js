@@ -64,8 +64,8 @@ jQuery(document).ready(function($){
 	
 	$('span#menu-toggler').click(function(){
 		console.log("clicked");
-		var main_menu = $('nav.main-menu');
-		main_menu.slideToggle();
+		var mobile_nav = $('nav.mobile-nav');
+		mobile_nav.slideToggle();
 	});
 
 	//$(".slider").slick({
@@ -97,7 +97,28 @@ jQuery(document).ready(function($){
     //
 	//	}]
 	//});
+	$('.owl-carousel').owlCarousel({
+		margin:10,
+		//loop:true,
+		autoWidth:true,
+		//rtl:true,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:5,
+				nav:false,
+				loop:true,
+			},
+			630:{
+				items:13,
+				nav:false,
+				loop:false,
+				mouseDrag:false,
+				touchDrag:false,
 
+			},
 
+		}
+	});
 });
 		

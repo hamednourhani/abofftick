@@ -1,11 +1,11 @@
 .site-footer{
-  background-color: $black1;
+  background-color: lighten($grey3,5%);
   color : $white;
   h4,h3{
-    color : $grey1;
+    color : $grey2;
   }
   a{
-    color : $grey1;
+    color : $grey2;
     &:hover{
       color : $gol;
     }
