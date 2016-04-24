@@ -686,7 +686,7 @@ p {
 /*------ colors -----------*/
 /*----------------transition-shadow----------------------*/
 /* line 77, sass/base/_variables.scss */
-.def-transition, .bottom-tooltip, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .top-bar .cart-wrapper .cart-content, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, .top-bar .plus-icon-wrapper a.plus-icon, .top-bar .menu-toggler, .top-bar .menu-toggler i.fa-bars:before, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, nav.mobile-nav ul.mobile-menu li a, .menu-bar .category-icons ul.icons-list li.cat-icon a, article.grid-item, article.grid-item main.add-container, article.grid-item main.add-container .add-content {
+.def-transition, .bottom-tooltip, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .top-bar .cart-wrapper .cart-content, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, .top-bar .plus-icon-wrapper a.plus-icon, .top-bar .menu-toggler, .top-bar .menu-toggler i.fa-bars:before, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, nav.mobile-nav ul.mobile-menu li a, .menu-bar .category-icons ul.icons-list li.cat-icon a, .content-grids .load-more-container span.load-more-button, .content-grids .load-more-container span.load-more-button::after, article.grid-item, article.grid-item main.add-container, article.grid-item main.add-container .add-content {
   -moz-transition: all 0.4s ease-in-out 0s;
   -o-transition: all 0.4s ease-in-out 0s;
   -webkit-transition: all 0.4s ease-in-out;
@@ -870,7 +870,7 @@ body {
     clear: both; }
 
 /* line 46, sass/base/_base.scss */
-.fa, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, .top-bar .contact-wrapper .contact-phone, article.grid-item div.item-header .username-container span.counter, article.grid-item footer.item-footer ul.item-data li {
+.fa, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, .top-bar .contact-wrapper .contact-phone, .content-grids .load-more-container span.load-more-button, article.grid-item div.item-header .username-container span.counter, article.grid-item footer.item-footer ul.item-data li {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -1509,8 +1509,39 @@ nav.mobile-nav {
         float: left;
         margin-left: 0;
         margin-right: auto; } }
+/* line 33, sass/layout/_main.scss */
+.content-grids .load-more-container {
+  padding: 20px 10px 0px;
+  width: 100%;
+  text-align: center; }
+  /* line 37, sass/layout/_main.scss */
+  .content-grids .load-more-container span.load-more-button {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin: auto;
+    padding: 10px 16px 18px 26px;
+    background-color: #FF585B;
+    color: #F8F8F8;
+    opacity: 0.9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+    /* line 49, sass/layout/_main.scss */
+    .content-grids .load-more-container span.load-more-button::after {
+      content: "\f107 ";
+      position: absolute;
+      left: 9px;
+      top: 10px;
+      font-size: 120%; }
+    /* line 57, sass/layout/_main.scss */
+    .content-grids .load-more-container span.load-more-button:hover {
+      opacity: 1; }
+      /* line 59, sass/layout/_main.scss */
+      .content-grids .load-more-container span.load-more-button:hover::after {
+        top: 14px; }
 
-/* line 34, sass/layout/_main.scss */
+/* line 67, sass/layout/_main.scss */
 article.grid-item {
   -moz-box-shadow: 0px 0px 0px 0px #FF585B;
   -webkit-box-shadow: 0px 0px 0px 0px #FF585B;
@@ -1520,93 +1551,93 @@ article.grid-item {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   background-color: #FFFFFF; }
-  /* line 40, sass/layout/_main.scss */
+  /* line 73, sass/layout/_main.scss */
   article.grid-item:hover {
     -moz-box-shadow: 0px 0px 6px 0px #FF585B;
     -webkit-box-shadow: 0px 0px 6px 0px #FF585B;
     box-shadow: 0px 0px 6px 0px #FF585B; }
-  /* line 43, sass/layout/_main.scss */
+  /* line 76, sass/layout/_main.scss */
   article.grid-item div.item-header {
     padding-top: 5px;
     display: block;
     overflow: hidden; }
-    /* line 47, sass/layout/_main.scss */
+    /* line 80, sass/layout/_main.scss */
     article.grid-item div.item-header .user-avatar-container {
       float: right;
       width: 50px;
       text-align: center;
       padding-top: 5px; }
-      /* line 52, sass/layout/_main.scss */
+      /* line 85, sass/layout/_main.scss */
       article.grid-item div.item-header .user-avatar-container img.user-avatar {
         max-width: 40px;
         max-height: 40px; }
-      /* line 57, sass/layout/_main.scss */
+      /* line 90, sass/layout/_main.scss */
       article.grid-item div.item-header .user-avatar-container span.buyers {
         display: none; }
-    /* line 61, sass/layout/_main.scss */
+    /* line 94, sass/layout/_main.scss */
     article.grid-item div.item-header .username-container {
       float: left;
       width: calc(100% - 50px); }
-      /* line 64, sass/layout/_main.scss */
+      /* line 97, sass/layout/_main.scss */
       article.grid-item div.item-header .username-container span.username {
         color: #125688;
         font-size: 90%; }
-      /* line 68, sass/layout/_main.scss */
+      /* line 101, sass/layout/_main.scss */
       article.grid-item div.item-header .username-container span.useroffer {
         color: #b2b5b5;
         font-size: 80%;
         width: 100%; }
-      /* line 74, sass/layout/_main.scss */
+      /* line 107, sass/layout/_main.scss */
       article.grid-item div.item-header .username-container span.counter {
         color: #FF585B;
         float: left;
         padding: 5px; }
-        /* line 79, sass/layout/_main.scss */
+        /* line 112, sass/layout/_main.scss */
         article.grid-item div.item-header .username-container span.counter::before {
           content: "\f253";
           padding-right: 5px; }
-  /* line 87, sass/layout/_main.scss */
+  /* line 120, sass/layout/_main.scss */
   article.grid-item main.add-container {
     text-align: center;
     position: relative;
     width: 100%;
     height: 260px; }
-    /* line 93, sass/layout/_main.scss */
+    /* line 126, sass/layout/_main.scss */
     article.grid-item main.add-container img.add-img {
       width: 100%;
       height: 100%; }
-    /* line 97, sass/layout/_main.scss */
+    /* line 130, sass/layout/_main.scss */
     article.grid-item main.add-container div.sales-icon {
       position: absolute;
       bottom: 0px;
       left: 10px;
       z-index: 99;
       max-width: 110px; }
-      /* line 103, sass/layout/_main.scss */
+      /* line 136, sass/layout/_main.scss */
       article.grid-item main.add-container div.sales-icon span.discount-percent {
         color: #125688;
         position: absolute;
         top: 33px;
         right: 46px;
         font-size: 26px; }
-      /* line 110, sass/layout/_main.scss */
+      /* line 143, sass/layout/_main.scss */
       article.grid-item main.add-container div.sales-icon span.discount-price {
         color: #125688;
         position: absolute;
         top: 31px;
         right: 50px;
         font-size: 26px; }
-      /* line 117, sass/layout/_main.scss */
+      /* line 150, sass/layout/_main.scss */
       article.grid-item main.add-container div.sales-icon span.discount-price-currency {
         position: absolute;
         top: 49px;
         right: 34px;
         font-size: 16px;
         color: black; }
-      /* line 124, sass/layout/_main.scss */
+      /* line 157, sass/layout/_main.scss */
       article.grid-item main.add-container div.sales-icon img {
         max-width: 100%; }
-    /* line 128, sass/layout/_main.scss */
+    /* line 161, sass/layout/_main.scss */
     article.grid-item main.add-container .add-content {
       opacity: 0;
       width: 100%;
@@ -1617,38 +1648,38 @@ article.grid-item {
       left: 0px;
       z-index: 999;
       color: #FFFFFF; }
-      /* line 139, sass/layout/_main.scss */
+      /* line 172, sass/layout/_main.scss */
       article.grid-item main.add-container .add-content ul.content-list {
         padding: 10px 0px 0px;
         margin: 0px; }
-        /* line 142, sass/layout/_main.scss */
+        /* line 175, sass/layout/_main.scss */
         article.grid-item main.add-container .add-content ul.content-list span {
           width: 100%;
           display: inline-block;
           font-size: 120%; }
-          /* line 146, sass/layout/_main.scss */
+          /* line 179, sass/layout/_main.scss */
           article.grid-item main.add-container .add-content ul.content-list span.item-discounted-price {
             font-size: 140%;
             color: #FF585B; }
-        /* line 151, sass/layout/_main.scss */
+        /* line 184, sass/layout/_main.scss */
         article.grid-item main.add-container .add-content ul.content-list li {
           padding: 10px;
           text-align: center;
           border-bottom: 1px dashed #E6E7E7;
           overflow: hidden; }
-          /* line 156, sass/layout/_main.scss */
+          /* line 189, sass/layout/_main.scss */
           article.grid-item main.add-container .add-content ul.content-list li:last-child {
             border-bottom: 0px; }
-          /* line 159, sass/layout/_main.scss */
+          /* line 192, sass/layout/_main.scss */
           article.grid-item main.add-container .add-content ul.content-list li .right-side {
             width: 50%;
             float: right;
             border-left: 1px dashed #E6E7E7; }
-          /* line 164, sass/layout/_main.scss */
+          /* line 197, sass/layout/_main.scss */
           article.grid-item main.add-container .add-content ul.content-list li .left-side {
             width: 50%;
             float: left; }
-          /* line 168, sass/layout/_main.scss */
+          /* line 201, sass/layout/_main.scss */
           article.grid-item main.add-container .add-content ul.content-list li .item-button {
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
@@ -1658,62 +1689,62 @@ article.grid-item {
             margin-top: 10px;
             padding: 10px 20px;
             display: inline-block; }
-      /* line 180, sass/layout/_main.scss */
+      /* line 213, sass/layout/_main.scss */
       article.grid-item main.add-container .add-content:hover {
         opacity: 0.9; }
-  /* line 191, sass/layout/_main.scss */
+  /* line 224, sass/layout/_main.scss */
   article.grid-item footer.item-footer ul.comments-container {
     display: none; }
-    /* line 194, sass/layout/_main.scss */
+    /* line 227, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.comments-container li.single-comment img.commenter-avatar {
       max-width: 40px;
       float: right; }
-    /* line 198, sass/layout/_main.scss */
+    /* line 231, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.comments-container li.single-comment span.commenter-username {
       float: right; }
-    /* line 201, sass/layout/_main.scss */
+    /* line 234, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.comments-container li.single-comment span.comment-content {
       float: right; }
-  /* line 207, sass/layout/_main.scss */
+  /* line 240, sass/layout/_main.scss */
   article.grid-item footer.item-footer ul.item-data {
     float: left;
     padding: 10px 5px;
     max-width: 45%;
     margin: 0px; }
-    /* line 212, sass/layout/_main.scss */
+    /* line 245, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.item-data li {
       color: #125688;
       cursor: pointer;
       display: inline-block;
       margin-left: 8px; }
-      /* line 218, sass/layout/_main.scss */
+      /* line 251, sass/layout/_main.scss */
       article.grid-item footer.item-footer ul.item-data li::after {
         color: #cccece; }
-    /* line 223, sass/layout/_main.scss */
+    /* line 256, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.item-data li.item-views::after {
       content: "\f06e";
       margin-left: 3px; }
-    /* line 228, sass/layout/_main.scss */
+    /* line 261, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.item-data li.item-comments {
       content: "\f075"; }
-      /* line 229, sass/layout/_main.scss */
+      /* line 262, sass/layout/_main.scss */
       article.grid-item footer.item-footer ul.item-data li.item-comments::after {
         content: "\f075";
         margin-left: 3px; }
-    /* line 235, sass/layout/_main.scss */
+    /* line 268, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.item-data li.item-likes::after {
       content: "\f004";
       margin-left: 3px; }
-    /* line 241, sass/layout/_main.scss */
+    /* line 274, sass/layout/_main.scss */
     article.grid-item footer.item-footer ul.item-data li.item-sales::after {
       content: "\f07a";
       margin-left: 3px; }
-  /* line 248, sass/layout/_main.scss */
+  /* line 281, sass/layout/_main.scss */
   article.grid-item footer.item-footer span.item-address {
     float: right;
     padding: 10px 10px 10px 5px;
     max-width: 45%; }
-    /* line 252, sass/layout/_main.scss */
+    /* line 285, sass/layout/_main.scss */
     article.grid-item footer.item-footer span.item-address i::before {
       color: #FF585B;
       margin-left: 5px; }

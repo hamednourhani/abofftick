@@ -30,6 +30,39 @@
     }
 
   }
+  .load-more-container{
+    padding : 20px 10px 0px;
+    width : 100%;
+    text-align: center;
+    span.load-more-button{
+      @extend .def-transition;
+      @extend .fa;
+      position: relative;
+      cursor: pointer;
+      display: inline-block;
+      margin : auto;
+      padding: 10px 16px 18px 26px;
+      background-color: $gol;
+      color: $white2;
+      opacity: 0.9;
+      @include border-radius(5px);
+      &::after{
+        @extend .def-transition;
+        content : "\f107 ";
+        position: absolute;
+        left: 9px;
+        top: 10px;
+        font-size: 120%;
+      }
+      &:hover{
+        opacity:1;
+        &::after{
+          top : 14px;
+        }
+      }
+
+    }
+  }
 }
 article.grid-item{
   @extend .def-transition;
