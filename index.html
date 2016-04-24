@@ -626,11 +626,45 @@
 
         <nav class="footer-nav">
             <ul class="footer-icons">
-                <li class="mobile-footer-icon"><a href="#"><span>item</span></a></li>
-                <li class="mobile-footer-icon"><a href="#"><span>item</span></a></li>
-                <li class="mobile-footer-icon"><a href="#"><span>item</span></a></li>
-                <li class="mobile-footer-icon"><a href="#"><span>item</span></a></li>
-                <li class="mobile-footer-icon"><a href="#"><span>item</span></a></li>
+                <li class="mobile-footer-icon active">
+                    <a href="#">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="mobile-footer-icon">
+                    <a href="#">
+                        <i class="fa fa-commenting" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="mobile-footer-icon plus-icon">
+                    <a href="#">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="mobile-footer-icon">
+                    <a href="#">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="mobile-footer-icon">
+                    <a id="search-toggler" >
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <div id="buttom-search-container" class="buttom-search-container">
+                    <form name="searchform" class="search-form">
+                        <select name="city" id="" class="search-city">
+                            <option value="tehran">تهران</option>
+                            <option value="esfehan">اصفهان</option>
+                            <option value="shiraz">شیراز</option>
+                            <option value="mashahd">مشهد</option>
+                            <option value="kerman">کرمان</option>
+                            <option value="khozestan">خوزستان</option>
+                        </select>
+                        <input type="text" name="s" class="search-text" placeholder="جستجوی تخفیف .."/>
+                        <input class="searchbutton" type="submit" value=""/>
+                    </form>
+                </div>
             </ul>
         </nav>
     </footer>

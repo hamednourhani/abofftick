@@ -686,7 +686,7 @@ p {
 /*------ colors -----------*/
 /*----------------transition-shadow----------------------*/
 /* line 77, sass/base/_variables.scss */
-.def-transition, .bottom-tooltip, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .top-bar .cart-wrapper .cart-content, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, .top-bar .plus-icon-wrapper a.plus-icon, .top-bar .menu-toggler, .top-bar .menu-toggler i.fa-bars:before, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, nav.mobile-nav ul.mobile-menu li a, .menu-bar .category-icons ul.icons-list li.cat-icon a, .content-grids .load-more-container span.load-more-button, .content-grids .load-more-container span.load-more-button::after, article.grid-item, article.grid-item main.add-container, article.grid-item main.add-container .add-content {
+.def-transition, .bottom-tooltip, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .top-bar .cart-wrapper .cart-content, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, .top-bar .plus-icon-wrapper a.plus-icon, .top-bar .menu-toggler, .top-bar .menu-toggler i.fa-bars:before, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, nav.mobile-nav ul.mobile-menu li a, .menu-bar .category-icons ul.icons-list li.cat-icon a, .content-grids .load-more-container span.load-more-button, .content-grids .load-more-container span.load-more-button::after, article.grid-item, article.grid-item main.add-container, article.grid-item main.add-container .add-content, nav.footer-nav, nav.footer-nav ul.footer-icons li.mobile-footer-icon a {
   -moz-transition: all 0.4s ease-in-out 0s;
   -o-transition: all 0.4s ease-in-out 0s;
   -webkit-transition: all 0.4s ease-in-out;
@@ -1753,81 +1753,185 @@ article.grid-item {
 .site-footer {
   background-color: #5b5b5b;
   color: #FFFFFF; }
-  /* line 4, sass/layout/_footer.scss */
+  /* line 5, sass/layout/_footer.scss */
   .site-footer h4, .site-footer h3 {
     color: #E6E7E7; }
-  /* line 7, sass/layout/_footer.scss */
+  /* line 8, sass/layout/_footer.scss */
   .site-footer a {
     color: #E6E7E7; }
-    /* line 9, sass/layout/_footer.scss */
+    /* line 10, sass/layout/_footer.scss */
     .site-footer a:hover {
       color: #FF585B; }
-  /* line 13, sass/layout/_footer.scss */
+  /* line 14, sass/layout/_footer.scss */
   .site-footer .site-credit {
     padding: 8px;
+    padding-bottom: 48px;
     text-align: center;
     background-color: #353535;
     color: #FFFFFF;
     font-size: 70%; }
-    /* line 19, sass/layout/_footer.scss */
+    @media (min-width: 34em) {
+      /* line 14, sass/layout/_footer.scss */
+      .site-footer .site-credit {
+        padding-bottom: 8px; } }
+    /* line 24, sass/layout/_footer.scss */
     .site-footer .site-credit span {
       display: inline-block;
       width: 100%; }
 
-/* line 27, sass/layout/_footer.scss */
+/* line 32, sass/layout/_footer.scss */
 .footer-columns {
   padding: 20px 0px; }
-  /* line 29, sass/layout/_footer.scss */
+  /* line 34, sass/layout/_footer.scss */
   .footer-columns aside.footer-col {
     width: 100%;
     float: right;
     margin-left: 1.53846%;
     display: inline; }
     @media (min-width: 45em) {
-      /* line 29, sass/layout/_footer.scss */
+      /* line 34, sass/layout/_footer.scss */
       .footer-columns aside.footer-col {
         width: 23.84615%;
         float: right;
         margin-left: 1.53846%;
         margin-right: auto; } }
-    /* line 35, sass/layout/_footer.scss */
+    /* line 40, sass/layout/_footer.scss */
     .footer-columns aside.footer-col:nth-of-type(4n) {
       width: 100%;
       float: right;
       margin-left: 1.53846%;
       display: inline; }
       @media (min-width: 45em) {
-        /* line 35, sass/layout/_footer.scss */
+        /* line 40, sass/layout/_footer.scss */
         .footer-columns aside.footer-col:nth-of-type(4n) {
           width: 23.84615%;
           float: left;
           margin-left: 0;
           margin-right: auto; } }
-    /* line 43, sass/layout/_footer.scss */
+    /* line 48, sass/layout/_footer.scss */
     .footer-columns aside.footer-col h4.aside-title {
       border-bottom: 1px dashed #989c9c;
       margin: 10px 0px;
       padding-bottom: 5px; }
-    /* line 48, sass/layout/_footer.scss */
+    /* line 53, sass/layout/_footer.scss */
     .footer-columns aside.footer-col .aside-content {
       font-size: 90%; }
 
-/* line 55, sass/layout/_footer.scss */
+/* line 60, sass/layout/_footer.scss */
 nav.footer-nav {
   background-color: #4E4E4E;
+  -moz-box-shadow: 0px 0px 4px #4E4E4E;
+  -webkit-box-shadow: 0px 0px 4px #4E4E4E;
+  box-shadow: 0px 0px 4px #4E4E4E;
   text-align: center;
   display: block;
   position: fixed;
   bottom: 0px;
   right: 0px;
-  left: 0px; }
-  @media (min-width: 45em) {
-    /* line 55, sass/layout/_footer.scss */
+  left: 0px;
+  z-index: 99999;
+  opacity: 0.8; }
+  /* line 72, sass/layout/_footer.scss */
+  nav.footer-nav:hover {
+    opacity: 1; }
+  @media (min-width: 34em) {
+    /* line 60, sass/layout/_footer.scss */
     nav.footer-nav {
       display: none; } }
-  /* line 67, sass/layout/_footer.scss */
-  nav.footer-nav ul.footer-icons li.mobile-footer-icon {
-    display: inline-block; }
+  /* line 78, sass/layout/_footer.scss */
+  nav.footer-nav ul.footer-icons {
+    padding: 0px;
+    margin: 0px;
+    position: relative; }
+    /* line 82, sass/layout/_footer.scss */
+    nav.footer-nav ul.footer-icons li.mobile-footer-icon {
+      width: 20%;
+      margin-right: -2px;
+      margin-left: -2px;
+      display: inline-block; }
+      /* line 89, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons li.mobile-footer-icon a {
+        display: inline-block;
+        padding: 10px 10px 3px;
+        color: #FFFFFF;
+        width: 100%;
+        cursor: pointer; }
+        /* line 97, sass/layout/_footer.scss */
+        nav.footer-nav ul.footer-icons li.mobile-footer-icon a i:before {
+          font-size: 180%; }
+        /* line 100, sass/layout/_footer.scss */
+        nav.footer-nav ul.footer-icons li.mobile-footer-icon a:hover {
+          background-color: #125688;
+          color: #F2F2F2; }
+      /* line 106, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons li.mobile-footer-icon.plus-icon a {
+        background-color: #FF585B; }
+      /* line 111, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons li.mobile-footer-icon.active a {
+        background-color: #125688; }
+        /* line 113, sass/layout/_footer.scss */
+        nav.footer-nav ul.footer-icons li.mobile-footer-icon.active a:hover {
+          background-color: #125688;
+          color: #F2F2F2; }
+      /* line 120, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons li.mobile-footer-icon.plus-icon a {
+        background-color: #FF585B; }
+        /* line 122, sass/layout/_footer.scss */
+        nav.footer-nav ul.footer-icons li.mobile-footer-icon.plus-icon a:hover {
+          background-color: #125688;
+          color: #F2F2F2; }
+    /* line 129, sass/layout/_footer.scss */
+    nav.footer-nav ul.footer-icons div.buttom-search-container {
+      position: absolute;
+      bottom: 101%;
+      left: 0px;
+      width: 100%;
+      background-color: #125688;
+      display: none;
+      padding: 10px 15px;
+      text-align: center;
+      opacity: 0.8; }
+      /* line 140, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons div.buttom-search-container:hover {
+        opacity: 1; }
+      /* line 143, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons div.buttom-search-container input, nav.footer-nav ul.footer-icons div.buttom-search-container select {
+        padding: 4px;
+        margin: 0px;
+        color: #111; }
+      /* line 149, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons div.buttom-search-container select.search-city {
+        border: 1px solid #bfc2c2;
+        -moz-border-radius-topright: 10px;
+        -webkit-border-top-right-radius: 10px;
+        border-top-right-radius: 10px;
+        -moz-border-radius-bottomright: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -5px;
+        padding: 3px 12px;
+        color: #111; }
+      /* line 156, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons div.buttom-search-container input.search-text {
+        border: 1px solid #bfc2c2;
+        -moz-border-radius-topleft: 10px;
+        -webkit-border-top-left-radius: 10px;
+        border-top-left-radius: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        -moz-border-radius-topright: 0px;
+        -webkit-border-top-right-radius: 0px;
+        border-top-right-radius: 0px;
+        -moz-border-radius-bottomright: 0px;
+        -webkit-border-bottom-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        color: #111; }
+      /* line 162, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons div.buttom-search-container input.searchbutton {
+        background: none;
+        border: 0px;
+        outline: none; }
 
 /* dividers style */
 /* table style */
