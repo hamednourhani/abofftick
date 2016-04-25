@@ -1582,7 +1582,7 @@ article.grid-item {
       width: calc(100% - 50px); }
       /* line 101, sass/layout/_main.scss */
       article.grid-item div.item-header .username-container h3.offer-title {
-        margin: 0px;
+        margin: 0px 5px;
         color: #125688;
         display: inline-block;
         width: 100%; }

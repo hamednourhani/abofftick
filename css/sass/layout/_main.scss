@@ -99,7 +99,7 @@ article.grid-item{
       position: relative;
       width : calc(100% - 50px);
       h3.offer-title{
-        margin: 0px;
+        margin: 0px 5px;
         color: $blue;
         display: inline-block;
         width: 100%;
@@ -119,7 +119,7 @@ article.grid-item{
         color : $gol;
         position: absolute;
         top: 0px;
-        left : 0px; 
+        left : 0px;
         padding : 5px;
         &::before{
           content: "\f253";
