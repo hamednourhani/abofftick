@@ -241,9 +241,10 @@ article.grid-item{
     }//ul.comments-container
 
     ul.item-data{
-      padding : 1px 10px ;
-      width : 100%;
+      padding : 5px 10px ;
+      width : 60%;
       margin : 0px;
+      float : left;
       text-align: left;
       li{
         @extend .fa;
@@ -283,12 +284,13 @@ article.grid-item{
 
     span.item-address{
       @extend .def-transition;
+      float : right;
       cursor: pointer;
       text-align: right;
       padding: 3px 10px;
       display: inline-block;
-      width : 100%;
-      height : 24px;
+      width : 40%;
+      //height : 24px;
       //overflow: hidden;
       position: relative;
 
@@ -301,7 +303,7 @@ article.grid-item{
         left : auto;
         right : 5px;
         z-index:999999;
-        width : 80%;
+        width : 280px;
         top : 55px;
         background-color: $grey1;
         border-color: $grey2;

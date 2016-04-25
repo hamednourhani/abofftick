@@ -20,6 +20,21 @@ jQuery(document).ready(function($){
 		buttom_search_container.slideToggle();
 	});
 
+	$(function(){
+		$("span.item-address").each(function(i){
+			var item_address = $(this);
+			len=item_address.text().length;
+			//<span class="full-address"><i class="fa fa-map-marker">
+			if(len>50)
+			{
+				var full_address = '<span class="full-address"><i class="fa fa-map-marker"></i>' + item_address.text() + '</span>';
+				item_address.text(item_address.text().substr(0,47));
+				item_address.prepend('<i class="fa fa-map-marker"></i>');
+				item_address.append(full_address);
+			}
+		});
+	});
+
 	$('.owl-carousel').owlCarousel({
 		margin:10,
 		//loop:true,
