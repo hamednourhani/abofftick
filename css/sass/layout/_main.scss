@@ -96,7 +96,14 @@ article.grid-item{
     }
     .username-container {
      float : left;
+      position: relative;
       width : calc(100% - 50px);
+      h3.offer-title{
+        margin: 0px;
+        color: $blue;
+        display: inline-block;
+        width: 100%;
+      }
       span.username {
         color: $blue;
         font-size: 90%;
@@ -110,7 +117,9 @@ article.grid-item{
       span.counter {
         @extend .fa;
         color : $gol;
-        float : left;
+        position: absolute;
+        top: 0px;
+        left : 0px; 
         padding : 5px;
         &::before{
           content: "\f253";
