@@ -74,9 +74,12 @@ article.grid-item{
     @include box-shadow(0px 0px 6px 0px $gol);
   }
   div.item-header{
+    @extend .def-transition;
     padding-top : 5px;
     display: block;
     overflow: hidden;
+    height : 64px;
+
     .user-avatar-container{
       float : right;
       width : 50px;
@@ -220,7 +223,7 @@ article.grid-item{
 
 
   footer.item-footer{
-
+    position: relative;
     ul.comments-container{
       display : none;
       li.single-comment{
@@ -238,10 +241,10 @@ article.grid-item{
     }//ul.comments-container
 
     ul.item-data{
-      float : left;
-      padding : 10px 5px;
-      max-width : 45%;
+      padding : 1px 10px ;
+      width : 100%;
       margin : 0px;
+      text-align: left;
       li{
         @extend .fa;
         color : $blue;
@@ -279,12 +282,40 @@ article.grid-item{
     }//ul.item-data
 
     span.item-address{
-      float: right;
-      padding: 10px 10px 10px 5px;
-      max-width: 45%;
+      @extend .def-transition;
+      cursor: pointer;
+      text-align: right;
+      padding: 3px 10px;
+      display: inline-block;
+      width : 100%;
+      height : 24px;
+      //overflow: hidden;
+      position: relative;
+
       i::before{
         color: $gol;
         margin-left : 5px;
+      }
+      .full-address{
+        @extend .bottom-tooltip;
+        left : auto;
+        right : 5px;
+        z-index:999999;
+        width : 80%;
+        top : 55px;
+        background-color: $grey1;
+        border-color: $grey2;
+        &::before, &::after{
+          left : auto;
+          right : 20%;
+        }
+      }
+      &:hover {
+        span.full-address {
+          opacity: 1;
+          top: 40px;
+        }
+
       }
     }
 
