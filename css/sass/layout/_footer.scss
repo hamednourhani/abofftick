@@ -80,12 +80,26 @@ nav.footer-nav{
     margin: 0px;
     position: relative;
     li.mobile-footer-icon{
+      position: relative;
       width : 20%;
       margin :{
         right : -2px;
         left : -2px;
       }
       display : inline-block;
+      span.icon-qty{
+        position: absolute;
+        top : 5px;
+        right : 5px;
+        font-size: 90%;
+        display : inline-block;
+        background-color: $gol;
+        color: $white;
+        padding : 4px 8px;
+        height : 22px;
+        line-height: 1;
+        @include border-radius(10px);
+      }
       a{
         @extend .def-transition;
         display: inline-block;

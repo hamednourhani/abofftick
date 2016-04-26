@@ -686,7 +686,7 @@ p {
 /*------ colors -----------*/
 /*----------------transition-shadow----------------------*/
 /* line 77, sass/base/_variables.scss */
-.def-transition, .bottom-tooltip, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .top-bar .cart-wrapper .cart-content, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, article.grid-item footer.item-footer span.item-address .full-address, .top-bar .plus-icon-wrapper a.plus-icon, .top-bar .menu-toggler, .top-bar .menu-toggler i.fa-bars:before, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, nav.mobile-nav ul.mobile-menu li a, .menu-bar .category-icons ul.icons-list li.cat-icon a, .content-grids .load-more-container span.load-more-button, .content-grids .load-more-container span.load-more-button::after, article.grid-item, article.grid-item div.item-header, article.grid-item main.add-container, article.grid-item main.add-container .add-content, article.grid-item footer.item-footer span.item-address, nav.footer-nav, nav.footer-nav ul.footer-icons li.mobile-footer-icon a {
+.def-transition, .bottom-tooltip, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .top-bar .cart-wrapper .cart-content, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, article.grid-item footer.item-footer span.item-address .full-address, .top-bar .plus-icon-wrapper a.plus-icon, .top-bar .menu-toggler, .top-bar .menu-toggler i.fa-bars:before, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, .top-bar .loggedin-icons ul.loggedin-icons-list li i:before, nav.mobile-nav ul.mobile-menu li a, .menu-bar .category-icons ul.icons-list li.cat-icon a, .content-grids .load-more-container span.load-more-button, .content-grids .load-more-container span.load-more-button::after, article.grid-item, article.grid-item div.item-header, article.grid-item main.add-container, article.grid-item main.add-container .add-content, article.grid-item footer.item-footer span.item-address, nav.footer-nav, nav.footer-nav ul.footer-icons li.mobile-footer-icon a {
   -moz-transition: all 0.4s ease-in-out 0s;
   -o-transition: all 0.4s ease-in-out 0s;
   -webkit-transition: all 0.4s ease-in-out;
@@ -695,7 +695,7 @@ p {
 
 /*----------------box-shadow----------------------*/
 /* line 83, sass/base/_variables.scss */
-.def-box-shadow, .bottom-tooltip, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .top-bar .cart-wrapper .cart-content, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, article.grid-item footer.item-footer span.item-address .full-address {
+.def-box-shadow, .bottom-tooltip, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .top-bar .cart-wrapper .cart-content, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, article.grid-item footer.item-footer span.item-address .full-address, .top-bar .loggedin-icons ul.loggedin-icons-list li ul.dropdown-menu {
   -moz-box-shadow: 0px 0px 7px #E6E7E7;
   -webkit-box-shadow: 0px 0px 7px #E6E7E7;
   box-shadow: 0px 0px 7px #E6E7E7; }
@@ -715,67 +715,46 @@ p {
 @-moz-keyframes move-up {
   0% {
     opacity: 0;
-    display: none; }
+    display: inline-block; }
   100% {
     opacity: 1;
     display: inline-block; } }
 @-webkit-keyframes move-up {
   0% {
     opacity: 0;
-    display: none; }
+    display: inline-block; }
   100% {
     opacity: 1;
     display: inline-block; } }
 @keyframes move-up {
   0% {
     opacity: 0;
-    display: none; }
+    display: inline-block; }
   100% {
     opacity: 1;
     display: inline-block; } }
 @-moz-keyframes move-down {
   0% {
-    opacity: 1;
+    opacity: 0;
     display: inline-block; }
   100% {
     opacity: 0;
     display: none; } }
 @-webkit-keyframes move-down {
   0% {
-    opacity: 1;
+    opacity: 0;
     display: inline-block; }
   100% {
     opacity: 0;
     display: none; } }
 @keyframes move-down {
   0% {
-    opacity: 1;
+    opacity: 0;
     display: inline-block; }
   100% {
     opacity: 0;
     display: none; } }
-@-moz-keyframes move-slow {
-  0% {
-    opacity: 1;
-    display: inline-block; }
-  100% {
-    opacity: 1;
-    display: inline-block; } }
-@-webkit-keyframes move-slow {
-  0% {
-    opacity: 1;
-    display: inline-block; }
-  100% {
-    opacity: 1;
-    display: inline-block; } }
-@keyframes move-slow {
-  0% {
-    opacity: 1;
-    display: inline-block; }
-  100% {
-    opacity: 1;
-    display: inline-block; } }
-/* line 111, sass/base/_variables.scss */
+/* line 108, sass/base/_variables.scss */
 .bottom-tooltip, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .top-bar .cart-wrapper .cart-content, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, article.grid-item footer.item-footer span.item-address .full-address {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -796,7 +775,7 @@ p {
   pointer-events: none;
   top: 70px;
   opacity: 0; }
-  /* line 131, sass/base/_variables.scss */
+  /* line 128, sass/base/_variables.scss */
   .bottom-tooltip::before, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title::before, .top-bar .cart-wrapper .cart-content::before, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title::before, article.grid-item footer.item-footer span.item-address .full-address::before, .bottom-tooltip::after, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title::after, .top-bar .cart-wrapper .cart-content::after, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title::after, article.grid-item footer.item-footer span.item-address .full-address::after {
     content: '';
     position: absolute;
@@ -808,7 +787,7 @@ p {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 10px solid rgba(0, 0, 0, 0.1); }
-  /* line 143, sass/base/_variables.scss */
+  /* line 140, sass/base/_variables.scss */
   .bottom-tooltip::after, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title::after, .top-bar .cart-wrapper .cart-content::after, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title::after, article.grid-item footer.item-footer span.item-address .full-address::after {
     top: -14px;
     margin-left: -10px;
@@ -1127,11 +1106,15 @@ img.wp-smiley,
     padding: 10px;
     top: 0px;
     right: 38%; }
+    @media (min-width: 34em) {
+      /* line 48, sass/layout/_header.scss */
+      .top-bar .plus-icon-wrapper {
+        right: 50%; } }
     @media (min-width: 45em) {
       /* line 48, sass/layout/_header.scss */
       .top-bar .plus-icon-wrapper {
         right: 46%; } }
-    /* line 56, sass/layout/_header.scss */
+    /* line 59, sass/layout/_header.scss */
     .top-bar .plus-icon-wrapper a.plus-icon {
       cursor: pointer;
       -moz-border-radius: 50%;
@@ -1141,26 +1124,26 @@ img.wp-smiley,
       padding: 10px 15px;
       background-color: #FF585B;
       position: relative; }
-      /* line 65, sass/layout/_header.scss */
+      /* line 68, sass/layout/_header.scss */
       .top-bar .plus-icon-wrapper a.plus-icon:hover, .top-bar .plus-icon-wrapper a.plus-icon:focus {
         -moz-box-shadow: 0px 0px 2px #4E4E4E;
         -webkit-box-shadow: 0px 0px 2px #4E4E4E;
         box-shadow: 0px 0px 2px #4E4E4E; }
-      /* line 68, sass/layout/_header.scss */
+      /* line 71, sass/layout/_header.scss */
       .top-bar .plus-icon-wrapper a.plus-icon:hover > span.plus-icon-title {
         opacity: 0.9;
         top: 60px; }
-      /* line 73, sass/layout/_header.scss */
+      /* line 76, sass/layout/_header.scss */
       .top-bar .plus-icon-wrapper a.plus-icon i.fa-plus::before {
         font-size: 200%;
         color: #FFFFFF;
         vertical-align: middle; }
-      /* line 79, sass/layout/_header.scss */
+      /* line 82, sass/layout/_header.scss */
       .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title {
         left: 76%;
         background-color: #FF585B;
         color: #FFFFFF; }
-  /* line 88, sass/layout/_header.scss */
+  /* line 91, sass/layout/_header.scss */
   .top-bar .menu-toggler {
     float: right;
     cursor: pointer;
@@ -1170,143 +1153,148 @@ img.wp-smiley,
     margin-top: 14px;
     margin-right: 10px; }
     @media (min-width: 45em) {
-      /* line 88, sass/layout/_header.scss */
+      /* line 91, sass/layout/_header.scss */
       .top-bar .menu-toggler {
         display: none; } }
-    /* line 100, sass/layout/_header.scss */
+    /* line 103, sass/layout/_header.scss */
     .top-bar .menu-toggler i.fa-bars:before {
       font-size: 180%;
       color: #4E4E4E; }
-    /* line 105, sass/layout/_header.scss */
+    /* line 108, sass/layout/_header.scss */
     .top-bar .menu-toggler:hover {
       border-color: #FF585B; }
-      /* line 107, sass/layout/_header.scss */
+      /* line 110, sass/layout/_header.scss */
       .top-bar .menu-toggler:hover i.fa-bars:before {
         color: #FF585B; }
-  /* line 114, sass/layout/_header.scss */
+  /* line 117, sass/layout/_header.scss */
   .top-bar .panel-links {
     display: none;
     float: right;
     padding-top: 15px; }
     @media (min-width: 45em) {
-      /* line 114, sass/layout/_header.scss */
+      /* line 117, sass/layout/_header.scss */
       .top-bar .panel-links {
         display: block; } }
-    /* line 121, sass/layout/_header.scss */
+    /* line 124, sass/layout/_header.scss */
     .top-bar .panel-links .register-button, .top-bar .panel-links .login-button {
       padding: 10px 7px;
       color: #111;
       font-weight: 500;
       font-size: 90%; }
-      /* line 128, sass/layout/_header.scss */
+      /* line 131, sass/layout/_header.scss */
       .top-bar .panel-links .register-button:hover, .top-bar .panel-links .login-button:hover {
         color: #FF585B; }
-    /* line 133, sass/layout/_header.scss */
+    /* line 136, sass/layout/_header.scss */
     .top-bar .panel-links .login-button::before {
       content: "\f090";
       padding-left: 5px;
       vertical-align: middle;
       font-size: 130%;
       font-weight: 100; }
-    /* line 142, sass/layout/_header.scss */
+    /* line 145, sass/layout/_header.scss */
     .top-bar .panel-links .register-button::before {
       content: "\f040";
       padding-left: 5px;
       vertical-align: middle;
       font-size: 130%;
       font-weight: 100; }
-  /* line 152, sass/layout/_header.scss */
+  /* line 155, sass/layout/_header.scss */
   .top-bar .cart-wrapper {
     display: none;
     float: right;
-    padding: 20px 10px 10px;
+    float: right;
+    margin: 23px 10px 10px;
     position: relative; }
     @media (min-width: 45em) {
-      /* line 152, sass/layout/_header.scss */
+      /* line 155, sass/layout/_header.scss */
       .top-bar .cart-wrapper {
         display: block; } }
-    /* line 161, sass/layout/_header.scss */
+    /* line 165, sass/layout/_header.scss */
     .top-bar .cart-wrapper i.fa::before, .top-bar .cart-wrapper .panel-links i.register-button::before, .top-bar .panel-links .cart-wrapper i.register-button::before, .top-bar .cart-wrapper .panel-links i.login-button::before, .top-bar .panel-links .cart-wrapper i.login-button::before, .top-bar .cart-wrapper .contact-wrapper i.contact-phone::before, .top-bar .contact-wrapper .cart-wrapper i.contact-phone::before {
       cursor: pointer;
-      font-size: 130%;
+      font-size: 150%;
       vertical-align: middle;
-      color: #FF585B;
-      background-color: #F2F2F2;
-      padding: 9px 11px;
+      color: #125688;
+      padding: 5px;
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%;
       border-radius: 50%; }
-    /* line 170, sass/layout/_header.scss */
+    /* line 174, sass/layout/_header.scss */
     .top-bar .cart-wrapper span.orders-qty {
       cursor: pointer;
       position: absolute;
-      top: 6px;
-      right: -2px;
+      top: -6px;
+      right: -6px;
       color: #FFFFFF;
-      background-color: #125688;
+      background-color: #FF585B;
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%;
       border-radius: 50%;
-      padding: 0px 11px;
-      font-size: 80%; }
-    /* line 181, sass/layout/_header.scss */
+      padding: 5px 8px;
+      font-size: 80%;
+      line-height: 1;
+      height: 22px; }
+    /* line 187, sass/layout/_header.scss */
     .top-bar .cart-wrapper .cart-content {
       text-align: right;
-      z-index: 999;
+      z-index: 99999;
       width: 250px;
       left: auto;
-      right: 0%;
-      top: 75px;
+      right: -50%;
+      top: 50px;
+      pointer-events: none;
       background-color: #FFFFFF;
       border-color: #E6E7E7; }
-      /* line 192, sass/layout/_header.scss */
+      /* line 199, sass/layout/_header.scss */
       .top-bar .cart-wrapper .cart-content::before, .top-bar .cart-wrapper .cart-content::after {
         top: -15px;
         left: auto;
         right: 8%; }
-      /* line 197, sass/layout/_header.scss */
+      /* line 204, sass/layout/_header.scss */
       .top-bar .cart-wrapper .cart-content ul {
         margin: 0px;
         padding: 0px; }
-        /* line 200, sass/layout/_header.scss */
+        /* line 207, sass/layout/_header.scss */
         .top-bar .cart-wrapper .cart-content ul li {
           padding: 10px;
           border-bottom: 1px dashed #E6E7E7; }
-          /* line 203, sass/layout/_header.scss */
+          /* line 210, sass/layout/_header.scss */
           .top-bar .cart-wrapper .cart-content ul li img.item-thumb {
             float: right;
             max-width: 32px;
             max-height: 32px;
             margin-top: -6px;
             margin-left: 10px; }
-          /* line 210, sass/layout/_header.scss */
+          /* line 217, sass/layout/_header.scss */
           .top-bar .cart-wrapper .cart-content ul li span.item-title {
             float: right; }
-          /* line 213, sass/layout/_header.scss */
+          /* line 220, sass/layout/_header.scss */
           .top-bar .cart-wrapper .cart-content ul li span.order-qty {
             float: left; }
-    /* line 219, sass/layout/_header.scss */
+    /* line 226, sass/layout/_header.scss */
     .top-bar .cart-wrapper:hover > .cart-content {
-      top: 65px;
-      opacity: 1; }
-    /* line 223, sass/layout/_header.scss */
+      top: 38px;
+      opacity: 1;
+      pointer-events: visible; }
+    /* line 231, sass/layout/_header.scss */
     .top-bar .cart-wrapper .cart-content:hover {
-      top: 65px;
-      opacity: 1; }
-  /* line 229, sass/layout/_header.scss */
+      top: 38px;
+      opacity: 1;
+      pointer-events: visible; }
+  /* line 238, sass/layout/_header.scss */
   .top-bar .contact-wrapper {
     display: none;
     float: right;
     padding: 20px 10px 10px; }
-    /* line 234, sass/layout/_header.scss */
+    /* line 243, sass/layout/_header.scss */
     .top-bar .contact-wrapper .contact-phone {
       background-color: #E6E7E7;
       padding: 7px 0px; }
-      /* line 237, sass/layout/_header.scss */
+      /* line 246, sass/layout/_header.scss */
       .top-bar .contact-wrapper .contact-phone em {
         padding: 7px 10px;
         background-color: #F2F2F2; }
-      /* line 242, sass/layout/_header.scss */
+      /* line 251, sass/layout/_header.scss */
       .top-bar .contact-wrapper .contact-phone::before {
         content: "\f095";
         color: #FFFFFF;
@@ -1314,69 +1302,147 @@ img.wp-smiley,
         padding: 7px;
         margin-right: 7px;
         vertical-align: middle; }
+  /* line 261, sass/layout/_header.scss */
+  .top-bar .loggedin-icons {
+    float: right;
+    display: none; }
+    @media (min-width: 34em) {
+      /* line 261, sass/layout/_header.scss */
+      .top-bar .loggedin-icons {
+        display: inline-block; } }
+    /* line 267, sass/layout/_header.scss */
+    .top-bar .loggedin-icons ul.loggedin-icons-list {
+      padding: 0px;
+      margin: 23px 10px 0px; }
+      /* line 270, sass/layout/_header.scss */
+      .top-bar .loggedin-icons ul.loggedin-icons-list li {
+        display: inline-block;
+        position: relative;
+        cursor: pointer; }
+        /* line 274, sass/layout/_header.scss */
+        .top-bar .loggedin-icons ul.loggedin-icons-list li a {
+          display: inline-block;
+          opacity: 0.9; }
+          /* line 277, sass/layout/_header.scss */
+          .top-bar .loggedin-icons ul.loggedin-icons-list li a:hover {
+            opacity: 1; }
+        /* line 282, sass/layout/_header.scss */
+        .top-bar .loggedin-icons ul.loggedin-icons-list li i:before {
+          font-size: 150%;
+          color: #125688;
+          padding: 5px;
+          vertical-align: middle; }
+        /* line 290, sass/layout/_header.scss */
+        .top-bar .loggedin-icons ul.loggedin-icons-list li ul.dropdown-menu {
+          position: absolute;
+          top: 140%;
+          right: -20px;
+          background-color: #FFFFFF;
+          z-index: 99999;
+          width: 200px;
+          border: 4px solid #F2F2F2;
+          display: none;
+          margin: 0px;
+          padding: 10px; }
+          /* line 305, sass/layout/_header.scss */
+          .top-bar .loggedin-icons ul.loggedin-icons-list li ul.dropdown-menu::before, .top-bar .loggedin-icons ul.loggedin-icons-list li ul.dropdown-menu::after {
+            content: '';
+            position: absolute;
+            top: -15px;
+            right: 12%;
+            margin-left: -9px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid rgba(0, 0, 0, 0.1); }
+          /* line 317, sass/layout/_header.scss */
+          .top-bar .loggedin-icons ul.loggedin-icons-list li ul.dropdown-menu::after {
+            top: -14px;
+            margin-left: -10px;
+            border-bottom: 10px solid #F2F2F2; }
+          /* line 322, sass/layout/_header.scss */
+          .top-bar .loggedin-icons ul.loggedin-icons-list li ul.dropdown-menu li {
+            border-bottom: 1px dashed #E6E7E7;
+            width: 100%; }
+        /* line 329, sass/layout/_header.scss */
+        .top-bar .loggedin-icons ul.loggedin-icons-list li span.icon-qty {
+          position: absolute;
+          top: -3px;
+          right: -3px;
+          font-size: 80%;
+          display: inline-block;
+          background-color: #FF585B;
+          color: #FFFFFF;
+          padding: 4px 6px;
+          height: 20px;
+          line-height: 1;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+          border-radius: 10px; }
 
-/* line 256, sass/layout/_header.scss */
+/* line 349, sass/layout/_header.scss */
 nav.mobile-nav {
   height: 100%;
   background-color: #4E4E4E;
   color: #F8F8F8;
   display: none; }
   @media (min-width: 45em) {
-    /* line 256, sass/layout/_header.scss */
+    /* line 349, sass/layout/_header.scss */
     nav.mobile-nav {
       display: none;
       height: 0px; } }
-  /* line 268, sass/layout/_header.scss */
+  /* line 361, sass/layout/_header.scss */
   nav.mobile-nav ul.mobile-menu {
     margin: 0px;
     padding: 0px; }
-    /* line 271, sass/layout/_header.scss */
+    /* line 364, sass/layout/_header.scss */
     nav.mobile-nav ul.mobile-menu li {
       width: 100%;
       display: block;
       border-bottom: 1px dashed #b2b5b5; }
-      /* line 275, sass/layout/_header.scss */
+      /* line 368, sass/layout/_header.scss */
       nav.mobile-nav ul.mobile-menu li:last-child {
         border-bottom: 0px; }
-      /* line 278, sass/layout/_header.scss */
+      /* line 371, sass/layout/_header.scss */
       nav.mobile-nav ul.mobile-menu li a {
         display: block;
         width: 100%;
         padding: 10px;
         color: #E6E7E7; }
-        /* line 285, sass/layout/_header.scss */
+        /* line 378, sass/layout/_header.scss */
         nav.mobile-nav ul.mobile-menu li a span.menu-content {
           padding-right: 8px; }
-        /* line 288, sass/layout/_header.scss */
+        /* line 381, sass/layout/_header.scss */
         nav.mobile-nav ul.mobile-menu li a i:before {
           font-size: 130%;
           vertical-align: middle; }
-        /* line 292, sass/layout/_header.scss */
+        /* line 385, sass/layout/_header.scss */
         nav.mobile-nav ul.mobile-menu li a:hover, nav.mobile-nav ul.mobile-menu li a:focus {
           color: #FF585B;
           background-color: #686868; }
 
-/* line 302, sass/layout/_header.scss */
+/* line 395, sass/layout/_header.scss */
 .menu-bar {
   -moz-box-shadow: 0px 0px 5px 0px #4E4E4E;
   -webkit-box-shadow: 0px 0px 5px 0px #4E4E4E;
   box-shadow: 0px 0px 5px 0px #4E4E4E;
   background-color: #FF585B; }
-  /* line 305, sass/layout/_header.scss */
+  /* line 398, sass/layout/_header.scss */
   .menu-bar .category-icons {
     float: left;
     direction: ltr; }
-    /* line 308, sass/layout/_header.scss */
+    /* line 401, sass/layout/_header.scss */
     .menu-bar .category-icons ul.icons-list {
       margin: 0px;
       padding: 10px 20px 0px; }
-      /* line 309, sass/layout/_header.scss */
+      /* line 402, sass/layout/_header.scss */
       .menu-bar .category-icons ul.icons-list.owl-carousel .owl-stage-outer {
         overflow: visible; }
-      /* line 314, sass/layout/_header.scss */
+      /* line 407, sass/layout/_header.scss */
       .menu-bar .category-icons ul.icons-list li.cat-icon {
         display: inline-block; }
-        /* line 316, sass/layout/_header.scss */
+        /* line 409, sass/layout/_header.scss */
         .menu-bar .category-icons ul.icons-list li.cat-icon a {
           display: block;
           width: 40px;
@@ -1391,83 +1457,83 @@ nav.mobile-nav {
           padding: 5px;
           background: url('../images/icons/icons.png?1461475896');
           cursor: pointer; }
-          /* line 329, sass/layout/_header.scss */
+          /* line 422, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a:hover {
             background-color: #FFFFFF; }
-          /* line 332, sass/layout/_header.scss */
+          /* line 425, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a:hover > span.icon-title {
             opacity: 0.9;
             top: 50px; }
-          /* line 339, sass/layout/_header.scss */
+          /* line 432, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.allofftiks {
             background-position: 40px 81px; }
-            /* line 341, sass/layout/_header.scss */
+            /* line 434, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.allofftiks:hover {
               background-position: 40px 41px; }
-          /* line 345, sass/layout/_header.scss */
+          /* line 438, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.feature {
             background-position: 139px 80px; }
-            /* line 347, sass/layout/_header.scss */
+            /* line 440, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.feature:hover {
               background-position: 139px 40px; }
-          /* line 351, sass/layout/_header.scss */
+          /* line 444, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.building {
             background-position: 88px 80px; }
-            /* line 353, sass/layout/_header.scss */
+            /* line 446, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.building:hover {
               background-position: 88px 40px; }
-          /* line 357, sass/layout/_header.scss */
+          /* line 450, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.car {
             background-position: 189px 80px; }
-            /* line 359, sass/layout/_header.scss */
+            /* line 452, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.car:hover {
               background-position: 189px 40px; }
-          /* line 364, sass/layout/_header.scss */
+          /* line 457, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.resturant {
             background-position: 337px 81px; }
-            /* line 366, sass/layout/_header.scss */
+            /* line 459, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.resturant:hover {
               background-position: 337px 41px; }
-          /* line 371, sass/layout/_header.scss */
+          /* line 464, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.travel {
             background-position: 238px 81px; }
-            /* line 373, sass/layout/_header.scss */
+            /* line 466, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.travel:hover {
               background-position: 238px 41px; }
-          /* line 378, sass/layout/_header.scss */
+          /* line 471, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.theater {
             background-position: 1029px 80px; }
-            /* line 380, sass/layout/_header.scss */
+            /* line 473, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.theater:hover {
               background-position: 1029px 40px; }
-          /* line 385, sass/layout/_header.scss */
+          /* line 478, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.sport {
             background-position: 1176px 80px; }
-            /* line 387, sass/layout/_header.scss */
+            /* line 480, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.sport:hover {
               background-position: 1176px 40px; }
-          /* line 392, sass/layout/_header.scss */
+          /* line 485, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.health {
             background-position: 537px 81px; }
-            /* line 394, sass/layout/_header.scss */
+            /* line 487, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.health:hover {
               background-position: 537px 41px; }
-          /* line 399, sass/layout/_header.scss */
+          /* line 492, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.sale {
             background-position: 288px 81px; }
-            /* line 401, sass/layout/_header.scss */
+            /* line 494, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.sale:hover {
               background-position: 288px 41px; }
-          /* line 406, sass/layout/_header.scss */
+          /* line 499, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.education {
             background-position: 1077px 80px; }
-            /* line 408, sass/layout/_header.scss */
+            /* line 501, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.education:hover {
               background-position: 1077px 40px; }
-          /* line 413, sass/layout/_header.scss */
+          /* line 506, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a.beauty {
             background-position: 976px 80px; }
-            /* line 415, sass/layout/_header.scss */
+            /* line 508, sass/layout/_header.scss */
             .menu-bar .category-icons ul.icons-list li.cat-icon a.beauty:hover {
               background-position: 976px 40px; }
 
@@ -1880,42 +1946,58 @@ nav.footer-nav {
     position: relative; }
     /* line 82, sass/layout/_footer.scss */
     nav.footer-nav ul.footer-icons li.mobile-footer-icon {
+      position: relative;
       width: 20%;
       margin-right: -2px;
       margin-left: -2px;
       display: inline-block; }
-      /* line 89, sass/layout/_footer.scss */
+      /* line 90, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons li.mobile-footer-icon span.icon-qty {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 90%;
+        display: inline-block;
+        background-color: #FF585B;
+        color: #FFFFFF;
+        padding: 4px 8px;
+        height: 22px;
+        line-height: 1;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px; }
+      /* line 103, sass/layout/_footer.scss */
       nav.footer-nav ul.footer-icons li.mobile-footer-icon a {
         display: inline-block;
         padding: 10px 10px 3px;
         color: #FFFFFF;
         width: 100%;
         cursor: pointer; }
-        /* line 97, sass/layout/_footer.scss */
+        /* line 111, sass/layout/_footer.scss */
         nav.footer-nav ul.footer-icons li.mobile-footer-icon a i:before {
           font-size: 180%; }
-        /* line 100, sass/layout/_footer.scss */
+        /* line 114, sass/layout/_footer.scss */
         nav.footer-nav ul.footer-icons li.mobile-footer-icon a:hover {
-          background-color: #125688;
-          color: #F2F2F2; }
-      /* line 106, sass/layout/_footer.scss */
-      nav.footer-nav ul.footer-icons li.mobile-footer-icon.plus-icon a {
-        background-color: #FF585B; }
-      /* line 111, sass/layout/_footer.scss */
-      nav.footer-nav ul.footer-icons li.mobile-footer-icon.active a {
-        background-color: #125688; }
-        /* line 113, sass/layout/_footer.scss */
-        nav.footer-nav ul.footer-icons li.mobile-footer-icon.active a:hover {
           background-color: #125688;
           color: #F2F2F2; }
       /* line 120, sass/layout/_footer.scss */
       nav.footer-nav ul.footer-icons li.mobile-footer-icon.plus-icon a {
         background-color: #FF585B; }
-        /* line 122, sass/layout/_footer.scss */
+      /* line 125, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons li.mobile-footer-icon.active a {
+        background-color: #125688; }
+        /* line 127, sass/layout/_footer.scss */
+        nav.footer-nav ul.footer-icons li.mobile-footer-icon.active a:hover {
+          background-color: #125688;
+          color: #F2F2F2; }
+      /* line 134, sass/layout/_footer.scss */
+      nav.footer-nav ul.footer-icons li.mobile-footer-icon.plus-icon a {
+        background-color: #FF585B; }
+        /* line 136, sass/layout/_footer.scss */
         nav.footer-nav ul.footer-icons li.mobile-footer-icon.plus-icon a:hover {
           background-color: #125688;
           color: #F2F2F2; }
-    /* line 129, sass/layout/_footer.scss */
+    /* line 143, sass/layout/_footer.scss */
     nav.footer-nav ul.footer-icons div.buttom-search-container {
       position: absolute;
       bottom: 101%;
@@ -1926,15 +2008,15 @@ nav.footer-nav {
       padding: 10px 15px;
       text-align: center;
       opacity: 0.8; }
-      /* line 140, sass/layout/_footer.scss */
+      /* line 154, sass/layout/_footer.scss */
       nav.footer-nav ul.footer-icons div.buttom-search-container:hover {
         opacity: 1; }
-      /* line 143, sass/layout/_footer.scss */
+      /* line 157, sass/layout/_footer.scss */
       nav.footer-nav ul.footer-icons div.buttom-search-container input, nav.footer-nav ul.footer-icons div.buttom-search-container select {
         padding: 4px;
         margin: 0px;
         color: #111; }
-      /* line 149, sass/layout/_footer.scss */
+      /* line 163, sass/layout/_footer.scss */
       nav.footer-nav ul.footer-icons div.buttom-search-container select.search-city {
         border: 1px solid #bfc2c2;
         -moz-border-radius-topright: 10px;
@@ -1946,7 +2028,7 @@ nav.footer-nav {
         margin-left: -5px;
         padding: 3px 12px;
         color: #111; }
-      /* line 156, sass/layout/_footer.scss */
+      /* line 170, sass/layout/_footer.scss */
       nav.footer-nav ul.footer-icons div.buttom-search-container input.search-text {
         border: 1px solid #bfc2c2;
         -moz-border-radius-topleft: 10px;
@@ -1962,7 +2044,7 @@ nav.footer-nav {
         -webkit-border-bottom-right-radius: 0px;
         border-bottom-right-radius: 0px;
         color: #111; }
-      /* line 162, sass/layout/_footer.scss */
+      /* line 176, sass/layout/_footer.scss */
       nav.footer-nav ul.footer-icons div.buttom-search-container input.searchbutton {
         background: none;
         border: 0px;

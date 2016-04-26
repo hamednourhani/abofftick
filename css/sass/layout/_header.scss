@@ -50,6 +50,9 @@
     padding : 10px;
     top : 0px ;
    right : 38%;
+    @include at-breakpoint($xmedium){
+      right : 50%;
+    }
     @include at-breakpoint($medium){
       right : 46%;
     }
@@ -151,42 +154,46 @@
   }
   .cart-wrapper{
     display : none;
+    float : right;
     @include at-breakpoint($medium){
       display: block;
     }
     float : right;
-    padding : 20px 10px 10px;
+    margin : 23px 10px 10px;
     position : relative;
 
     i.fa::before{
       cursor: pointer;
-      font-size: 130%;
+      font-size: 150%;
       vertical-align: middle;
-      color : $gol;
-      background-color: $grey1;
-      padding : 9px 11px;
+      color : $blue;
+      padding : 5px;
+
       @include border-radius(50%);
     }
     span.orders-qty{
       cursor: pointer;
       position : absolute;
-      top : 6px;
-      right : -2px;
+      top : -6px;
+      right : -6px;
       color : $white;
-      background-color: $blue;
+      background-color: $gol;
       @include border-radius(50%);
-      padding : 0px 11px;
+      padding : 5px 8px;
       font-size: 80%;
+      line-height: 1;
+      height : 22px;
     }
     .cart-content{
       @extend .bottom-tooltip;
       @extend .dark-box-shadow;
       text-align : right;
-      z-index : 999;
+      z-index : 99999;
       width : 250px;
       left : auto;
-      right : 0%;
-      top : 75px;
+      right : -50%;
+      top : 50px;
+      pointer-events:none ;
       background-color: $white;
       border-color : $grey2;
       &::before, &::after {
@@ -217,12 +224,14 @@
       }
     }
     &:hover>.cart-content{
-      top : 65px;
+      top : 38px;
       opacity : 1;
+      pointer-events: visible;
     }
     .cart-content:hover{
-      top : 65px;
+      top : 38px;
       opacity : 1;
+      pointer-events: visible;
     }
 
   }
@@ -246,6 +255,90 @@
         padding: 7px;
         margin-right : 7px;
         vertical-align: middle;
+      }
+    }
+  }
+  .loggedin-icons{
+    float : right;
+    display: none;
+    @include at-breakpoint($xmedium){
+     display : inline-block;
+    }
+    ul.loggedin-icons-list{
+      padding : 0px;
+      margin : 23px 10px 0px;
+      li{
+        display : inline-block;
+        position: relative;
+        cursor: pointer;
+        a{
+          display : inline-block;
+          opacity: 0.9;
+          &:hover{
+            opacity: 1;
+          }
+        }
+        i {
+          &:before {
+            @extend .def-transition;
+            font-size: 150%;
+            color : $blue;
+            padding: 5px;
+            vertical-align: middle;
+          }
+        }
+        ul.dropdown-menu{
+          @extend .def-box-shadow;
+          //@extend .def-transition;
+          position: absolute;
+          top : 140%;
+          right : -20px;
+          background-color: $white;
+          //opacity: 0;
+          //pointer-events: none;
+          z-index:99999;
+          width : 200px;
+          border : 4px solid $grey1;
+          display: none;
+          margin : 0px;
+          padding : 10px;
+          &::before, &::after {
+            content: '';
+            position: absolute;
+            top: -15px;
+            right: 12%;
+            margin-left: -9px;
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+          }
+          &::after {
+            top: -14px;
+            margin-left: -10px;
+            border-bottom: 10px solid $grey1;
+          }
+          li{
+            border-bottom : 1px dashed $grey2;
+            width:100%;
+          }
+
+        }
+
+        span.icon-qty{
+          position: absolute;
+          top : -3px;
+          right : -3px;
+          font-size: 80%;
+          display : inline-block;
+          background-color: $gol;
+          color: $white;
+          padding : 4px 6px;
+          height : 20px;
+          line-height: 1;
+          @include border-radius(10px);
+        }
       }
     }
   }

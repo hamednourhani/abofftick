@@ -19,7 +19,11 @@ jQuery(document).ready(function($){
 		var buttom_search_container = $('#buttom-search-container');
 		buttom_search_container.slideToggle();
 	});
-
+	$('#loggedin-settings-button').click(function(){
+		var loggedin_settings_list = $('#loggedin-settings-list');
+		//loggedin_settings_list.toggleClass('active');
+		loggedin_settings_list.fadeToggle();
+	});
 	$(function(){
 		$("span.item-address").each(function(i){
 			var item_address = $(this);
