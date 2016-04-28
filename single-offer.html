@@ -22,7 +22,7 @@
 
                 <div class="search-container">
                     <form name="searchform" class="search-form">
-                        <select name="city" id="" class="search-city">
+                        <select name="city" id="searchcity" class="search-city">
                             <option value="tehran">تهران</option>
                             <option value="esfehan">اصفهان</option>
                             <option value="shiraz">شیراز</option>
@@ -112,7 +112,7 @@
         </nav>
         <!--mobile-nav-->
 
-        <div class="menu-bar">
+        <div class="menu-bar" id="menubar">
             <section class="layout">
 
                 <div class="category-icons">
@@ -320,7 +320,7 @@
                             <div class="comment-form-container">
 
                                 <form class="comment-form" name="commentform" id="commentform">
-                                    <textarea type="text" class="comment-message"></textarea>
+                                    <textarea type="text" class="comment-message" placeholder="دیدگاه شما ..."></textarea>
                                     <input type="submit">
                                 </form>
                             </div>
@@ -348,13 +348,67 @@
                                     </div>
                                 </li>
                             </ul>
+                           <div class="more-container">
+                            <span id="more-comments" class="more-comments"> موارد بیشتر <i class="fa fa-angle-down" aria-hidden="true"></i>
+</span>
+                               </div>
                         </div>
                         <!--comments-container-->
                     </div>
                     <!--primary-->
 
                     <div class="secondary">
+                        <div class="price-container">
+                            <div class="your-pay">
+                                <span class="your-pay-title">پرداخت شما :</span>
+                                <span class="your-pay-price"><strong>16,800</strong>تومان</span>
+                            </div>
+                            <!--your-pay-->
+                            <div class="discount-desc">
+                                <div class="real-price">
+                                    <span class="real-price-qty">20,000 تومان</span>
+                                    <span class="real-price-title">ارزشی واقعی</span>
+                                 </div>
+                                <div class="discount-price">
+                                    <span class="discount-price-qty">13,200 تومان</span>
+                                    <span class="discount-price-title">سود شما</span>
+                                </div>
+                            </div>
+                            <!--discount-desc-->
+                        </div>
+                        <!--price-container-->
 
+                        <div class="order-form-container">
+                            <form action="" class="order-form" name="orderform">
+
+                                <button class="add-to-cat" id="addToCart" name="addtocart">اضافه به سبد</button>
+                                <button class="order-this-offer" id="orderThisOffer" name="orderdthisoffer">خرید</button>
+                                <div class="col-right">
+                                    <span class="remaining-items">تعداد باقیمانده : </span>
+                                    <span class="remainig-qty">10</span>
+                                </div>
+                                <div class="col-left">
+                                    <span class="order-qty-label">تعداد سفارش : </span>
+                                    <input type="number" name="orderQty" min="1" max="10">
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="offer-details">
+                          <div class="featurs hidden-content">
+                              <h4 class="info-title">ویژگی ها
+                                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+                              </h4>
+                              <ul class="info-desc">
+                                  <li>ویژگی n</li>
+                                  <li>ویژگی n</li>
+                                  <li>ویژگی n</li>
+                              </ul>
+                          </div>
+                          <div class="usage hidden-content"></div>
+                          <div class="seller-info hidden-content"></div>
+                        </div>
+                        <!--offer-details-->
                     </div>
                     <!--secondary-->
 

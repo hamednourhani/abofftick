@@ -2,8 +2,8 @@
 /* fonts */
 @font-face {
   font-family: "Weblogma_Yekan";
-  src: url('fonts/Yekan.eot?1459745561');
-  src: url('fonts/Yekan.eot?&1459745561#iefix') format('embedded-opentype'), url('fonts/Yekan.ttf?1459745561') format('truetype'), url('fonts/Yekan.woff?1459745561') format('woff');
+  src: url('fonts/Yekan.eot?1446133651');
+  src: url('fonts/Yekan.eot?&1446133651#iefix') format('embedded-opentype'), url('fonts/Yekan.ttf?1446133651') format('truetype'), url('fonts/Yekan.woff?1446133651') format('woff');
   font-weight: "Yekan.svg"; }
 /* normalize style */
 /* normalize-scss 3.0.2+normalize.3.0.2 | MIT/GPLv2 License | bit.ly/normalize-scss */
@@ -12,7 +12,7 @@
  * and $rhythm-unit variables. Also, correct text resizing oddly in IE 6/7 when
  * body `font-size` is set using `em` units.
  */
-/* line 106, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em; }
@@ -614,7 +614,7 @@ p {
   font-feature-settings: "liga", "dlig"; }
 
 /* ------------susy-------- */
-/* line 14, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susyone/_grid.scss */
+/* line 14, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.2/sass/susy/language/susyone/_grid.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -686,7 +686,7 @@ p {
 /*------ colors -----------*/
 /*----------------transition-shadow----------------------*/
 /* line 77, sass/base/_variables.scss */
-.def-transition, .bottom-tooltip, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .top-bar .cart-wrapper .cart-content, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, article.grid-item footer.item-footer span.item-address .full-address, .top-bar .plus-icon-wrapper a.plus-icon, .top-bar .menu-toggler, .top-bar .menu-toggler i.fa-bars:before, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, .top-bar .loggedin-icons ul.loggedin-icons-list li i:before, nav.mobile-nav ul.mobile-menu li a, .menu-bar .category-icons ul.icons-list li.cat-icon a, .content-grids .load-more-container span.load-more-button, .content-grids .load-more-container span.load-more-button::after, article.grid-item, article.grid-item div.item-header, article.grid-item main.add-container, article.grid-item main.add-container .add-content, article.grid-item footer.item-footer span.item-address, .single-offer-content .offer-header .social-container ul.social-list li a, .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a, .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a img, .single-offer-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message, nav.footer-nav, nav.footer-nav ul.footer-icons li.mobile-footer-icon a {
+.def-transition, .bottom-tooltip, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .top-bar .cart-wrapper .cart-content, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, article.grid-item footer.item-footer span.item-address .full-address, .top-bar .plus-icon-wrapper a.plus-icon, .top-bar .menu-toggler, .top-bar .menu-toggler i.fa-bars:before, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, .top-bar .loggedin-icons ul.loggedin-icons-list li i:before, nav.mobile-nav ul.mobile-menu li a, .menu-bar .category-icons ul.icons-list li.cat-icon a, .content-grids .load-more-container span.load-more-button, .content-grids .load-more-container span.load-more-button::after, article.grid-item, article.grid-item div.item-header, article.grid-item main.add-container, article.grid-item main.add-container .add-content, article.grid-item footer.item-footer span.item-address, .single-offer-content .offer-header .social-container ul.social-list li a, .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a, .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a img, .single-offer-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message, .single-offer-content .primary .comments-container .more-container span.more-comments, .single-offer-content .secondary .order-form-container form.order-form .add-to-cat, .single-offer-content .secondary .order-form-container form.order-form .order-this-offer, .single-offer-content .secondary .offer-details .hidden-content, .single-offer-content .secondary .offer-details .hidden-content h4.info-title i:before, nav.footer-nav, nav.footer-nav ul.footer-icons li.mobile-footer-icon a {
   -moz-transition: all 0.4s ease-in-out 0s;
   -o-transition: all 0.4s ease-in-out 0s;
   -webkit-transition: all 0.4s ease-in-out;
@@ -830,7 +830,7 @@ body {
   overflow: hidden;
   position: relative;
   background-color: #F2F2F2;
-  background: url('../images/background/pattern1.jpg?1325077966') top left repeat; }
+  background: url('../images/background/pattern1.jpg?1461844861') top left repeat; }
 
 /* line 39, sass/base/_base.scss */
 .layout {
@@ -842,7 +842,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: relative; }
-  /* line 38, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   .layout:after {
     content: "";
     display: table;
@@ -1463,7 +1463,7 @@ nav.mobile-nav {
           position: relative;
           border: 1px solid #E6E7E7;
           padding: 5px;
-          background: url('../images/icons/icons.png?1461475896');
+          background: url('../images/icons/icons.png?1461844861');
           cursor: pointer; }
           /* line 426, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a:hover {
@@ -1991,8 +1991,9 @@ article.grid-item {
       .single-offer-content .primary {
         width: 66.15385%;
         float: right;
-        margin-left: 1.53846%; } }
-    /* line 460, sass/layout/_main.scss */
+        margin-left: 1.53846%;
+        margin-right: auto; } }
+    /* line 461, sass/layout/_main.scss */
     .single-offer-content .primary .buyers-avatar-container {
       float: right;
       width: 50px;
@@ -2008,14 +2009,14 @@ article.grid-item {
       -moz-border-radius-bottomleft: 15px;
       -webkit-border-bottom-left-radius: 15px;
       border-bottom-left-radius: 15px; }
-      /* line 471, sass/layout/_main.scss */
+      /* line 472, sass/layout/_main.scss */
       .single-offer-content .primary .buyers-avatar-container span.buyers-title {
         font-size: 70%;
         text-align: center;
         display: inline-block;
         line-height: 1.4;
         padding-top: 15px; }
-      /* line 478, sass/layout/_main.scss */
+      /* line 479, sass/layout/_main.scss */
       .single-offer-content .primary .buyers-avatar-container span.buyers-count {
         position: absolute;
         top: -15px;
@@ -2028,16 +2029,16 @@ article.grid-item {
         -moz-border-radius: 15px;
         -webkit-border-radius: 15px;
         border-radius: 15px; }
-      /* line 490, sass/layout/_main.scss */
+      /* line 491, sass/layout/_main.scss */
       .single-offer-content .primary .buyers-avatar-container ul.buyers-list {
         padding: 0px;
         margin: 0px; }
-        /* line 494, sass/layout/_main.scss */
+        /* line 495, sass/layout/_main.scss */
         .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a {
           display: inline-block;
           opacity: 0.9;
           text-align: center; }
-          /* line 499, sass/layout/_main.scss */
+          /* line 500, sass/layout/_main.scss */
           .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a img {
             max-width: 100%;
             margin-bottom: -5px;
@@ -2045,20 +2046,20 @@ article.grid-item {
             -moz-border-radius: 30px;
             -webkit-border-radius: 30px;
             border-radius: 30px; }
-          /* line 506, sass/layout/_main.scss */
+          /* line 507, sass/layout/_main.scss */
           .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a:hover {
             opacity: 1; }
-            /* line 508, sass/layout/_main.scss */
+            /* line 509, sass/layout/_main.scss */
             .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a:hover img {
               transform: scale(0.9); }
-    /* line 517, sass/layout/_main.scss */
+    /* line 518, sass/layout/_main.scss */
     .single-offer-content .primary .slider-container {
       width: calc(100% - 60px);
       border: 3px solid #E6E7E7;
       float: left;
       text-align: center;
       position: relative; }
-      /* line 523, sass/layout/_main.scss */
+      /* line 524, sass/layout/_main.scss */
       .single-offer-content .primary .slider-container .sales-icon {
         position: absolute;
         top: 10px;
@@ -2067,7 +2068,7 @@ article.grid-item {
         z-index: 99999;
         display: inline-block;
         pointer-events: none; }
-        /* line 531, sass/layout/_main.scss */
+        /* line 532, sass/layout/_main.scss */
         .single-offer-content .primary .slider-container .sales-icon span.discount-percent {
           position: absolute;
           top: 30px;
@@ -2075,38 +2076,38 @@ article.grid-item {
           font-size: 28px;
           color: #125688;
           font-weight: 500; }
-        /* line 539, sass/layout/_main.scss */
+        /* line 540, sass/layout/_main.scss */
         .single-offer-content .primary .slider-container .sales-icon img {
           max-width: 100%; }
-    /* line 545, sass/layout/_main.scss */
+    /* line 546, sass/layout/_main.scss */
     .single-offer-content .primary .offer-likes-container {
       width: 100%;
       clear: both; }
-      /* line 548, sass/layout/_main.scss */
+      /* line 549, sass/layout/_main.scss */
       .single-offer-content .primary .offer-likes-container ul {
         text-align: left;
         border-bottom: 1px solid #E6E7E7; }
-        /* line 551, sass/layout/_main.scss */
+        /* line 552, sass/layout/_main.scss */
         .single-offer-content .primary .offer-likes-container ul li {
           display: inline-block;
           margin: 5px;
           color: #125688; }
-          /* line 555, sass/layout/_main.scss */
+          /* line 556, sass/layout/_main.scss */
           .single-offer-content .primary .offer-likes-container ul li.date {
             float: right;
             margin-right: 80px; }
-          /* line 559, sass/layout/_main.scss */
+          /* line 560, sass/layout/_main.scss */
           .single-offer-content .primary .offer-likes-container ul li i:before {
             color: #cccece;
             font-size: 120%;
             margin-left: 5px; }
-    /* line 571, sass/layout/_main.scss */
+    /* line 572, sass/layout/_main.scss */
     .single-offer-content .primary .comments-container .comment-form-container form.comment-form {
       position: relative;
       padding-right: 40px;
       font-family: "Weblogma_Yekan";
       width: 100%; }
-      /* line 577, sass/layout/_main.scss */
+      /* line 578, sass/layout/_main.scss */
       .single-offer-content .primary .comments-container .comment-form-container form.comment-form::before {
         font-family: "FontAwesome";
         content: "\f27a";
@@ -2115,7 +2116,7 @@ article.grid-item {
         right: 0px;
         font-size: 180%;
         color: #FF585B; }
-      /* line 586, sass/layout/_main.scss */
+      /* line 587, sass/layout/_main.scss */
       .single-offer-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message {
         outline: none;
         border: 1px dashed #b2b5b5;
@@ -2126,23 +2127,24 @@ article.grid-item {
         background-color: #FFFFFF;
         width: 100%;
         height: 40px;
-        padding: 5px; }
-        /* line 596, sass/layout/_main.scss */
+        padding: 10px;
+        font-size: 90%; }
+        /* line 598, sass/layout/_main.scss */
         .single-offer-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message:focus {
           height: 70px; }
-      /* line 600, sass/layout/_main.scss */
+      /* line 602, sass/layout/_main.scss */
       .single-offer-content .primary .comments-container .comment-form-container form.comment-form input[type="submit"] {
         display: none; }
-    /* line 605, sass/layout/_main.scss */
+    /* line 607, sass/layout/_main.scss */
     .single-offer-content .primary .comments-container ul.comments-list {
       padding: 0px;
       margin: 0px;
       margin-top: 10px; }
-      /* line 609, sass/layout/_main.scss */
+      /* line 611, sass/layout/_main.scss */
       .single-offer-content .primary .comments-container ul.comments-list li {
         padding: 10px;
         overflow: hidden; }
-        /* line 612, sass/layout/_main.scss */
+        /* line 614, sass/layout/_main.scss */
         .single-offer-content .primary .comments-container ul.comments-list li img {
           max-width: 100%;
           float: right;
@@ -2152,23 +2154,49 @@ article.grid-item {
           -webkit-border-radius: 30px;
           border-radius: 30px;
           margin-left: 10px; }
-        /* line 620, sass/layout/_main.scss */
+        /* line 622, sass/layout/_main.scss */
         .single-offer-content .primary .comments-container ul.comments-list li .single-comment-content {
           float: right;
           overflow: hidden;
           border-bottom: 1px dashed #F2F2F2; }
-          /* line 624, sass/layout/_main.scss */
+          /* line 626, sass/layout/_main.scss */
           .single-offer-content .primary .comments-container ul.comments-list li .single-comment-content h4.commentor-name {
             color: #125688;
             font-weight: 600;
             clear: left;
             margin: 0px;
             padding: 0px; }
-          /* line 631, sass/layout/_main.scss */
+          /* line 633, sass/layout/_main.scss */
           .single-offer-content .primary .comments-container ul.comments-list li .single-comment-content .comment-content {
             font-size: 80%;
             color: #a5a9a9; }
-  /* line 641, sass/layout/_main.scss */
+    /* line 641, sass/layout/_main.scss */
+    .single-offer-content .primary .comments-container .more-container {
+      text-align: center; }
+      /* line 643, sass/layout/_main.scss */
+      .single-offer-content .primary .comments-container .more-container span.more-comments {
+        display: inline-block;
+        margin: auto;
+        margin-top: 10px;
+        padding: 5px 10px;
+        border: 1px dashed #E6E7E7;
+        text-align: center;
+        background-color: #F2F2F2;
+        color: #4E4E4E;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        cursor: pointer; }
+        /* line 656, sass/layout/_main.scss */
+        .single-offer-content .primary .comments-container .more-container span.more-comments i:before {
+          font-size: 120%;
+          vertical-align: middle; }
+        /* line 661, sass/layout/_main.scss */
+        .single-offer-content .primary .comments-container .more-container span.more-comments:hover {
+          transform: scale(1.1);
+          background-color: #FF585B;
+          color: #F2F2F2; }
+  /* line 672, sass/layout/_main.scss */
   .single-offer-content .secondary {
     margin-top: 20px;
     width: 100%;
@@ -2176,11 +2204,169 @@ article.grid-item {
     margin-left: 1.53846%;
     display: inline; }
     @media (min-width: 45em) {
-      /* line 641, sass/layout/_main.scss */
+      /* line 672, sass/layout/_main.scss */
       .single-offer-content .secondary {
         width: 32.30769%;
         float: right;
-        margin-left: 1.53846%; } }
+        margin-left: 1.53846%;
+        margin-left: auto; } }
+    /* line 680, sass/layout/_main.scss */
+    .single-offer-content .secondary .price-container .your-pay {
+      font-weight: 100;
+      width: 100%;
+      border: 1px dashed #bfc2c2;
+      text-align: center;
+      padding: 10px; }
+      /* line 686, sass/layout/_main.scss */
+      .single-offer-content .secondary .price-container .your-pay span.your-pay-title {
+        display: inline-block;
+        width: 100%; }
+      /* line 690, sass/layout/_main.scss */
+      .single-offer-content .secondary .price-container .your-pay span.your-pay-price {
+        display: inline-block;
+        width: 100%; }
+        /* line 693, sass/layout/_main.scss */
+        .single-offer-content .secondary .price-container .your-pay span.your-pay-price strong {
+          vertical-align: middle;
+          color: #3BBB5A;
+          font-size: 150%;
+          padding-left: 5px; }
+    /* line 704, sass/layout/_main.scss */
+    .single-offer-content .secondary .discount-desc span {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      font-size: 90%;
+      padding: 5px;
+      color: #4E4E4E; }
+    /* line 712, sass/layout/_main.scss */
+    .single-offer-content .secondary .discount-desc .real-price {
+      width: 50%;
+      float: right;
+      border: 1px dashed #bfc2c2; }
+      /* line 716, sass/layout/_main.scss */
+      .single-offer-content .secondary .discount-desc .real-price span.real-price-qty {
+        text-decoration: line-through;
+        text-decoration-color: #FF585B;
+        text-decoration-style: double;
+        border-bottom: 1px dashed #E6E7E7; }
+      /* line 722, sass/layout/_main.scss */
+      .single-offer-content .secondary .discount-desc .real-price span.real-price-title {
+        opacity: 0.9; }
+    /* line 726, sass/layout/_main.scss */
+    .single-offer-content .secondary .discount-desc .discount-price {
+      width: 50%;
+      float: left;
+      border: 1px dashed #bfc2c2; }
+      /* line 730, sass/layout/_main.scss */
+      .single-offer-content .secondary .discount-desc .discount-price .discount-price-qty {
+        border-bottom: 1px dashed #E6E7E7; }
+      /* line 733, sass/layout/_main.scss */
+      .single-offer-content .secondary .discount-desc .discount-price .discount-price-title {
+        opacity: 0.9; }
+    /* line 741, sass/layout/_main.scss */
+    .single-offer-content .secondary .order-form-container form.order-form .add-to-cat, .single-offer-content .secondary .order-form-container form.order-form .order-this-offer {
+      width: 45%;
+      margin: 10px 2%;
+      padding: 5px 10px;
+      background-color: #125688;
+      border: 1px dashed #F2F2F2;
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      color: #FFFFFF;
+      opacity: 0.9;
+      box-shadow: none;
+      outline: none; }
+      /* line 753, sass/layout/_main.scss */
+      .single-offer-content .secondary .order-form-container form.order-form .add-to-cat:hover, .single-offer-content .secondary .order-form-container form.order-form .order-this-offer:hover {
+        opacity: 1;
+        transform: scale(0.95); }
+    /* line 758, sass/layout/_main.scss */
+    .single-offer-content .secondary .order-form-container form.order-form .order-this-offer {
+      background-color: #FF585B;
+      border: 1px dashed #F2F2F2; }
+    /* line 763, sass/layout/_main.scss */
+    .single-offer-content .secondary .order-form-container form.order-form .col-right {
+      width: 50%;
+      float: right;
+      text-align: center; }
+      /* line 767, sass/layout/_main.scss */
+      .single-offer-content .secondary .order-form-container form.order-form .col-right span {
+        display: inline-block;
+        width: 100%;
+        padding: 3px 5px;
+        font-size: 90%;
+        text-align: center; }
+        /* line 775, sass/layout/_main.scss */
+        .single-offer-content .secondary .order-form-container form.order-form .col-right span.remainig-qty {
+          border: 1px dashed #FF585B;
+          width: auto;
+          padding: 3px 8px;
+          color: #FF585B;
+          font-size: 110%;
+          font-weight: 500; }
+    /* line 786, sass/layout/_main.scss */
+    .single-offer-content .secondary .order-form-container form.order-form .col-left {
+      text-align: center;
+      width: 50%;
+      float: left; }
+      /* line 790, sass/layout/_main.scss */
+      .single-offer-content .secondary .order-form-container form.order-form .col-left span, .single-offer-content .secondary .order-form-container form.order-form .col-left input {
+        display: inline-block;
+        width: 100%;
+        padding: 3px 5px;
+        font-size: 90%;
+        text-align: center; }
+      /* line 799, sass/layout/_main.scss */
+      .single-offer-content .secondary .order-form-container form.order-form .col-left input {
+        width: 50%;
+        margin: auto; }
+    /* line 806, sass/layout/_main.scss */
+    .single-offer-content .secondary .offer-details {
+      margin-top: 20px;
+      width: 100%;
+      display: block;
+      clear: both; }
+      /* line 814, sass/layout/_main.scss */
+      .single-offer-content .secondary .offer-details .hidden-content {
+        width: 100%;
+        display: block;
+        clear: both;
+        border-bottom: 1px solid #E6E7E7; }
+        /* line 820, sass/layout/_main.scss */
+        .single-offer-content .secondary .offer-details .hidden-content h4.info-title {
+          cursor: pointer;
+          padding: 5px 10px;
+          margin: 0px;
+          width: 100%; }
+          /* line 826, sass/layout/_main.scss */
+          .single-offer-content .secondary .offer-details .hidden-content h4.info-title i {
+            float: left; }
+            /* line 828, sass/layout/_main.scss */
+            .single-offer-content .secondary .offer-details .hidden-content h4.info-title i:before {
+              vertical-align: center;
+              font-size: 120%;
+              margin-left: 10px;
+              color: #FF585B;
+              padding: 5px 8px;
+              -moz-border-radius: 20px;
+              -webkit-border-radius: 20px;
+              border-radius: 20px;
+              border: 1px dashed #FF585B; }
+              /* line 837, sass/layout/_main.scss */
+              .single-offer-content .secondary .offer-details .hidden-content h4.info-title i:before:hover {
+                color: #FFFFFF;
+                background-color: #FF585B; }
+        /* line 846, sass/layout/_main.scss */
+        .single-offer-content .secondary .offer-details .hidden-content ul.info-desc {
+          margin: 0px;
+          padding: 10px;
+          border-top: 1px solid #E6E7E7;
+          display: none; }
+          /* line 851, sass/layout/_main.scss */
+          .single-offer-content .secondary .offer-details .hidden-content ul.info-desc li {
+            list-style: disc; }
 
 /* line 1, sass/layout/_footer.scss */
 .site-footer {

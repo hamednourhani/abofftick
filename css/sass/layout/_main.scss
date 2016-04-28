@@ -456,6 +456,7 @@ article.grid-item{
     @include span-columns(12,12);
     @include at-breakpoint($medium){
       @include span-columns(8,12);
+      margin-right:auto ;
     }
     .buyers-avatar-container {
       float : right;
@@ -592,7 +593,8 @@ article.grid-item{
             background-color: $white;
             width : 100%;
             height : 40px;
-            padding : 5px;
+            padding : 10px;
+            font-size : 90%;
             &:focus{
               height : 70px;
             }
@@ -635,6 +637,35 @@ article.grid-item{
           }
         }
       }
+
+      .more-container {
+        text-align: center;
+        span.more-comments {
+          @extend .def-transition;
+          display: inline-block;
+          margin: auto;
+          margin-top: 10px;
+          padding: 5px 10px;
+          border: 1px dashed $grey2;
+          text-align: center;
+          background-color: $grey1;
+          color: $grey3;
+          @include border-radius(3px);
+          cursor: pointer;
+
+          i:before {
+            font-size: 120%;
+            vertical-align: middle;
+
+          }
+          &:hover {
+            transform: scale(1.1);
+            background-color: $gol;
+            color: $grey1;
+          }
+
+        }
+      }
     } //comments-container
   }//primary
 
@@ -643,6 +674,185 @@ article.grid-item{
     @include span-columns(12,12);
     @include at-breakpoint($medium){
       @include span-columns(4 omeag,12);
+      margin-left : auto;
+    }
+    .price-container{
+      .your-pay{
+        font-weight : 100;
+        width : 100%;
+        border : 1px dashed darken($grey2,15%);
+        text-align : center;
+        padding : 10px;
+        span.your-pay-title{
+            display : inline-block;
+          width : 100%;
+        }
+        span.your-pay-price{
+          display : inline-block;
+          width : 100%;
+          strong{
+            vertical-align: middle;
+            color : $green;
+            font-size : 150%;
+            padding-left : 5px;
+          }
+        }
+      }
+
+    }//your-pay
+    .discount-desc{
+      span{
+        display : inline-block;
+        width : 100%;
+        text-align: center;
+        font-size : 90%;
+        padding:5px;
+        color : $grey3;
+      }
+      .real-price{
+        width: 50%;
+        float : right;
+        border : 1px dashed darken($grey2,15%);
+        span.real-price-qty{
+          text-decoration: line-through;
+          text-decoration-color: $gol;
+          text-decoration-style:double ;
+          border-bottom : 1px dashed $grey2;
+        }
+        span.real-price-title{
+          opacity: 0.9;
+        }
+      }//real-price
+      .discount-price{
+        width : 50%;
+        float : left;
+        border : 1px dashed darken($grey2,15%);
+        .discount-price-qty{
+          border-bottom : 1px dashed $grey2;
+        }
+        .discount-price-title{
+          opacity: 0.9;
+        }
+      }
+    }//discount-price
+    .order-form-container{
+      form.order-form{
+
+        .add-to-cat,.order-this-offer{
+          @extend  .def-transition;
+          width : 45%;
+          margin : 10px 2%;
+          padding : 5px 10px;
+          background-color: $blue;
+          border : 1px dashed $grey1;
+          @include border-radius(2px);
+          color : $white;
+          opacity: 0.9;
+          box-shadow: none;
+          outline: none;
+          &:hover{
+            opacity: 1;
+            transform : scale(0.95);
+          }
+        }
+        .order-this-offer{
+          background-color: $gol;
+          border : 1px dashed $grey1;
+
+        }
+        .col-right{
+          width : 50%;
+          float : right;
+          text-align: center;
+          span{
+            display : inline-block;
+            width : 100%;
+            padding : 3px 5px;
+            font-size : 90%;
+            text-align: center;
+            &.remaining-items {
+            }
+            &.remainig-qty{
+              border : 1px dashed $gol;
+              width : auto;
+              padding : 3px 8px;
+              color : $gol;
+              font-size :110%;
+              font-weight: 500;
+            }
+
+          }
+        }
+        .col-left{
+          text-align: center;
+          width : 50%;
+          float : left;
+          span,input{
+            display : inline-block;
+            width : 100%;
+            padding : 3px 5px;
+            font-size : 90%;
+            text-align: center;
+
+          }
+
+          input{
+            width : 50%;
+            margin : auto;
+          }
+        }
+      }
+    }//order-form-container
+    .offer-details{
+      margin-top : 20px;
+      width: 100%;
+      display :block;
+      clear : both;
+      .featurs{
+
+      }
+      .hidden-content{
+        width: 100%;
+        display :block;
+        clear : both;
+        border-bottom : 1px solid $grey2;
+        @extend .def-transition;
+        h4.info-title{
+          cursor: pointer;
+          padding : 5px 10px;
+          margin : 0px;
+          width : 100%;
+
+          i {
+            float: left;
+            &:before {
+              @extend .def-transition;
+              vertical-align: center;
+              font-size : 120%;
+              margin-left : 10px;
+              color : $gol;
+              padding : 5px 8px;
+              @include border-radius(20px);
+              border : 1px dashed $gol;
+              &:hover{
+                color : $white;
+                background-color: $gol;
+              }
+            }
+          }
+          &:hover{
+          }
+        }
+        ul.info-desc{
+          margin : 0px;
+          padding : 10px;
+          border-top : 1px solid $grey2;
+          display : none;
+          li{
+            list-style: disc;
+          }
+        }
+      }
     }
   } //secondary
 }//single-offer-content

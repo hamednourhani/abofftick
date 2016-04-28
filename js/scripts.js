@@ -7,7 +7,10 @@ jQuery(document).ready(function($){
 		$('nav.main-menu form#searchform').trigger('submit');
 	});
 
-	
+	// $('div#menubar').scrollToFixed({
+	// 	minWidth : '700',
+	// });
+
 	$('span#menu-toggler').click(function(){
 		console.log("clicked");
 		var mobile_nav = $('nav.mobile-nav');
@@ -23,6 +26,11 @@ jQuery(document).ready(function($){
 		var loggedin_settings_list = $('#loggedin-settings-list');
 		//loggedin_settings_list.toggleClass('active');
 		loggedin_settings_list.fadeToggle();
+	});
+	$('.hidden-content h4.info-title').click(function(){
+		var hidden_content = $(this).parent().children('ul.info-desc');
+		console.log(hidden_content);
+		hidden_content.slideToggle();
 	});
 	//$(function(){
 	//	$("span.item-address").each(function(i){
