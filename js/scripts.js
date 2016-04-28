@@ -24,20 +24,20 @@ jQuery(document).ready(function($){
 		//loggedin_settings_list.toggleClass('active');
 		loggedin_settings_list.fadeToggle();
 	});
-	$(function(){
-		$("span.item-address").each(function(i){
-			var item_address = $(this);
-			len=item_address.text().length;
-			//<span class="full-address"><i class="fa fa-map-marker">
-			if(len>50)
-			{
-				var full_address = '<span class="full-address"><i class="fa fa-map-marker"></i>' + item_address.text() + '</span>';
-				item_address.text(item_address.text().substr(0,47));
-				item_address.prepend('<i class="fa fa-map-marker"></i>');
-				item_address.append(full_address);
-			}
-		});
-	});
+	//$(function(){
+	//	$("span.item-address").each(function(i){
+	//		var item_address = $(this);
+	//		len=item_address.text().length;
+	//		//<span class="full-address"><i class="fa fa-map-marker">
+	//		if(len>50)
+	//		{
+	//			var full_address = '<span class="full-address"><i class="fa fa-map-marker"></i>' + item_address.text() + '</span>';
+	//			item_address.text(item_address.text().substr(0,47));
+	//			item_address.prepend('<i class="fa fa-map-marker"></i>');
+	//			item_address.append(full_address);
+	//		}
+	//	});
+	//});
 
 	$('.owl-carousel').owlCarousel({
 		margin:10,
@@ -59,6 +59,25 @@ jQuery(document).ready(function($){
 				touchDrag:false,
 
 			},
+
+		}
+	});
+
+	$( '#offer-slider' ).sliderPro({
+		width : '100%',
+		height : '400',
+		arrows: true,
+		buttons: false,
+		waitForLayers: true,
+		fade: true,
+		autoplay: true,
+		autoScaleLayers: true,
+		loop : true,
+		fullScreen : true,
+		breakpoints: {
+			600: {
+				height : '240'
+			}
 
 		}
 	});

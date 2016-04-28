@@ -133,7 +133,9 @@
       }
     }
     .login-button{
+      font-family: $web_yekan;
       &::before{
+        font-family: "FontAwesome";
         content : "\f090";
         padding-left : 5px;
         vertical-align: middle;
@@ -142,7 +144,9 @@
       }
     }
     .register-button{
+      font-family: $web_yekan;
       &::before{
+        font-family: "FontAwesome";
         content : "\f040";
         padding-left : 5px;
         vertical-align: middle;
@@ -426,86 +430,92 @@ nav.mobile-nav {
             opacity: 0.9;
             top: 50px;
           }
-
+          &.active{
+            background-color: $white;
+            //span.icon-title {
+            //  opacity: 0.9;
+            //  top: 50px;
+            //}
+          }
 
 
           &.allofftiks {
             background-position: 40px 81px;
-            &:hover {
+            &:hover,&.active {
               background-position: 40px 41px;
             }
           }
           &.feature {
             background-position: 139px 80px;
-            &:hover {
+            &:hover,&.active {
               background-position: 139px 40px;
             }
           }
           &.building {
             background-position: 88px 80px;
-            &:hover {
+            &:hover,&.active {
               background-position: 88px 40px;
             }
           }
           &.car {
             background-position: 189px 80px;
-            &:hover {
+            &:hover,&.active {
               background-position: 189px 40px;
             }
           }
 
           &.resturant {
             background-position: 337px 81px;
-            &:hover {
+            &:hover,&.active {
               background-position: 337px 41px;
             }
           }
 
           &.travel {
             background-position: 238px 81px;
-            &:hover {
+            &:hover,&.active {
               background-position: 238px 41px;
             }
           }
 
           &.theater {
             background-position: 1029px 80px;
-            &:hover {
+            &:hover,&.active {
               background-position: 1029px 40px;
             }
           }
 
           &.sport {
             background-position: 1176px 80px;
-            &:hover {
+            &:hover,&.active {
               background-position: 1176px 40px;
             }
           }
 
           &.health {
             background-position: 537px 81px;
-            &:hover {
+            &:hover,&.active {
               background-position: 537px 41px;
             }
           }
 
           &.sale {
             background-position: 288px 81px;
-            &:hover {
+            &:hover,&.active {
               background-position: 288px 41px;
             }
           }
 
           &.education {
             background-position: 1077px 80px;
-            &:hover {
+            &:hover,&.active {
               background-position: 1077px 40px;
             }
           }
 
           &.beauty {
             background-position: 976px 80px;
-            &:hover {
+            &:hover,&.active {
               background-position: 976px 40px;
             }
           }
