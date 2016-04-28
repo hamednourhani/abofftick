@@ -1,10 +1,19 @@
 .site-main{
   .main-wrapper{
 
-  padding-top : 15px;
+    padding-top : 15px;
     padding-bottom : 30px;
     &.single{
-      background-color: $white
+      background-color: $white;
+      border-bottom : 1px solid $gol;
+    }
+    h3.section-title{
+      color :$blue;
+      width : 100%;
+      text-align: center;
+      span{
+        border-bottom : 1px solid $grey2;
+      }
     }
   }
 }
@@ -804,7 +813,7 @@ article.grid-item{
       }
     }//order-form-container
     .offer-details{
-      margin-top : 20px;
+      margin-top : 100px;
       width: 100%;
       display :block;
       clear : both;
@@ -818,20 +827,30 @@ article.grid-item{
         border-bottom : 1px solid $grey2;
         @extend .def-transition;
         h4.info-title{
+          @extend .fa;
+          @extend .def-transition;
+          font-family: $web_yekan;
           cursor: pointer;
-          padding : 5px 10px;
+          padding : 6px 10px 7px;
           margin : 0px;
           width : 100%;
-
+          font-size : 90%;
+          &:before{
+            font-family: "FontAwesome";
+            content : "\f005";
+            color : $gol;
+            vertical-align: middle;
+            margin-left: 8px;
+          }
           i {
             float: left;
             &:before {
               @extend .def-transition;
-              vertical-align: center;
+              vertical-align: middle;
               font-size : 120%;
-              margin-left : 10px;
+              margin-left : 0px;
               color : $gol;
-              padding : 5px 8px;
+              padding : 2px 6px;
               @include border-radius(20px);
               border : 1px dashed $gol;
               &:hover{
@@ -841,15 +860,30 @@ article.grid-item{
             }
           }
           &:hover{
+            background-color: $grey1;
           }
         }
         ul.info-desc{
           margin : 0px;
           padding : 10px;
-          border-top : 1px solid $grey2;
+          border-top : 1px dashed $grey1;
           display : none;
           li{
-            list-style: disc;
+            padding : 1px;
+            font-size : 90%;
+            list-style-type: disc;
+            color : lighten($grey3,10%);
+            margin-right: 10px;
+          }
+        }
+        &.usage{
+          h4:before{
+            content : "\f0d0";
+          }
+        }
+        &.seller-info{
+          h4:before{
+            content : "\f041";
           }
         }
       }
