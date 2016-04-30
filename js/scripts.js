@@ -27,10 +27,10 @@ jQuery(document).ready(function($){
 		//loggedin_settings_list.toggleClass('active');
 		loggedin_settings_list.fadeToggle();
 	});
-	$('.hidden-content h4.info-title').click(function(){
+	$('.hidden-content span.slidetoggler').click(function(){
 		var hidden_content = $(this).parent().children('ul.info-desc');
 		console.log(hidden_content);
-		hidden_content.slideToggle();
+		hidden_content.toggleClass('slidedown');
 	});
 	//$(function(){
 	//	$("span.item-address").each(function(i){

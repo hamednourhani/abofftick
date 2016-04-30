@@ -428,14 +428,15 @@ nav.mobile-nav {
           }
           &:hover > span.icon-title {
             opacity: 0.9;
-            top: 50px;
+            top: 47px;
           }
           &.active{
             background-color: $white;
-            //span.icon-title {
-            //  opacity: 0.9;
-            //  top: 50px;
-            //}
+            span.icon-title {
+              opacity: 0.9;
+              top: 47px;
+              z-index : 9998;
+            }
           }
 
 
@@ -521,7 +522,16 @@ nav.mobile-nav {
           }
           span.icon-title {
            @extend .bottom-tooltip;
-
+            font-size : 90%;
+            width : 140px;
+            padding : 3px 5px;
+            top : 60px;
+            left : 38%;
+            background-color: $grey1;
+            border-color: $grey2;
+            &::before, &::after{
+              top : -12px;
+            }
           }
 
         }

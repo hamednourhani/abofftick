@@ -355,7 +355,7 @@ article.grid-item{
     .timer-container{
       float : left;
       text-align: center;
-      margin-top : 5px;
+      margin-top : 20px;
       padding : 5px;
       border : 1px dashed darken($grey2,20%);
       font-weight: 600;
@@ -408,7 +408,7 @@ article.grid-item{
     }
     .social-container{
      float : left ;
-      margin-top : 11px;
+      margin-top : 26px;
       ul.social-list{
         padding : 0px 10px 0px 15px;
         margin : 0px;
@@ -596,10 +596,10 @@ article.grid-item{
           textarea.comment-message{
             @extend .def-transition;
             outline: none;
+            background-color: $white2;
             border : 1px dashed darken($grey2,20%);
             @include border-radius(5px);
             color : $grey3;
-            background-color: $white;
             width : 100%;
             height : 40px;
             padding : 10px;
@@ -687,9 +687,12 @@ article.grid-item{
     }
     .price-container{
       .your-pay{
+
         font-weight : 100;
         width : 100%;
-        border : 1px dashed darken($grey2,15%);
+        border : 1px dashed $green;
+        background-color: $greenlight;
+        @include border-top-radius(4px);
         text-align : center;
         padding : 10px;
         span.your-pay-title{
@@ -721,7 +724,10 @@ article.grid-item{
       .real-price{
         width: 50%;
         float : right;
-        border : 1px dashed darken($grey2,15%);
+        border : 1px dashed $green;
+        background-color: $greenlight;
+        text-align : center;
+        @include border-bottom-right-radius(4px);
         span.real-price-qty{
           text-decoration: line-through;
           text-decoration-color: $gol;
@@ -735,7 +741,10 @@ article.grid-item{
       .discount-price{
         width : 50%;
         float : left;
-        border : 1px dashed darken($grey2,15%);
+        border : 1px dashed $green;
+        background-color: $greenlight;
+        @include border-bottom-left-radius(4px);
+        text-align : center;
         .discount-price-qty{
           border-bottom : 1px dashed $grey2;
         }
@@ -817,15 +826,35 @@ article.grid-item{
       width: 100%;
       display :block;
       clear : both;
-      .featurs{
 
-      }
       .hidden-content{
+        @extend .def-transition;
+        margin-top : 10px;
         width: 100%;
+        @include border-radius(4px);
         display :block;
         clear : both;
-        border-bottom : 1px solid $grey2;
-        @extend .def-transition;
+        span.slidetoggler {
+          display: inline-block;
+          width : 100%;
+          clear: both;
+          text-align: center;
+          opacity: 0.85;
+          cursor: pointer;
+          i {
+            &:before {
+              @extend .def-transition;
+              vertical-align: middle;
+              font-size: 140%;
+              color: $gol;
+              padding: 1px 6px;
+
+            }
+          }
+          &:hover{
+            opacity: 1;
+          }
+        }
         h4.info-title{
           @extend .fa;
           @extend .def-transition;
@@ -842,38 +871,25 @@ article.grid-item{
             vertical-align: middle;
             margin-left: 8px;
           }
-          i {
-            float: left;
-            &:before {
-              @extend .def-transition;
-              vertical-align: middle;
-              font-size : 120%;
-              margin-left : 0px;
-              color : $gol;
-              padding : 2px 6px;
-              @include border-radius(20px);
-              border : 1px dashed $gol;
-              &:hover{
-                color : $white;
-                background-color: $gol;
-              }
-            }
-          }
-          &:hover{
-            background-color: $grey1;
-          }
+
+
         }
-        ul.info-desc{
-          margin : 0px;
-          padding : 10px;
-          border-top : 1px dashed $grey1;
-          display : none;
-          li{
-            padding : 1px;
-            font-size : 90%;
-            list-style-type: disc;
-            color : lighten($grey3,10%);
+        .info-desc {
+          @extend .def-transition;
+          max-height: 95px;
+          margin: 0px;
+          padding: 10px;
+          overflow: hidden;
+          padding-bottom: 0px;
+          li {
+            padding: 1px;
+            font-size: 90%;
+            //color : lighten($grey3,10%);
             margin-right: 10px;
+            line-height: 1.8;
+          }
+          &.slidedown{
+            max-height: 1000px;
           }
         }
         &.usage{
@@ -884,6 +900,59 @@ article.grid-item{
         &.seller-info{
           h4:before{
             content : "\f041";
+          }
+        }
+      }
+      .features{
+        background-color: $redlight;
+        border : 1px dashed $gol;
+        h4.info-title{
+          &:before{
+            color : $gol;
+          }
+        }
+       .info-desc{
+          border-top : 1px dashed $gol;
+        }
+      }
+      .usage{
+        background-color: $bluelight;
+        border : 1px dashed $blue;
+        h4.info-title{
+          &:before{
+            color : $blue;
+          }
+        }
+        .info-desc{
+          border-top : 1px dashed $blue;
+        }
+        span.slidetoggler {
+
+          i {
+            &:before {
+              color: $blue;
+              border-color : $blue;
+            }
+          }
+        }
+      }
+      .seller-info{
+        background-color: $orangelight;
+        border : 1px dashed $orange;
+        h4.info-title{
+          &:before{
+            color : $orange;
+          }
+        }
+        .info-desc{
+          border-top : 1px dashed $orange;
+        }
+        span.slidetoggler {
+          i {
+            &:before {
+              color:$orange;
+              border-color : $orange;
+            }
           }
         }
       }
