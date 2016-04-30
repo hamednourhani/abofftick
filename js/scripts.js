@@ -104,8 +104,9 @@ jQuery(document).ready(function($){
 
 		if(window_width < 700){
 
-			secondary_mobile_place.append(secondary);
+			secondary_mobile_place.append(secondary).show();
 		} else {
+			secondary_mobile_place.hide();
 			single_offer_section.append(secondary);
 		}
 	};

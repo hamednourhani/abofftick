@@ -577,8 +577,13 @@ article.grid-item{
       }
     }//offer-likes-container
 
+    .secondary-mobile-place{
+      overflow: hidden;
+      margin-bottom : 20px;
+      display : none;
+      width: 100%;
+    }
     .comments-container{
-      margin-top: 10px;
       .comment-form-container{
         form.comment-form{
           position: relative;

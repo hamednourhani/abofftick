@@ -2129,104 +2129,107 @@ article.grid-item {
             font-size: 120%;
             margin-left: 5px; }
     /* line 580, sass/layout/_main.scss */
-    .single-offer-content .primary .comments-container {
-      margin-top: 10px; }
-      /* line 583, sass/layout/_main.scss */
-      .single-offer-content .primary .comments-container .comment-form-container form.comment-form {
-        position: relative;
-        padding-right: 40px;
-        font-family: "Weblogma_Yekan";
-        width: 100%; }
-        /* line 589, sass/layout/_main.scss */
-        .single-offer-content .primary .comments-container .comment-form-container form.comment-form::before {
-          font-family: "FontAwesome";
-          content: "\f27a";
-          position: absolute;
-          top: 0px;
-          right: 0px;
-          font-size: 180%;
-          color: #FF585B; }
-        /* line 598, sass/layout/_main.scss */
-        .single-offer-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message {
-          outline: none;
-          background-color: #F8F8F8;
-          border: 1px dashed #b2b5b5;
-          -moz-border-radius: 5px;
-          -webkit-border-radius: 5px;
-          border-radius: 5px;
-          color: #4E4E4E;
-          width: 100%;
-          height: 40px;
-          padding: 10px;
-          font-size: 90%; }
-          /* line 609, sass/layout/_main.scss */
-          .single-offer-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message:focus {
-            height: 70px; }
-        /* line 613, sass/layout/_main.scss */
-        .single-offer-content .primary .comments-container .comment-form-container form.comment-form input[type="submit"] {
-          display: none; }
+    .single-offer-content .primary .secondary-mobile-place {
+      overflow: hidden;
+      margin-bottom: 20px;
+      display: none;
+      width: 100%; }
+    /* line 588, sass/layout/_main.scss */
+    .single-offer-content .primary .comments-container .comment-form-container form.comment-form {
+      position: relative;
+      padding-right: 40px;
+      font-family: "Weblogma_Yekan";
+      width: 100%; }
+      /* line 594, sass/layout/_main.scss */
+      .single-offer-content .primary .comments-container .comment-form-container form.comment-form::before {
+        font-family: "FontAwesome";
+        content: "\f27a";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        font-size: 180%;
+        color: #FF585B; }
+      /* line 603, sass/layout/_main.scss */
+      .single-offer-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message {
+        outline: none;
+        background-color: #F8F8F8;
+        border: 1px dashed #b2b5b5;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        color: #4E4E4E;
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        font-size: 90%; }
+        /* line 614, sass/layout/_main.scss */
+        .single-offer-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message:focus {
+          height: 70px; }
       /* line 618, sass/layout/_main.scss */
-      .single-offer-content .primary .comments-container ul.comments-list {
-        padding: 0px;
-        margin: 0px;
-        margin-top: 10px; }
-        /* line 622, sass/layout/_main.scss */
-        .single-offer-content .primary .comments-container ul.comments-list li {
-          padding: 10px;
-          overflow: hidden; }
-          /* line 625, sass/layout/_main.scss */
-          .single-offer-content .primary .comments-container ul.comments-list li img {
-            max-width: 100%;
-            float: right;
-            max-width: 52px;
-            border: 3px solid #F2F2F2;
-            -moz-border-radius: 30px;
-            -webkit-border-radius: 30px;
-            border-radius: 30px;
-            margin-left: 10px; }
-          /* line 633, sass/layout/_main.scss */
-          .single-offer-content .primary .comments-container ul.comments-list li .single-comment-content {
-            float: right;
-            overflow: hidden;
-            border-bottom: 1px dashed #F2F2F2; }
-            /* line 637, sass/layout/_main.scss */
-            .single-offer-content .primary .comments-container ul.comments-list li .single-comment-content h4.commentor-name {
-              color: #125688;
-              font-weight: 600;
-              clear: left;
-              margin: 0px;
-              padding: 0px; }
-            /* line 644, sass/layout/_main.scss */
-            .single-offer-content .primary .comments-container ul.comments-list li .single-comment-content .comment-content {
-              font-size: 80%;
-              color: #a5a9a9; }
-      /* line 652, sass/layout/_main.scss */
-      .single-offer-content .primary .comments-container .more-container {
-        text-align: center; }
-        /* line 654, sass/layout/_main.scss */
-        .single-offer-content .primary .comments-container .more-container span.more-comments {
-          display: inline-block;
-          margin: auto;
-          margin-top: 10px;
-          padding: 5px 10px;
-          border: 1px dashed #E6E7E7;
-          text-align: center;
-          background-color: #F2F2F2;
-          color: #4E4E4E;
-          -moz-border-radius: 3px;
-          -webkit-border-radius: 3px;
-          border-radius: 3px;
-          cursor: pointer; }
-          /* line 667, sass/layout/_main.scss */
-          .single-offer-content .primary .comments-container .more-container span.more-comments i:before {
-            font-size: 120%;
-            vertical-align: middle; }
-          /* line 672, sass/layout/_main.scss */
-          .single-offer-content .primary .comments-container .more-container span.more-comments:hover {
-            transform: scale(1.1);
-            background-color: #FF585B;
-            color: #F2F2F2; }
-  /* line 683, sass/layout/_main.scss */
+      .single-offer-content .primary .comments-container .comment-form-container form.comment-form input[type="submit"] {
+        display: none; }
+    /* line 623, sass/layout/_main.scss */
+    .single-offer-content .primary .comments-container ul.comments-list {
+      padding: 0px;
+      margin: 0px;
+      margin-top: 10px; }
+      /* line 627, sass/layout/_main.scss */
+      .single-offer-content .primary .comments-container ul.comments-list li {
+        padding: 10px;
+        overflow: hidden; }
+        /* line 630, sass/layout/_main.scss */
+        .single-offer-content .primary .comments-container ul.comments-list li img {
+          max-width: 100%;
+          float: right;
+          max-width: 52px;
+          border: 3px solid #F2F2F2;
+          -moz-border-radius: 30px;
+          -webkit-border-radius: 30px;
+          border-radius: 30px;
+          margin-left: 10px; }
+        /* line 638, sass/layout/_main.scss */
+        .single-offer-content .primary .comments-container ul.comments-list li .single-comment-content {
+          float: right;
+          overflow: hidden;
+          border-bottom: 1px dashed #F2F2F2; }
+          /* line 642, sass/layout/_main.scss */
+          .single-offer-content .primary .comments-container ul.comments-list li .single-comment-content h4.commentor-name {
+            color: #125688;
+            font-weight: 600;
+            clear: left;
+            margin: 0px;
+            padding: 0px; }
+          /* line 649, sass/layout/_main.scss */
+          .single-offer-content .primary .comments-container ul.comments-list li .single-comment-content .comment-content {
+            font-size: 80%;
+            color: #a5a9a9; }
+    /* line 657, sass/layout/_main.scss */
+    .single-offer-content .primary .comments-container .more-container {
+      text-align: center; }
+      /* line 659, sass/layout/_main.scss */
+      .single-offer-content .primary .comments-container .more-container span.more-comments {
+        display: inline-block;
+        margin: auto;
+        margin-top: 10px;
+        padding: 5px 10px;
+        border: 1px dashed #E6E7E7;
+        text-align: center;
+        background-color: #F2F2F2;
+        color: #4E4E4E;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        cursor: pointer; }
+        /* line 672, sass/layout/_main.scss */
+        .single-offer-content .primary .comments-container .more-container span.more-comments i:before {
+          font-size: 120%;
+          vertical-align: middle; }
+        /* line 677, sass/layout/_main.scss */
+        .single-offer-content .primary .comments-container .more-container span.more-comments:hover {
+          transform: scale(1.1);
+          background-color: #FF585B;
+          color: #F2F2F2; }
+  /* line 688, sass/layout/_main.scss */
   .single-offer-content .secondary {
     margin-top: 20px;
     width: 100%;
@@ -2234,13 +2237,13 @@ article.grid-item {
     margin-left: 1.53846%;
     display: inline; }
     @media (min-width: 45em) {
-      /* line 683, sass/layout/_main.scss */
+      /* line 688, sass/layout/_main.scss */
       .single-offer-content .secondary {
         width: 32.30769%;
         float: right;
         margin-left: 1.53846%;
         margin-left: auto; } }
-    /* line 691, sass/layout/_main.scss */
+    /* line 696, sass/layout/_main.scss */
     .single-offer-content .secondary .price-container .your-pay {
       font-weight: 100;
       width: 100%;
@@ -2254,21 +2257,21 @@ article.grid-item {
       border-top-right-radius: 4px;
       text-align: center;
       padding: 10px; }
-      /* line 700, sass/layout/_main.scss */
+      /* line 705, sass/layout/_main.scss */
       .single-offer-content .secondary .price-container .your-pay span.your-pay-title {
         display: inline-block;
         width: 100%; }
-      /* line 704, sass/layout/_main.scss */
+      /* line 709, sass/layout/_main.scss */
       .single-offer-content .secondary .price-container .your-pay span.your-pay-price {
         display: inline-block;
         width: 100%; }
-        /* line 707, sass/layout/_main.scss */
+        /* line 712, sass/layout/_main.scss */
         .single-offer-content .secondary .price-container .your-pay span.your-pay-price strong {
           vertical-align: middle;
           color: #3BBB5A;
           font-size: 150%;
           padding-left: 5px; }
-    /* line 718, sass/layout/_main.scss */
+    /* line 723, sass/layout/_main.scss */
     .single-offer-content .secondary .discount-desc span {
       display: inline-block;
       width: 100%;
@@ -2276,7 +2279,7 @@ article.grid-item {
       font-size: 90%;
       padding: 5px;
       color: #4E4E4E; }
-    /* line 726, sass/layout/_main.scss */
+    /* line 731, sass/layout/_main.scss */
     .single-offer-content .secondary .discount-desc .real-price {
       width: 50%;
       float: right;
@@ -2286,16 +2289,16 @@ article.grid-item {
       -moz-border-radius-bottomright: 4px;
       -webkit-border-bottom-right-radius: 4px;
       border-bottom-right-radius: 4px; }
-      /* line 733, sass/layout/_main.scss */
+      /* line 738, sass/layout/_main.scss */
       .single-offer-content .secondary .discount-desc .real-price span.real-price-qty {
         text-decoration: line-through;
         text-decoration-color: #FF585B;
         text-decoration-style: double;
         border-bottom: 1px dashed #E6E7E7; }
-      /* line 739, sass/layout/_main.scss */
+      /* line 744, sass/layout/_main.scss */
       .single-offer-content .secondary .discount-desc .real-price span.real-price-title {
         opacity: 0.9; }
-    /* line 743, sass/layout/_main.scss */
+    /* line 748, sass/layout/_main.scss */
     .single-offer-content .secondary .discount-desc .discount-price {
       width: 50%;
       float: left;
@@ -2305,13 +2308,13 @@ article.grid-item {
       -webkit-border-bottom-left-radius: 4px;
       border-bottom-left-radius: 4px;
       text-align: center; }
-      /* line 750, sass/layout/_main.scss */
+      /* line 755, sass/layout/_main.scss */
       .single-offer-content .secondary .discount-desc .discount-price .discount-price-qty {
         border-bottom: 1px dashed #E6E7E7; }
-      /* line 753, sass/layout/_main.scss */
+      /* line 758, sass/layout/_main.scss */
       .single-offer-content .secondary .discount-desc .discount-price .discount-price-title {
         opacity: 0.9; }
-    /* line 761, sass/layout/_main.scss */
+    /* line 766, sass/layout/_main.scss */
     .single-offer-content .secondary .order-form-container form.order-form .add-to-cat, .single-offer-content .secondary .order-form-container form.order-form .order-this-offer {
       width: 45%;
       margin: 10px 2%;
@@ -2325,27 +2328,27 @@ article.grid-item {
       opacity: 0.9;
       box-shadow: none;
       outline: none; }
-      /* line 773, sass/layout/_main.scss */
+      /* line 778, sass/layout/_main.scss */
       .single-offer-content .secondary .order-form-container form.order-form .add-to-cat:hover, .single-offer-content .secondary .order-form-container form.order-form .order-this-offer:hover {
         opacity: 1;
         transform: scale(0.95); }
-    /* line 778, sass/layout/_main.scss */
+    /* line 783, sass/layout/_main.scss */
     .single-offer-content .secondary .order-form-container form.order-form .order-this-offer {
       background-color: #FF585B;
       border: 1px dashed #F2F2F2; }
-    /* line 783, sass/layout/_main.scss */
+    /* line 788, sass/layout/_main.scss */
     .single-offer-content .secondary .order-form-container form.order-form .col-right {
       width: 50%;
       float: right;
       text-align: center; }
-      /* line 787, sass/layout/_main.scss */
+      /* line 792, sass/layout/_main.scss */
       .single-offer-content .secondary .order-form-container form.order-form .col-right span {
         display: inline-block;
         width: 100%;
         padding: 3px 5px;
         font-size: 90%;
         text-align: center; }
-        /* line 795, sass/layout/_main.scss */
+        /* line 800, sass/layout/_main.scss */
         .single-offer-content .secondary .order-form-container form.order-form .col-right span.remainig-qty {
           border: 1px dashed #FF585B;
           width: auto;
@@ -2353,29 +2356,29 @@ article.grid-item {
           color: #FF585B;
           font-size: 110%;
           font-weight: 500; }
-    /* line 806, sass/layout/_main.scss */
+    /* line 811, sass/layout/_main.scss */
     .single-offer-content .secondary .order-form-container form.order-form .col-left {
       text-align: center;
       width: 50%;
       float: left; }
-      /* line 810, sass/layout/_main.scss */
+      /* line 815, sass/layout/_main.scss */
       .single-offer-content .secondary .order-form-container form.order-form .col-left span, .single-offer-content .secondary .order-form-container form.order-form .col-left input {
         display: inline-block;
         width: 100%;
         padding: 3px 5px;
         font-size: 90%;
         text-align: center; }
-      /* line 819, sass/layout/_main.scss */
+      /* line 824, sass/layout/_main.scss */
       .single-offer-content .secondary .order-form-container form.order-form .col-left input {
         width: 50%;
         margin: auto; }
-    /* line 826, sass/layout/_main.scss */
+    /* line 831, sass/layout/_main.scss */
     .single-offer-content .secondary .offer-details {
       margin-top: 100px;
       width: 100%;
       display: block;
       clear: both; }
-      /* line 832, sass/layout/_main.scss */
+      /* line 837, sass/layout/_main.scss */
       .single-offer-content .secondary .offer-details .hidden-content {
         margin-top: 10px;
         width: 100%;
@@ -2384,7 +2387,7 @@ article.grid-item {
         border-radius: 4px;
         display: block;
         clear: both; }
-        /* line 839, sass/layout/_main.scss */
+        /* line 844, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .hidden-content span.slidetoggler {
           display: inline-block;
           width: 100%;
@@ -2392,16 +2395,16 @@ article.grid-item {
           text-align: center;
           opacity: 0.85;
           cursor: pointer; }
-          /* line 847, sass/layout/_main.scss */
+          /* line 852, sass/layout/_main.scss */
           .single-offer-content .secondary .offer-details .hidden-content span.slidetoggler i:before {
             vertical-align: middle;
             font-size: 140%;
             color: #FF585B;
             padding: 1px 6px; }
-          /* line 856, sass/layout/_main.scss */
+          /* line 861, sass/layout/_main.scss */
           .single-offer-content .secondary .offer-details .hidden-content span.slidetoggler:hover {
             opacity: 1; }
-        /* line 860, sass/layout/_main.scss */
+        /* line 865, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .hidden-content h4.info-title {
           font-family: "Weblogma_Yekan";
           cursor: pointer;
@@ -2409,70 +2412,70 @@ article.grid-item {
           margin: 0px;
           width: 100%;
           font-size: 90%; }
-          /* line 869, sass/layout/_main.scss */
+          /* line 874, sass/layout/_main.scss */
           .single-offer-content .secondary .offer-details .hidden-content h4.info-title:before {
             font-family: "FontAwesome";
             content: "\f005";
             color: #FF585B;
             vertical-align: middle;
             margin-left: 8px; }
-        /* line 879, sass/layout/_main.scss */
+        /* line 884, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .hidden-content .info-desc {
           max-height: 95px;
           margin: 0px;
           padding: 10px;
           overflow: hidden;
           padding-bottom: 0px; }
-          /* line 886, sass/layout/_main.scss */
+          /* line 891, sass/layout/_main.scss */
           .single-offer-content .secondary .offer-details .hidden-content .info-desc li {
             padding: 1px;
             font-size: 90%;
             margin-right: 10px;
             line-height: 1.8; }
-          /* line 893, sass/layout/_main.scss */
+          /* line 898, sass/layout/_main.scss */
           .single-offer-content .secondary .offer-details .hidden-content .info-desc.slidedown {
             max-height: 1000px; }
-        /* line 898, sass/layout/_main.scss */
+        /* line 903, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .hidden-content.usage h4:before {
           content: "\f0d0"; }
-        /* line 903, sass/layout/_main.scss */
+        /* line 908, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .hidden-content.seller-info h4:before {
           content: "\f041"; }
-      /* line 908, sass/layout/_main.scss */
+      /* line 913, sass/layout/_main.scss */
       .single-offer-content .secondary .offer-details .features {
         background-color: #FFCCCC;
         border: 1px dashed #FF585B; }
-        /* line 912, sass/layout/_main.scss */
+        /* line 917, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .features h4.info-title:before {
           color: #FF585B; }
-        /* line 916, sass/layout/_main.scss */
+        /* line 921, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .features .info-desc {
           border-top: 1px dashed #FF585B; }
-      /* line 920, sass/layout/_main.scss */
+      /* line 925, sass/layout/_main.scss */
       .single-offer-content .secondary .offer-details .usage {
         background-color: #CCFFFF;
         border: 1px dashed #125688; }
-        /* line 924, sass/layout/_main.scss */
+        /* line 929, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .usage h4.info-title:before {
           color: #125688; }
-        /* line 928, sass/layout/_main.scss */
+        /* line 933, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .usage .info-desc {
           border-top: 1px dashed #125688; }
-        /* line 934, sass/layout/_main.scss */
+        /* line 939, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .usage span.slidetoggler i:before {
           color: #125688;
           border-color: #125688; }
-      /* line 941, sass/layout/_main.scss */
+      /* line 946, sass/layout/_main.scss */
       .single-offer-content .secondary .offer-details .seller-info {
         background-color: #FEE5CC;
         border: 1px dashed #e47a26; }
-        /* line 945, sass/layout/_main.scss */
+        /* line 950, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .seller-info h4.info-title:before {
           color: #e47a26; }
-        /* line 949, sass/layout/_main.scss */
+        /* line 954, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .seller-info .info-desc {
           border-top: 1px dashed #e47a26; }
-        /* line 954, sass/layout/_main.scss */
+        /* line 959, sass/layout/_main.scss */
         .single-offer-content .secondary .offer-details .seller-info span.slidetoggler i:before {
           color: #e47a26;
           border-color: #e47a26; }
