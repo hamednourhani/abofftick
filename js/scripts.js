@@ -95,9 +95,9 @@ jQuery(document).ready(function($){
 
 	var changeLayout = function(){
 		var window_width = $(window).innerWidth();
-		var secondary = $('.secondary');
+		var secondary = $('#singleOfferSecondary');
 		//var comments_container = $('.comments-container');
-		var primary = $('.primary');
+		var primary = $('#singleOfferPrimary');
 		var secondary_mobile_place = primary.children('.secondary-mobile-place');
 		var single_offer_content = $('.single-offer-content');
 		var single_offer_section = single_offer_content.children('section.layout');

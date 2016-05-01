@@ -7,12 +7,42 @@
       background-color: $white;
       border-bottom : 1px solid $gol;
     }
+    &.archive{
+      background-color: $white;
+    }
     h3.section-title{
       color :$blue;
       width : 100%;
       text-align: center;
       span{
         border-bottom : 1px solid $grey2;
+      }
+    }
+  }
+  & > .more-container{
+    background-color: $white;
+    padding : 2px 20px 20px;
+    width : 100%;
+    overflow: hidden;
+    text-align: center;
+    span.more-contents{
+      @extend .def-transition;
+      display: inline-block;
+      padding : 4px 10px 7px;
+      background-color: $blue;
+      border : 1px dashed $white;
+      cursor: pointer;
+      color : $white;
+      opacity: 0.9;
+      i:before{
+        vertical-align: middle;
+        margin-right : 5px;
+        font-size : 130%;
+      }
+      &:hover{
+        transform: scale(1.1);
+        opacity: 1;
+        background-color: $gol;
       }
     }
   }
@@ -500,6 +530,8 @@ article.grid-item{
       ul.buyers-list {
         padding : 0px;
         margin : 0px;
+        max-height: 100%;
+        overflow: hidden;
         li {
           a {
             @extend .def-transition;
@@ -973,7 +1005,10 @@ article.grid-item{
 }//single-offer-content
 
 .single-image-content {
-  width:100%;
+  width : 100%;
+
+
+
 
   .offer-header {
     width:100%;
@@ -1316,6 +1351,8 @@ article.grid-item{
       ul.likers-list {
         padding : 0px;
         margin : 0px;
+        max-height: 100%;
+        overflow: hidden;
         li {
           a {
             @extend .def-transition;
@@ -1342,3 +1379,68 @@ article.grid-item{
     }//likers-avatar-container
   } //secondary
 }//single-image-content
+
+.main-wrapper.archive {
+
+  .single-image-content,
+  .single-offer-content {
+    width: 100%;
+    margin : auto;
+    border-bottom : 1px solid $grey1;
+    @include at-breakpoint($medium) {
+      width: 70%;
+    }
+    .primary,.secondary{
+      width : 100%;
+      margin : auto;
+      float : none;
+      display : inline-block;
+    }
+    .primary{
+      .comments-container{
+        .more-container{
+          span.more-comments{
+            margin-top : 5px;
+            padding : 0px 5px;
+          }
+        }
+      }
+    }
+    .offer-header{
+      margin-bottom : 15px;
+      .time-container{
+        margin-top : 5px;
+      }
+      .timer-container{
+        margin-top : 0px;
+      }
+      .social-container{
+        margin-top: 6px;
+      }
+    }
+  }
+  .single-offer-content{
+    .primary{
+
+    }
+    .secondary{
+      display : none;
+    }
+  }
+  .single-image-content{
+    .offer-header{
+      padding-right : 10px;
+      .social-container{
+        margin-top: 11px;
+      }
+    }
+    .primary{
+      padding-top : 30px;
+
+    }
+    .secondary{
+
+    }
+  }
+
+}//main-wrapper-archive
