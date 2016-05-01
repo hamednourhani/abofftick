@@ -1001,6 +1001,21 @@ article.grid-item{
 
       }
     }
+    .time-container{
+      float : left;
+      text-align: center;
+      margin-top : 20px;
+      padding : 5px;
+      border : 1px dashed darken($grey2,20%);
+      font-weight: 600;
+      font-size: 120%;
+      i:before{
+        color : $gol;
+        font-weight: normal;
+        margin-right : 5px;
+      }
+
+    }
     .user-avatar-container{
       float: right;
       width : 50px;
@@ -1096,71 +1111,9 @@ article.grid-item{
       margin-right:auto ;
     }
 
-    .likers-avatar-container {
-      float : right;
-      width : 50px;
-      max-height : 100%;
-      border-left : 1px dashed $gol;
-      border-top : 1px dashed $gol;
-      margin-left : 10px;
-      position: relative;
-      padding-left : 5px;
-      max-height : 100%;
-      @include border-left-radius(15px);
 
-      span.likers-title {
-
-        text-align: center;
-        display : inline-block;
-        padding-top : 15px;
-        i:before{
-          font-size : 140%;
-          color : $blue;
-          margin-right : 3px;
-        }
-      }
-      span.likers-count {
-        position: absolute;
-        top : -15px;
-        right : 0px;
-        //padding : 5px;
-        width : 30px;
-        height : 30px;
-        text-align: center;
-        color : $grey1;
-        background-color: $gol;
-        @include border-radius(15px);
-      }
-      ul.likers-list {
-        padding : 0px;
-        margin : 0px;
-        li {
-          a {
-            @extend .def-transition;
-            display: inline-block;
-            opacity: 0.9;
-            text-align: center;
-            img {
-              @extend .def-transition;
-              max-width: 100%;
-              margin-bottom : -5px;
-              border : 2px solid $grey2;
-              @include border-radius(30px);
-            }
-            &:hover {
-              opacity: 1;
-              img {
-                transform: scale(0.9);
-              }
-            }
-          }
-        }
-      } //buyers-list
-
-    }
     .comments-container{
-      width : calc(100% - 60px);
-      float: right;
+      width : 100%;
       .comment-form-container{
         form.comment-form{
           position: relative;
@@ -1286,7 +1239,8 @@ article.grid-item{
     }
     .image-container{
       @extend .def-box-shadow;
-      width : 100%;
+      width : calc(100% - 70px);
+      float : right;
       text-align: center;
       position: relative;
       overflow: hidden;
@@ -1323,5 +1277,68 @@ article.grid-item{
 
 
     }//slider-container
+
+    .likers-avatar-container {
+      float : left;
+      width : 50px;
+      max-height : 100%;
+      border-left : 1px dashed $gol;
+      border-top : 1px dashed $gol;
+      margin-right : 20px;
+      position: relative;
+      padding-left : 5px;
+      max-height : 100%;
+      @include border-left-radius(15px);
+
+      span.likers-title {
+
+        text-align: center;
+        display : inline-block;
+        padding-top : 15px;
+        i:before{
+          font-size : 140%;
+          color : $blue;
+          margin-right : 3px;
+        }
+      }
+      span.likers-count {
+        position: absolute;
+        top : -15px;
+        right : 0px;
+        //padding : 5px;
+        width : 30px;
+        height : 30px;
+        text-align: center;
+        color : $grey1;
+        background-color: $gol;
+        @include border-radius(15px);
+      }
+      ul.likers-list {
+        padding : 0px;
+        margin : 0px;
+        li {
+          a {
+            @extend .def-transition;
+            display: inline-block;
+            opacity: 0.9;
+            text-align: center;
+            img {
+              @extend .def-transition;
+              max-width: 100%;
+              margin-bottom : -5px;
+              border : 2px solid $grey2;
+              @include border-radius(30px);
+            }
+            &:hover {
+              opacity: 1;
+              img {
+                transform: scale(0.9);
+              }
+            }
+          }
+        }
+      } //buyers-list
+
+    }//likers-avatar-container
   } //secondary
 }//single-image-content
