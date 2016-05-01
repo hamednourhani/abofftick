@@ -543,36 +543,107 @@ nav.mobile-nav {
 //menu-bar
 
 .profile-menu-bar{
+  z-index: 999999;
   position: relative;
   background-color: $blue;
   color : $white;
   @include box-shadow(0px 0px 5px 0px $grey3);
   padding : 0px;
   margin : 0px;
+
   ul{
     padding : 0px;
     margin : 0px;
   }
   ul.profile-links{
-    li{
+    //float : right;
+    display: inline-block;
+    & > li{
       position: relative;
       display : inline-block;
-      i{
-        @extend .def-text-shadow;
-        font-size : 140%;
+      padding : 10px 5px;
+      border-left : 1px solid darken($blue,5%);
+      i {
+        &:before {
+          @extend .def-transition;
+          font-size: 150%;
+          color: darken($blue, 8%);
+          padding: 5px;
+          display: inline-block;
+          cursor: pointer;
+          vertical-align: middle;
+
+        }
+        &.fa-caret-down{
+          &:before {
+            font-size: 90%;
+            padding : 2px;
+          }
+
+        }
+
+      }
+      &.active,&:hover{
+        i:before{
+          color : $grey1;
+        }
+      }
+      &.users{
+        i.fa-caret-down{
+          position: absolute;
+          bottom : -1px;
+          left : 34%;
+        }
+      }
+      //&:last-child{
+      //  border : 0px;
+      //}
+      &:first-child{
+        border-right : 1px solid darken($blue, 8%);
+      }
+      span.count{
+        background-color: $gol;
+        color : $white;
+        display: inline-block;
+        @include border-radius(8px);
+        font-size : 80%;
+        line-height: 1;
+        padding : 3px 6px;
+        position: absolute;
+        top : 8px;
+        right : 2px;
+        opacity: 0.8;
       }
       ul.dropdown-menu{
-        @extend .def-transition;
         @extend .def-box-shadow;
-        opacity: 0.8;
+        display : none;
         background-color: $blue;
+        color : $white;
+        position: absolute;
+        top : 101%;
+        right : -10px;
+        min-width: 140px;
+        z-index : 99999;
         li{
             display : list-item;
             color : $white;
             width : 100%;
             a{
+              @extend .def-transition;
               width : 100%;
+              padding : 5px 10px;
+              border-bottom : 1px solid darken($blue, 8%);
+              display: inline-block;
+              color : $white;
+              &:hover{
+                background-color: $gol;
+              }
             }
+          &:last-child{
+            a{
+              border : 0px;
+            }
+          }
         }
       }
     }
@@ -580,41 +651,114 @@ nav.mobile-nav {
   //profile-links
 
   nav.company-nav{
+    padding-right : 20px;
+    //float : right;
+    display: inline-block;
     ul.company-menu{
+
       li{
+        @extend .def-transition;
         position: relative;
         display : inline-block;
         a{
+          @extend .def-transition;
+          display: inline-block;
+          width : 100%;
+          padding : 5px 10px;
+          color : $white;
 
         }
-        ul.sub-menu{
-          @extend .def-transition;
+        ul.submenu{
           @extend .def-box-shadow;
-          opacity: 0.8;
+          @extend .def-transition;
+          display : none;
           background-color: $blue;
+          color : $white;
+          position: absolute;
+          top : 100%;
+          right : -10px;
+          min-width: 180px;
+          z-index : 99999;
           li{
+            @extend .def-transition;
             display : list-item;
             color : $white;
             width : 100%;
+            height : 100%;
             a{
+              @extend .def-transition;
               width : 100%;
+              height : 100%;
+              padding : 5px 10px;
+              border-bottom : 1px solid darken($blue, 8%);
+              display: inline-block;
+              color : $white;
+              &:hover{
+                background-color: $gol;
+              }
             }
+            &:last-child{
+              a{
+                border : 0px;
+              }
+            }
+
           }
         }
         &.has-children{
           position: relative;
           @extend .fa;
-          font-family: $web_yekan;
+          font : normal normal normal 100% $web_yekan;
           &:after{
             font-family: "FontAwesome";
             content : "\f0d7";
             position: absolute;
             bottom : 2px;
-            left : 48%;
+            left : 44%;
             color : $white;
+          }
+          & > a{
+            padding : 13px;
           }
         }
       }
+      &>li{
+        display : inline-block;
+
+        & >a{
+          padding : 15px;
+          text-align: center;
+        }
+        &:hover{
+          & > a{
+            background-color: $gol;
+          }
+          & > ul.submenu{
+            display : block;
+            opacity : 1;
+            li {
+              ul.submenu{
+                right : 100%;
+                top : 0px;
+              }
+              &.has-children{
+                &:after{
+                  left : 6px;
+                  top : 12px;
+                  content : "\f0d9";
+                }
+              }
+              &:hover{
+                & > ul.submenu{
+                  display : inline-block;
+                  opacity: 1;
+                }
+              }
+            }
+          }
+        }
+      }
+
     }
     //company-menu
   }
@@ -624,10 +768,12 @@ nav.mobile-nav {
     background-color: $blue;
     display: inline-block;
     padding : 10px;
+    min-width : 120px;
     position: absolute;
     top : 0px;
     left : 0px;
     text-align: center;
+    border-bottom : 4px solid $grey2;
    img{
       max-width : 100%;
    }

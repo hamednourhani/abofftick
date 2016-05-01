@@ -96,8 +96,8 @@ $glassyWhite : rgba(255, 255, 255, 0.85);
 }
 
 .def-text-shadow{
-	$darkenBlue : darken($blue,8%);
-	color: $darkenBlue;
+	$darkenBlue : darken($blue,15%);
+	color: darken($blue,8%);
 	text-shadow: inset 1px 4px 6px $darkenBlue,inset 0 0 0 $black2, inset 1px 4px 6px $darkenBlue;
 }
 

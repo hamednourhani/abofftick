@@ -32,6 +32,10 @@ jQuery(document).ready(function($){
 		console.log(hidden_content);
 		hidden_content.toggleClass('slidedown');
 	});
+	$('ul.profile-links i.fa-caret-down').click(function(){
+		var dropdown_menu = $(this).parent().children('ul.dropdown-menu');
+		dropdown_menu.fadeToggle();
+	});
 	//$(function(){
 	//	$("span.item-address").each(function(i){
 	//		var item_address = $(this);
