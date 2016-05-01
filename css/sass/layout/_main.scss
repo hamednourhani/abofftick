@@ -47,6 +47,15 @@
     }
   }
 }
+.profile-slider-container{
+  width : 100%;
+  overflow: hidden;
+  display : block;
+  clear : both;
+  height : 400px;
+  background-color: $grey3;
+  position: relative;
+}
 .content-grids{
   article{
     @include span-columns(12,12);

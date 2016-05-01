@@ -96,6 +96,26 @@ jQuery(document).ready(function($){
 		}
 	});
 
+	$("#profileSlider").AnimatedSlider( {
+		//prevButton: "#btn_prev2",
+		//nextButton: "#btn_next2",
+		visibleItems: 5,
+		infiniteScroll: true,
+		//willChangeCallback: function(obj, item) { $("#statusText").text("Will change to " + item); },
+		//changedCallback: function(obj, item) { $("#statusText").text("Changed to " + item); }
+	});
+	$("#profileSliderHandle").simpleSlider();
+
+
+
+	var profileSlider = $("#profileSlider").data("AnimatedSlider");
+	var profile_slider_handle = $("#profileSliderHandle");
+
+	$(profile_slider_handle).change(function(){
+		var profile_slider_handle_val = profile_slider_handle.val();
+		profileSlider.setItem(profile_slider_handle_val);
+	});
+
 
 	var changeLayout = function(){
 		var window_width = $(window).innerWidth();
