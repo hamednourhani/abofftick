@@ -538,7 +538,101 @@ nav.mobile-nav {
       }
     }
   }
-
-
+  //category-icons
 }
+//menu-bar
+
+.profile-menu-bar{
+  position: relative;
+  background-color: $blue;
+  color : $white;
+  @include box-shadow(0px 0px 5px 0px $grey3);
+  padding : 0px;
+  margin : 0px;
+  ul{
+    padding : 0px;
+    margin : 0px;
+  }
+  ul.profile-links{
+    li{
+      position: relative;
+      display : inline-block;
+      i{
+        @extend .def-text-shadow;
+        font-size : 140%;
+      }
+      ul.dropdown-menu{
+        @extend .def-transition;
+        @extend .def-box-shadow;
+        opacity: 0.8;
+        background-color: $blue;
+        li{
+            display : list-item;
+            color : $white;
+            width : 100%;
+            a{
+              width : 100%;
+            }
+        }
+      }
+    }
+  }
+  //profile-links
+
+  nav.company-nav{
+    ul.company-menu{
+      li{
+        position: relative;
+        display : inline-block;
+        a{
+
+        }
+        ul.sub-menu{
+          @extend .def-transition;
+          @extend .def-box-shadow;
+          opacity: 0.8;
+          background-color: $blue;
+          li{
+            display : list-item;
+            color : $white;
+            width : 100%;
+            a{
+              width : 100%;
+            }
+          }
+        }
+        &.has-children{
+          position: relative;
+          @extend .fa;
+          font-family: $web_yekan;
+          &:after{
+            font-family: "FontAwesome";
+            content : "\f0d7";
+            position: absolute;
+            bottom : 2px;
+            left : 48%;
+            color : $white;
+          }
+        }
+      }
+    }
+    //company-menu
+  }
+  //company-nav
+
+  .company-logo-container{
+    background-color: $blue;
+    display: inline-block;
+    padding : 10px;
+    position: absolute;
+    top : 0px;
+    left : 0px;
+    text-align: center;
+   img{
+      max-width : 100%;
+   }
+  }
+  //company-logo-contaienr
+}
+//profile-menu-bar
 
