@@ -104,17 +104,32 @@ jQuery(document).ready(function($){
 		//willChangeCallback: function(obj, item) { $("#statusText").text("Will change to " + item); },
 		//changedCallback: function(obj, item) { $("#statusText").text("Changed to " + item); }
 	});
-	$("#profileSliderHandle").simpleSlider();
-
-
 
 	var profileSlider = $("#profileSlider").data("AnimatedSlider");
 	var profile_slider_handle = $("#profileSliderHandle");
 
-	$(profile_slider_handle).change(function(){
-		var profile_slider_handle_val = profile_slider_handle.val();
-		profileSlider.setItem(profile_slider_handle_val);
+	$(function() {
+		$( profile_slider_handle ).slider({
+			range: "max",
+			min: 1,
+			max: 5,
+			value: 2,
+			slide: function( event, ui ) {
+				//$( "#amount" ).val( ui.value );
+				profileSlider.setItem(ui.value);
+			}
+		});
+		profileSlider.setItem(profile_slider_handle.slider( "value" ) );
 	});
+
+
+	//var profileSlider = $("#profileSlider").data("AnimatedSlider");
+	//var profile_slider_handle = $("#profileSliderHandle");
+
+	//$(profile_slider_handle).change(function(){
+	//	var profile_slider_handle_val = profile_slider_handle.val();
+	//	profileSlider.setItem(profile_slider_handle_val);
+	//});
 
 
 	var changeLayout = function(){
