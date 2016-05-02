@@ -47,15 +47,126 @@
     }
   }
 }
+
 .profile-slider-container{
   width : 100%;
   overflow: hidden;
   display : block;
   clear : both;
-  height : 400px;
+  height : 340px;
+  @include at-breakpoint($medium) {
+    height: 400px;
+  }
   background-color: $grey3;
   position: relative;
+  padding-top : 20px;
 }
+//profile-slider-container
+
+.followers-container{
+  background-color: $grey1;
+  width : 100%;
+  overflow: hidden;
+  display : block;
+  clear : both;
+
+  .followers-count-container{
+    @include span-columns(12,12);
+    @include at-breakpoint($medium){
+      @include span-columns(4,12);
+      margin-right:auto ;
+    }
+    text-align: center;
+    ul{
+      padding : 0px;
+      margin : 10px 5px;
+      text-align: center;
+      li{
+        display : inline-block;
+        border-left : 1px solid darken($grey2,10%);
+        text-align: center;
+        width : 32%;
+        &:last-child{
+          border : 0px;
+        }
+        span{
+          clear : both;
+          display: inline-block;
+          padding : 0px;
+          color : $blue;
+          width:100%;
+          line-height: 1;
+          word-break: break-all;
+        }
+        span.counter{
+
+        }
+        span.title{
+          color : $grey3;
+        }
+
+      }
+    }
+  }
+  //followers-count-container
+
+  .followers-button-container{
+    @include span-columns(12,12);
+    @include at-breakpoint($medium){
+      @include span-columns(4,12);
+      margin-right:auto ;
+    }
+    text-align: center;
+    a{
+      margin : 5px auto;
+      @include at-breakpoint($xmedium) {
+        margin : 17px 5px;
+      }
+      @extend .def-transition;
+      opacity: 0.85;
+       padding : 4px 10px 5px;
+      color : $white;
+      display: inline-block;
+      @include border-radius(3px);
+      border : 1px dashed $grey1;
+      i:before{
+        font-size: 140%;
+        color : $white;
+        margin-right : 7px;
+        margin-left : 7px;
+      }
+      &:hover{
+        opacity: 1;
+        transform: translateY(2px);
+      }
+    }
+    a.send-message-button{
+      background-color: $gol;
+    }
+    a.follow-button{
+      background-color: $blue;
+    }
+  }
+  //followers-button-container
+
+  .slider-title-container{
+    @include span-columns(12,12);
+    @include at-breakpoint($medium){
+      @include span-columns(4 omega,12);
+      margin-right:auto ;
+    }
+    text-align: center;
+    .slider-title{
+      color : $blue;
+      border-bottom : 1px dashed $grey2;
+      margin : 10px 5px;
+      padding : 10px;
+    }
+  }
+  //slider-title-container
+}
+//followers-container
+
 .content-grids{
   article{
     @include span-columns(12,12);
@@ -644,7 +755,17 @@ article.grid-item{
             top : 0px;
             right : 0px;
             font-size: 180%;
-            color : $gol;
+            color : $blue;
+          }
+          span.comments-count{
+            display: inline-block;
+            background-color: $gol;
+            color : $white;
+            padding : 6px 10px;
+            @include border-radius(20px);
+            position: absolute;
+            top : -27px;
+            right : 0px;
           }
           textarea.comment-message{
             @extend .def-transition;
@@ -1172,11 +1293,11 @@ article.grid-item{
             top : 0px;
             right : 0px;
             font-size: 200%;
-            color : $gol;
+            color : $blue;
           }
           span.comments-count{
             display: inline-block;
-            background-color: $blue;
+            background-color: $gol;
             color : $white;
             padding : 6px 10px;
             @include border-radius(20px);
@@ -1444,16 +1565,51 @@ article.grid-item{
       }
     }
     .primary{
-      padding-top : 30px;
+      //padding-top : 30px;
       .comments-container{
-        @include at-breakpoint($medium){
-          padding-left : 70px;
-        }
+
       }
 
     }
     .secondary{
+      .image-container{
+        width : calc(100% - 60px);
+        float : left;
+      }
+      .likers-avatar-container{
+        float : right;
+        margin-right: auto;
+        margin-left: 10px;
+        width : 50px;
+      }
+      .offer-likes-container{
+        width:100%;
+        clear : both;
+        ul{
+          text-align: left;
+          border-bottom : 1px solid $grey2;
+          li{
+            display : inline-block;
+            margin : 5px;
+            color: $blue;
 
+            i:before{
+              color :$gol;
+              //vertical-align: middle;
+              font-size : 120%;
+              margin-left : 5px;
+            }
+            &.date{
+              float: right;
+              margin-right: 80px;
+              i:before{
+                color : darken($grey2,10%);
+              }
+            }
+
+          }
+        }
+      }//offer-likes-container
     }
   }
 

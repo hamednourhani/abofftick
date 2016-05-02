@@ -71,6 +71,7 @@
       &:hover > span.plus-icon-title {
         opacity: 0.9;
         top: 60px;
+        z-index:9999999;
       }
       i.fa-plus{
         &::before{
@@ -563,6 +564,12 @@ nav.mobile-nav {
       display : inline-block;
       padding : 10px 5px;
       border-left : 1px solid darken($blue,5%);
+      border-top : 1px solid darken($blue,5%);
+      border-bottom : 1px solid darken($blue,5%);
+      @include at-breakpoint($medium){
+        border-top : 0px;
+        border-bottom : 0px;
+      }
       i {
         &:before {
           @extend .def-transition;
@@ -588,12 +595,20 @@ nav.mobile-nav {
           color : $grey1;
         }
       }
+
       &.users{
         i.fa-caret-down{
           position: absolute;
           bottom : -1px;
           left : 34%;
         }
+      }
+      &.user-menu-toggler{
+        display: inline-block;
+        @include at-breakpoint($medium){
+          display: none;
+        }
+
       }
       //&:last-child{
       //  border : 0px;
@@ -615,7 +630,7 @@ nav.mobile-nav {
         opacity: 0.8;
       }
       ul.dropdown-menu{
-        @extend .def-box-shadow;
+        @extend .dark-box-shadow;
         display : none;
         background-color: $blue;
         color : $white;
@@ -652,8 +667,13 @@ nav.mobile-nav {
 
   nav.company-nav{
     padding-right : 20px;
+    display: none;
     //float : right;
-    display: inline-block;
+    @include at-breakpoint($medium) {
+      display : inline-block;
+
+    }
+
     ul.company-menu{
 
       li{
@@ -669,7 +689,7 @@ nav.mobile-nav {
 
         }
         ul.submenu{
-          @extend .def-box-shadow;
+          @extend .dark-box-shadow;
           @extend .def-transition;
           display : none;
           background-color: $blue;
@@ -761,6 +781,74 @@ nav.mobile-nav {
 
     }
     //company-menu
+
+    @include at-breakpoint(0 $medium) {
+      padding-right : 5px;
+      ul.company-menu {
+        &>li{
+          ul.submenu{
+            position: relative !important;
+            top : auto !important;
+            left : auto !important;
+            right : auto !important;
+            bottom : auto !important;
+            li{
+              ul.submenu{
+                position: relative !important;
+                top : auto !important;
+                left : auto !important;
+                right : auto !important;
+                bottom : auto !important;
+              }
+              &.has-children {
+                &:after {
+                  content: "" !important;
+                }
+              }
+            }
+          }
+        }
+        li{
+          text-align: right;
+          width : 100%;
+
+          a{
+            padding: 8px;
+            text-align: right;
+            border-bottom : 1px solid darken($blue, 8%);
+          }
+          ul.submenu {
+            text-align: right;
+            position: relative !important;
+            box-shadow: none;
+            display: inline-block !important;
+            opacity: 1;
+            width : 100%;
+            background: none;
+            top : auto !important;
+            left : auto !important;
+            right : auto !important;
+            bottom : auto !important;
+          }
+           &.has-children {
+             &:after {
+               content: "" !important;
+             }
+           }
+          &:last-child{
+            a{
+              border-bottom : 1px solid darken($blue, 8%) !important;
+            }
+          }
+          &:hover{
+            ul.submenu{
+              position: relative;
+            }
+          }
+        }
+
+      }
+    }
   }
   //company-nav
 
@@ -768,12 +856,19 @@ nav.mobile-nav {
     background-color: $blue;
     display: inline-block;
     padding : 10px;
-    min-width : 120px;
+    max-width : 100%;
+    width : 100%;
+    @include at-breakpoint($medium) {
     position: absolute;
     top : 0px;
     left : 0px;
+      width : auto;
+      max-width : 120px;
+      border-bottom : 3px solid lighten($grey3,10%);
+    }
+
     text-align: center;
-    border-bottom : 4px solid $grey2;
+    @include border-bottom-radius(4px);
    img{
       max-width : 100%;
    }

@@ -17,6 +17,11 @@ jQuery(document).ready(function($){
 		mobile_nav.slideToggle();
 	});
 
+	$('li#userMenuToggler').click(function(){
+		var company_nav = $('nav#companyNav');
+		company_nav.slideToggle();
+	});
+
 	$('#search-toggler').click(function(){
 		console.log("clicked");
 		var buttom_search_container = $('#buttom-search-container');
@@ -96,40 +101,11 @@ jQuery(document).ready(function($){
 		}
 	});
 
-	$("#profileSlider").AnimatedSlider( {
-		//prevButton: "#btn_prev2",
-		//nextButton: "#btn_next2",
-		visibleItems: 5,
-		infiniteScroll: true,
-		//willChangeCallback: function(obj, item) { $("#statusText").text("Will change to " + item); },
-		//changedCallback: function(obj, item) { $("#statusText").text("Changed to " + item); }
+	$('#dg-container').gallery({
+		current		: 0,
+		autoplay	: true,
+		interval	: 2000
 	});
-
-	var profileSlider = $("#profileSlider").data("AnimatedSlider");
-	var profile_slider_handle = $("#profileSliderHandle");
-
-	$(function() {
-		$( profile_slider_handle ).slider({
-			range: "max",
-			min: 1,
-			max: 5,
-			value: 2,
-			slide: function( event, ui ) {
-				//$( "#amount" ).val( ui.value );
-				profileSlider.setItem(ui.value);
-			}
-		});
-		profileSlider.setItem(profile_slider_handle.slider( "value" ) );
-	});
-
-
-	//var profileSlider = $("#profileSlider").data("AnimatedSlider");
-	//var profile_slider_handle = $("#profileSliderHandle");
-
-	//$(profile_slider_handle).change(function(){
-	//	var profile_slider_handle_val = profile_slider_handle.val();
-	//	profileSlider.setItem(profile_slider_handle_val);
-	//});
 
 
 	var changeLayout = function(){
