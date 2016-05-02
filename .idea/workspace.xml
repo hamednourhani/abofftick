@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e65fe164-7a31-422b-a088-18b465cde640" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/layout/final/Profile_WebSite.jpg" afterPath="$PROJECT_DIR$/images/layout/final/Profile_WebSite.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company-profile.html" afterPath="$PROJECT_DIR$/company-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/base/_variables.scss" afterPath="$PROJECT_DIR$/css/sass/base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/layout/_header.scss" afterPath="$PROJECT_DIR$/css/sass/layout/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/layout/_main.scss" afterPath="$PROJECT_DIR$/css/sass/layout/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/modules/_slider.scss" afterPath="$PROJECT_DIR$/css/sass/modules/_slider.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-image.html" afterPath="$PROJECT_DIR$/single-image.html" />
     </list>
     <ignored path="offtick.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,15 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="company-profile.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="company-profile.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/company-profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.75">
-              <caret line="603" column="54" selection-start-line="603" selection-start-column="49" selection-end-line="603" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.49419954">
+              <caret line="219" column="52" selection-start-line="219" selection-start-column="52" selection-end-line="219" selection-end-column="52" />
               <folding>
                 <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -71,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/sass/layout/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5661253">
+            <state vertical-scroll-proportion="-4.6923075">
               <caret line="1568" column="6" selection-start-line="1568" selection-start-column="6" selection-end-line="1568" selection-end-column="6" />
               <folding />
             </state>
@@ -152,8 +141,8 @@
         <option value="$PROJECT_DIR$/css/sass/layout/_header.scss" />
         <option value="$PROJECT_DIR$/single-image.html" />
         <option value="$PROJECT_DIR$/css/sass/modules/_slider.scss" />
-        <option value="$PROJECT_DIR$/company-profile.html" />
         <option value="$PROJECT_DIR$/css/sass/layout/_main.scss" />
+        <option value="$PROJECT_DIR$/company-profile.html" />
       </list>
     </option>
   </component>
@@ -854,24 +843,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company-profile.html">
+    <entry file="file://$PROJECT_DIR$/css/sass/layout/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.75">
-          <caret line="603" column="54" selection-start-line="603" selection-start-column="49" selection-end-line="603" selection-end-column="54" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-4.6923075">
+          <caret line="1568" column="6" selection-start-line="1568" selection-start-column="6" selection-end-line="1568" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/layout/_main.scss">
+    <entry file="file://$PROJECT_DIR$/company-profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5661253">
-          <caret line="1568" column="6" selection-start-line="1568" selection-start-column="6" selection-end-line="1568" selection-end-column="6" />
-          <folding />
+        <state vertical-scroll-proportion="0.49419954">
+          <caret line="219" column="52" selection-start-line="219" selection-start-column="52" selection-end-line="219" selection-end-column="52" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
