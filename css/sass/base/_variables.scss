@@ -153,3 +153,42 @@ $glassyWhite : rgba(255, 255, 255, 0.85);
 	border-bottom: 10px solid $white;
   }
 }
+.user-state-container{
+	position: relative;
+	.user-state {
+		width: 11px;
+		height : 11px;
+		border: 2px solid  $grey2;
+		@include border-radius(5px);
+		display : inline-block;
+		position: absolute;
+		top : 11px;
+		right : 11px;
+		span.user-state-title {
+			@extend .bottom-tooltip;
+			left : 29px;
+			//right : 6px;
+			top : 30px;
+			width : 80px;
+			padding: 5px;
+			font-size : 80%;
+		}
+		&:hover{
+			cursor: pointer;
+			span.user-state-title {
+				display : inline-block;
+				top : 21px;
+				opacity: 1;
+			}
+		}
+		&.online{
+			background-color: $green;
+		}
+		&.one-hour{
+			background-color: $blue;
+		}
+		&.recently{
+			background-color: $grey3;
+		}
+	}//user-state
+}

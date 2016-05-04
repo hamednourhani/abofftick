@@ -122,19 +122,20 @@
     }
     float : right;
     padding-top : 15px;
-    .register-button,.login-button{
+    .register-button,.login-button {
       @extend .fa;
       @extend .def-transition;
-      padding : 10px 7px;
-      color : $black1;
+      padding: 10px 7px;
+      color: $black1;
       font-weight: 500;
       font-size: 90%;
-      &:hover{
-        color : $gol;
+      &:hover {
+        color: $gol;
       }
     }
     .login-button{
       font-family: $web_yekan;
+
       &::before{
         font-family: "FontAwesome";
         content : "\f090";
@@ -142,6 +143,31 @@
         vertical-align: middle;
         font-size: 130%;
         font-weight: 100;
+      }
+    }
+    .logout-button{
+      font-family: $web_yekan;
+      float : left ;
+      margin : 5px 10px;
+      &::before{
+        font-family: "FontAwesome";
+        content : "\f08b";
+        padding-left : 5px;
+        vertical-align: middle;
+        font-size: 130%;
+        font-weight: 100;
+        padding-top : 10px;
+      }
+    }
+    .user-avatar{
+      display : inline-block;
+
+      img{
+        max-width : 32px;
+        border : 2px solid $grey2;
+        @include border-radius(30px);
+        margin-top : 10px;
+
       }
     }
     .register-button{
@@ -193,7 +219,7 @@
       @extend .bottom-tooltip;
       @extend .dark-box-shadow;
       text-align : right;
-      z-index : 99999;
+      z-index : 9999999;
       width : 250px;
       left : auto;
       right : -50%;
@@ -229,7 +255,7 @@
       }
     }
     &:hover>.cart-content{
-      top : 38px;
+      top : 34px;
       opacity : 1;
       pointer-events: visible;
     }
@@ -301,7 +327,7 @@
           background-color: $white;
           //opacity: 0;
           //pointer-events: none;
-          z-index:99999;
+          z-index:9999999;
           width : 200px;
           border : 4px solid $grey1;
           display: none;

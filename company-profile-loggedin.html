@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/slider-pro.min.css">
-   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/lib/modernizr.custom.min.js"></script>
 
 </head>
@@ -50,6 +50,75 @@
                 </span>
                 <!--menu-toggler-->
 
+                <div class="loggedin-icons">
+                    <ul class="loggedin-icons-list">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-commenting" aria-hidden="true"></i>
+                            </a>
+                            <span class="icon-qty">2</span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-th-list" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <i id="loggedin-settings-button" class="fa fa-cog" aria-hidden="true"></i>
+                            <ul id="loggedin-settings-list" class="dropdown-menu">
+                                <li role="presentation" class="text-right">
+                                    <a role="menuitem" tabindex="-1" href="/User/MenuBuilder">ویرایش وب سایت</a>
+                                </li>
+                                <li role="presentation" class="text-right">
+                                    <a role="menuitem" tabindex="-1" href="/User/Offer/OrderedOffers">آفتیک های خرید</a>
+                                </li>
+                                <li role="presentation" class="text-right">
+                                    <a role="menuitem" tabindex="-1" href="/User/Profile/EditProfileCP"> ویرایش پروفایل </a>
+                                </li>
+                                <li role="presentation" class="text-right">
+                                    <a role="menuitem" tabindex="-1" href="/Account/ChangePassword">تغییر رمز عبور</a>
+                                </li>
+                                <li role="presentation" class="text-right">
+                                    <a role="menuitem" tabindex="-1" href="/User/Security">تنظیمات</a>
+                                </li>
+                                <li role="presentation" class="text-right">
+                                    <a role="menuitem" tabindex="-1" href="/Account/LogOff">خروج</a>
+                                </li>
+
+                                <li role="presentation" class="divider"></li>
+
+                                <li role="presentation" class="text-right">
+                                    <a role="menuitem" tabindex="-1" href="#">راهنما</a>
+                                </li>
+                                <li role="presentation" class="text-right">
+                                    <a role="menuitem" tabindex="-1" href="/User/Offer/sendfeedback">گزارش یک خطا</a>
+                                </li>
+                                <li role="presentation" class="text-right">
+                                    <a role="menuitem" tabindex="-1" href="/User/Profile/DisableAccount">غیر فعال سازی اکانت</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                    <!--loggedin-icons-list-->
+                </div>
+                <!--loggedin-icons-->
+
+                <div class="panel-links">
+                    <a href="#" class="user-avatar">
+                        <img src="images/user-avatar.png" alt="">
+
+                    </a>
+                        <a href="#" class="logout-button">خروج</a>                
+                </div>
+
+
                 <div class="cart-wrapper">
                     <i class="fa fa-shopping-cart"></i>
                     <span class="orders-qty">2</span>
@@ -71,11 +140,7 @@
                 </div>
                 <!--cart-wrapper-->
 
-                <div class="panel-links">
-                    <a href="#" class="register-button">ثبت نام</a> |
-                    <a href="#" class="login-button">ورود</a>
-                </div>
-                <!--panel-links-->
+
 
 
                 <div class="contact-wrapper">
@@ -99,6 +164,12 @@
                 </li>
                 <li class="menu-item">
                     <a href="#">
+                        <i class="fa fa-sign-out"></i>
+                        <span class="menu-content">خروج</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">
                         <i class="fa fa-pencil"></i>
                         <span class="menu-content">ثبت نام</span>
                     </a>
@@ -117,90 +188,71 @@
 
         <div class="profile-menu-bar">
             <section class="layout">
-            <div class="company-logo-container">
-                <img src="images/offtick-logo-69x50.png" alt="company-logo">
-            </div>
-            <!--company-logo-container-->
+                <div class="company-logo-container">
+                    <img src="images/offtick-logo-69x50.png" alt="company-logo">
+                </div>
+                <!--company-logo-container-->
 
-            <ul class="profile-links">
-                <li>
-                    <i class="fa fa-caret-down" aria-hidden="true"></i>
-                    <i class="fa fa-lock" aria-hidden="true"></i>
-                       <ul class="dropdown-menu">
-                           <li><a href="#">item</a></li>
-                           <li><a href="#">item</a></li>
-                           <li><a href="#">item</a></li>
-                           <li><a href="#">item</a></li>
-                       </ul>
 
-                </li>
-                <!--<li class="active">-->
-                    <!--<i class="fa fa-globe" aria-hidden="true"></i>-->
-                    <!--<span class="count">2</span>-->
-                <!--</li>-->
-                <!--<li>-->
-                    <!--<i class="fa fa-commenting" aria-hidden="true"></i>-->
-                <!--</li>-->
-                <!--<li class="active users">-->
-                    <!--<i class="fa fa-user" aria-hidden="true"></i>-->
-                    <!--<i class="fa fa-caret-down" aria-hidden="true"></i>-->
-                    <!--<ul class="dropdown-menu">-->
-                        <!--<li><a href="#">item</a></li>-->
-                        <!--<li><a href="#">item</a></li>-->
-                        <!--<li><a href="#">item</a></li>-->
-                        <!--<li><a href="#">item</a></li>-->
-                    <!--</ul>-->
-                    <!--<span class="count">4</span>-->
-                <!--</li>-->
-                <!--<li class="user-menu-toggler" id="userMenuToggler">-->
-                    <!--<i class="fa fa-bars" aria-hidden="true"></i>-->
-                <!--</li>-->
-
-            </ul>
-            <!--profile-links-->
-
-            <nav class="company-nav" id="companyNav">
-                <ul class="company-menu">
-                    <li><a href="#">item</a></li>
-                    <li class="has-children">
-                        <a href="#">item</a>
-                        <ul class="submenu">
-                            <li><a href="#">sub-item</a></li>
-                            <li class="has-children">
-                                <a href="#">sub-item</a>
-                                <ul class="submenu">
-                                    <li><a href="#">sub-item</a></li>
-                                    <li><a href="#">sub-item</a></li>
-                                    <li class="has-children">
-                                        <a href="#">sub-item</a>
-                                        <ul class="submenu">
-                                            <li><a href="#">sub-item</a></li>
-                                            <li class="has-children">
-                                                <a href="#">sub-item</a>
-                                                <ul class="submenu">
-                                                    <li><a href="#">sub-item</a></li>
-                                                    <li><a href="#">sub-item</a></li>
-                                                    <li><a href="#">sub-item</a></li>
-                                                    <li><a href="#">sub-item</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">sub-item</a></li>
-                                            <li><a href="#">sub-item</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">sub-item</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">sub-item</a></li>
-                            <li><a href="#">sub-item</a></li>
+                <ul class="profile-links">
+                    <li>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">item</a></li>
+                            <li><a href="#">item</a></li>
+                            <li><a href="#">item</a></li>
+                            <li><a href="#">item</a></li>
                         </ul>
+
                     </li>
-                    <li><a href="#">item</a></li>
-                    <li><a href="#">item</a></li>
-                    <li><a href="#">item</a></li>
+
+
                 </ul>
-            </nav>
-            <!--company-nav-->
+                <!--profile-links-->
+
+                <nav class="company-nav" id="companyNav">
+                    <ul class="company-menu">
+                        <li><a href="#">item</a></li>
+                        <li class="has-children">
+                            <a href="#">item</a>
+                            <ul class="submenu">
+                                <li><a href="#">sub-item</a></li>
+                                <li class="has-children">
+                                    <a href="#">sub-item</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">sub-item</a></li>
+                                        <li><a href="#">sub-item</a></li>
+                                        <li class="has-children">
+                                            <a href="#">sub-item</a>
+                                            <ul class="submenu">
+                                                <li><a href="#">sub-item</a></li>
+                                                <li class="has-children">
+                                                    <a href="#">sub-item</a>
+                                                    <ul class="submenu">
+                                                        <li><a href="#">sub-item</a></li>
+                                                        <li><a href="#">sub-item</a></li>
+                                                        <li><a href="#">sub-item</a></li>
+                                                        <li><a href="#">sub-item</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">sub-item</a></li>
+                                                <li><a href="#">sub-item</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">sub-item</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">sub-item</a></li>
+                                <li><a href="#">sub-item</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">item</a></li>
+                        <li><a href="#">item</a></li>
+                        <li><a href="#">item</a></li>
+                    </ul>
+                </nav>
+                <!--company-nav-->
 
 
             </section>
@@ -211,19 +263,19 @@
     <!--site-header-->
 
     <div class="profile-header">
-       <div class="profile-slider-container">
-           <section id="dg-container" class="dg-container">
-               <div class="dg-wrapper">
-                   <a href="#"><img src="images/slides/3.jpg" alt="image01"></a>
-                   <a href="#"><img src="images/slides/3.jpg" alt="image02"></a>
-                   <a href="#"><img src="images/slides/3.jpg" alt="image03"></a>
-                   <a href="#"><img src="images/slides/3.jpg" alt="image04"></a>
-                   <a href="#"><img src="images/slides/3.jpg" alt="image05"></a>
-                   <a href="#"><img src="images/slides/3.jpg" alt="image06"></a>
+        <div class="profile-slider-container">
+            <section id="dg-container" class="dg-container">
+                <div class="dg-wrapper">
+                    <a href="#"><img src="images/slides/3.jpg" alt="image01"></a>
+                    <a href="#"><img src="images/slides/3.jpg" alt="image02"></a>
+                    <a href="#"><img src="images/slides/3.jpg" alt="image03"></a>
+                    <a href="#"><img src="images/slides/3.jpg" alt="image04"></a>
+                    <a href="#"><img src="images/slides/3.jpg" alt="image05"></a>
+                    <a href="#"><img src="images/slides/3.jpg" alt="image06"></a>
 
-               </div>
+                </div>
 
-               <nav>
+                <nav>
                    <span class="dg-prev">
                        <i class="fa fa-step-backward" aria-hidden="true"></i>
                    </span>
@@ -241,10 +293,10 @@
                     <span class="dg-next">
                        <i class="fa fa-step-forward" aria-hidden="true"></i>
                    </span>
-               </nav>
-           </section>
+                </nav>
+            </section>
 
-       </div>
+        </div>
 
         <div class="followers-container">
             <section class="layout">
@@ -298,10 +350,10 @@
                 <section class="layout">
                     <header class="offer-header">
                         <!--<div class="timer-container">-->
-                            <!--<span class="counter">1:59:0</span>-->
-                            <!--<i class="fa fa-hourglass-half" aria-hidden="true"></i>-->
+                        <!--<span class="counter">1:59:0</span>-->
+                        <!--<i class="fa fa-hourglass-half" aria-hidden="true"></i>-->
 
-                            <!--<div class="remaining-time">۲ روز ۳ ساعت باقی مانده</div>-->
+                        <!--<div class="remaining-time">۲ روز ۳ ساعت باقی مانده</div>-->
                         <!--</div>-->
 
                         <div class="user-avatar-container">
@@ -520,8 +572,8 @@
                 <section class="layout">
                     <header class="offer-header">
                         <!--<div class="time-container">-->
-                            <!--<span class="counter">7:41pm - 1395/3/12 </span>-->
-                            <!--<i class="fa fa-calendar" aria-hidden="true"></i>-->
+                        <!--<span class="counter">7:41pm - 1395/3/12 </span>-->
+                        <!--<i class="fa fa-calendar" aria-hidden="true"></i>-->
                         <!--</div>-->
 
                         <div class="user-avatar-container">
