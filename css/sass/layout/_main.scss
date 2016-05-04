@@ -1,6 +1,7 @@
 .site-main{
+  position: relative;
   .main-wrapper{
-
+    position: relative;
     padding-bottom : 15px;
     padding-top : 30px;
     &.single{
@@ -46,6 +47,7 @@
       }
     }
   }
+
 }
 
 .profile-slider-container{
@@ -1699,6 +1701,99 @@ article.grid-item{
 }//single-image-content
 
 .main-wrapper.archive {
+  .followres-container{
+
+    border : 1px dashed darken($grey2,10%);
+    position : absolute;
+    top :0px;
+    right : 0px;
+    width : 12%;
+    padding : 1%;
+    margin : 40px 1% 10px;
+    disaply : none;
+    @include at-breakpoint($medium) {
+      display : block;
+    }
+    h3{
+      text-align: center;
+      border-bottom : 1px dashed $grey2;
+    }
+    ul{
+      text-align: center;
+      padding : 0px;
+      margin : 0px;
+      li{
+        border-bottom : 1px dashed $grey2;
+        width : 100%;
+        &:last-child{
+          border : 0px;
+        }
+        span{
+          display : inline-block;
+          width : 100%;
+
+        }
+        a{
+          display : inline-block;
+          width : 100%;
+        }
+        img{
+          max-width : 100%;
+        }
+      }
+    }
+  }
+  .important-apps{
+
+    border : 1px dashed darken($grey2,10%);
+    position : absolute;
+    top :0px;
+    left : 0px;
+    width : 8%;
+    padding : 1%;
+    margin : 40px 1% 10px;
+    disaply : none;
+    @include at-breakpoint($medium) {
+      display : block;
+    }
+    h3{
+      text-align: center;
+      border-bottom : 1px dashed $grey2;
+    }
+    ul{
+      text-align: center;
+      padding : 0px;
+      margin : 0px;
+      li{
+        border-bottom : 1px dashed $grey2;
+        width : 100%;
+        &:last-child{
+          border : 0px;
+        }
+        span{
+          display : inline-block;
+          width : 100%;
+          &.app-name{
+            color : $blue;
+            paddin-top : 5px;
+              padding-bottom : 5px;
+
+          }
+          &.taken{
+            color : $grey3;
+            font-size : 80%;
+          }
+        }
+        a{
+          display : inline-block;
+          width : 100%;
+        }
+        img{
+          max-width : 100%;
+        }
+      }
+    }
+  }
   .single-image-content,
   .single-offer-content {
     width: 100%;
