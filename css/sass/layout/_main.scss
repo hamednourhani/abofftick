@@ -1701,99 +1701,7 @@ article.grid-item{
 }//single-image-content
 
 .main-wrapper.archive {
-  .followres-container{
 
-    border : 1px dashed darken($grey2,10%);
-    position : absolute;
-    top :0px;
-    right : 0px;
-    width : 12%;
-    padding : 1%;
-    margin : 40px 1% 10px;
-    disaply : none;
-    @include at-breakpoint($medium) {
-      display : block;
-    }
-    h3{
-      text-align: center;
-      border-bottom : 1px dashed $grey2;
-    }
-    ul{
-      text-align: center;
-      padding : 0px;
-      margin : 0px;
-      li{
-        border-bottom : 1px dashed $grey2;
-        width : 100%;
-        &:last-child{
-          border : 0px;
-        }
-        span{
-          display : inline-block;
-          width : 100%;
-
-        }
-        a{
-          display : inline-block;
-          width : 100%;
-        }
-        img{
-          max-width : 100%;
-        }
-      }
-    }
-  }
-  .important-apps{
-
-    border : 1px dashed darken($grey2,10%);
-    position : absolute;
-    top :0px;
-    left : 0px;
-    width : 8%;
-    padding : 1%;
-    margin : 40px 1% 10px;
-    disaply : none;
-    @include at-breakpoint($medium) {
-      display : block;
-    }
-    h3{
-      text-align: center;
-      border-bottom : 1px dashed $grey2;
-    }
-    ul{
-      text-align: center;
-      padding : 0px;
-      margin : 0px;
-      li{
-        border-bottom : 1px dashed $grey2;
-        width : 100%;
-        &:last-child{
-          border : 0px;
-        }
-        span{
-          display : inline-block;
-          width : 100%;
-          &.app-name{
-            color : $blue;
-            paddin-top : 5px;
-              padding-bottom : 5px;
-
-          }
-          &.taken{
-            color : $grey3;
-            font-size : 80%;
-          }
-        }
-        a{
-          display : inline-block;
-          width : 100%;
-        }
-        img{
-          max-width : 100%;
-        }
-      }
-    }
-  }
   .single-image-content,
   .single-offer-content {
     width: 100%;
@@ -1896,3 +1804,152 @@ article.grid-item{
   }
 
 }//main-wrapper-archive
+
+.site-main {
+  position: relative;
+  .side-columns-container {
+    position: absolute;
+    top : 0px;
+    left : 0px;
+
+    span.f-toggler,
+    span.f-toggler-close {
+      position: absolute;
+      top: 10px;
+      left: -30px;
+      i:before {
+        color: $black1;
+        border: 1px dashed darken($grey2, 10%);
+        padding: 10px;
+        font-size: 140%;
+      }
+    }
+    span.f-toggler-close {
+      display: none;
+    }
+
+    .side-followers-container {
+
+      position: relative;
+      width: 100%;
+       margin: 40px 10px 10px;
+      width: 100%;
+      height: 100%;
+      @include at-breakpoint($mediumplus) {
+        right: 0px;
+        position: absolute;
+        top: 0px;
+        margin : 40px 1% 10px;
+        width : 10%;
+       max-width: 180px;
+      }
+
+
+
+
+        h3 {
+          text-align: center;
+          padding-bottom : 5px;
+          border-bottom: 1px dashed $grey2;
+          font-size : 90%;
+        }
+        ul {
+          text-align: center;
+          padding: 0px;
+          margin: 0px;
+          li {
+            @extend .dark-box-shadow;
+            background-color: $white2;
+            width: 100%;
+            margin-bottom : 10px;
+            &:last-child {
+              border: 0px;
+            }
+            span {
+              display: inline-block;
+              width: 100%;
+              font-size : 90%;
+              word-break: break-all;
+            }
+            a.follow-link {
+              display: inline-block;
+              width: 100%;
+              background-color: $blue;
+              color : $white;
+              &:hover{
+                background-color: darken($blue,10%);
+              }
+            }
+            img {
+              max-width: 100%;
+            }
+          }
+        }
+
+    }
+    //followers-container
+    .side-important-apps {
+
+      position: relative;
+      width : 100%;
+      margin: 40px 1% 10px;
+      @include at-breakpoint($medium) {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 8%;
+      }
+      h3 {
+        text-align: center;
+        border-bottom: 1px dashed $grey2;
+        padding-bottom : 5px;
+        font-size : 90%;
+      }
+      ul {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        li {
+          @extend .dark-box-shadow;
+          margin-bottom : 10px;
+          background-color: $white2;
+          width: 100%;
+          padding : 0px 10px;
+          &:last-child {
+            border: 0px;
+          }
+          span {
+            display: inline-block;
+            width: 100%;
+            &.app-name {
+              color: $blue;
+              paddin-top: 5px;
+              padding-bottom: 5px;
+              font-size : 90%;
+            }
+            &.taken {
+              color: $grey3;
+              font-size: 80%;
+              margin-top : -2px;
+            }
+          }
+          a {
+            display: inline-block;
+            width: 100%;
+            overflow: hidden;
+            max-height : 85px;
+          }
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    //important-apps
+    @include at-breakpoint($mediumplus) {
+      left : 0px;
+      right : 0px;
+    }
+  }
+
+}

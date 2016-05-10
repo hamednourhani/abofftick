@@ -701,7 +701,7 @@ p {
   box-shadow: 0px 0px 7px #E6E7E7; }
 
 /* line 91, sass/base/_variables.scss */
-.dark-box-shadow, .top-bar .cart-wrapper .cart-content, .profile-menu-bar ul.profile-links > li ul.dropdown-menu, .profile-menu-bar nav.company-nav ul.company-menu li ul.submenu {
+.dark-box-shadow, .top-bar .cart-wrapper .cart-content, .profile-menu-bar ul.profile-links > li ul.dropdown-menu, .profile-menu-bar nav.company-nav ul.company-menu li ul.submenu, .site-main .side-columns-container .side-followers-container ul li, .site-main .side-columns-container .side-important-apps ul li {
   -moz-box-shadow: 0px 0px 5px #1b1b1b;
   -webkit-box-shadow: 0px 0px 5px #1b1b1b;
   box-shadow: 0px 0px 5px #1b1b1b; }
@@ -3520,109 +3520,18 @@ article.grid-item {
             .single-image-content .secondary .likers-avatar-container ul.likers-list li a:hover img {
               transform: scale(0.9); }
 
-/* line 1704, sass/layout/_main.scss */
-.main-wrapper.archive .followres-container {
-  border: 1px dashed #cccece;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  width: 12%;
-  padding: 1%;
-  margin: 40px 1% 10px;
-  disaply: none; }
-  @media (min-width: 45em) {
-    /* line 1704, sass/layout/_main.scss */
-    .main-wrapper.archive .followres-container {
-      display: block; } }
-  /* line 1717, sass/layout/_main.scss */
-  .main-wrapper.archive .followres-container h3 {
-    text-align: center;
-    border-bottom: 1px dashed #E6E7E7; }
-  /* line 1721, sass/layout/_main.scss */
-  .main-wrapper.archive .followres-container ul {
-    text-align: center;
-    padding: 0px;
-    margin: 0px; }
-    /* line 1725, sass/layout/_main.scss */
-    .main-wrapper.archive .followres-container ul li {
-      border-bottom: 1px dashed #E6E7E7;
-      width: 100%; }
-      /* line 1728, sass/layout/_main.scss */
-      .main-wrapper.archive .followres-container ul li:last-child {
-        border: 0px; }
-      /* line 1731, sass/layout/_main.scss */
-      .main-wrapper.archive .followres-container ul li span {
-        display: inline-block;
-        width: 100%; }
-      /* line 1736, sass/layout/_main.scss */
-      .main-wrapper.archive .followres-container ul li a {
-        display: inline-block;
-        width: 100%; }
-      /* line 1740, sass/layout/_main.scss */
-      .main-wrapper.archive .followres-container ul li img {
-        max-width: 100%; }
-/* line 1746, sass/layout/_main.scss */
-.main-wrapper.archive .important-apps {
-  border: 1px dashed #cccece;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 8%;
-  padding: 1%;
-  margin: 40px 1% 10px;
-  disaply: none; }
-  @media (min-width: 45em) {
-    /* line 1746, sass/layout/_main.scss */
-    .main-wrapper.archive .important-apps {
-      display: block; } }
-  /* line 1759, sass/layout/_main.scss */
-  .main-wrapper.archive .important-apps h3 {
-    text-align: center;
-    border-bottom: 1px dashed #E6E7E7; }
-  /* line 1763, sass/layout/_main.scss */
-  .main-wrapper.archive .important-apps ul {
-    text-align: center;
-    padding: 0px;
-    margin: 0px; }
-    /* line 1767, sass/layout/_main.scss */
-    .main-wrapper.archive .important-apps ul li {
-      border-bottom: 1px dashed #E6E7E7;
-      width: 100%; }
-      /* line 1770, sass/layout/_main.scss */
-      .main-wrapper.archive .important-apps ul li:last-child {
-        border: 0px; }
-      /* line 1773, sass/layout/_main.scss */
-      .main-wrapper.archive .important-apps ul li span {
-        display: inline-block;
-        width: 100%; }
-        /* line 1776, sass/layout/_main.scss */
-        .main-wrapper.archive .important-apps ul li span.app-name {
-          color: #125688;
-          paddin-top: 5px;
-          padding-bottom: 5px; }
-        /* line 1782, sass/layout/_main.scss */
-        .main-wrapper.archive .important-apps ul li span.taken {
-          color: #4E4E4E;
-          font-size: 80%; }
-      /* line 1787, sass/layout/_main.scss */
-      .main-wrapper.archive .important-apps ul li a {
-        display: inline-block;
-        width: 100%; }
-      /* line 1791, sass/layout/_main.scss */
-      .main-wrapper.archive .important-apps ul li img {
-        max-width: 100%; }
-/* line 1797, sass/layout/_main.scss */
+/* line 1705, sass/layout/_main.scss */
 .main-wrapper.archive .single-image-content,
 .main-wrapper.archive .single-offer-content {
   width: 100%;
   margin: auto;
   border-bottom: 1px solid #F2F2F2; }
   @media (min-width: 45em) {
-    /* line 1797, sass/layout/_main.scss */
+    /* line 1705, sass/layout/_main.scss */
     .main-wrapper.archive .single-image-content,
     .main-wrapper.archive .single-offer-content {
       width: 70%; } }
-  /* line 1805, sass/layout/_main.scss */
+  /* line 1713, sass/layout/_main.scss */
   .main-wrapper.archive .single-image-content .primary, .main-wrapper.archive .single-image-content .secondary,
   .main-wrapper.archive .single-offer-content .primary,
   .main-wrapper.archive .single-offer-content .secondary {
@@ -3630,71 +3539,210 @@ article.grid-item {
     margin: auto;
     float: none;
     display: inline-block; }
-  /* line 1814, sass/layout/_main.scss */
+  /* line 1722, sass/layout/_main.scss */
   .main-wrapper.archive .single-image-content .primary .comments-container .more-container span.more-comments,
   .main-wrapper.archive .single-offer-content .primary .comments-container .more-container span.more-comments {
     margin-top: 5px;
     padding: 0px 5px; }
-  /* line 1821, sass/layout/_main.scss */
+  /* line 1729, sass/layout/_main.scss */
   .main-wrapper.archive .single-image-content .offer-header,
   .main-wrapper.archive .single-offer-content .offer-header {
     margin-bottom: 15px; }
-    /* line 1823, sass/layout/_main.scss */
+    /* line 1731, sass/layout/_main.scss */
     .main-wrapper.archive .single-image-content .offer-header .time-container,
     .main-wrapper.archive .single-offer-content .offer-header .time-container {
       margin-top: 5px; }
-    /* line 1826, sass/layout/_main.scss */
+    /* line 1734, sass/layout/_main.scss */
     .main-wrapper.archive .single-image-content .offer-header .timer-container,
     .main-wrapper.archive .single-offer-content .offer-header .timer-container {
       margin-top: 0px; }
-    /* line 1829, sass/layout/_main.scss */
+    /* line 1737, sass/layout/_main.scss */
     .main-wrapper.archive .single-image-content .offer-header .social-container,
     .main-wrapper.archive .single-offer-content .offer-header .social-container {
       margin-top: 6px; }
-/* line 1838, sass/layout/_main.scss */
+/* line 1746, sass/layout/_main.scss */
 .main-wrapper.archive .single-offer-content .secondary {
   display: none; }
-/* line 1843, sass/layout/_main.scss */
+/* line 1751, sass/layout/_main.scss */
 .main-wrapper.archive .single-image-content .offer-header {
   padding-right: 10px; }
-  /* line 1845, sass/layout/_main.scss */
+  /* line 1753, sass/layout/_main.scss */
   .main-wrapper.archive .single-image-content .offer-header .social-container {
     margin-top: 11px; }
-/* line 1857, sass/layout/_main.scss */
+/* line 1765, sass/layout/_main.scss */
 .main-wrapper.archive .single-image-content .secondary .image-container {
   width: calc(100% - 60px);
   float: left; }
-/* line 1861, sass/layout/_main.scss */
+/* line 1769, sass/layout/_main.scss */
 .main-wrapper.archive .single-image-content .secondary .likers-avatar-container {
   float: right;
   margin-right: auto;
   margin-left: 10px;
   width: 50px; }
-/* line 1867, sass/layout/_main.scss */
+/* line 1775, sass/layout/_main.scss */
 .main-wrapper.archive .single-image-content .secondary .offer-likes-container {
   width: 100%;
   clear: both; }
-  /* line 1870, sass/layout/_main.scss */
+  /* line 1778, sass/layout/_main.scss */
   .main-wrapper.archive .single-image-content .secondary .offer-likes-container ul {
     text-align: left;
     border-bottom: 1px solid #E6E7E7; }
-    /* line 1873, sass/layout/_main.scss */
+    /* line 1781, sass/layout/_main.scss */
     .main-wrapper.archive .single-image-content .secondary .offer-likes-container ul li {
       display: inline-block;
       margin: 5px;
       color: #125688; }
-      /* line 1878, sass/layout/_main.scss */
+      /* line 1786, sass/layout/_main.scss */
       .main-wrapper.archive .single-image-content .secondary .offer-likes-container ul li i:before {
         color: #FF585B;
         font-size: 120%;
         margin-left: 5px; }
-      /* line 1884, sass/layout/_main.scss */
+      /* line 1792, sass/layout/_main.scss */
       .main-wrapper.archive .single-image-content .secondary .offer-likes-container ul li.date {
         float: right;
         margin-right: 80px; }
-        /* line 1887, sass/layout/_main.scss */
+        /* line 1795, sass/layout/_main.scss */
         .main-wrapper.archive .single-image-content .secondary .offer-likes-container ul li.date i:before {
           color: #cccece; }
+
+/* line 1808, sass/layout/_main.scss */
+.site-main {
+  position: relative; }
+  /* line 1810, sass/layout/_main.scss */
+  .site-main .side-columns-container {
+    position: absolute;
+    top: 0px;
+    left: 0px; }
+    /* line 1815, sass/layout/_main.scss */
+    .site-main .side-columns-container span.f-toggler,
+    .site-main .side-columns-container span.f-toggler-close {
+      position: absolute;
+      top: 10px;
+      left: -30px; }
+      /* line 1820, sass/layout/_main.scss */
+      .site-main .side-columns-container span.f-toggler i:before,
+      .site-main .side-columns-container span.f-toggler-close i:before {
+        color: #111;
+        border: 1px dashed #cccece;
+        padding: 10px;
+        font-size: 140%; }
+    /* line 1827, sass/layout/_main.scss */
+    .site-main .side-columns-container span.f-toggler-close {
+      display: none; }
+    /* line 1831, sass/layout/_main.scss */
+    .site-main .side-columns-container .side-followers-container {
+      position: relative;
+      width: 100%;
+      margin: 40px 10px 10px;
+      width: 100%;
+      height: 100%; }
+      @media (min-width: 54em) {
+        /* line 1831, sass/layout/_main.scss */
+        .site-main .side-columns-container .side-followers-container {
+          right: 0px;
+          position: absolute;
+          top: 0px;
+          margin: 40px 1% 10px;
+          width: 10%;
+          max-width: 180px; } }
+      /* line 1850, sass/layout/_main.scss */
+      .site-main .side-columns-container .side-followers-container h3 {
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1px dashed #E6E7E7;
+        font-size: 90%; }
+      /* line 1856, sass/layout/_main.scss */
+      .site-main .side-columns-container .side-followers-container ul {
+        text-align: center;
+        padding: 0px;
+        margin: 0px; }
+        /* line 1860, sass/layout/_main.scss */
+        .site-main .side-columns-container .side-followers-container ul li {
+          background-color: #F8F8F8;
+          width: 100%;
+          margin-bottom: 10px; }
+          /* line 1865, sass/layout/_main.scss */
+          .site-main .side-columns-container .side-followers-container ul li:last-child {
+            border: 0px; }
+          /* line 1868, sass/layout/_main.scss */
+          .site-main .side-columns-container .side-followers-container ul li span {
+            display: inline-block;
+            width: 100%;
+            font-size: 90%;
+            word-break: break-all; }
+          /* line 1874, sass/layout/_main.scss */
+          .site-main .side-columns-container .side-followers-container ul li a.follow-link {
+            display: inline-block;
+            width: 100%;
+            background-color: #125688;
+            color: #FFFFFF; }
+            /* line 1879, sass/layout/_main.scss */
+            .site-main .side-columns-container .side-followers-container ul li a.follow-link:hover {
+              background-color: #0c3a5b; }
+          /* line 1883, sass/layout/_main.scss */
+          .site-main .side-columns-container .side-followers-container ul li img {
+            max-width: 100%; }
+    /* line 1891, sass/layout/_main.scss */
+    .site-main .side-columns-container .side-important-apps {
+      position: relative;
+      width: 100%;
+      margin: 40px 1% 10px; }
+      @media (min-width: 45em) {
+        /* line 1891, sass/layout/_main.scss */
+        .site-main .side-columns-container .side-important-apps {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 8%; } }
+      /* line 1902, sass/layout/_main.scss */
+      .site-main .side-columns-container .side-important-apps h3 {
+        text-align: center;
+        border-bottom: 1px dashed #E6E7E7;
+        padding-bottom: 5px;
+        font-size: 90%; }
+      /* line 1908, sass/layout/_main.scss */
+      .site-main .side-columns-container .side-important-apps ul {
+        text-align: center;
+        padding: 0px;
+        margin: 0px; }
+        /* line 1912, sass/layout/_main.scss */
+        .site-main .side-columns-container .side-important-apps ul li {
+          margin-bottom: 10px;
+          background-color: #F8F8F8;
+          width: 100%;
+          padding: 0px 10px; }
+          /* line 1918, sass/layout/_main.scss */
+          .site-main .side-columns-container .side-important-apps ul li:last-child {
+            border: 0px; }
+          /* line 1921, sass/layout/_main.scss */
+          .site-main .side-columns-container .side-important-apps ul li span {
+            display: inline-block;
+            width: 100%; }
+            /* line 1924, sass/layout/_main.scss */
+            .site-main .side-columns-container .side-important-apps ul li span.app-name {
+              color: #125688;
+              paddin-top: 5px;
+              padding-bottom: 5px;
+              font-size: 90%; }
+            /* line 1930, sass/layout/_main.scss */
+            .site-main .side-columns-container .side-important-apps ul li span.taken {
+              color: #4E4E4E;
+              font-size: 80%;
+              margin-top: -2px; }
+          /* line 1936, sass/layout/_main.scss */
+          .site-main .side-columns-container .side-important-apps ul li a {
+            display: inline-block;
+            width: 100%;
+            overflow: hidden;
+            max-height: 85px; }
+          /* line 1942, sass/layout/_main.scss */
+          .site-main .side-columns-container .side-important-apps ul li img {
+            max-width: 100%; }
+    @media (min-width: 54em) {
+      /* line 1810, sass/layout/_main.scss */
+      .site-main .side-columns-container {
+        left: 0px;
+        right: 0px; } }
 
 /* line 1, sass/layout/_footer.scss */
 .site-footer {
