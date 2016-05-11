@@ -1834,10 +1834,10 @@ article.grid-item{
         &:before {
           cursor: pointer;
           @include box-shadow(0px 0px 5px darken($grey3,20%));
-          color: $blue;
+          color: $white;
           padding: 10px;
           font-size: 140%;
-          background-color: $white;
+          background-color: $blue;
           opacity: 0.7;
         }
         &.fa-th-large{
@@ -1859,8 +1859,8 @@ article.grid-item{
       &:hover{
         i {
           &:before {
-            background-color: $blue;
-            color : $white;
+            background-color: $white;
+            color : $blue;
             opacity: 1;
           }
         }
