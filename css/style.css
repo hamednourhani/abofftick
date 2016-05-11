@@ -3955,6 +3955,122 @@ article.grid-item {
     .site-main .side-columns-container.show-side {
       transform: translateX(0px); }
 
+/* line 2178, sass/layout/_main.scss */
+.main-wrapper.chat {
+  padding: 0px;
+  margin: 0px; }
+
+/* line 2182, sass/layout/_main.scss */
+.chat-container {
+  overflow: hidden; }
+  /* line 2184, sass/layout/_main.scss */
+  .chat-container .chat-box-container {
+    background-color: #FFFFFF;
+    overflow-y: auto;
+    width: 100%; }
+    @media (min-width: 54em) {
+      /* line 2184, sass/layout/_main.scss */
+      .chat-container .chat-box-container {
+        width: 30%;
+        height: 100%;
+        float: right;
+        border-left: 2px solid #E6E7E7; } }
+    /* line 2195, sass/layout/_main.scss */
+    .chat-container .chat-box-container .chat-box-header {
+      background-color: #4E4E4E; }
+    /* line 2200, sass/layout/_main.scss */
+    .chat-container .chat-box-container ul.chat-box-list {
+      margin: 0px;
+      padding: 0px; }
+      /* line 2203, sass/layout/_main.scss */
+      .chat-container .chat-box-container ul.chat-box-list li {
+        position: relative;
+        display: block;
+        width: 100%;
+        clear: both;
+        margin: 0px;
+        padding: 7px 10px;
+        cursor: pointer;
+        overflow: hidden; }
+        /* line 2212, sass/layout/_main.scss */
+        .chat-container .chat-box-container ul.chat-box-list li .user-avatar-container {
+          width: 70px; }
+          /* line 2214, sass/layout/_main.scss */
+          .chat-container .chat-box-container ul.chat-box-list li .user-avatar-container img {
+            width: 60px;
+            height: auto;
+            max-width: 100%;
+            float: right;
+            -moz-border-radius: 30px;
+            -webkit-border-radius: 30px;
+            border-radius: 30px;
+            border: 2px solid #F2F2F2; }
+        /* line 2223, sass/layout/_main.scss */
+        .chat-container .chat-box-container ul.chat-box-list li span {
+          float: right;
+          display: block;
+          padding: 3px 7px;
+          text-align: right;
+          width: calc(100% - 70px);
+          line-height: 1.7; }
+          /* line 2230, sass/layout/_main.scss */
+          .chat-container .chat-box-container ul.chat-box-list li span.user-name {
+            color: #125688;
+            font-weight: 600; }
+          /* line 2234, sass/layout/_main.scss */
+          .chat-container .chat-box-container ul.chat-box-list li span.chat-excerpt {
+            color: #686868;
+            font-size: 84%; }
+          /* line 2238, sass/layout/_main.scss */
+          .chat-container .chat-box-container ul.chat-box-list li span.new-messages-count {
+            position: absolute;
+            bottom: 10px;
+            left: 6px;
+            right: auto;
+            width: auto;
+            padding: 3px 10px;
+            background-color: #ff8b8d;
+            -moz-border-radius: 20px;
+            -webkit-border-radius: 20px;
+            border-radius: 20px;
+            color: #FFFFFF;
+            font-size: 80%; }
+          /* line 2251, sass/layout/_main.scss */
+          .chat-container .chat-box-container ul.chat-box-list li span.last-message-date {
+            width: auto;
+            position: absolute;
+            top: 6px;
+            left: 0px;
+            font-size: 90%;
+            color: #b2b5b5; }
+        /* line 2264, sass/layout/_main.scss */
+        .chat-container .chat-box-container ul.chat-box-list li:hover {
+          background-color: #F2F2F2; }
+        /* line 2267, sass/layout/_main.scss */
+        .chat-container .chat-box-container ul.chat-box-list li.active {
+          background-color: #fff1f1; }
+  /* line 2276, sass/layout/_main.scss */
+  .chat-container .chat-content-container {
+    background: url('../images/background/chat-back.jpg?1268589680') top left repeat, #E6E7E7;
+    width: 100%;
+    overflow-y: auto; }
+    @media (min-width: 54em) {
+      /* line 2276, sass/layout/_main.scss */
+      .chat-container .chat-content-container {
+        width: 70%;
+        height: 100%;
+        float: left; } }
+    /* line 2286, sass/layout/_main.scss */
+    .chat-container .chat-content-container .chat-content-header {
+      background-color: #4E4E4E; }
+    /* line 2292, sass/layout/_main.scss */
+    .chat-container .chat-content-container .single-chat ul.chat-content-list {
+      margin: 0px;
+      padding: 0px; }
+    /* line 2330, sass/layout/_main.scss */
+    .chat-container .chat-content-container .chat-content-footer {
+      background-color: #4E4E4E; }
+
 /* line 1, sass/layout/_footer.scss */
 .site-footer {
   background-color: #5b5b5b;

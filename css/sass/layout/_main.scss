@@ -1901,61 +1901,61 @@ article.grid-item{
       @extend .def-transition;
       position: relative;
 
-       margin: 0px 1%;
+      margin: 0px 1%;
       width: 100%;
       height: 100%;
       display: none;
       opacity: 0;
-        h3 {
-          display: none;
-        }
-        ul {
-          text-align: right;
-          padding: 0px;
-          margin: 20px 0px;
-          li {
-            width: 100%;
-            margin-bottom: 10px;
-            overflow: hidden;
-            &>span {
-              display: inline-block;
-              font-size: 90%;
-              word-break: break-all;
-              float: right;
-              margin-right : 5px;
-              margin-top : 10px;
+      h3 {
+        display: none;
+      }
+      ul {
+        text-align: right;
+        padding: 0px;
+        margin: 20px 0px;
+        li {
+          width: 100%;
+          margin-bottom: 10px;
+          overflow: hidden;
+          &>span {
+            display: inline-block;
+            font-size: 90%;
+            word-break: break-all;
+            float: right;
+            margin-right : 5px;
+            margin-top : 10px;
+          }
+          a.follow-link {
+            @extend .def-transition;
+            display: inline-block;
+            float: left;
+            margin-top : 10px;
+            span {
+              display: none;
             }
-            a.follow-link {
-              @extend .def-transition;
-              display: inline-block;
-              float: left;
-              margin-top : 10px;
-              span {
-                display: none;
-              }
+            i:before {
+              background-color: $white;
+              border: 2px solid $grey2;
+              margin-left: 10px;
+              color: $blue;
+              padding: 10px;
+              @include border-radius(30px);
+            }
+            &:hover {
               i:before {
-                background-color: $white;
-                border: 2px solid $grey2;
-                margin-left: 10px;
-                color: $blue;
-                padding: 10px;
-                @include border-radius(30px);
+                background-color: $blue;
+                color: $white2;
               }
-              &:hover {
-                i:before {
-                  background-color: $blue;
-                  color: $white2;
-                }
-              }
+            }
 
-            }
-            img {
-              width: 40px;
-              float: right;
-              margin : 5px 10px 5px 5px;
-            }
+          }
+          img {
+            width: 40px;
+            float: right;
+            margin : 5px 10px 5px 5px;
           }
         }
+      }
       @include at-breakpoint($mediumplus) {
         right: 0px;
         position: absolute;
@@ -1983,7 +1983,7 @@ article.grid-item{
             background-color: $white2;
             width: 100%;
             margin-bottom : 10px;
-           overflow: hidden;
+            overflow: hidden;
             &>span {
               display: inline-block;
               width: 100%;
@@ -2173,4 +2173,169 @@ article.grid-item{
   }
   //side-columns-container
 
+}//side-columns decrleation
+
+.main-wrapper.chat{
+  padding : 0px;
+  margin : 0px;
 }
+.chat-container{
+  overflow: hidden;
+  .chat-box-container{
+    background-color: $white;
+    overflow-y : auto;
+    width : 100%;
+      @include at-breakpoint($mediumplus){
+        width : 30%;
+        height : 100%;
+        float : right;
+        border-left : 2px solid $grey2;
+      }
+
+      .chat-box-header{
+        background-color: $grey3;
+      }
+      //chat-box-header
+
+      ul.chat-box-list{
+        margin : 0px;
+        padding : 0px;
+        li{
+          position: relative;
+          display: block;
+          width : 100%;
+          clear: both;
+          margin : 0px;
+          padding : 7px 10px;
+          cursor : pointer;
+          overflow: hidden;
+          .user-avatar-container{
+            width : 70px;
+            img{
+              width : 60px;
+              height : auto;
+              max-width : 100%;
+              float : right;
+              @include border-radius(30px);
+              border : 2px solid $grey1;
+            }
+          }
+          span{
+            float : right;
+            display : block;
+            padding : 3px 7px;
+            text-align : right;
+            width : calc(100% - 70px);
+            line-height: 1.7;
+            &.user-name{
+              color : $blue;
+              font-weight: 600;
+            }
+            &.chat-excerpt{
+              color : lighten($grey3,10%);
+              font-size : 84%;
+            }
+            &.new-messages-count{
+              position: absolute;
+              bottom : 10px;
+              left : 6px;
+              right : auto;
+              width : auto;
+              padding : 3px 10px;
+              background-color: lighten($gol,10%);
+              @include border-radius(20px);
+              color : $white;
+              font-size : 80%;
+
+            }
+            &.last-message-date{
+              width : auto;
+              position: absolute;
+              top : 6px;
+              left : 0px;
+              font-size : 90%;
+              color : darken($grey2,20%);
+            }
+          }
+
+          &.not-read{
+
+          }
+          &:hover{
+            background-color: $grey1;
+          }
+          &.active{
+            background-color: lighten($gol,30%);
+          }
+        }
+      }
+      //ul.chat-box-list
+  }
+  //chat-box-container
+
+  .chat-content-container{
+    background: image_url('background/chat-back.jpg') top left repeat,$grey2;
+    width : 100%;
+    overflow-y : auto;
+    @include at-breakpoint($mediumplus){
+      width : 70%;
+      height : 100%;
+      float : left;
+    }
+
+    .chat-content-header{
+      background-color: $grey3;
+    }
+    //chat-contant-header
+
+    .single-chat{
+      ul.chat-content-list{
+        margin : 0px;
+        padding : 0px;
+        li{
+          .user-avatar-container{
+            img{
+
+            }
+          }
+          //user-avatar-container
+
+          .message-container{
+            span.message-date{
+              i:before{
+
+              }
+            }
+          }
+          //message-container
+          &.reply-to{
+            .reply-to-this{
+              span{
+                &.sender-user-name{
+                }
+                &.message-excerpt{
+
+                }
+              }
+            }
+          }
+          //li.reply-to
+        }
+        //li
+      }
+      //ul.chat-content-list
+    }
+    //single-chat
+
+    .chat-content-footer{
+      background-color: $grey3;
+    }
+    //chat-contant-footer
+  }
+  //chat-content-container
+
+}
+//.chat-container
+
+
+
