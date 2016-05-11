@@ -687,6 +687,11 @@ nav.mobile-nav {
           }
         }
       }
+      &.only-responsive{
+        @include at-breakpoint($mediumplus){ 
+          display : none;
+        }
+      }
     }
   }
   //profile-links

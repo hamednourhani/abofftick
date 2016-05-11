@@ -206,6 +206,12 @@
                         </ul>
 
                     </li>
+                    <!--<li class="only-responsive">-->
+                        <!--<i class="fa fa-user-plus" aria-hidden="true"></i>-->
+                    <!--</li>-->
+                    <!--<li class="only-responsive">-->
+                        <!--<i class="fa fa-th-large" aria-hidden="true"></i>-->
+                    <!--</li>-->
 
 
                 </ul>
@@ -793,13 +799,21 @@
         <div id="side-columns-container" class="side-columns-container">
 
             <span class="f-toggler" id="f-toggler">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </span>
-            <span class="f-toggler-close" id="f-toggler-close">
-                <i class="fa fa-times" aria-hidden="true"></i>
+                 <i class="fa fa-th-large current" id="fa-th-large" aria-hidden="true"></i>
+                <i class="fa fa-times" id="fa-times" aria-hidden="true"></i>
             </span>
 
-            <div class="side-followers-container" id="side-followers-container">
+            <ul class="side-tab-list">
+                <li>
+                    <a class="active" id="side-followers-toggler" href="#side-followers-container">Followers</a>
+                </li>
+                <li>
+                    <a id="side-apps-toggler" href="#side-important-apps">Apps</a>
+                </li>
+            </ul>
+            <!--side-tab-list-->
+
+            <div class="side-followers-container current" id="side-followers-container">
 
 
                 <h3>Followers</h3>
@@ -809,28 +823,40 @@
                             <img src="images/follower.png" alt="">
                         </a>
                         <span class="follower-name">User Name</span>
-                        <a href="" class="follow-link">Follow</a>
+                        <a href="" class="follow-link">
+                            <span>Follow</span>
+                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="images/follower.png" alt="">
                         </a>
                         <span class="follower-name">User Name</span>
-                        <a href="" class="follow-link">Follow</a>
+                        <a href="" class="follow-link">
+                            <span>Follow</span>
+                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="images/follower.png" alt="">
                         </a>
                         <span class="follower-name">User Name</span>
-                        <a href="" class="follow-link">Follow</a>
+                        <a href="" class="follow-link">
+                            <span>Follow</span>
+                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="images/follower.png" alt="">
                         </a>
                         <span class="follower-name">User Name</span>
-                        <a href="" class="follow-link">Follow</a>
+                        <a href="" class="follow-link">
+                            <span>Follow</span>
+                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
