@@ -2839,7 +2839,7 @@ article.grid-item {
           vertical-align: middle; }
         /* line 954, sass/layout/_main.scss */
         .single-offer-content .primary .comments-container .more-container span.more-comments:hover {
-          transform: scale(1.1);
+          transform: translateY(3px);
           background-color: #FF585B;
           color: #F2F2F2; }
   /* line 965, sass/layout/_main.scss */
@@ -3352,7 +3352,7 @@ article.grid-item {
             vertical-align: middle; }
           /* line 1506, sass/layout/_main.scss */
           .single-image-content .primary .comments-container .more-container span.more-comments:hover {
-            transform: scale(1.1);
+            transform: translateY(3px);
             background-color: #FF585B;
             color: #F2F2F2; }
   /* line 1522, sass/layout/_main.scss */

@@ -952,7 +952,7 @@ article.grid-item{
 
           }
           &:hover {
-            transform: scale(1.1);
+            transform: translateY(3px);
             background-color: $gol;
             color: $grey1;
           }
@@ -1504,7 +1504,7 @@ article.grid-item{
 
           }
           &:hover {
-            transform: scale(1.1);
+            transform: translateY(3px);
             background-color: $gol;
             color: $grey1;
           }
