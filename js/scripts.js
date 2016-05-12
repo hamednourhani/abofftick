@@ -75,6 +75,13 @@ jQuery(document).ready(function($){
 	});
 
 
+	$('#hideFooter').hide_site_footer({
+		togglerID : 'hideFooterToggler'
+		}
+	);
+
+
+
 
 	$('.owl-carousel').owlCarousel({
 		margin:10,

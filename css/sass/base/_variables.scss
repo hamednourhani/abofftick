@@ -55,9 +55,11 @@ $green : #3BBB5A;
 $blue : #125688;
 
 $greenlight :#CCFFCC;
-$bluelight : #CCFFFF;
+$bluelight : lighten($blue,30%);
 $orangelight : #FEE5CC;
-$redlight:#FFCCCC;
+
+$redlight: lighten($gol,25%);
+
 
 $grey3: #4E4E4E;
 $grey2 : #E6E7E7;

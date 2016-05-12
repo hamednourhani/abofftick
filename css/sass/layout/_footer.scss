@@ -1,7 +1,48 @@
 .site-footer{
   background-color: lighten($grey3,5%);
   color : $white;
+  position: relative;
+  span.hide-footer-toggler{
+    i{
+      &:before{
 
+      @extend .def-transition;
+      cursor: pointer;
+      color : $grey3;
+      background-color: $grey1;
+      padding : 10px;
+      position: absolute;
+      top : -30px;
+      right : 10px;
+      font-size : 140%;cursor: pointer;
+      color: $white;
+      background-color: lighten($grey3,5%);
+      @include border-top-radius(5px);
+      padding: 5px 15px 10px;
+      position: absolute;
+      top: -58px;
+      right: 14px;
+      font-size: 180%;
+      }
+      &.fa-angle-up{
+
+      }
+      &.fa-angle-down{
+        display: none;
+      }
+    }
+    &:hover{
+      i:before{
+        color : $gol;
+        transform : translateY(-5px);
+
+      }
+      i.fa-angle-down:before{
+        transform : translateY(5px);
+      }
+    }
+
+  }
   h4,h3{
     color : $grey2;
   }
@@ -25,6 +66,13 @@
       display: inline-block;
       width : 100%;
     }
+  }
+  &.hide-footer{
+   @extend .def-transition;
+    position: absolute;
+    top : 100%;
+    right : 0px;
+    left : 0px;
   }
 }
 

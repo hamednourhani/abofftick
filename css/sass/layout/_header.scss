@@ -374,7 +374,9 @@
     }
   }
 
-
+  &.chat-header{
+    border-bottom : 2px solid $grey2;
+  }
 }
 
 nav.mobile-nav {

@@ -2193,8 +2193,43 @@ article.grid-item{
       }
 
       .chat-box-header{
-        background-color: $grey3;
-      }
+        background-color: $white;
+         form.search-chats-list {
+           @extend .fa;
+           position: relative;
+           &::before{
+             content : "\f002";
+             position: absolute;
+             top : 16px;
+             left : 15px;
+             vertical-align: middle;
+             color : darken($grey2,30%);
+             font-size : 120%;
+           }
+           input{
+             @extend .def-transition;
+
+
+             width: 96%;
+             padding: 10px 10px 10px 30px;
+             margin: 7px 2%;
+             background-color: $grey2;
+             max-width: 100%;
+             border: 2px solid darken($grey2,5%);
+             outline: none;
+             @include border-radius(0px);
+
+             &:focus{
+               background-color: $grey1;
+               border-color : $redlight;
+             }
+           }
+           input[type="submit"]{
+               display : none;
+
+           }
+         }
+       }
       //chat-box-header
 
       ul.chat-box-list{
@@ -2254,7 +2289,7 @@ article.grid-item{
               top : 6px;
               left : 0px;
               font-size : 90%;
-              color : darken($grey2,20%);
+              color : darken($grey2,30%);
             }
           }
 
@@ -2265,7 +2300,7 @@ article.grid-item{
             background-color: $grey1;
           }
           &.active{
-            background-color: lighten($gol,30%);
+            background-color: $redlight;
           }
         }
       }
@@ -2274,9 +2309,11 @@ article.grid-item{
   //chat-box-container
 
   .chat-content-container{
-    background: image_url('background/chat-back.jpg') top left repeat,$grey2;
+    background: image_url('background/chat-back.jpg') top left repeat , $grey3;
     width : 100%;
     overflow-y : auto;
+    background-position: center;
+    background-attachment: fixed;
     @include at-breakpoint($mediumplus){
       width : 70%;
       height : 100%;
@@ -2288,38 +2325,142 @@ article.grid-item{
     }
     //chat-contant-header
 
-    .single-chat{
+    .chat-wrapper{
       ul.chat-content-list{
         margin : 0px;
         padding : 0px;
-        li{
-          .user-avatar-container{
-            img{
-
+        li {
+          display : block;
+          width : 100%;
+          clear : both;
+          margin : 0px;
+          padding : 10px 0px;
+          .single-message-content {
+            width : 80%;
+            margin : auto;
+            display : block;
+            overflow: hidden;
+            .user-avatar-container {
+              float : right;
+              width : 60px;
+              padding-left : 10px;
+              img {
+                height : auto;
+                max-width : 100%;
+                width : 50px;
+                @include border-radius(30px);
+              }
             }
+            //user-avatar-container
+
+            .message-container {
+              @extend .dark-box-shadow;
+              @include border-radius(5px);
+              position: relative;
+              padding : 5px 10px;
+              background-color: $white;
+              color : $black1;
+              width : calc(100% - 65px);
+              float : left;
+
+              .reply-to-this {
+                border-right : 3px solid $gol;
+                display : block;
+                margin : 5px 0px;
+                padding : 0px 10px;
+                line-height: 1.5;
+                span {
+                  &.sender-user-name {
+                    color : $gol;
+                    display : block;
+                  }
+                  &.message-excerpt {
+                    color : $grey3;
+                  }
+                }
+              }
+              span.user-name{
+                color : $blue;
+                font-weight: 600;
+                width : 100%;
+                display : block;
+              }
+              span.message-date {
+                color : darken($grey2,30%);
+                font-size : 90%;
+                float : left;
+                display : inline-block;
+                padding : 0px 0px 2px 5px;
+                margin-right : 22px;
+                &.sent{
+                  position: relative;
+                  &::before{
+                    content: "";
+                    height: 12px;
+                    width: 20px;
+                    position: absolute;
+                    top: 10px;
+                    right: -22px;
+                    //position: absolute;
+                    background: image_url('icons/sent.png') top left no-repeat;
+                  }
+                }
+                &.checked{
+                  position: relative;
+                  &::before{
+                    content: "";
+                    height: 12px;
+                    width: 20px;
+                    position: absolute;
+                    top: 10px;
+                    right: -22px;
+                    background: image_url('icons/checked.png') top left no-repeat;
+                  }
+                }
+              }
+              &::before{
+                content: '';
+                position: absolute;
+                top: 11px;
+                right: -9px;
+                //margin-left: -9px;
+                width: 0;
+                height: 0;
+                border-top: 10px solid transparent;
+                border-left: 10px solid $white;
+                border-bottom: 10px solid transparent;
+              }
+            }
+            //message-container
+
+
           }
-          //user-avatar-container
-
-          .message-container{
-            span.message-date{
-              i:before{
-
+          &.my-message{
+            .single-message-content {
+              .user-avatar-container {
+                padding-left: 0px;
+                padding-right: 10px;
+                float: left;
+              }
+              .message-container {
+                background-color: $redlight;
+                float : right;
+                &::before{
+                  top: 11px;
+                  right: auto;
+                  left : -9px;
+                  //margin-left: -9px;
+                  border-right: 10px solid $redlight;
+                  border-left : 0px;
+                }
+                span.user-name{
+                  //color : $gol;
+                  text-align: left;
+                }
               }
             }
           }
-          //message-container
-          &.reply-to{
-            .reply-to-this{
-              span{
-                &.sender-user-name{
-                }
-                &.message-excerpt{
-
-                }
-              }
-            }
-          }
-          //li.reply-to
+          //single-chat-content
         }
         //li
       }
