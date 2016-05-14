@@ -2,8 +2,8 @@
 /* fonts */
 @font-face {
   font-family: "Weblogma_Yekan";
-  src: url('fonts/Yekan.eot?1463007944');
-  src: url('fonts/Yekan.eot?&1463007944#iefix') format('embedded-opentype'), url('fonts/Yekan.ttf?1463007944') format('truetype'), url('fonts/Yekan.woff?1463007944') format('woff');
+  src: url('fonts/Yekan.eot?1463133616');
+  src: url('fonts/Yekan.eot?&1463133616#iefix') format('embedded-opentype'), url('fonts/Yekan.ttf?1463133616') format('truetype'), url('fonts/Yekan.woff?1463133616') format('woff');
   font-weight: "Yekan.svg"; }
 /* normalize style */
 /* normalize-scss 3.0.2+normalize.3.0.2 | MIT/GPLv2 License | bit.ly/normalize-scss */
@@ -12,7 +12,7 @@
  * and $rhythm-unit variables. Also, correct text resizing oddly in IE 6/7 when
  * body `font-size` is set using `em` units.
  */
-/* line 106, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
   line-height: 1.5em; }
@@ -614,7 +614,7 @@ p {
   font-feature-settings: "liga", "dlig"; }
 
 /* ------------susy-------- */
-/* line 14, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.2/sass/susy/language/susyone/_grid.scss */
+/* line 14, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susyone/_grid.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -686,7 +686,7 @@ p {
 /*------ colors -----------*/
 /*----------------transition-shadow----------------------*/
 /* line 84, sass/base/_variables.scss */
-.def-transition, .bottom-tooltip, .user-state-container .user-state span.user-state-title, article.grid-item div.item-header .user-avatar-container .user-state span.user-state-title, .single-offer-content .offer-header .user-avatar-container .user-state span.user-state-title, .single-offer-content .primary .buyers-avatar-container ul.buyers-list li .user-state span.user-state-title, .single-offer-content .primary .comments-container ul.comments-list li .user-state span.user-state-title, .single-image-content .offer-header .user-avatar-container .user-state span.user-state-title, .single-image-content .primary .comments-container ul.comments-list li .user-state span.user-state-title, .single-image-content .secondary .likers-avatar-container ul.likers-list li .user-state span.user-state-title, .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, article.grid-item footer.item-footer span.item-address .full-address, .single-offer-content .primary .slider-container .edit-icon ul, .single-image-content .secondary .image-container .edit-icon ul, .top-bar .plus-icon-wrapper a.plus-icon, .top-bar .menu-toggler, .top-bar .menu-toggler i.fa-bars:before, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, .top-bar .loggedin-icons ul.loggedin-icons-list li i:before, nav.mobile-nav ul.mobile-menu li a, .menu-bar .category-icons ul.icons-list li.cat-icon a, .profile-menu-bar ul.profile-links > li i:before, .profile-menu-bar ul.profile-links > li ul.dropdown-menu li a, .profile-menu-bar nav.company-nav ul.company-menu li, .profile-menu-bar nav.company-nav ul.company-menu li a, .profile-menu-bar nav.company-nav ul.company-menu li ul.submenu, .profile-menu-bar nav.company-nav ul.company-menu li ul.submenu li, .profile-menu-bar nav.company-nav ul.company-menu li ul.submenu li a, .site-main > .more-container span.more-contents, .followers-container .followers-button-container a, .content-grids .load-more-container span.load-more-button, .content-grids .load-more-container span.load-more-button::after, article.grid-item, article.grid-item div.item-header, article.grid-item main.add-container, article.grid-item main.add-container .add-content, article.grid-item footer.item-footer span.item-address, .single-offer-content .offer-header .social-container ul.social-list li a, .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a, .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a img, .single-offer-content .primary .slider-container .edit-icon i, .single-offer-content .primary .slider-container .edit-icon i:before, .single-offer-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message, .single-offer-content .primary .comments-container .more-container span.more-comments, .single-offer-content .secondary .order-form-container form.order-form .add-to-cat, .single-offer-content .secondary .order-form-container form.order-form .order-this-offer, .single-offer-content .secondary .offer-details .hidden-content, .single-offer-content .secondary .offer-details .hidden-content span.slidetoggler i:before, .single-offer-content .secondary .offer-details .hidden-content h4.info-title, .single-offer-content .secondary .offer-details .hidden-content .info-desc, .single-image-content .offer-header .social-container ul.social-list li a, .single-image-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message, .single-image-content .primary .comments-container .more-container span.more-comments, .single-image-content .secondary .image-container .edit-icon i, .single-image-content .secondary .image-container .edit-icon i:before, .single-image-content .secondary .image-container span.likeToggler, .single-image-content .secondary .image-container span.likeToggler i:before, .single-image-content .secondary .likers-avatar-container ul.likers-list li a, .single-image-content .secondary .likers-avatar-container ul.likers-list li a img, .site-main .side-columns-container, .site-main .side-columns-container span.f-toggler i, .site-main .side-columns-container ul.side-tab-list li a, .site-main .side-columns-container .side-followers-container, .site-main .side-columns-container .side-followers-container ul li a.follow-link, .site-main .side-columns-container .side-important-apps, .chat-container .chat-box-container .chat-box-header form.search-chats-list input, .site-footer span.hide-footer-toggler i:before, .site-footer.hide-footer, nav.footer-nav, nav.footer-nav ul.footer-icons li.mobile-footer-icon a, .dg-container nav span, .dg-container nav span i:before {
+.def-transition, .bottom-tooltip, .user-state-container .user-state span.user-state-title, article.grid-item div.item-header .user-avatar-container .user-state span.user-state-title, .single-offer-content .offer-header .user-avatar-container .user-state span.user-state-title, .single-offer-content .primary .buyers-avatar-container ul.buyers-list li .user-state span.user-state-title, .single-offer-content .primary .comments-container ul.comments-list li .user-state span.user-state-title, .single-image-content .offer-header .user-avatar-container .user-state span.user-state-title, .single-image-content .primary .comments-container ul.comments-list li .user-state span.user-state-title, .single-image-content .secondary .likers-avatar-container ul.likers-list li .user-state span.user-state-title, .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title, .top-bar .plus-icon-wrapper a.plus-icon span.plus-icon-title, .menu-bar .category-icons ul.icons-list li.cat-icon a span.icon-title, article.grid-item footer.item-footer span.item-address .full-address, .single-offer-content .primary .slider-container .edit-icon ul, .single-image-content .secondary .image-container .edit-icon ul, .top-bar .plus-icon-wrapper a.plus-icon, .top-bar .menu-toggler, .top-bar .menu-toggler i.fa-bars:before, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, .top-bar .loggedin-icons ul.loggedin-icons-list li i:before, nav.mobile-nav ul.mobile-menu li a, .menu-bar .category-icons ul.icons-list li.cat-icon a, .profile-menu-bar ul.profile-links > li i:before, .profile-menu-bar ul.profile-links > li ul.dropdown-menu li a, .profile-menu-bar nav.company-nav ul.company-menu li, .profile-menu-bar nav.company-nav ul.company-menu li a, .profile-menu-bar nav.company-nav ul.company-menu li ul.submenu, .profile-menu-bar nav.company-nav ul.company-menu li ul.submenu li, .profile-menu-bar nav.company-nav ul.company-menu li ul.submenu li a, .site-main > .more-container span.more-contents, .followers-container .followers-button-container a, .content-grids .load-more-container span.load-more-button, .content-grids .load-more-container span.load-more-button::after, article.grid-item, article.grid-item div.item-header, article.grid-item main.add-container, article.grid-item main.add-container .add-content, article.grid-item footer.item-footer span.item-address, .single-offer-content .offer-header .social-container ul.social-list li a, .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a, .single-offer-content .primary .buyers-avatar-container ul.buyers-list li a img, .single-offer-content .primary .slider-container .edit-icon i, .single-offer-content .primary .slider-container .edit-icon i:before, .single-offer-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message, .single-offer-content .primary .comments-container .more-container span.more-comments, .single-offer-content .secondary .order-form-container form.order-form .add-to-cat, .single-offer-content .secondary .order-form-container form.order-form .order-this-offer, .single-offer-content .secondary .offer-details .hidden-content, .single-offer-content .secondary .offer-details .hidden-content span.slidetoggler i:before, .single-offer-content .secondary .offer-details .hidden-content h4.info-title, .single-offer-content .secondary .offer-details .hidden-content .info-desc, .single-image-content .offer-header .social-container ul.social-list li a, .single-image-content .primary .comments-container .comment-form-container form.comment-form textarea.comment-message, .single-image-content .primary .comments-container .more-container span.more-comments, .single-image-content .secondary .image-container .edit-icon i, .single-image-content .secondary .image-container .edit-icon i:before, .single-image-content .secondary .image-container span.likeToggler, .single-image-content .secondary .image-container span.likeToggler i:before, .single-image-content .secondary .likers-avatar-container ul.likers-list li a, .single-image-content .secondary .likers-avatar-container ul.likers-list li a img, .main-wrapper.buybasket .basket-forms-container .right-col form input, .main-wrapper.buybasket .basket-forms-container .left-col form input, .site-main .side-columns-container, .site-main .side-columns-container span.f-toggler i, .site-main .side-columns-container ul.side-tab-list li a, .site-main .side-columns-container .side-followers-container, .site-main .side-columns-container .side-followers-container ul li a.follow-link, .site-main .side-columns-container .side-important-apps, .chat-container .chat-box-container .chat-box-header form.search-chats-list input, .site-footer span.hide-footer-toggler i:before, .site-footer.hide-footer, nav.footer-nav, nav.footer-nav ul.footer-icons li.mobile-footer-icon a, .dg-container nav span, .dg-container nav span i:before {
   -moz-transition: all 0.4s ease-in-out 0s;
   -o-transition: all 0.4s ease-in-out 0s;
   -webkit-transition: all 0.4s ease-in-out;
@@ -875,7 +875,7 @@ body {
   overflow: hidden;
   position: relative;
   background-color: #F2F2F2;
-  background: url('../images/background/pattern1.jpg?1463007944') top left repeat; }
+  background: url('../images/background/pattern1.jpg?1463133616') top left repeat; }
 
 /* line 39, sass/base/_base.scss */
 .layout {
@@ -887,14 +887,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: relative; }
-  /* line 38, ../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+  /* line 38, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
   .layout:after {
     content: "";
     display: table;
     clear: both; }
 
 /* line 46, sass/base/_base.scss */
-.fa, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, .top-bar .contact-wrapper .contact-phone, .profile-menu-bar nav.company-nav ul.company-menu li.has-children, .content-grids .load-more-container span.load-more-button, article.grid-item div.item-header .username-container span.counter, article.grid-item footer.item-footer ul.item-data li, .single-offer-content .primary .comments-container .comment-form-container form.comment-form, .single-offer-content .secondary .offer-details .hidden-content h4.info-title, .single-image-content .primary .comments-container .comment-form-container form.comment-form, .main-wrapper.buybasket .basket-content .basket-title h3::before, .chat-container .chat-box-container .chat-box-header form.search-chats-list {
+.fa, .top-bar .panel-links .register-button, .top-bar .panel-links .login-button, .top-bar .contact-wrapper .contact-phone, .profile-menu-bar nav.company-nav ul.company-menu li.has-children, .content-grids .load-more-container span.load-more-button, article.grid-item div.item-header .username-container span.counter, article.grid-item footer.item-footer ul.item-data li, .single-offer-content .primary .comments-container .comment-form-container form.comment-form, .single-offer-content .secondary .offer-details .hidden-content h4.info-title, .single-image-content .primary .comments-container .comment-form-container form.comment-form, .main-wrapper.buybasket .basket-content .basket-title h3::before, .main-wrapper.buybasket .basket-forms-container .right-col form label.required, .main-wrapper.buybasket .basket-forms-container .left-col form label.required, .chat-container .chat-box-container .chat-box-header form.search-chats-list {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -1606,7 +1606,7 @@ nav.mobile-nav {
           position: relative;
           border: 1px solid #E6E7E7;
           padding: 5px;
-          background: url('../images/icons/icons.png?1463007944');
+          background: url('../images/icons/icons.png?1463133616');
           cursor: pointer; }
           /* line 536, sass/layout/_header.scss */
           .menu-bar .category-icons ul.icons-list li.cat-icon a:hover {
@@ -3711,7 +3711,7 @@ article.grid-item {
       position: absolute;
       top: 0px;
       bottom: 0px;
-      left: -30px;
+      left: -29px;
       width: 0px;
       border-top: 24px solid transparent;
       border-right: 30px solid #E6E7E7;
@@ -3720,7 +3720,7 @@ article.grid-item {
     .main-wrapper.buybasket .basket-header ul.basket-steps-list li.basket-step:before {
       top: 1px;
       bottom: -1px;
-      left: -31px;
+      left: -30px;
       border-right-color: #4E4E4E; }
     /* line 1848, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-header ul.basket-steps-list li.basket-step a {
@@ -3775,129 +3775,225 @@ article.grid-item {
     /* line 1920, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-content .items-table-container {
       width: 100%;
-      float: right;
-      margin-left: 1.53846%;
-      display: inline; }
-      /* line 1922, sass/layout/_main.scss */
+      clear: both;
+      overflow-x: scroll; }
+      @media (min-width: 45em) {
+        /* line 1920, sass/layout/_main.scss */
+        .main-wrapper.buybasket .basket-content .items-table-container {
+          overflow-x: hidden; } }
+      /* line 1927, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-content .items-table-container table.items-table {
+        max-width: 100%;
         background-color: #F2F2F2;
         width: 100%;
         border: 1px solid #E6E7E7; }
-        /* line 1926, sass/layout/_main.scss */
+        /* line 1933, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr {
           text-align: center;
           width: 100%;
           border-bottom: 1px solid #E6E7E7; }
-          /* line 1930, sass/layout/_main.scss */
+          /* line 1937, sass/layout/_main.scss */
           .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr th {
             padding: 3px 10px;
             max-width: 40%;
             background-color: #E6E7E7;
             border-left: 1px solid #F2F2F2;
             overflow: hidden; }
-            /* line 1936, sass/layout/_main.scss */
+            /* line 1943, sass/layout/_main.scss */
             .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr th:last-child {
               border: 0px; }
-          /* line 1940, sass/layout/_main.scss */
+          /* line 1947, sass/layout/_main.scss */
           .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td {
             padding: 10px;
             overflow: hidden;
             border-left: 1px solid #E6E7E7;
             max-width: 40%; }
-            /* line 1945, sass/layout/_main.scss */
+            /* line 1952, sass/layout/_main.scss */
             .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td:last-child {
               border: 0px; }
-            /* line 1949, sass/layout/_main.scss */
+            /* line 1956, sass/layout/_main.scss */
             .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td a .fa-times {
               color: #FF585B; }
-            /* line 1954, sass/layout/_main.scss */
+            /* line 1961, sass/layout/_main.scss */
             .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td .basket-item-wrapper span.offer-desc {
               max-width: 48%;
               display: inline-block;
               float: right;
               text-align: right; }
-            /* line 1960, sass/layout/_main.scss */
+            /* line 1967, sass/layout/_main.scss */
             .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td .basket-item-wrapper img {
               max-width: 150px;
               margin-left: 4%;
               float: right; }
-            /* line 1966, sass/layout/_main.scss */
+            /* line 1973, sass/layout/_main.scss */
             .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td input[type="number"] {
               max-width: 70px; }
-          /* line 1970, sass/layout/_main.scss */
+          /* line 1977, sass/layout/_main.scss */
           .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr:last-child {
             border-bottom: 0px; }
-    /* line 1977, sass/layout/_main.scss */
+    /* line 1984, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-content .basket-title {
-      position: relative; }
-      /* line 1979, sass/layout/_main.scss */
+      position: relative;
+      overflow: hidden;
+      display: block;
+      clear: both; }
+      /* line 1989, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-content .basket-title h3 {
         position: relative;
-        margin-right: 20px;
+        margin-right: 30px;
         clear: both;
         border-bottom: 1px solid #E6E7E7;
         padding-bottom: 10px;
         margin-bottom: 10px;
-        padding-top: 30px; }
-        /* line 1987, sass/layout/_main.scss */
+        padding-top: 30px;
+        font-size: 120%; }
+        /* line 1998, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-content .basket-title h3::before {
           content: "\f10c";
           position: absolute;
-          top: 34px;
-          right: -21px;
+          top: 37px;
+          right: -23px;
           color: #FF585B; }
-      /* line 1996, sass/layout/_main.scss */
-      .main-wrapper.buybasket .basket-content .basket-title .step-nav {
-        position: absolute;
-        bottom: 0px;
-        left: 0px; }
-      /* line 2001, sass/layout/_main.scss */
-      .main-wrapper.buybasket .basket-content .basket-title a.next-step,
-      .main-wrapper.buybasket .basket-content .basket-title a.previous-step {
-        padding: 5px 15px;
-        margin-right: 5px;
-        background-color: #3BBB5A;
-        color: #FFFFFF;
-        display: inline-block; }
-        /* line 2008, sass/layout/_main.scss */
-        .main-wrapper.buybasket .basket-content .basket-title a.next-step:hover,
-        .main-wrapper.buybasket .basket-content .basket-title a.previous-step:hover {
-          background-color: #FF585B; }
-  /* line 2017, sass/layout/_main.scss */
+      /* line 2007, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-content .basket-title .steps-nav {
+        position: relative; }
+        @media (min-width: 45em) {
+          /* line 2007, sass/layout/_main.scss */
+          .main-wrapper.buybasket .basket-content .basket-title .steps-nav {
+            position: absolute;
+            bottom: 12px;
+            left: 0px; } }
+        /* line 2014, sass/layout/_main.scss */
+        .main-wrapper.buybasket .basket-content .basket-title .steps-nav a.next-step,
+        .main-wrapper.buybasket .basket-content .basket-title .steps-nav a.previous-step {
+          padding: 10px 15px;
+          margin-right: 5px;
+          background-color: #125688;
+          color: #FFFFFF;
+          display: inline-block; }
+          /* line 2021, sass/layout/_main.scss */
+          .main-wrapper.buybasket .basket-content .basket-title .steps-nav a.next-step:hover,
+          .main-wrapper.buybasket .basket-content .basket-title .steps-nav a.previous-step:hover {
+            background-color: #FF585B; }
+  /* line 2031, sass/layout/_main.scss */
   .main-wrapper.buybasket .basket-forms-container {
     clear: both; }
-    /* line 2020, sass/layout/_main.scss */
-    .main-wrapper.buybasket .basket-forms-container .right-col h3, .main-wrapper.buybasket .basket-forms-container .left-col h3 {
-      display: block;
-      border-bottom: 1px solid #E6E7E7;
-      padding-bottom: 8px;
-      width: 80%; }
-    /* line 2027, sass/layout/_main.scss */
-    .main-wrapper.buybasket .basket-forms-container .right-col form label, .main-wrapper.buybasket .basket-forms-container .right-col form input, .main-wrapper.buybasket .basket-forms-container .right-col form select, .main-wrapper.buybasket .basket-forms-container .left-col form label, .main-wrapper.buybasket .basket-forms-container .left-col form input, .main-wrapper.buybasket .basket-forms-container .left-col form select {
-      width: 80%;
-      display: inline-block;
-      -moz-border-radius: 3px;
-      -webkit-border-radius: 3px;
-      border-radius: 3px;
-      padding: 5px 10px; }
-    /* line 2036, sass/layout/_main.scss */
+    /* line 2033, sass/layout/_main.scss */
+    .main-wrapper.buybasket .basket-forms-container .right-col, .main-wrapper.buybasket .basket-forms-container .left-col {
+      padding: 10px 25px 20px;
+      border: 1px dashed #FF585B;
+      background-color: #F2F2F2;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+      /* line 2039, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-forms-container .right-col h3, .main-wrapper.buybasket .basket-forms-container .left-col h3 {
+        display: block;
+        border-bottom: 1px solid #E6E7E7;
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        color: #125688;
+        font-size: 130%; }
+      /* line 2049, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-forms-container .right-col form label, .main-wrapper.buybasket .basket-forms-container .right-col form input, .main-wrapper.buybasket .basket-forms-container .right-col form select, .main-wrapper.buybasket .basket-forms-container .left-col form label, .main-wrapper.buybasket .basket-forms-container .left-col form input, .main-wrapper.buybasket .basket-forms-container .left-col form select {
+        width: 100%;
+        display: inline-block;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        padding: 5px 10px; }
+      /* line 2055, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-forms-container .right-col form label, .main-wrapper.buybasket .basket-forms-container .left-col form label {
+        font-size: 110%;
+        width: auto;
+        display: inline-block;
+        margin: 10px 0px 5px; }
+        /* line 2060, sass/layout/_main.scss */
+        .main-wrapper.buybasket .basket-forms-container .right-col form label.required, .main-wrapper.buybasket .basket-forms-container .left-col form label.required {
+          position: relative;
+          font-family: "Weblogma_Yekan"; }
+          /* line 2064, sass/layout/_main.scss */
+          .main-wrapper.buybasket .basket-forms-container .right-col form label.required::after, .main-wrapper.buybasket .basket-forms-container .left-col form label.required::after {
+            font-family: "FontAwesome";
+            content: "\f005";
+            position: absolute;
+            top: 3px;
+            left: 0px;
+            font-size: 70%;
+            color: #FF585B; }
+      /* line 2075, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-forms-container .right-col form input, .main-wrapper.buybasket .basket-forms-container .left-col form input {
+        border: 1px dashed #cccece;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        outline: none;
+        color: #FFFFFF;
+        font-size: 110%; }
+        /* line 2082, sass/layout/_main.scss */
+        .main-wrapper.buybasket .basket-forms-container .right-col form input:focus, .main-wrapper.buybasket .basket-forms-container .left-col form input:focus {
+          border-color: #FF585B; }
+      /* line 2086, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-forms-container .right-col form input[type="checkbox"], .main-wrapper.buybasket .basket-forms-container .left-col form input[type="checkbox"] {
+        width: auto;
+        margin-top: 20px; }
+      /* line 2090, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-forms-container .right-col form input[type="submit"], .main-wrapper.buybasket .basket-forms-container .left-col form input[type="submit"] {
+        width: auto;
+        display: block;
+        margin: 10px auto;
+        background-color: #FF585B; }
+        /* line 2095, sass/layout/_main.scss */
+        .main-wrapper.buybasket .basket-forms-container .right-col form input[type="submit"]:hover, .main-wrapper.buybasket .basket-forms-container .left-col form input[type="submit"]:hover {
+          background-color: #125688; }
+      /* line 2099, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-forms-container .right-col form select, .main-wrapper.buybasket .basket-forms-container .left-col form select {
+        border: 1px dashed #cccece; }
+        /* line 2101, sass/layout/_main.scss */
+        .main-wrapper.buybasket .basket-forms-container .right-col form select:focus, .main-wrapper.buybasket .basket-forms-container .left-col form select:focus {
+          border-color: #FF585B; }
+      /* line 2105, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-forms-container .right-col form span.remember-title, .main-wrapper.buybasket .basket-forms-container .left-col form span.remember-title {
+        display: inline-block;
+        clear: left;
+        padding: 5px; }
+      /* line 2110, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-forms-container .right-col form a.forgat-password, .main-wrapper.buybasket .basket-forms-container .left-col form a.forgat-password {
+        clear: both;
+        padding: 10px;
+        width: 100%;
+        display: block; }
+    /* line 2119, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-forms-container .right-col {
-      width: 49.23077%;
+      width: 100%;
       float: right;
       margin-left: 1.53846%;
       display: inline; }
-    /* line 2039, sass/layout/_main.scss */
+      @media (min-width: 45em) {
+        /* line 2119, sass/layout/_main.scss */
+        .main-wrapper.buybasket .basket-forms-container .right-col {
+          width: 49.23077%;
+          float: right;
+          margin-left: 1.53846%;
+          margin-right: auto; } }
+    /* line 2126, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-forms-container .left-col {
-      width: 49.23077%;
-      float: left;
-      margin-left: 0;
-      *margin-right: -1em;
+      width: 100%;
+      float: right;
+      margin-left: 1.53846%;
       display: inline; }
+      @media (min-width: 45em) {
+        /* line 2126, sass/layout/_main.scss */
+        .main-wrapper.buybasket .basket-forms-container .left-col {
+          width: 49.23077%;
+          float: left;
+          margin-left: 0;
+          margin-right: auto; } }
 
-/* line 2047, sass/layout/_main.scss */
+/* line 2138, sass/layout/_main.scss */
 .site-main {
   position: relative; }
-  /* line 2049, sass/layout/_main.scss */
+  /* line 2140, sass/layout/_main.scss */
   .site-main .side-columns-container {
     position: fixed;
     top: 100px;
@@ -3907,18 +4003,18 @@ article.grid-item {
     width: 270px;
     max-width: 90%;
     transform: translateX(272px); }
-    /* line 2060, sass/layout/_main.scss */
+    /* line 2151, sass/layout/_main.scss */
     .site-main .side-columns-container a.side-column-more {
       width: 100%;
       text-align: center;
       display: none; }
-    /* line 2065, sass/layout/_main.scss */
+    /* line 2156, sass/layout/_main.scss */
     .site-main .side-columns-container span.f-toggler {
       position: absolute;
       top: 10px;
       left: -43px;
       cursor: pointer; }
-      /* line 2072, sass/layout/_main.scss */
+      /* line 2163, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i:before {
         cursor: pointer;
         -moz-box-shadow: 0px 0px 5px #1b1b1b;
@@ -3929,38 +4025,38 @@ article.grid-item {
         font-size: 140%;
         background-color: #125688;
         opacity: 0.7; }
-      /* line 2081, sass/layout/_main.scss */
+      /* line 2172, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.fa-th-large {
         display: none;
         opacity: 0; }
-      /* line 2085, sass/layout/_main.scss */
+      /* line 2176, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.fa-times {
         display: none;
         opacity: 0; }
-        /* line 2088, sass/layout/_main.scss */
+        /* line 2179, sass/layout/_main.scss */
         .site-main .side-columns-container span.f-toggler i.fa-times:before {
           padding: 8px 12px 12px; }
-      /* line 2092, sass/layout/_main.scss */
+      /* line 2183, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.current {
         display: block;
         opacity: 1; }
-      /* line 2099, sass/layout/_main.scss */
+      /* line 2190, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler:hover i:before {
         background-color: #FFFFFF;
         color: #125688;
         opacity: 1; }
-    /* line 2108, sass/layout/_main.scss */
+    /* line 2199, sass/layout/_main.scss */
     .site-main .side-columns-container ul.side-tab-list {
       padding: 0px;
       margin: 0px;
       overflow: hidden; }
-      /* line 2112, sass/layout/_main.scss */
+      /* line 2203, sass/layout/_main.scss */
       .site-main .side-columns-container ul.side-tab-list li {
         display: inline-block;
         float: right;
         text-align: center;
         width: 50%; }
-        /* line 2117, sass/layout/_main.scss */
+        /* line 2208, sass/layout/_main.scss */
         .site-main .side-columns-container ul.side-tab-list li a {
           width: 100%;
           display: inline-block;
@@ -3968,14 +4064,14 @@ article.grid-item {
           color: #125688;
           border-bottom: 1px dashed #E6E7E7;
           border-left: 1px dashed #E6E7E7; }
-          /* line 2125, sass/layout/_main.scss */
+          /* line 2216, sass/layout/_main.scss */
           .site-main .side-columns-container ul.side-tab-list li a:last-child {
             border-left: 0px; }
-          /* line 2128, sass/layout/_main.scss */
+          /* line 2219, sass/layout/_main.scss */
           .site-main .side-columns-container ul.side-tab-list li a:hover {
             color: #FF585B;
             background-color: #F8F8F8; }
-    /* line 2138, sass/layout/_main.scss */
+    /* line 2229, sass/layout/_main.scss */
     .site-main .side-columns-container .side-followers-container {
       position: relative;
       margin: 0px 1%;
@@ -3983,30 +4079,30 @@ article.grid-item {
       height: 100%;
       display: none;
       opacity: 0; }
-      /* line 2147, sass/layout/_main.scss */
+      /* line 2238, sass/layout/_main.scss */
       .site-main .side-columns-container .side-followers-container h3 {
         display: none; }
-      /* line 2150, sass/layout/_main.scss */
+      /* line 2241, sass/layout/_main.scss */
       .site-main .side-columns-container .side-followers-container ul {
         text-align: right;
         padding: 0px;
         margin: 20px 0px; }
-        /* line 2154, sass/layout/_main.scss */
+        /* line 2245, sass/layout/_main.scss */
         .site-main .side-columns-container .side-followers-container ul li {
           width: 100%;
           margin-bottom: 10px;
           overflow: hidden; }
-          /* line 2160, sass/layout/_main.scss */
+          /* line 2251, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li .user-state {
             top: 6px;
             right: 10px; }
-            /* line 2163, sass/layout/_main.scss */
+            /* line 2254, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title {
               left: 0px; }
-              /* line 2166, sass/layout/_main.scss */
+              /* line 2257, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title::before, .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title::after {
                 left: calc(50% + 27px); }
-          /* line 2171, sass/layout/_main.scss */
+          /* line 2262, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li > span {
             display: inline-block;
             font-size: 90%;
@@ -4014,15 +4110,15 @@ article.grid-item {
             float: right;
             margin-right: 5px;
             margin-top: 10px; }
-          /* line 2179, sass/layout/_main.scss */
+          /* line 2270, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li a.follow-link {
             display: inline-block;
             float: left;
             margin-top: 10px; }
-            /* line 2184, sass/layout/_main.scss */
+            /* line 2275, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link span {
               display: none; }
-            /* line 2187, sass/layout/_main.scss */
+            /* line 2278, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link i:before {
               background-color: #FFFFFF;
               border: 2px solid #E6E7E7;
@@ -4032,17 +4128,17 @@ article.grid-item {
               -moz-border-radius: 30px;
               -webkit-border-radius: 30px;
               border-radius: 30px; }
-            /* line 2196, sass/layout/_main.scss */
+            /* line 2287, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link:hover i:before {
               background-color: #125688;
               color: #F8F8F8; }
-          /* line 2203, sass/layout/_main.scss */
+          /* line 2294, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li img {
             width: 40px;
             float: right;
             margin: 5px 10px 5px 5px; }
       @media (min-width: 54em) {
-        /* line 2138, sass/layout/_main.scss */
+        /* line 2229, sass/layout/_main.scss */
         .site-main .side-columns-container .side-followers-container {
           right: 0px;
           position: absolute;
@@ -4052,7 +4148,7 @@ article.grid-item {
           max-width: 180px;
           display: block;
           opacity: 1; }
-          /* line 2219, sass/layout/_main.scss */
+          /* line 2310, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container h3 {
             text-align: center;
             border-bottom: 1px dashed #E6E7E7;
@@ -4061,7 +4157,7 @@ article.grid-item {
             display: block;
             margin-bottom: 5px;
             line-height: 1.8; }
-            /* line 2227, sass/layout/_main.scss */
+            /* line 2318, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container h3 span.visitors-count {
               line-height: 1;
               float: right;
@@ -4072,12 +4168,12 @@ article.grid-item {
               -webkit-border-radius: 15px;
               border-radius: 15px;
               color: #FFFFFF; }
-          /* line 2237, sass/layout/_main.scss */
+          /* line 2328, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul {
             text-align: center;
             padding: 0px;
             margin: 0px; }
-            /* line 2241, sass/layout/_main.scss */
+            /* line 2332, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li {
               -moz-box-shadow: 0px 0px 5px #1b1b1b;
               -webkit-box-shadow: 0px 0px 5px #1b1b1b;
@@ -4086,50 +4182,50 @@ article.grid-item {
               width: 100%;
               margin-bottom: 10px;
               overflow: hidden; }
-              /* line 2247, sass/layout/_main.scss */
+              /* line 2338, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li > span {
                 display: inline-block;
                 width: 100%;
                 font-size: 90%;
                 word-break: break-all;
                 margin: auto; }
-              /* line 2254, sass/layout/_main.scss */
+              /* line 2345, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li a.follow-link {
                 display: inline-block;
                 width: 100%; }
-                /* line 2257, sass/layout/_main.scss */
+                /* line 2348, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link span {
                   display: block;
                   background-color: #125688;
                   color: #FFFFFF; }
-                /* line 2262, sass/layout/_main.scss */
+                /* line 2353, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link i {
                   display: none; }
-                /* line 2266, sass/layout/_main.scss */
+                /* line 2357, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link:hover span {
                   background-color: #0c3a5b; }
-              /* line 2272, sass/layout/_main.scss */
+              /* line 2363, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li img {
                 max-width: 100%;
                 width: 100%;
                 height: auto;
                 margin: auto; } }
-    /* line 2284, sass/layout/_main.scss */
+    /* line 2375, sass/layout/_main.scss */
     .site-main .side-columns-container .side-important-apps {
       opacity: 0;
       position: relative;
       width: 100%;
       margin: 0px 1%;
       display: none; }
-      /* line 2291, sass/layout/_main.scss */
+      /* line 2382, sass/layout/_main.scss */
       .site-main .side-columns-container .side-important-apps h3 {
         display: none; }
-      /* line 2294, sass/layout/_main.scss */
+      /* line 2385, sass/layout/_main.scss */
       .site-main .side-columns-container .side-important-apps ul {
         text-align: right;
         padding: 0px;
         margin: 20px 0px; }
-        /* line 2298, sass/layout/_main.scss */
+        /* line 2389, sass/layout/_main.scss */
         .site-main .side-columns-container .side-important-apps ul li {
           margin-bottom: 10px;
           width: 100%;
@@ -4137,26 +4233,26 @@ article.grid-item {
           overflow: hidden;
           display: block;
           position: relative; }
-          /* line 2305, sass/layout/_main.scss */
+          /* line 2396, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul li span {
             display: inline-block;
             float: right;
             line-height: 1.6; }
-            /* line 2309, sass/layout/_main.scss */
+            /* line 2400, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li span.app-name {
               color: #125688;
               paddin-top: 5px;
               font-size: 90%;
               margin-right: 60px;
               width: 100%; }
-            /* line 2316, sass/layout/_main.scss */
+            /* line 2407, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li span.taken {
               color: #4E4E4E;
               font-size: 80%;
               margin-top: -2px;
               width: 100%;
               margin-right: 60px; }
-          /* line 2324, sass/layout/_main.scss */
+          /* line 2415, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul li a {
             display: inline-block;
             overflow: hidden;
@@ -4164,13 +4260,13 @@ article.grid-item {
             position: absolute;
             top: 0;
             right: 0; }
-            /* line 2331, sass/layout/_main.scss */
+            /* line 2422, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li a img {
               width: 40px;
               margin: 5px 10px 5px 5px;
               float: right; }
       @media (min-width: 54em) {
-        /* line 2284, sass/layout/_main.scss */
+        /* line 2375, sass/layout/_main.scss */
         .site-main .side-columns-container .side-important-apps {
           position: absolute;
           top: 0px;
@@ -4179,7 +4275,7 @@ article.grid-item {
           display: block;
           opacity: 1;
           margin: 0px 1% 10px; }
-          /* line 2349, sass/layout/_main.scss */
+          /* line 2440, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps h3 {
             text-align: center;
             border-bottom: 1px dashed #E6E7E7;
@@ -4187,12 +4283,12 @@ article.grid-item {
             font-size: 90%;
             display: block;
             margin-bottom: 5px; }
-          /* line 2357, sass/layout/_main.scss */
+          /* line 2448, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul {
             text-align: center;
             padding: 0px;
             margin: 0px; }
-            /* line 2361, sass/layout/_main.scss */
+            /* line 2452, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li {
               -moz-box-shadow: 0px 0px 5px #1b1b1b;
               -webkit-box-shadow: 0px 0px 5px #1b1b1b;
@@ -4201,43 +4297,43 @@ article.grid-item {
               background-color: #F8F8F8;
               width: 100%;
               padding: 0px 10px; }
-              /* line 2368, sass/layout/_main.scss */
+              /* line 2459, sass/layout/_main.scss */
               .site-main .side-columns-container .side-important-apps ul li span {
                 display: inline-block;
                 width: 100%;
                 float: none; }
-                /* line 2372, sass/layout/_main.scss */
+                /* line 2463, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li span.app-name {
                   color: #125688;
                   paddin-top: 5px;
                   padding-bottom: 5px;
                   font-size: 90%;
                   margin: auto; }
-                /* line 2379, sass/layout/_main.scss */
+                /* line 2470, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li span.taken {
                   color: #4E4E4E;
                   font-size: 80%;
                   margin-top: -2px;
                   margin: auto; }
-              /* line 2387, sass/layout/_main.scss */
+              /* line 2478, sass/layout/_main.scss */
               .site-main .side-columns-container .side-important-apps ul li a {
                 display: inline-block;
                 width: 100%;
                 overflow: hidden;
                 max-height: 85px;
                 position: relative; }
-                /* line 2393, sass/layout/_main.scss */
+                /* line 2484, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li a img {
                   width: 100%;
                   margin: auto;
                   float: none; } }
-    /* line 2408, sass/layout/_main.scss */
+    /* line 2499, sass/layout/_main.scss */
     .site-main .side-columns-container .side-followers-container.current,
     .site-main .side-columns-container .side-important-apps.current {
       display: block;
       opacity: 1; }
     @media (min-width: 54em) {
-      /* line 2049, sass/layout/_main.scss */
+      /* line 2140, sass/layout/_main.scss */
       .site-main .side-columns-container {
         -moz-box-shadow: 0px 0px 0px #FFFFFF;
         -webkit-box-shadow: 0px 0px 0px #FFFFFF;
@@ -4252,43 +4348,43 @@ article.grid-item {
         overflow: inherit;
         width: 100%;
         max-width: 100%; }
-        /* line 2426, sass/layout/_main.scss */
+        /* line 2517, sass/layout/_main.scss */
         .site-main .side-columns-container a.side-column-more {
           display: inline-block; }
-        /* line 2429, sass/layout/_main.scss */
+        /* line 2520, sass/layout/_main.scss */
         .site-main .side-columns-container ul.side-tab-list {
           display: none; } }
-    /* line 2433, sass/layout/_main.scss */
+    /* line 2524, sass/layout/_main.scss */
     .site-main .side-columns-container.show-side {
       transform: translateX(0px); }
 
-/* line 2441, sass/layout/_main.scss */
+/* line 2532, sass/layout/_main.scss */
 .main-wrapper.chat {
   padding: 0px;
   margin: 0px; }
 
-/* line 2445, sass/layout/_main.scss */
+/* line 2536, sass/layout/_main.scss */
 .chat-container {
   overflow: hidden; }
-  /* line 2447, sass/layout/_main.scss */
+  /* line 2538, sass/layout/_main.scss */
   .chat-container .chat-box-container {
     background-color: #FFFFFF;
     overflow-y: auto;
     width: 100%; }
     @media (min-width: 54em) {
-      /* line 2447, sass/layout/_main.scss */
+      /* line 2538, sass/layout/_main.scss */
       .chat-container .chat-box-container {
         width: 30%;
         height: 100%;
         float: right;
         border-left: 2px solid #E6E7E7; } }
-    /* line 2458, sass/layout/_main.scss */
+    /* line 2549, sass/layout/_main.scss */
     .chat-container .chat-box-container .chat-box-header {
       background-color: #FFFFFF; }
-      /* line 2460, sass/layout/_main.scss */
+      /* line 2551, sass/layout/_main.scss */
       .chat-container .chat-box-container .chat-box-header form.search-chats-list {
         position: relative; }
-        /* line 2463, sass/layout/_main.scss */
+        /* line 2554, sass/layout/_main.scss */
         .chat-container .chat-box-container .chat-box-header form.search-chats-list::before {
           content: "\f002";
           position: absolute;
@@ -4297,7 +4393,7 @@ article.grid-item {
           vertical-align: middle;
           color: #989c9c;
           font-size: 120%; }
-        /* line 2472, sass/layout/_main.scss */
+        /* line 2563, sass/layout/_main.scss */
         .chat-container .chat-box-container .chat-box-header form.search-chats-list input {
           width: 96%;
           padding: 10px 10px 10px 30px;
@@ -4309,18 +4405,18 @@ article.grid-item {
           -moz-border-radius: 0px;
           -webkit-border-radius: 0px;
           border-radius: 0px; }
-          /* line 2485, sass/layout/_main.scss */
+          /* line 2576, sass/layout/_main.scss */
           .chat-container .chat-box-container .chat-box-header form.search-chats-list input:focus {
             background-color: #F2F2F2;
             border-color: #ffd8d8; }
-        /* line 2490, sass/layout/_main.scss */
+        /* line 2581, sass/layout/_main.scss */
         .chat-container .chat-box-container .chat-box-header form.search-chats-list input[type="submit"] {
           display: none; }
-    /* line 2498, sass/layout/_main.scss */
+    /* line 2589, sass/layout/_main.scss */
     .chat-container .chat-box-container ul.chat-box-list {
       margin: 0px;
       padding: 0px; }
-      /* line 2501, sass/layout/_main.scss */
+      /* line 2592, sass/layout/_main.scss */
       .chat-container .chat-box-container ul.chat-box-list li {
         position: relative;
         display: block;
@@ -4330,10 +4426,10 @@ article.grid-item {
         padding: 7px 10px;
         cursor: pointer;
         overflow: hidden; }
-        /* line 2510, sass/layout/_main.scss */
+        /* line 2601, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li .user-avatar-container {
           width: 70px; }
-          /* line 2512, sass/layout/_main.scss */
+          /* line 2603, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li .user-avatar-container img {
             width: 60px;
             height: auto;
@@ -4343,7 +4439,7 @@ article.grid-item {
             -webkit-border-radius: 30px;
             border-radius: 30px;
             border: 2px solid #F2F2F2; }
-        /* line 2521, sass/layout/_main.scss */
+        /* line 2612, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li span {
           float: right;
           display: block;
@@ -4351,15 +4447,15 @@ article.grid-item {
           text-align: right;
           width: calc(100% - 70px);
           line-height: 1.7; }
-          /* line 2528, sass/layout/_main.scss */
+          /* line 2619, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.user-name {
             color: #125688;
             font-weight: 600; }
-          /* line 2532, sass/layout/_main.scss */
+          /* line 2623, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.chat-excerpt {
             color: #686868;
             font-size: 84%; }
-          /* line 2536, sass/layout/_main.scss */
+          /* line 2627, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.new-messages-count {
             position: absolute;
             bottom: 10px;
@@ -4373,7 +4469,7 @@ article.grid-item {
             border-radius: 20px;
             color: #FFFFFF;
             font-size: 80%; }
-          /* line 2549, sass/layout/_main.scss */
+          /* line 2640, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.last-message-date {
             width: auto;
             position: absolute;
@@ -4381,51 +4477,51 @@ article.grid-item {
             left: 0px;
             font-size: 90%;
             color: #989c9c; }
-        /* line 2562, sass/layout/_main.scss */
+        /* line 2653, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li:hover {
           background-color: #F2F2F2; }
-        /* line 2565, sass/layout/_main.scss */
+        /* line 2656, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li.active {
           background-color: #ffd8d8; }
-  /* line 2574, sass/layout/_main.scss */
+  /* line 2665, sass/layout/_main.scss */
   .chat-container .chat-content-container {
-    background: url('../images/background/chat-back.jpg?1463007944') top left repeat, #4E4E4E;
+    background: url('../images/background/chat-back.jpg?1463133616') top left repeat, #4E4E4E;
     width: 100%;
     overflow-y: auto;
     background-position: center;
     background-attachment: fixed; }
     @media (min-width: 54em) {
-      /* line 2574, sass/layout/_main.scss */
+      /* line 2665, sass/layout/_main.scss */
       .chat-container .chat-content-container {
         width: 70%;
         height: 100%;
         float: left; } }
-    /* line 2586, sass/layout/_main.scss */
+    /* line 2677, sass/layout/_main.scss */
     .chat-container .chat-content-container .chat-content-header {
       background-color: #4E4E4E; }
-    /* line 2592, sass/layout/_main.scss */
+    /* line 2683, sass/layout/_main.scss */
     .chat-container .chat-content-container .chat-wrapper ul.chat-content-list {
       margin: 0px;
       padding: 0px; }
-      /* line 2595, sass/layout/_main.scss */
+      /* line 2686, sass/layout/_main.scss */
       .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li {
         display: block;
         width: 100%;
         clear: both;
         margin: 0px;
         padding: 10px 0px; }
-        /* line 2601, sass/layout/_main.scss */
+        /* line 2692, sass/layout/_main.scss */
         .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content {
           width: 80%;
           margin: auto;
           display: block;
           overflow: hidden; }
-          /* line 2606, sass/layout/_main.scss */
+          /* line 2697, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .user-avatar-container {
             float: right;
             width: 60px;
             padding-left: 10px; }
-            /* line 2610, sass/layout/_main.scss */
+            /* line 2701, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .user-avatar-container img {
               height: auto;
               max-width: 100%;
@@ -4433,7 +4529,7 @@ article.grid-item {
               -moz-border-radius: 30px;
               -webkit-border-radius: 30px;
               border-radius: 30px; }
-          /* line 2619, sass/layout/_main.scss */
+          /* line 2710, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container {
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
@@ -4444,27 +4540,27 @@ article.grid-item {
             color: #111;
             width: calc(100% - 65px);
             float: left; }
-            /* line 2629, sass/layout/_main.scss */
+            /* line 2720, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this {
               border-right: 3px solid #FF585B;
               display: block;
               margin: 5px 0px;
               padding: 0px 10px;
               line-height: 1.5; }
-              /* line 2636, sass/layout/_main.scss */
+              /* line 2727, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this span.sender-user-name {
                 color: #FF585B;
                 display: block; }
-              /* line 2640, sass/layout/_main.scss */
+              /* line 2731, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this span.message-excerpt {
                 color: #4E4E4E; }
-            /* line 2645, sass/layout/_main.scss */
+            /* line 2736, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.user-name {
               color: #125688;
               font-weight: 600;
               width: 100%;
               display: block; }
-            /* line 2651, sass/layout/_main.scss */
+            /* line 2742, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date {
               color: #989c9c;
               font-size: 90%;
@@ -4472,10 +4568,10 @@ article.grid-item {
               display: inline-block;
               padding: 0px 0px 2px 5px;
               margin-right: 22px; }
-              /* line 2658, sass/layout/_main.scss */
+              /* line 2749, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.sent {
                 position: relative; }
-                /* line 2660, sass/layout/_main.scss */
+                /* line 2751, sass/layout/_main.scss */
                 .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.sent::before {
                   content: "";
                   height: 12px;
@@ -4483,11 +4579,11 @@ article.grid-item {
                   position: absolute;
                   top: 10px;
                   right: -22px;
-                  background: url('../images/icons/sent.png?1463007944') top left no-repeat; }
-              /* line 2671, sass/layout/_main.scss */
+                  background: url('../images/icons/sent.png?1463133616') top left no-repeat; }
+              /* line 2762, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.checked {
                 position: relative; }
-                /* line 2673, sass/layout/_main.scss */
+                /* line 2764, sass/layout/_main.scss */
                 .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.checked::before {
                   content: "";
                   height: 12px;
@@ -4495,8 +4591,8 @@ article.grid-item {
                   position: absolute;
                   top: 10px;
                   right: -22px;
-                  background: url('../images/icons/checked.png?1463007944') top left no-repeat; }
-            /* line 2684, sass/layout/_main.scss */
+                  background: url('../images/icons/checked.png?1463133616') top left no-repeat; }
+            /* line 2775, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container::before {
               content: '';
               position: absolute;
@@ -4507,26 +4603,26 @@ article.grid-item {
               border-top: 10px solid transparent;
               border-left: 10px solid #FFFFFF;
               border-bottom: 10px solid transparent; }
-        /* line 2703, sass/layout/_main.scss */
+        /* line 2794, sass/layout/_main.scss */
         .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .user-avatar-container {
           padding-left: 0px;
           padding-right: 10px;
           float: left; }
-        /* line 2708, sass/layout/_main.scss */
+        /* line 2799, sass/layout/_main.scss */
         .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container {
           background-color: #ffd8d8;
           float: right; }
-          /* line 2711, sass/layout/_main.scss */
+          /* line 2802, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container::before {
             top: 11px;
             right: auto;
             left: -9px;
             border-right: 10px solid #ffd8d8;
             border-left: 0px; }
-          /* line 2719, sass/layout/_main.scss */
+          /* line 2810, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container span.user-name {
             text-align: left; }
-    /* line 2734, sass/layout/_main.scss */
+    /* line 2825, sass/layout/_main.scss */
     .chat-container .chat-content-container .chat-content-footer {
       background-color: #4E4E4E; }
 
