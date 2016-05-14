@@ -138,7 +138,16 @@ jQuery(document).ready(function($){
 			interval: 2000
 		});
 	}
+	//if(typeof $.fn.dropzone !== 'undefined') {
+	//	$("input#userImageUpload").dropzone({ url: "/file/post" });
+	//}
 
+		Calendar.setup({
+			inputField: 'date_input',
+			button: 'date_btn',
+			ifFormat: '%Y/%m/%d',
+			dateType: 'jalali'
+		});
 
 	var changeLayout = function(){
 		var window_width = $(window).innerWidth();

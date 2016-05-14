@@ -3828,16 +3828,51 @@ article.grid-item {
             /* line 1973, sass/layout/_main.scss */
             .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td input[type="number"] {
               max-width: 70px; }
-          /* line 1977, sass/layout/_main.scss */
+            /* line 1977, sass/layout/_main.scss */
+            .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td .basket-social span {
+              color: #4E4E4E;
+              display: inline-block;
+              padding: 5px; }
+            /* line 1982, sass/layout/_main.scss */
+            .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td .basket-social ul.basket-social-list {
+              display: inline-block;
+              margin: 5px;
+              padding: 0px; }
+              /* line 1986, sass/layout/_main.scss */
+              .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td .basket-social ul.basket-social-list li {
+                display: inline-block; }
+                /* line 1988, sass/layout/_main.scss */
+                .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td .basket-social ul.basket-social-list li a {
+                  display: block; }
+                  /* line 1991, sass/layout/_main.scss */
+                  .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td .basket-social ul.basket-social-list li a i:before {
+                    vertical-align: middle;
+                    background-color: #4E4E4E;
+                    -moz-border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                    border-radius: 5px;
+                    font-size: 120%;
+                    padding: 5px 8px 7px;
+                    color: #FFFFFF; }
+                  /* line 2002, sass/layout/_main.scss */
+                  .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr td .basket-social ul.basket-social-list li a:hover i:before {
+                    background-color: #FF585B; }
+          /* line 2013, sass/layout/_main.scss */
           .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr:last-child {
             border-bottom: 0px; }
-    /* line 1984, sass/layout/_main.scss */
+          /* line 2016, sass/layout/_main.scss */
+          .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr.table-bottom-detail {
+            background-color: #E6E7E7; }
+            /* line 2018, sass/layout/_main.scss */
+            .main-wrapper.buybasket .basket-content .items-table-container table.items-table tr.table-bottom-detail td {
+              border-color: #F2F2F2; }
+    /* line 2026, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-content .basket-title {
       position: relative;
       overflow: hidden;
       display: block;
       clear: both; }
-      /* line 1989, sass/layout/_main.scss */
+      /* line 2031, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-content .basket-title h3 {
         position: relative;
         margin-right: 30px;
@@ -3847,45 +3882,55 @@ article.grid-item {
         margin-bottom: 10px;
         padding-top: 30px;
         font-size: 120%; }
-        /* line 1998, sass/layout/_main.scss */
+        /* line 2040, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-content .basket-title h3::before {
           content: "\f10c";
           position: absolute;
           top: 37px;
           right: -23px;
           color: #FF585B; }
-      /* line 2007, sass/layout/_main.scss */
+      /* line 2049, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-content .basket-title .steps-nav {
         position: relative; }
         @media (min-width: 45em) {
-          /* line 2007, sass/layout/_main.scss */
+          /* line 2049, sass/layout/_main.scss */
           .main-wrapper.buybasket .basket-content .basket-title .steps-nav {
             position: absolute;
             bottom: 12px;
             left: 0px; } }
-        /* line 2014, sass/layout/_main.scss */
+        /* line 2056, sass/layout/_main.scss */
+        .main-wrapper.buybasket .basket-content .basket-title .steps-nav i {
+          padding: 5px 8px; }
+          /* line 2058, sass/layout/_main.scss */
+          .main-wrapper.buybasket .basket-content .basket-title .steps-nav i:before {
+            font-size: 130%;
+            vertical-align: middle; }
+        /* line 2063, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-content .basket-title .steps-nav a.next-step,
         .main-wrapper.buybasket .basket-content .basket-title .steps-nav a.previous-step {
-          padding: 10px 15px;
+          padding: 7px 15px;
           margin-right: 5px;
           background-color: #125688;
           color: #FFFFFF;
-          display: inline-block; }
-          /* line 2021, sass/layout/_main.scss */
+          display: inline-block;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px; }
+          /* line 2071, sass/layout/_main.scss */
           .main-wrapper.buybasket .basket-content .basket-title .steps-nav a.next-step:hover,
           .main-wrapper.buybasket .basket-content .basket-title .steps-nav a.previous-step:hover {
             background-color: #FF585B; }
-  /* line 2031, sass/layout/_main.scss */
+  /* line 2081, sass/layout/_main.scss */
   .main-wrapper.buybasket .basket-forms-container {
     clear: both; }
-    /* line 2033, sass/layout/_main.scss */
+    /* line 2083, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-forms-container .right-col, .main-wrapper.buybasket .basket-forms-container .left-col {
       padding: 10px 25px 20px;
       border: 1px dashed #FF585B;
       background-color: #F2F2F2;
       margin-top: 20px;
       margin-bottom: 30px; }
-      /* line 2039, sass/layout/_main.scss */
+      /* line 2089, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col h3, .main-wrapper.buybasket .basket-forms-container .left-col h3 {
         display: block;
         border-bottom: 1px solid #E6E7E7;
@@ -3894,7 +3939,7 @@ article.grid-item {
         margin-top: 5px;
         color: #125688;
         font-size: 130%; }
-      /* line 2049, sass/layout/_main.scss */
+      /* line 2099, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form label, .main-wrapper.buybasket .basket-forms-container .right-col form input, .main-wrapper.buybasket .basket-forms-container .right-col form select, .main-wrapper.buybasket .basket-forms-container .left-col form label, .main-wrapper.buybasket .basket-forms-container .left-col form input, .main-wrapper.buybasket .basket-forms-container .left-col form select {
         width: 100%;
         display: inline-block;
@@ -3902,17 +3947,17 @@ article.grid-item {
         -webkit-border-radius: 3px;
         border-radius: 3px;
         padding: 5px 10px; }
-      /* line 2055, sass/layout/_main.scss */
+      /* line 2105, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form label, .main-wrapper.buybasket .basket-forms-container .left-col form label {
         font-size: 110%;
         width: auto;
         display: inline-block;
         margin: 10px 0px 5px; }
-        /* line 2060, sass/layout/_main.scss */
+        /* line 2110, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col form label.required, .main-wrapper.buybasket .basket-forms-container .left-col form label.required {
           position: relative;
           font-family: "Weblogma_Yekan"; }
-          /* line 2064, sass/layout/_main.scss */
+          /* line 2114, sass/layout/_main.scss */
           .main-wrapper.buybasket .basket-forms-container .right-col form label.required::after, .main-wrapper.buybasket .basket-forms-container .left-col form label.required::after {
             font-family: "FontAwesome";
             content: "\f005";
@@ -3921,7 +3966,7 @@ article.grid-item {
             left: 0px;
             font-size: 70%;
             color: #FF585B; }
-      /* line 2075, sass/layout/_main.scss */
+      /* line 2125, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form input, .main-wrapper.buybasket .basket-forms-container .left-col form input {
         border: 1px dashed #cccece;
         -moz-border-radius: 0px;
@@ -3929,71 +3974,94 @@ article.grid-item {
         border-radius: 0px;
         outline: none;
         color: #FFFFFF;
-        font-size: 110%; }
-        /* line 2082, sass/layout/_main.scss */
+        font-size: 110%;
+        color: #4E4E4E; }
+        /* line 2133, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col form input:focus, .main-wrapper.buybasket .basket-forms-container .left-col form input:focus {
           border-color: #FF585B; }
-      /* line 2086, sass/layout/_main.scss */
+        /* line 2136, sass/layout/_main.scss */
+        .main-wrapper.buybasket .basket-forms-container .right-col form input.date_input, .main-wrapper.buybasket .basket-forms-container .left-col form input.date_input {
+          width: auto; }
+        /* line 2139, sass/layout/_main.scss */
+        .main-wrapper.buybasket .basket-forms-container .right-col form input.date_btn, .main-wrapper.buybasket .basket-forms-container .left-col form input.date_btn {
+          width: 50px;
+          height: 50px;
+          position: relative;
+          opacity: 0.8;
+          background: url('../images/icons/calendar.png?1463210139') top left no-repeat, #FF585B; }
+          /* line 2145, sass/layout/_main.scss */
+          .main-wrapper.buybasket .basket-forms-container .right-col form input.date_btn:hover, .main-wrapper.buybasket .basket-forms-container .left-col form input.date_btn:hover {
+            opacity: 1; }
+      /* line 2150, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form input[type="checkbox"], .main-wrapper.buybasket .basket-forms-container .left-col form input[type="checkbox"] {
         width: auto;
         margin-top: 20px; }
-      /* line 2090, sass/layout/_main.scss */
+      /* line 2154, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form input[type="submit"], .main-wrapper.buybasket .basket-forms-container .left-col form input[type="submit"] {
         width: auto;
         display: block;
         margin: 10px auto;
-        background-color: #FF585B; }
-        /* line 2095, sass/layout/_main.scss */
+        background-color: #FF585B;
+        color: #FFFFFF; }
+        /* line 2160, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col form input[type="submit"]:hover, .main-wrapper.buybasket .basket-forms-container .left-col form input[type="submit"]:hover {
           background-color: #125688; }
-      /* line 2099, sass/layout/_main.scss */
+      /* line 2164, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-forms-container .right-col form input[type="file"], .main-wrapper.buybasket .basket-forms-container .left-col form input[type="file"] {
+        color: #4E4E4E;
+        padding: 20px; }
+      /* line 2168, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form select, .main-wrapper.buybasket .basket-forms-container .left-col form select {
         border: 1px dashed #cccece; }
-        /* line 2101, sass/layout/_main.scss */
+        /* line 2170, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col form select:focus, .main-wrapper.buybasket .basket-forms-container .left-col form select:focus {
           border-color: #FF585B; }
-      /* line 2105, sass/layout/_main.scss */
+      /* line 2174, sass/layout/_main.scss */
+      .main-wrapper.buybasket .basket-forms-container .right-col form .calendar-container, .main-wrapper.buybasket .basket-forms-container .left-col form .calendar-container {
+        display: block;
+        width: 100%; }
+      /* line 2178, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form span.remember-title, .main-wrapper.buybasket .basket-forms-container .left-col form span.remember-title {
         display: inline-block;
         clear: left;
         padding: 5px; }
-      /* line 2110, sass/layout/_main.scss */
+      /* line 2183, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form a.forgat-password, .main-wrapper.buybasket .basket-forms-container .left-col form a.forgat-password {
         clear: both;
         padding: 10px;
         width: 100%;
         display: block; }
-    /* line 2119, sass/layout/_main.scss */
+    /* line 2192, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-forms-container .right-col {
       width: 100%;
       float: right;
       margin-left: 1.53846%;
       display: inline; }
       @media (min-width: 45em) {
-        /* line 2119, sass/layout/_main.scss */
+        /* line 2192, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col {
           width: 49.23077%;
           float: right;
           margin-left: 1.53846%;
           margin-right: auto; } }
-    /* line 2126, sass/layout/_main.scss */
+    /* line 2199, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-forms-container .left-col {
       width: 100%;
       float: right;
       margin-left: 1.53846%;
       display: inline; }
       @media (min-width: 45em) {
-        /* line 2126, sass/layout/_main.scss */
+        /* line 2199, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .left-col {
           width: 49.23077%;
           float: left;
           margin-left: 0;
           margin-right: auto; } }
 
-/* line 2138, sass/layout/_main.scss */
+/* line 2213, sass/layout/_main.scss */
 .site-main {
   position: relative; }
-  /* line 2140, sass/layout/_main.scss */
+  /* line 2215, sass/layout/_main.scss */
   .site-main .side-columns-container {
     position: fixed;
     top: 100px;
@@ -4003,18 +4071,18 @@ article.grid-item {
     width: 270px;
     max-width: 90%;
     transform: translateX(272px); }
-    /* line 2151, sass/layout/_main.scss */
+    /* line 2226, sass/layout/_main.scss */
     .site-main .side-columns-container a.side-column-more {
       width: 100%;
       text-align: center;
       display: none; }
-    /* line 2156, sass/layout/_main.scss */
+    /* line 2231, sass/layout/_main.scss */
     .site-main .side-columns-container span.f-toggler {
       position: absolute;
       top: 10px;
       left: -43px;
       cursor: pointer; }
-      /* line 2163, sass/layout/_main.scss */
+      /* line 2238, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i:before {
         cursor: pointer;
         -moz-box-shadow: 0px 0px 5px #1b1b1b;
@@ -4025,38 +4093,38 @@ article.grid-item {
         font-size: 140%;
         background-color: #125688;
         opacity: 0.7; }
-      /* line 2172, sass/layout/_main.scss */
+      /* line 2247, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.fa-th-large {
         display: none;
         opacity: 0; }
-      /* line 2176, sass/layout/_main.scss */
+      /* line 2251, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.fa-times {
         display: none;
         opacity: 0; }
-        /* line 2179, sass/layout/_main.scss */
+        /* line 2254, sass/layout/_main.scss */
         .site-main .side-columns-container span.f-toggler i.fa-times:before {
           padding: 8px 12px 12px; }
-      /* line 2183, sass/layout/_main.scss */
+      /* line 2258, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.current {
         display: block;
         opacity: 1; }
-      /* line 2190, sass/layout/_main.scss */
+      /* line 2265, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler:hover i:before {
         background-color: #FFFFFF;
         color: #125688;
         opacity: 1; }
-    /* line 2199, sass/layout/_main.scss */
+    /* line 2274, sass/layout/_main.scss */
     .site-main .side-columns-container ul.side-tab-list {
       padding: 0px;
       margin: 0px;
       overflow: hidden; }
-      /* line 2203, sass/layout/_main.scss */
+      /* line 2278, sass/layout/_main.scss */
       .site-main .side-columns-container ul.side-tab-list li {
         display: inline-block;
         float: right;
         text-align: center;
         width: 50%; }
-        /* line 2208, sass/layout/_main.scss */
+        /* line 2283, sass/layout/_main.scss */
         .site-main .side-columns-container ul.side-tab-list li a {
           width: 100%;
           display: inline-block;
@@ -4064,14 +4132,14 @@ article.grid-item {
           color: #125688;
           border-bottom: 1px dashed #E6E7E7;
           border-left: 1px dashed #E6E7E7; }
-          /* line 2216, sass/layout/_main.scss */
+          /* line 2291, sass/layout/_main.scss */
           .site-main .side-columns-container ul.side-tab-list li a:last-child {
             border-left: 0px; }
-          /* line 2219, sass/layout/_main.scss */
+          /* line 2294, sass/layout/_main.scss */
           .site-main .side-columns-container ul.side-tab-list li a:hover {
             color: #FF585B;
             background-color: #F8F8F8; }
-    /* line 2229, sass/layout/_main.scss */
+    /* line 2304, sass/layout/_main.scss */
     .site-main .side-columns-container .side-followers-container {
       position: relative;
       margin: 0px 1%;
@@ -4079,30 +4147,30 @@ article.grid-item {
       height: 100%;
       display: none;
       opacity: 0; }
-      /* line 2238, sass/layout/_main.scss */
+      /* line 2313, sass/layout/_main.scss */
       .site-main .side-columns-container .side-followers-container h3 {
         display: none; }
-      /* line 2241, sass/layout/_main.scss */
+      /* line 2316, sass/layout/_main.scss */
       .site-main .side-columns-container .side-followers-container ul {
         text-align: right;
         padding: 0px;
         margin: 20px 0px; }
-        /* line 2245, sass/layout/_main.scss */
+        /* line 2320, sass/layout/_main.scss */
         .site-main .side-columns-container .side-followers-container ul li {
           width: 100%;
           margin-bottom: 10px;
           overflow: hidden; }
-          /* line 2251, sass/layout/_main.scss */
+          /* line 2326, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li .user-state {
             top: 6px;
             right: 10px; }
-            /* line 2254, sass/layout/_main.scss */
+            /* line 2329, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title {
               left: 0px; }
-              /* line 2257, sass/layout/_main.scss */
+              /* line 2332, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title::before, .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title::after {
                 left: calc(50% + 27px); }
-          /* line 2262, sass/layout/_main.scss */
+          /* line 2337, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li > span {
             display: inline-block;
             font-size: 90%;
@@ -4110,15 +4178,15 @@ article.grid-item {
             float: right;
             margin-right: 5px;
             margin-top: 10px; }
-          /* line 2270, sass/layout/_main.scss */
+          /* line 2345, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li a.follow-link {
             display: inline-block;
             float: left;
             margin-top: 10px; }
-            /* line 2275, sass/layout/_main.scss */
+            /* line 2350, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link span {
               display: none; }
-            /* line 2278, sass/layout/_main.scss */
+            /* line 2353, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link i:before {
               background-color: #FFFFFF;
               border: 2px solid #E6E7E7;
@@ -4128,17 +4196,17 @@ article.grid-item {
               -moz-border-radius: 30px;
               -webkit-border-radius: 30px;
               border-radius: 30px; }
-            /* line 2287, sass/layout/_main.scss */
+            /* line 2362, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link:hover i:before {
               background-color: #125688;
               color: #F8F8F8; }
-          /* line 2294, sass/layout/_main.scss */
+          /* line 2369, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li img {
             width: 40px;
             float: right;
             margin: 5px 10px 5px 5px; }
       @media (min-width: 54em) {
-        /* line 2229, sass/layout/_main.scss */
+        /* line 2304, sass/layout/_main.scss */
         .site-main .side-columns-container .side-followers-container {
           right: 0px;
           position: absolute;
@@ -4148,7 +4216,7 @@ article.grid-item {
           max-width: 180px;
           display: block;
           opacity: 1; }
-          /* line 2310, sass/layout/_main.scss */
+          /* line 2385, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container h3 {
             text-align: center;
             border-bottom: 1px dashed #E6E7E7;
@@ -4157,7 +4225,7 @@ article.grid-item {
             display: block;
             margin-bottom: 5px;
             line-height: 1.8; }
-            /* line 2318, sass/layout/_main.scss */
+            /* line 2393, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container h3 span.visitors-count {
               line-height: 1;
               float: right;
@@ -4168,12 +4236,12 @@ article.grid-item {
               -webkit-border-radius: 15px;
               border-radius: 15px;
               color: #FFFFFF; }
-          /* line 2328, sass/layout/_main.scss */
+          /* line 2403, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul {
             text-align: center;
             padding: 0px;
             margin: 0px; }
-            /* line 2332, sass/layout/_main.scss */
+            /* line 2407, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li {
               -moz-box-shadow: 0px 0px 5px #1b1b1b;
               -webkit-box-shadow: 0px 0px 5px #1b1b1b;
@@ -4182,50 +4250,50 @@ article.grid-item {
               width: 100%;
               margin-bottom: 10px;
               overflow: hidden; }
-              /* line 2338, sass/layout/_main.scss */
+              /* line 2413, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li > span {
                 display: inline-block;
                 width: 100%;
                 font-size: 90%;
                 word-break: break-all;
                 margin: auto; }
-              /* line 2345, sass/layout/_main.scss */
+              /* line 2420, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li a.follow-link {
                 display: inline-block;
                 width: 100%; }
-                /* line 2348, sass/layout/_main.scss */
+                /* line 2423, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link span {
                   display: block;
                   background-color: #125688;
                   color: #FFFFFF; }
-                /* line 2353, sass/layout/_main.scss */
+                /* line 2428, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link i {
                   display: none; }
-                /* line 2357, sass/layout/_main.scss */
+                /* line 2432, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link:hover span {
                   background-color: #0c3a5b; }
-              /* line 2363, sass/layout/_main.scss */
+              /* line 2438, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li img {
                 max-width: 100%;
                 width: 100%;
                 height: auto;
                 margin: auto; } }
-    /* line 2375, sass/layout/_main.scss */
+    /* line 2450, sass/layout/_main.scss */
     .site-main .side-columns-container .side-important-apps {
       opacity: 0;
       position: relative;
       width: 100%;
       margin: 0px 1%;
       display: none; }
-      /* line 2382, sass/layout/_main.scss */
+      /* line 2457, sass/layout/_main.scss */
       .site-main .side-columns-container .side-important-apps h3 {
         display: none; }
-      /* line 2385, sass/layout/_main.scss */
+      /* line 2460, sass/layout/_main.scss */
       .site-main .side-columns-container .side-important-apps ul {
         text-align: right;
         padding: 0px;
         margin: 20px 0px; }
-        /* line 2389, sass/layout/_main.scss */
+        /* line 2464, sass/layout/_main.scss */
         .site-main .side-columns-container .side-important-apps ul li {
           margin-bottom: 10px;
           width: 100%;
@@ -4233,26 +4301,26 @@ article.grid-item {
           overflow: hidden;
           display: block;
           position: relative; }
-          /* line 2396, sass/layout/_main.scss */
+          /* line 2471, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul li span {
             display: inline-block;
             float: right;
             line-height: 1.6; }
-            /* line 2400, sass/layout/_main.scss */
+            /* line 2475, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li span.app-name {
               color: #125688;
               paddin-top: 5px;
               font-size: 90%;
               margin-right: 60px;
               width: 100%; }
-            /* line 2407, sass/layout/_main.scss */
+            /* line 2482, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li span.taken {
               color: #4E4E4E;
               font-size: 80%;
               margin-top: -2px;
               width: 100%;
               margin-right: 60px; }
-          /* line 2415, sass/layout/_main.scss */
+          /* line 2490, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul li a {
             display: inline-block;
             overflow: hidden;
@@ -4260,13 +4328,13 @@ article.grid-item {
             position: absolute;
             top: 0;
             right: 0; }
-            /* line 2422, sass/layout/_main.scss */
+            /* line 2497, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li a img {
               width: 40px;
               margin: 5px 10px 5px 5px;
               float: right; }
       @media (min-width: 54em) {
-        /* line 2375, sass/layout/_main.scss */
+        /* line 2450, sass/layout/_main.scss */
         .site-main .side-columns-container .side-important-apps {
           position: absolute;
           top: 0px;
@@ -4275,7 +4343,7 @@ article.grid-item {
           display: block;
           opacity: 1;
           margin: 0px 1% 10px; }
-          /* line 2440, sass/layout/_main.scss */
+          /* line 2515, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps h3 {
             text-align: center;
             border-bottom: 1px dashed #E6E7E7;
@@ -4283,12 +4351,12 @@ article.grid-item {
             font-size: 90%;
             display: block;
             margin-bottom: 5px; }
-          /* line 2448, sass/layout/_main.scss */
+          /* line 2523, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul {
             text-align: center;
             padding: 0px;
             margin: 0px; }
-            /* line 2452, sass/layout/_main.scss */
+            /* line 2527, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li {
               -moz-box-shadow: 0px 0px 5px #1b1b1b;
               -webkit-box-shadow: 0px 0px 5px #1b1b1b;
@@ -4297,43 +4365,43 @@ article.grid-item {
               background-color: #F8F8F8;
               width: 100%;
               padding: 0px 10px; }
-              /* line 2459, sass/layout/_main.scss */
+              /* line 2534, sass/layout/_main.scss */
               .site-main .side-columns-container .side-important-apps ul li span {
                 display: inline-block;
                 width: 100%;
                 float: none; }
-                /* line 2463, sass/layout/_main.scss */
+                /* line 2538, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li span.app-name {
                   color: #125688;
                   paddin-top: 5px;
                   padding-bottom: 5px;
                   font-size: 90%;
                   margin: auto; }
-                /* line 2470, sass/layout/_main.scss */
+                /* line 2545, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li span.taken {
                   color: #4E4E4E;
                   font-size: 80%;
                   margin-top: -2px;
                   margin: auto; }
-              /* line 2478, sass/layout/_main.scss */
+              /* line 2553, sass/layout/_main.scss */
               .site-main .side-columns-container .side-important-apps ul li a {
                 display: inline-block;
                 width: 100%;
                 overflow: hidden;
                 max-height: 85px;
                 position: relative; }
-                /* line 2484, sass/layout/_main.scss */
+                /* line 2559, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li a img {
                   width: 100%;
                   margin: auto;
                   float: none; } }
-    /* line 2499, sass/layout/_main.scss */
+    /* line 2574, sass/layout/_main.scss */
     .site-main .side-columns-container .side-followers-container.current,
     .site-main .side-columns-container .side-important-apps.current {
       display: block;
       opacity: 1; }
     @media (min-width: 54em) {
-      /* line 2140, sass/layout/_main.scss */
+      /* line 2215, sass/layout/_main.scss */
       .site-main .side-columns-container {
         -moz-box-shadow: 0px 0px 0px #FFFFFF;
         -webkit-box-shadow: 0px 0px 0px #FFFFFF;
@@ -4348,43 +4416,43 @@ article.grid-item {
         overflow: inherit;
         width: 100%;
         max-width: 100%; }
-        /* line 2517, sass/layout/_main.scss */
+        /* line 2592, sass/layout/_main.scss */
         .site-main .side-columns-container a.side-column-more {
           display: inline-block; }
-        /* line 2520, sass/layout/_main.scss */
+        /* line 2595, sass/layout/_main.scss */
         .site-main .side-columns-container ul.side-tab-list {
           display: none; } }
-    /* line 2524, sass/layout/_main.scss */
+    /* line 2599, sass/layout/_main.scss */
     .site-main .side-columns-container.show-side {
       transform: translateX(0px); }
 
-/* line 2532, sass/layout/_main.scss */
+/* line 2607, sass/layout/_main.scss */
 .main-wrapper.chat {
   padding: 0px;
   margin: 0px; }
 
-/* line 2536, sass/layout/_main.scss */
+/* line 2611, sass/layout/_main.scss */
 .chat-container {
   overflow: hidden; }
-  /* line 2538, sass/layout/_main.scss */
+  /* line 2613, sass/layout/_main.scss */
   .chat-container .chat-box-container {
     background-color: #FFFFFF;
     overflow-y: auto;
     width: 100%; }
     @media (min-width: 54em) {
-      /* line 2538, sass/layout/_main.scss */
+      /* line 2613, sass/layout/_main.scss */
       .chat-container .chat-box-container {
         width: 30%;
         height: 100%;
         float: right;
         border-left: 2px solid #E6E7E7; } }
-    /* line 2549, sass/layout/_main.scss */
+    /* line 2624, sass/layout/_main.scss */
     .chat-container .chat-box-container .chat-box-header {
       background-color: #FFFFFF; }
-      /* line 2551, sass/layout/_main.scss */
+      /* line 2626, sass/layout/_main.scss */
       .chat-container .chat-box-container .chat-box-header form.search-chats-list {
         position: relative; }
-        /* line 2554, sass/layout/_main.scss */
+        /* line 2629, sass/layout/_main.scss */
         .chat-container .chat-box-container .chat-box-header form.search-chats-list::before {
           content: "\f002";
           position: absolute;
@@ -4393,7 +4461,7 @@ article.grid-item {
           vertical-align: middle;
           color: #989c9c;
           font-size: 120%; }
-        /* line 2563, sass/layout/_main.scss */
+        /* line 2638, sass/layout/_main.scss */
         .chat-container .chat-box-container .chat-box-header form.search-chats-list input {
           width: 96%;
           padding: 10px 10px 10px 30px;
@@ -4405,18 +4473,18 @@ article.grid-item {
           -moz-border-radius: 0px;
           -webkit-border-radius: 0px;
           border-radius: 0px; }
-          /* line 2576, sass/layout/_main.scss */
+          /* line 2651, sass/layout/_main.scss */
           .chat-container .chat-box-container .chat-box-header form.search-chats-list input:focus {
             background-color: #F2F2F2;
             border-color: #ffd8d8; }
-        /* line 2581, sass/layout/_main.scss */
+        /* line 2656, sass/layout/_main.scss */
         .chat-container .chat-box-container .chat-box-header form.search-chats-list input[type="submit"] {
           display: none; }
-    /* line 2589, sass/layout/_main.scss */
+    /* line 2664, sass/layout/_main.scss */
     .chat-container .chat-box-container ul.chat-box-list {
       margin: 0px;
       padding: 0px; }
-      /* line 2592, sass/layout/_main.scss */
+      /* line 2667, sass/layout/_main.scss */
       .chat-container .chat-box-container ul.chat-box-list li {
         position: relative;
         display: block;
@@ -4426,10 +4494,10 @@ article.grid-item {
         padding: 7px 10px;
         cursor: pointer;
         overflow: hidden; }
-        /* line 2601, sass/layout/_main.scss */
+        /* line 2676, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li .user-avatar-container {
           width: 70px; }
-          /* line 2603, sass/layout/_main.scss */
+          /* line 2678, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li .user-avatar-container img {
             width: 60px;
             height: auto;
@@ -4439,7 +4507,7 @@ article.grid-item {
             -webkit-border-radius: 30px;
             border-radius: 30px;
             border: 2px solid #F2F2F2; }
-        /* line 2612, sass/layout/_main.scss */
+        /* line 2687, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li span {
           float: right;
           display: block;
@@ -4447,15 +4515,15 @@ article.grid-item {
           text-align: right;
           width: calc(100% - 70px);
           line-height: 1.7; }
-          /* line 2619, sass/layout/_main.scss */
+          /* line 2694, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.user-name {
             color: #125688;
             font-weight: 600; }
-          /* line 2623, sass/layout/_main.scss */
+          /* line 2698, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.chat-excerpt {
             color: #686868;
             font-size: 84%; }
-          /* line 2627, sass/layout/_main.scss */
+          /* line 2702, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.new-messages-count {
             position: absolute;
             bottom: 10px;
@@ -4469,7 +4537,7 @@ article.grid-item {
             border-radius: 20px;
             color: #FFFFFF;
             font-size: 80%; }
-          /* line 2640, sass/layout/_main.scss */
+          /* line 2715, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.last-message-date {
             width: auto;
             position: absolute;
@@ -4477,13 +4545,13 @@ article.grid-item {
             left: 0px;
             font-size: 90%;
             color: #989c9c; }
-        /* line 2653, sass/layout/_main.scss */
+        /* line 2728, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li:hover {
           background-color: #F2F2F2; }
-        /* line 2656, sass/layout/_main.scss */
+        /* line 2731, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li.active {
           background-color: #ffd8d8; }
-  /* line 2665, sass/layout/_main.scss */
+  /* line 2740, sass/layout/_main.scss */
   .chat-container .chat-content-container {
     background: url('../images/background/chat-back.jpg?1463133616') top left repeat, #4E4E4E;
     width: 100%;
@@ -4491,37 +4559,37 @@ article.grid-item {
     background-position: center;
     background-attachment: fixed; }
     @media (min-width: 54em) {
-      /* line 2665, sass/layout/_main.scss */
+      /* line 2740, sass/layout/_main.scss */
       .chat-container .chat-content-container {
         width: 70%;
         height: 100%;
         float: left; } }
-    /* line 2677, sass/layout/_main.scss */
+    /* line 2752, sass/layout/_main.scss */
     .chat-container .chat-content-container .chat-content-header {
       background-color: #4E4E4E; }
-    /* line 2683, sass/layout/_main.scss */
+    /* line 2758, sass/layout/_main.scss */
     .chat-container .chat-content-container .chat-wrapper ul.chat-content-list {
       margin: 0px;
       padding: 0px; }
-      /* line 2686, sass/layout/_main.scss */
+      /* line 2761, sass/layout/_main.scss */
       .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li {
         display: block;
         width: 100%;
         clear: both;
         margin: 0px;
         padding: 10px 0px; }
-        /* line 2692, sass/layout/_main.scss */
+        /* line 2767, sass/layout/_main.scss */
         .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content {
           width: 80%;
           margin: auto;
           display: block;
           overflow: hidden; }
-          /* line 2697, sass/layout/_main.scss */
+          /* line 2772, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .user-avatar-container {
             float: right;
             width: 60px;
             padding-left: 10px; }
-            /* line 2701, sass/layout/_main.scss */
+            /* line 2776, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .user-avatar-container img {
               height: auto;
               max-width: 100%;
@@ -4529,7 +4597,7 @@ article.grid-item {
               -moz-border-radius: 30px;
               -webkit-border-radius: 30px;
               border-radius: 30px; }
-          /* line 2710, sass/layout/_main.scss */
+          /* line 2785, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container {
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
@@ -4540,27 +4608,27 @@ article.grid-item {
             color: #111;
             width: calc(100% - 65px);
             float: left; }
-            /* line 2720, sass/layout/_main.scss */
+            /* line 2795, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this {
               border-right: 3px solid #FF585B;
               display: block;
               margin: 5px 0px;
               padding: 0px 10px;
               line-height: 1.5; }
-              /* line 2727, sass/layout/_main.scss */
+              /* line 2802, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this span.sender-user-name {
                 color: #FF585B;
                 display: block; }
-              /* line 2731, sass/layout/_main.scss */
+              /* line 2806, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this span.message-excerpt {
                 color: #4E4E4E; }
-            /* line 2736, sass/layout/_main.scss */
+            /* line 2811, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.user-name {
               color: #125688;
               font-weight: 600;
               width: 100%;
               display: block; }
-            /* line 2742, sass/layout/_main.scss */
+            /* line 2817, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date {
               color: #989c9c;
               font-size: 90%;
@@ -4568,10 +4636,10 @@ article.grid-item {
               display: inline-block;
               padding: 0px 0px 2px 5px;
               margin-right: 22px; }
-              /* line 2749, sass/layout/_main.scss */
+              /* line 2824, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.sent {
                 position: relative; }
-                /* line 2751, sass/layout/_main.scss */
+                /* line 2826, sass/layout/_main.scss */
                 .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.sent::before {
                   content: "";
                   height: 12px;
@@ -4580,10 +4648,10 @@ article.grid-item {
                   top: 10px;
                   right: -22px;
                   background: url('../images/icons/sent.png?1463133616') top left no-repeat; }
-              /* line 2762, sass/layout/_main.scss */
+              /* line 2837, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.checked {
                 position: relative; }
-                /* line 2764, sass/layout/_main.scss */
+                /* line 2839, sass/layout/_main.scss */
                 .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.checked::before {
                   content: "";
                   height: 12px;
@@ -4592,7 +4660,7 @@ article.grid-item {
                   top: 10px;
                   right: -22px;
                   background: url('../images/icons/checked.png?1463133616') top left no-repeat; }
-            /* line 2775, sass/layout/_main.scss */
+            /* line 2850, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container::before {
               content: '';
               position: absolute;
@@ -4603,26 +4671,26 @@ article.grid-item {
               border-top: 10px solid transparent;
               border-left: 10px solid #FFFFFF;
               border-bottom: 10px solid transparent; }
-        /* line 2794, sass/layout/_main.scss */
+        /* line 2869, sass/layout/_main.scss */
         .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .user-avatar-container {
           padding-left: 0px;
           padding-right: 10px;
           float: left; }
-        /* line 2799, sass/layout/_main.scss */
+        /* line 2874, sass/layout/_main.scss */
         .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container {
           background-color: #ffd8d8;
           float: right; }
-          /* line 2802, sass/layout/_main.scss */
+          /* line 2877, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container::before {
             top: 11px;
             right: auto;
             left: -9px;
             border-right: 10px solid #ffd8d8;
             border-left: 0px; }
-          /* line 2810, sass/layout/_main.scss */
+          /* line 2885, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container span.user-name {
             text-align: left; }
-    /* line 2825, sass/layout/_main.scss */
+    /* line 2900, sass/layout/_main.scss */
     .chat-container .chat-content-container .chat-content-footer {
       background-color: #4E4E4E; }
 

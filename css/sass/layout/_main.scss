@@ -1973,9 +1973,51 @@ article.grid-item{
             input[type="number"]{
               max-width : 70px;
             }
+            .basket-social{
+              span{
+                color : $grey3;
+                display : inline-block;
+                padding : 5px;
+              }
+              ul.basket-social-list{
+                display: inline-block;
+                margin : 5px;
+                padding : 0px;
+                li{
+                  display : inline-block;
+                  a{
+                    display : block;
+                    i{
+                      &:before{
+                        vertical-align: middle;
+                        background-color: $grey3;
+                        @include border-radius(5px);
+                        font-size : 120%;
+                        padding: 5px 8px 7px;
+                        color : $white;
+                      }
+
+                    }
+                    &:hover{
+                      i:before{
+                        background-color: $gol;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            //basket-socail
+            
           }
           &:last-child{
             border-bottom : 0px;
+          }
+          &.table-bottom-detail{
+            background-color: $grey2;
+            td{
+              border-color : $grey1;
+            }
           }
         }
       }
@@ -2011,13 +2053,21 @@ article.grid-item{
           bottom: 12px;
           left: 0px;
         }
+        i{
+          padding : 5px 8px;
+          &:before{
+            font-size : 130%;
+            vertical-align: middle;
+          }
+        }
        a.next-step,
         a.previous-step {
-         padding: 10px 15px;
+         padding: 7px 15px;
          margin-right: 5px;
          background-color: $blue;
          color: $white;
          display: inline-block;
+         @include border-radius(5px);
          &:hover {
            background-color: $gol;
          }
@@ -2079,8 +2129,22 @@ article.grid-item{
           outline : none;
           color : $white;
           font-size : 110%;
+          color : $grey3;
           &:focus{
             border-color : $gol;
+          }
+          &.date_input{
+            width : auto;
+          }
+          &.date_btn{
+            width : 50px;
+            height : 50px;
+            position: relative;
+            opacity: 0.8;
+            background: image_url('icons/calendar.png') top left no-repeat,$gol;
+            &:hover{
+              opacity : 1;
+            }
           }
         }
         input[type="checkbox"]{
@@ -2092,15 +2156,24 @@ article.grid-item{
           display : block;
           margin : 10px auto;
           background-color: $gol;
+          color : $white;
           &:hover{
             background-color: $blue; 
           }
+        }
+        input[type="file"]{
+          color : $grey3;
+          padding : 20px;
         }
         select{
           border : 1px dashed darken($grey2,10%);
           &:focus{
             border-color : $gol;
           }
+        }
+        .calendar-container{
+          display: block;
+          width : 100%;
         }
         span.remember-title{
           display : inline-block;
@@ -2134,6 +2207,8 @@ article.grid-item{
 
   }
   //basket-forms-container
+  
+  //basket-social
 }
 .site-main {
   position: relative;
