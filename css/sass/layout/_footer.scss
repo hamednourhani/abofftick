@@ -69,16 +69,17 @@
   }
   &.hide-footer{
    @extend .def-transition;
-    position: absolute;
-    top : 100%;
-    right : 0px;
-    left : 0px;
+    //position: absolute;
+    //top : 100%;
+    //right : 0px;
+    //left : 0px;
   }
 }
 
 
 .footer-columns{
   padding : 20px 0px;
+  overflow: hidden;
   aside.footer-col{
     @include span-columns(12,12);
     @include at-breakpoint($medium){

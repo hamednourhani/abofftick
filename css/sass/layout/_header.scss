@@ -20,7 +20,7 @@
     @include at-breakpoint($mediumplus){
       display: block;
     }
-    padding : 15px 10px;
+    padding : 10px;
     float : left;
     input,select{
       padding : 6px;
@@ -148,12 +148,12 @@
     .logout-button{
       font-family: $web_yekan;
       float : left ;
-      margin : 5px 10px;
+      margin : 8px 10px;
       &::before{
         font-family: "FontAwesome";
         content : "\f08b";
         padding-left : 5px;
-        vertical-align: middle;
+        vertical-align: text-top;
         font-size: 130%;
         font-weight: 100;
         padding-top : 10px;
@@ -166,8 +166,14 @@
         max-width : 32px;
         border : 2px solid $grey2;
         @include border-radius(30px);
-        margin-top : 10px;
+        margin-top : 8px;
+        float : right;
 
+      }
+      .user-name{
+        display: inline-block;
+        margin : 10px 7px;
+        float: right;
       }
     }
     .register-button{
@@ -216,22 +222,38 @@
       height : 22px;
     }
     .cart-content{
-      @extend .bottom-tooltip;
-      @extend .dark-box-shadow;
-      text-align : right;
-      z-index : 9999999;
-      width : 250px;
-      left : auto;
-      right : -50%;
-      top : 50px;
-      pointer-events:none ;
+      @extend .def-box-shadow;
+      //@extend .def-transition;
+      position: absolute;
+      top : 140%;
+      right : -20px;
       background-color: $white;
-      border-color : $grey2;
+      //opacity: 0;
+      //pointer-events: none;
+      z-index:9999999;
+      width : 200px;
+      border : 4px solid $grey1;
+      display: none;
+      margin : 0px;
+      padding : 10px;
       &::before, &::after {
+        content: '';
+        position: absolute;
         top: -15px;
-        left: auto;
-        right : 8%;
+        right: 12%;
+        margin-left: -9px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid rgba(0, 0, 0, 0.1);
       }
+      &::after {
+        top: -14px;
+        margin-left: -10px;
+        border-bottom: 10px solid $grey1;
+      }
+
       ul{
         margin : 0px;
         padding : 0px;
@@ -255,15 +277,11 @@
       }
     }
     &:hover>.cart-content{
-      top : 34px;
-      opacity : 1;
-      pointer-events: visible;
+      display: block;
+      //opacity : 1;
+      //pointer-events: visible;
     }
-    .cart-content:hover{
-      top : 38px;
-      opacity : 1;
-      pointer-events: visible;
-    }
+
 
   }
   .contact-wrapper{
@@ -307,6 +325,23 @@
           opacity: 0.9;
           &:hover{
             opacity: 1;
+          }
+          &.site-icon-link{
+            float : right;
+            display : block;
+            overflow: hidden;
+            margin-top : -7px;
+            width : 34px;
+            margin-left : 5px;
+            position: absolute;
+            right : -66px;
+            top : -11px;
+            &>img.site-icon{
+              width : 34px;
+              display : inline-block;
+              height : auto;
+              float : right;
+            }
           }
         }
         i {
@@ -370,6 +405,11 @@
           line-height: 1;
           @include border-radius(10px);
         }
+        &:hover{
+          ul.dropdown-menu{
+            display : block;
+          }
+        }
       }
     }
   }
@@ -378,7 +418,48 @@
     border-bottom : 2px solid $grey2;
   }
 }
+//top-bar
+.profile-page{
+  .plus-icon-wrapper {
+    padding: 6px 10px;
+    right: auto;
+    left: 30px;
+    @include at-breakpoint($mediumplus){
+      right : 46%;
+      left : auto;
+    }
+    a.plus-icon {
+      padding: 5px 9px;
+    }
+  }
+  .loggedin-icons-list{
+    display: none;
+    margin-top : 12px !important;
+    .user-avatar {
+      .user-name{
+        margin: 12px 7px 0px ;
+      }
+    }
+  }
+  .panel-links{
+    padding-top : 2px;
+    padding-bottom : 0px;
+    line-height : 1.4;
+  }
+  .cart-wrapper{
+    margin-top : 15px;
+  }
+  .top-bar .menu-toggler {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+    @include at-breakpoint($medium){
+      .loggedin-icons-list{
 
+        display : inline-block;
+      }
+    }
+}
 nav.mobile-nav {
   //position : absolute;
   //top : 0px;
@@ -717,9 +798,9 @@ nav.mobile-nav {
           @extend .def-transition;
           display: inline-block;
           width : 100%;
-          padding : 5px 10px;
+          padding : 25px 10px;
           color : $white;
-
+          font-size : 110%;
         }
         ul.submenu{
           @extend .dark-box-shadow;
@@ -742,7 +823,7 @@ nav.mobile-nav {
               @extend .def-transition;
               width : 100%;
               height : 100%;
-              padding : 5px 10px;
+              padding : 10px;
               border-bottom : 1px solid darken($blue, 8%);
               display: inline-block;
               color : $white;
@@ -771,7 +852,7 @@ nav.mobile-nav {
             color : $white;
           }
           & > a{
-            padding : 13px;
+            padding : 25px 13px;
           }
         }
       }
@@ -779,7 +860,7 @@ nav.mobile-nav {
         display : inline-block;
 
         & >a{
-          padding : 15px;
+          padding : 25px 15px;
           text-align: center;
         }
         &:hover{
@@ -888,16 +969,19 @@ nav.mobile-nav {
   .company-logo-container{
     background-color: $blue;
     display: inline-block;
-    padding : 10px;
+   padding : 10px;
+    padding-top : 18px;
+    padding-bottom : 2px;
     max-width : 100%;
     width : 100%;
     @include at-breakpoint($medium) {
     position: absolute;
+      padding : 10px;
     top : 0px;
     left : 0px;
       width : auto;
-      max-width : 120px;
-      border-bottom : 3px solid lighten($grey3,10%);
+      max-width : 150px;
+
     }
 
     text-align: center;

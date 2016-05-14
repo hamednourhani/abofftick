@@ -17,25 +17,25 @@
     <div class="site-header">
         <div class="top-bar">
             <section class="layout">
-                <a href="http://offtick.com" class="site-logo-link">
-                    <img src="images/offtick-logo-69x50.png" alt="" class="site-logo">
-                </a>
+                <!--<a href="http://offtick.com" class="site-logo-link">-->
+                    <!--<img src="images/offtick-logo-69x50.png" alt="" class="site-logo">-->
+                <!--</a>-->
 
-                <div class="search-container">
-                    <form name="searchform" class="search-form">
-                        <select name="city" id="searchcity" class="search-city">
-                            <option value="tehran">تهران</option>
-                            <option value="esfehan">اصفهان</option>
-                            <option value="shiraz">شیراز</option>
-                            <option value="mashahd">مشهد</option>
-                            <option value="kerman">کرمان</option>
-                            <option value="khozestan">خوزستان</option>
-                        </select>
-                        <input type="text" name="s" class="search-text" placeholder="جستجوی تخفیف .."/>
-                        <input class="searchbutton" type="submit" value=""/>
-                    </form>
-                </div>
-                <!--search-container-->
+                <!--<div class="search-container">-->
+                    <!--<form name="searchform" class="search-form">-->
+                        <!--<select name="city" id="searchcity" class="search-city">-->
+                            <!--<option value="tehran">تهران</option>-->
+                            <!--<option value="esfehan">اصفهان</option>-->
+                            <!--<option value="shiraz">شیراز</option>-->
+                            <!--<option value="mashahd">مشهد</option>-->
+                            <!--<option value="kerman">کرمان</option>-->
+                            <!--<option value="khozestan">خوزستان</option>-->
+                        <!--</select>-->
+                        <!--<input type="text" name="s" class="search-text" placeholder="جستجوی تخفیف .."/>-->
+                        <!--<input class="searchbutton" type="submit" value=""/>-->
+                    <!--</form>-->
+                <!--</div>-->
+                <!--&lt;!&ndash;search-container&ndash;&gt;-->
 
                 <div class="plus-icon-wrapper">
                     <a href="#" class="plus-icon">
@@ -53,8 +53,23 @@
                 <div class="loggedin-icons">
                     <ul class="loggedin-icons-list">
                         <li>
-                            <a href="#">
-                                <i class="fa fa-home" aria-hidden="true"></i>
+
+                            <i class="fa fa-lock" aria-hidden="true" id="lockSettingButton"></i>
+                            <ul class="dropdown-menu" id="lockSettingList">
+                                <li><a href="#">item</a></li>
+                                <li><a href="#">item</a></li>
+                                <li><a href="#">item</a></li>
+                                <li><a href="#">item</a></li>
+                            </ul>
+
+                        </li>
+                        <li>
+
+                            <!--<a href="#">-->
+                                <!--<i class="fa fa-home" aria-hidden="true"></i>-->
+                            <!--</a>-->
+                            <a href="http://offtick.com" class="site-icon-link">
+                                <img src="images/offtick-logo-69x50.png" alt="" class="site-icon">
                             </a>
 
                         </li>
@@ -64,11 +79,7 @@
                             </a>
                             <span class="icon-qty">2</span>
                         </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-th-list" aria-hidden="true"></i>
-                            </a>
-                        </li>
+
                         <li>
                             <i id="loggedin-settings-button" class="fa fa-cog" aria-hidden="true"></i>
                             <ul id="loggedin-settings-list" class="dropdown-menu">
@@ -105,6 +116,11 @@
                             </ul>
 
                         </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-th-list" aria-hidden="true"></i>
+                            </a>
+                        </li>
                     </ul>
                     <!--loggedin-icons-list-->
                 </div>
@@ -113,7 +129,7 @@
                 <div class="panel-links">
                     <a href="#" class="user-avatar">
                         <img src="images/user-avatar.png" alt="">
-
+                        <span class="user-name">Abbass87</span>
                     </a>
                         <a href="#" class="logout-button">خروج</a>                
                 </div>
@@ -195,17 +211,7 @@
 
 
                 <ul class="profile-links">
-                    <li>
-                        <i class="fa fa-caret-down" aria-hidden="true"></i>
-                        <i class="fa fa-lock" aria-hidden="true"></i>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">item</a></li>
-                            <li><a href="#">item</a></li>
-                            <li><a href="#">item</a></li>
-                            <li><a href="#">item</a></li>
-                        </ul>
 
-                    </li>
                     <!--<li class="only-responsive">-->
                         <!--<i class="fa fa-user-plus" aria-hidden="true"></i>-->
                     <!--</li>-->
@@ -816,10 +822,13 @@
             <div class="side-followers-container current" id="side-followers-container">
 
 
-                <h3>Visitors</h3>
+                <h3>Site Visitors <span class="visitors-count">12K</span></h3>
                 <ul>
                     <li>
                         <a href="#">
+                            <div class="user-state online">
+                                <span class="user-state-title">online</span>
+                            </div>
                             <img src="images/follower.png" alt="">
                         </a>
                         <span class="follower-name">User Name</span>
@@ -830,6 +839,10 @@
                     </li>
                     <li>
                         <a href="#">
+
+                            <div class="user-state online">
+                                <span class="user-state-title">online</span>
+                            </div>
                             <img src="images/follower.png" alt="">
                         </a>
                         <span class="follower-name">User Name</span>
@@ -840,6 +853,9 @@
                     </li>
                     <li>
                         <a href="#">
+                            <div class="user-state online">
+                                <span class="user-state-title">online</span>
+                            </div>
                             <img src="images/follower.png" alt="">
                         </a>
                         <span class="follower-name">User Name</span>
@@ -850,6 +866,9 @@
                     </li>
                     <li>
                         <a href="#">
+                            <div class="user-state online">
+                                <span class="user-state-title">online</span>
+                            </div>
                             <img src="images/follower.png" alt="">
                         </a>
                         <span class="follower-name">User Name</span>
@@ -859,6 +878,7 @@
                         </a>
                     </li>
                 </ul>
+                <a href="#" class="side-column-more">Show more</a>
             </div>
             <!--side-followers-inner-->
 
@@ -902,6 +922,7 @@
                     </li>
 
                 </ul>
+                <a href="#" class="side-column-more">Show more</a>
             </div>
             <!--important-apps-->
         </div>
@@ -917,7 +938,12 @@
     </div>
     <!--site-main-->
 
-    <footer class="site-footer">
+    <footer class="site-footer hide-footer" id="hideFooter">
+
+        <span class="hide-footer-toggler" id="hideFooterToggler">
+            <i class="fa fa-angle-up" id="showSectionFooter" aria-hidden="true"></i>
+            <i class="fa fa-angle-down" id="hideSectionFooter" aria-hidden="true"></i>
+        </span>
 
         <div class="footer-columns">
             <section class="layout">
@@ -1043,5 +1069,7 @@
 <script type="text/javascript" src="js/lib/jquery.sliderPro.min.js"></script>
 <script type="text/javascript" src="js/lib/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/lib/jquery.gallery.js"></script>
+<script type="text/javascript" src="js/plugins/offtick-jquery-plugins.js"></script>
+
 <script type="text/javascript" src="js/scripts.js"></script>
 </html>

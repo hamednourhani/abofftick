@@ -2,17 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e65fe164-7a31-422b-a088-18b465cde640" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/plugins/offtick-jquery-plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/background/chat-back.jpg" afterPath="$PROJECT_DIR$/images/background/chat-back.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/layout/final/WebSiteUpdate.jpg" afterPath="$PROJECT_DIR$/images/layout/final/WebSiteUpdate.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat.html" afterPath="$PROJECT_DIR$/chat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company-profile-loggedin.html" afterPath="$PROJECT_DIR$/company-profile-loggedin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company-profile.html" afterPath="$PROJECT_DIR$/company-profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/arrow-left.svg" afterPath="$PROJECT_DIR$/css/arrow-left.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/arrow-right.svg" afterPath="$PROJECT_DIR$/css/arrow-right.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/OpenSans-Regular.svg" afterPath="$PROJECT_DIR$/css/fonts/OpenSans-Regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/Yekan.svg" afterPath="$PROJECT_DIR$/css/fonts/Yekan.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/css/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/slick.svg" afterPath="$PROJECT_DIR$/css/fonts/slick.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/modules/slick-theme.css" afterPath="$PROJECT_DIR$/css/modules/slick-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/modules/slick.css" afterPath="$PROJECT_DIR$/css/modules/slick.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/_font-awesome.scss" afterPath="$PROJECT_DIR$/css/sass/_font-awesome.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/_ie.scss" afterPath="$PROJECT_DIR$/css/sass/_ie.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/base/_base.scss" afterPath="$PROJECT_DIR$/css/sass/base/_base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/base/_mixins.scss" afterPath="$PROJECT_DIR$/css/sass/base/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/base/_normalize.scss" afterPath="$PROJECT_DIR$/css/sass/base/_normalize.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/base/_print.scss" afterPath="$PROJECT_DIR$/css/sass/base/_print.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/base/_variables.scss" afterPath="$PROJECT_DIR$/css/sass/base/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_animated.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_animated.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_bordered-pulled.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_core.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_core.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_fixed-width.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_fixed-width.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_icons.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_larger.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_larger.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_list.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_mixins.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_path.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_path.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_rotated-flipped.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_stacked.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_stacked.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/font-awesome/_variables.scss" afterPath="$PROJECT_DIR$/css/sass/font-awesome/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/fonts/_fonts.scss" afterPath="$PROJECT_DIR$/css/sass/fonts/_fonts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/fonts/_typography.scss" afterPath="$PROJECT_DIR$/css/sass/fonts/_typography.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/layout/_footer.scss" afterPath="$PROJECT_DIR$/css/sass/layout/_footer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/layout/_header.scss" afterPath="$PROJECT_DIR$/css/sass/layout/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/layout/_main.scss" afterPath="$PROJECT_DIR$/css/sass/layout/_main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/modules/_others.scss" afterPath="$PROJECT_DIR$/css/sass/modules/_others.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/modules/_please-wait.scss" afterPath="$PROJECT_DIR$/css/sass/modules/_please-wait.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/modules/_sk-cube.scss" afterPath="$PROJECT_DIR$/css/sass/modules/_sk-cube.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/modules/_sk-wave.scss" afterPath="$PROJECT_DIR$/css/sass/modules/_sk-wave.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/modules/_slider.scss" afterPath="$PROJECT_DIR$/css/sass/modules/_slider.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/modules/slick-theme.scss" afterPath="$PROJECT_DIR$/css/sass/modules/slick-theme.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/modules/slick.scss" afterPath="$PROJECT_DIR$/css/sass/modules/slick.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/style.scss" afterPath="$PROJECT_DIR$/css/sass/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/slider-pro.min.css" afterPath="$PROJECT_DIR$/css/slider-pro.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/Yekan.svg" afterPath="$PROJECT_DIR$/fonts/Yekan.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gruntfile.js" afterPath="$PROJECT_DIR$/gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/ImageAttribution.txt" afterPath="$PROJECT_DIR$/images/slides/ImageAttribution.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/PIE.js" afterPath="$PROJECT_DIR$/js/lib/PIE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/arrow-left.svg" afterPath="$PROJECT_DIR$/js/lib/arrow-left.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/arrow-right.svg" afterPath="$PROJECT_DIR$/js/lib/arrow-right.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/cssfx.js" afterPath="$PROJECT_DIR$/js/lib/cssfx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/flexie.js" afterPath="$PROJECT_DIR$/js/lib/flexie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/html5shiv.js" afterPath="$PROJECT_DIR$/js/lib/html5shiv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/jquery-1.11.3.min.js" afterPath="$PROJECT_DIR$/js/lib/jquery-1.11.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/jquery.gallery.js" afterPath="$PROJECT_DIR$/js/lib/jquery.gallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/jquery.onscreen.min.js" afterPath="$PROJECT_DIR$/js/lib/jquery.onscreen.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/jquery.prettyPhoto.js" afterPath="$PROJECT_DIR$/js/lib/jquery.prettyPhoto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/jquery.sliderPro.min.js" afterPath="$PROJECT_DIR$/js/lib/jquery.sliderPro.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/jquery.superslides.min.js" afterPath="$PROJECT_DIR$/js/lib/jquery.superslides.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/modernizr-viradeco.js" afterPath="$PROJECT_DIR$/js/lib/modernizr-viradeco.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/modernizr.custom.min.js" afterPath="$PROJECT_DIR$/js/lib/modernizr.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/onScreen.html" afterPath="$PROJECT_DIR$/js/lib/onScreen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/please-wait.min.js" afterPath="$PROJECT_DIR$/js/lib/please-wait.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/protip.min.js" afterPath="$PROJECT_DIR$/js/lib/protip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/respond.js" afterPath="$PROJECT_DIR$/js/lib/respond.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/selectivizr-min.js" afterPath="$PROJECT_DIR$/js/lib/selectivizr-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lib/slick.min.js" afterPath="$PROJECT_DIR$/js/lib/slick.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/plugins/offtick-jquery-plugins.js" afterPath="$PROJECT_DIR$/js/plugins/offtick-jquery-plugins.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loggedin.html" afterPath="$PROJECT_DIR$/loggedin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-image.html" afterPath="$PROJECT_DIR$/single-image.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/single-offer.html" afterPath="$PROJECT_DIR$/single-offer.html" />
     </list>
     <ignored path="offtick.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,23 +109,14 @@
       <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/sass/layout/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.98077">
-              <caret line="2214" column="26" selection-start-line="2214" selection-start-column="26" selection-end-line="2214" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2477" column="26" selection-start-line="2477" selection-start-column="26" selection-end-line="2477" selection-end-column="26" />
               <folding>
                 <element signature="e#10#1047#0" expanded="false" />
                 <element signature="e#450#1044#0" expanded="false" />
-                <element signature="e#1074#1297#0" expanded="false" />
-                <element signature="e#1346#3505#0" expanded="false" />
-                <element signature="e#3543#4755#0" expanded="false" />
-                <element signature="e#4773#10478#0" expanded="false" />
-                <element signature="e#10501#27857#0" expanded="false" />
-                <element signature="e#27903#38349#0" expanded="false" />
-                <element signature="e#27941#30915#0" expanded="false" />
-                <element signature="e#30942#34209#0" expanded="false" />
-                <element signature="e#34232#38335#0" expanded="false" />
-                <element signature="e#34694#35993#0" expanded="false" />
-                <element signature="e#38395#40464#0" expanded="false" />
-                <element signature="e#40499#48896#0" expanded="false" />
+                <element signature="e#1074#1318#0" expanded="false" />
+                <marker date="1463133616000" expanded="true" signature="54519:54641" placeholder="{...}" />
+                <marker date="1463133616000" expanded="false" signature="54519:54671" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,9 +125,15 @@
       <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/sass/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="377" column="36" selection-start-line="377" selection-start-column="36" selection-end-line="377" selection-end-column="36" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="458" column="31" selection-start-line="458" selection-start-column="31" selection-end-line="458" selection-end-column="31" />
+              <folding>
+                <marker date="1463133616000" expanded="true" signature="57:414" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="21999:22005" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="21999:22111" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="21999:22140" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="22077:22107" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,9 +141,26 @@
       <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/sass/layout/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.961538">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+              <folding>
+                <marker date="1463133616000" expanded="true" signature="12:1346" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="120:882" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="127:698" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="143:608" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="660:692" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="710:877" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="726:796" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="825:871" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="890:915" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="919:983" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="952:979" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="998:1296" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="1082:1117" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="1236:1292" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="1312:1346" placeholder="{...}" />
+                <marker date="1463133616000" expanded="true" signature="1488:2023" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +168,8 @@
       <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.2">
-              <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -92,10 +178,11 @@
       <file leaf-file-name="offtick-jquery-plugins.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/plugins/offtick-jquery-plugins.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7083333">
-              <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.70983607">
+              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
+                <marker date="1463133616000" expanded="true" signature="2139:2333" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,7 +191,7 @@
       <file leaf-file-name="chat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.346154">
+            <state vertical-scroll-proportion="0.0">
               <caret line="429" column="42" selection-start-line="429" selection-start-column="42" selection-end-line="429" selection-end-column="42" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -119,7 +206,7 @@
       <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/sass/base/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
+            <state vertical-scroll-proportion="0.0">
               <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
               <folding />
             </state>
@@ -240,6 +327,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -391,7 +479,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,30 +544,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="7" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.378882" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.378882" order="4" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.621118" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24056605" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24056605" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -524,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -581,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="130" column="2" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="130" column="2" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="130" column="2" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="40" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,36 +891,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7536946">
           <caret line="150" column="3" selection-start-line="139" selection-start-column="2" selection-end-line="150" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/sass/layout/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.98077">
-          <caret line="2214" column="26" selection-start-line="2214" selection-start-column="26" selection-end-line="2214" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2477" column="26" selection-start-line="2477" selection-start-column="26" selection-end-line="2477" selection-end-column="26" />
           <folding>
             <element signature="e#10#1047#0" expanded="false" />
             <element signature="e#450#1044#0" expanded="false" />
-            <element signature="e#1074#1297#0" expanded="false" />
-            <element signature="e#1346#3505#0" expanded="false" />
-            <element signature="e#3543#4755#0" expanded="false" />
-            <element signature="e#4773#10478#0" expanded="false" />
-            <element signature="e#10501#27857#0" expanded="false" />
-            <element signature="e#27903#38349#0" expanded="false" />
-            <element signature="e#27941#30915#0" expanded="false" />
-            <element signature="e#30942#34209#0" expanded="false" />
-            <element signature="e#34232#38335#0" expanded="false" />
-            <element signature="e#34694#35993#0" expanded="false" />
-            <element signature="e#38395#40464#0" expanded="false" />
-            <element signature="e#40499#48896#0" expanded="false" />
+            <element signature="e#1074#1318#0" expanded="false" />
+            <marker date="1463133616000" expanded="true" signature="54519:54641" placeholder="{...}" />
+            <marker date="1463133616000" expanded="false" signature="54519:54671" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/sass/base/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="70" selection-start-line="35" selection-start-column="70" selection-end-line="35" selection-end-column="70" />
           <folding />
         </state>
@@ -846,15 +918,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/sass/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="377" column="36" selection-start-line="377" selection-start-column="36" selection-end-line="377" selection-end-column="36" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="458" column="31" selection-start-line="458" selection-start-column="31" selection-end-line="458" selection-end-column="31" />
+          <folding>
+            <marker date="1463133616000" expanded="true" signature="57:414" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="21999:22005" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="21999:22111" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="21999:22140" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="22077:22107" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chat.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.346154">
+        <state vertical-scroll-proportion="0.0">
           <caret line="429" column="42" selection-start-line="429" selection-start-column="42" selection-end-line="429" selection-end-column="42" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -867,26 +945,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/sass/layout/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.961538">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <marker date="1463133616000" expanded="true" signature="12:1346" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="120:882" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="127:698" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="143:608" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="660:692" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="710:877" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="726:796" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="825:871" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="890:915" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="919:983" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="952:979" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="998:1296" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="1082:1117" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="1236:1292" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="1312:1346" placeholder="{...}" />
+            <marker date="1463133616000" expanded="true" signature="1488:2023" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.2">
-          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/plugins/offtick-jquery-plugins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7083333">
-          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.70983607">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
+            <marker date="1463133616000" expanded="true" signature="2139:2333" placeholder="{...}" />
           </folding>
         </state>
       </provider>
