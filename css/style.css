@@ -3873,8 +3873,9 @@ article.grid-item {
     display: block;
     clear: both;
     min-height: 60px;
+    margin-top: 10px;
     text-align: center; }
-    /* line 2037, sass/layout/_main.scss */
+    /* line 2038, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-title h3 {
       position: relative;
       margin-right: 30px;
@@ -3885,14 +3886,14 @@ article.grid-item {
       padding-top: 30px;
       font-size: 120%;
       display: inline-block; }
-      /* line 2047, sass/layout/_main.scss */
+      /* line 2048, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-title h3::before {
         content: "\f10c";
         position: absolute;
         top: 37px;
         right: -23px;
         color: #FF585B; }
-    /* line 2056, sass/layout/_main.scss */
+    /* line 2057, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-title a.home_button_handler {
       background-color: #F2F2F2;
       color: #4E4E4E;
@@ -3900,27 +3901,27 @@ article.grid-item {
       padding: 7px 15px;
       display: inline-block;
       margin-bottom: 15px; }
-      /* line 2064, sass/layout/_main.scss */
+      /* line 2065, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-title a.home_button_handler:hover {
         background-color: #FF585B;
         color: #FFFFFF; }
-    /* line 2069, sass/layout/_main.scss */
+    /* line 2070, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-title .steps-nav {
       position: relative; }
       @media (min-width: 45em) {
-        /* line 2069, sass/layout/_main.scss */
+        /* line 2070, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-title .steps-nav {
           position: absolute;
-          bottom: 12px;
+          bottom: 8px;
           left: 0px; } }
-      /* line 2076, sass/layout/_main.scss */
+      /* line 2077, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-title .steps-nav i {
         padding: 5px 8px; }
-        /* line 2078, sass/layout/_main.scss */
+        /* line 2079, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-title .steps-nav i:before {
           font-size: 130%;
           vertical-align: middle; }
-      /* line 2083, sass/layout/_main.scss */
+      /* line 2084, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-title .steps-nav a.next-step,
       .main-wrapper.buybasket .basket-title .steps-nav a.previous-step {
         padding: 7px 15px;
@@ -3931,7 +3932,7 @@ article.grid-item {
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
         border-radius: 5px; }
-        /* line 2091, sass/layout/_main.scss */
+        /* line 2092, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-title .steps-nav a.next-step:hover,
         .main-wrapper.buybasket .basket-title .steps-nav a.previous-step:hover {
           background-color: #FF585B; }
@@ -3939,16 +3940,16 @@ article.grid-item {
       /* line 2031, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-title {
         text-align: right; } }
-  /* line 2105, sass/layout/_main.scss */
+  /* line 2106, sass/layout/_main.scss */
   .main-wrapper.buybasket .pay-container .bank-container {
     width: 100%; }
-    /* line 2108, sass/layout/_main.scss */
+    /* line 2109, sass/layout/_main.scss */
     .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler {
       margin: 0px;
       padding: 15px;
       display: block;
       overflow: hidden; }
-      /* line 2113, sass/layout/_main.scss */
+      /* line 2114, sass/layout/_main.scss */
       .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li {
         cursor: pointer;
         display: inline-block;
@@ -3958,39 +3959,39 @@ article.grid-item {
         margin-bottom: 20px;
         width: 100%;
         text-align: center; }
-        /* line 2122, sass/layout/_main.scss */
+        /* line 2123, sass/layout/_main.scss */
         .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li img {
           display: block;
           max-width: 80px;
           clear: both;
           margin: auto; }
-        /* line 2128, sass/layout/_main.scss */
+        /* line 2129, sass/layout/_main.scss */
         .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li span {
           display: block;
           width: 100%;
           padding: 5px; }
         @media (min-width: 45em) {
-          /* line 2113, sass/layout/_main.scss */
+          /* line 2114, sass/layout/_main.scss */
           .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li {
             width: 33%;
             margin-left: 2%;
             float: right; }
-            /* line 2139, sass/layout/_main.scss */
+            /* line 2140, sass/layout/_main.scss */
             .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li.double-col {
               width: 62%;
               margin-left: auto; } }
-        /* line 2145, sass/layout/_main.scss */
+        /* line 2146, sass/layout/_main.scss */
         .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li .right-half,
         .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li .left-half {
           width: 48%;
           float: right; }
-          /* line 2149, sass/layout/_main.scss */
+          /* line 2150, sass/layout/_main.scss */
           .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li .right-half p,
           .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li .left-half p {
             margin: 0px 15px 0px 5px;
             font-size: 90%;
             text-align: justify; }
-          /* line 2154, sass/layout/_main.scss */
+          /* line 2155, sass/layout/_main.scss */
           .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li .right-half span,
           .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li .left-half span {
             width: 100%;
@@ -3998,22 +3999,22 @@ article.grid-item {
             text-align: right;
             line-height: 1.6;
             padding: 5px 10px; }
-        /* line 2163, sass/layout/_main.scss */
+        /* line 2164, sass/layout/_main.scss */
         .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li .right-half span {
           text-align: center;
           padding: 40px 10px 10px; }
-        /* line 2167, sass/layout/_main.scss */
+        /* line 2168, sass/layout/_main.scss */
         .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li .right-half img {
           margin-top: 15px; }
-        /* line 2171, sass/layout/_main.scss */
+        /* line 2172, sass/layout/_main.scss */
         .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li .left-half {
           border-right: 1px solid #E6E7E7; }
-        /* line 2175, sass/layout/_main.scss */
+        /* line 2176, sass/layout/_main.scss */
         .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li.active {
           border-color: #FF585B;
           border-width: 3px;
           position: relative; }
-          /* line 2179, sass/layout/_main.scss */
+          /* line 2180, sass/layout/_main.scss */
           .main-wrapper.buybasket .pay-container .bank-container ul.bank-handler li.active::before {
             font-family: "FontAwesome";
             content: "\f00c";
@@ -4028,14 +4029,14 @@ article.grid-item {
             top: -10px;
             right: -10px;
             line-height: 1.7; }
-  /* line 2198, sass/layout/_main.scss */
+  /* line 2199, sass/layout/_main.scss */
   .main-wrapper.buybasket .pay-container .payment-info {
     display: block;
     clear: both; }
-    /* line 2202, sass/layout/_main.scss */
+    /* line 2203, sass/layout/_main.scss */
     .main-wrapper.buybasket .pay-container .payment-info form.payment_select_form select, .main-wrapper.buybasket .pay-container .payment-info form.payment_select_form input[type="submit"], .main-wrapper.buybasket .pay-container .payment-info form.payment_select_form option {
       display: none; }
-    /* line 2206, sass/layout/_main.scss */
+    /* line 2207, sass/layout/_main.scss */
     .main-wrapper.buybasket .pay-container .payment-info .inform {
       display: inline-block;
       margin-bottom: 20px;
@@ -4047,11 +4048,11 @@ article.grid-item {
       -webkit-border-radius: 15px;
       border-radius: 15px;
       padding: 5px; }
-      /* line 2215, sass/layout/_main.scss */
+      /* line 2216, sass/layout/_main.scss */
       .main-wrapper.buybasket .pay-container .payment-info .inform span {
         padding: 5px;
         color: #1f8fe1; }
-      /* line 2220, sass/layout/_main.scss */
+      /* line 2221, sass/layout/_main.scss */
       .main-wrapper.buybasket .pay-container .payment-info .inform i:before {
         background-color: #1f8fe1;
         color: #FFFFFF;
@@ -4059,7 +4060,7 @@ article.grid-item {
         -moz-border-radius: 15px;
         -webkit-border-radius: 15px;
         border-radius: 15px; }
-    /* line 2228, sass/layout/_main.scss */
+    /* line 2229, sass/layout/_main.scss */
     .main-wrapper.buybasket .pay-container .payment-info .payable {
       margin-top: -16px;
       display: inline-block;
@@ -4067,28 +4068,28 @@ article.grid-item {
       background-color: #fff1f1;
       border: 1px dashed #FF585B;
       padding: 25px; }
-      /* line 2235, sass/layout/_main.scss */
+      /* line 2236, sass/layout/_main.scss */
       .main-wrapper.buybasket .pay-container .payment-info .payable span {
         font-weight: 600;
         display: block;
         text-align: center;
         padding-bottom: 5px; }
-        /* line 2240, sass/layout/_main.scss */
+        /* line 2241, sass/layout/_main.scss */
         .main-wrapper.buybasket .pay-container .payment-info .payable span.payable-price {
           color: #FF585B;
           font-size: 130%;
           padding-bottom: 0px; }
-  /* line 2253, sass/layout/_main.scss */
+  /* line 2254, sass/layout/_main.scss */
   .main-wrapper.buybasket .basket-forms-container {
     clear: both; }
-    /* line 2255, sass/layout/_main.scss */
+    /* line 2256, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-forms-container .right-col, .main-wrapper.buybasket .basket-forms-container .left-col {
       padding: 10px 25px 20px;
       border: 1px dashed #FF585B;
       background-color: #F2F2F2;
       margin-top: 20px;
       margin-bottom: 30px; }
-      /* line 2261, sass/layout/_main.scss */
+      /* line 2262, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col h3, .main-wrapper.buybasket .basket-forms-container .left-col h3 {
         display: block;
         border-bottom: 1px solid #E6E7E7;
@@ -4097,7 +4098,7 @@ article.grid-item {
         margin-top: 5px;
         color: #125688;
         font-size: 130%; }
-      /* line 2271, sass/layout/_main.scss */
+      /* line 2272, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form label, .main-wrapper.buybasket .basket-forms-container .right-col form input, .main-wrapper.buybasket .basket-forms-container .right-col form select, .main-wrapper.buybasket .basket-forms-container .left-col form label, .main-wrapper.buybasket .basket-forms-container .left-col form input, .main-wrapper.buybasket .basket-forms-container .left-col form select {
         width: 100%;
         display: inline-block;
@@ -4105,17 +4106,17 @@ article.grid-item {
         -webkit-border-radius: 3px;
         border-radius: 3px;
         padding: 5px 10px; }
-      /* line 2277, sass/layout/_main.scss */
+      /* line 2278, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form label, .main-wrapper.buybasket .basket-forms-container .left-col form label {
         font-size: 110%;
         width: auto;
         display: inline-block;
         margin: 10px 0px 5px; }
-        /* line 2282, sass/layout/_main.scss */
+        /* line 2283, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col form label.required, .main-wrapper.buybasket .basket-forms-container .left-col form label.required {
           position: relative;
           font-family: "Weblogma_Yekan"; }
-          /* line 2286, sass/layout/_main.scss */
+          /* line 2287, sass/layout/_main.scss */
           .main-wrapper.buybasket .basket-forms-container .right-col form label.required::after, .main-wrapper.buybasket .basket-forms-container .left-col form label.required::after {
             font-family: "FontAwesome";
             content: "\f005";
@@ -4124,7 +4125,7 @@ article.grid-item {
             left: 0px;
             font-size: 70%;
             color: #FF585B; }
-      /* line 2297, sass/layout/_main.scss */
+      /* line 2298, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form input, .main-wrapper.buybasket .basket-forms-container .left-col form input {
         border: 1px dashed #cccece;
         -moz-border-radius: 0px;
@@ -4134,102 +4135,102 @@ article.grid-item {
         color: #FFFFFF;
         font-size: 110%;
         color: #4E4E4E; }
-        /* line 2305, sass/layout/_main.scss */
+        /* line 2306, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col form input:focus, .main-wrapper.buybasket .basket-forms-container .left-col form input:focus {
           border-color: #FF585B; }
-        /* line 2308, sass/layout/_main.scss */
+        /* line 2309, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col form input.date_input, .main-wrapper.buybasket .basket-forms-container .left-col form input.date_input {
           width: auto; }
-        /* line 2311, sass/layout/_main.scss */
+        /* line 2312, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col form input.date_btn, .main-wrapper.buybasket .basket-forms-container .left-col form input.date_btn {
           width: 52px;
           height: 50px;
           position: relative;
           opacity: 0.8;
           background: url('../images/icons/calendar.png?1463210139') top left no-repeat, #FF585B; }
-          /* line 2317, sass/layout/_main.scss */
+          /* line 2318, sass/layout/_main.scss */
           .main-wrapper.buybasket .basket-forms-container .right-col form input.date_btn:hover, .main-wrapper.buybasket .basket-forms-container .left-col form input.date_btn:hover {
             opacity: 1; }
-      /* line 2322, sass/layout/_main.scss */
+      /* line 2323, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form input[type="checkbox"], .main-wrapper.buybasket .basket-forms-container .left-col form input[type="checkbox"] {
         width: auto;
         margin-top: 20px; }
-      /* line 2326, sass/layout/_main.scss */
+      /* line 2327, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form input[type="submit"], .main-wrapper.buybasket .basket-forms-container .left-col form input[type="submit"] {
         width: auto;
         display: block;
         margin: 10px auto;
         background-color: #FF585B;
         color: #FFFFFF; }
-        /* line 2332, sass/layout/_main.scss */
+        /* line 2333, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col form input[type="submit"]:hover, .main-wrapper.buybasket .basket-forms-container .left-col form input[type="submit"]:hover {
           background-color: #125688; }
-      /* line 2336, sass/layout/_main.scss */
+      /* line 2337, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form input[type="file"], .main-wrapper.buybasket .basket-forms-container .left-col form input[type="file"] {
         color: #4E4E4E;
         padding: 20px; }
-      /* line 2340, sass/layout/_main.scss */
+      /* line 2341, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form select, .main-wrapper.buybasket .basket-forms-container .left-col form select {
         border: 1px dashed #cccece; }
-        /* line 2342, sass/layout/_main.scss */
+        /* line 2343, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col form select:focus, .main-wrapper.buybasket .basket-forms-container .left-col form select:focus {
           border-color: #FF585B; }
-      /* line 2346, sass/layout/_main.scss */
+      /* line 2347, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form .calendar-container, .main-wrapper.buybasket .basket-forms-container .left-col form .calendar-container {
         display: block;
         width: 100%; }
-      /* line 2350, sass/layout/_main.scss */
+      /* line 2351, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form span.remember-title, .main-wrapper.buybasket .basket-forms-container .left-col form span.remember-title {
         display: inline-block;
         clear: left;
         padding: 5px; }
-      /* line 2355, sass/layout/_main.scss */
+      /* line 2356, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-forms-container .right-col form a.forgat-password, .main-wrapper.buybasket .basket-forms-container .left-col form a.forgat-password {
         clear: both;
         padding: 10px;
         width: 100%;
         display: block; }
-    /* line 2364, sass/layout/_main.scss */
+    /* line 2365, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-forms-container .right-col {
       width: 100%;
       float: right;
       margin-left: 1.53846%;
       display: inline; }
       @media (min-width: 45em) {
-        /* line 2364, sass/layout/_main.scss */
+        /* line 2365, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .right-col {
           width: 49.23077%;
           float: right;
           margin-left: 1.53846%;
           margin-right: auto; } }
-    /* line 2371, sass/layout/_main.scss */
+    /* line 2372, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-forms-container .left-col {
       width: 100%;
       float: right;
       margin-left: 1.53846%;
       display: inline; }
       @media (min-width: 45em) {
-        /* line 2371, sass/layout/_main.scss */
+        /* line 2372, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-forms-container .left-col {
           width: 49.23077%;
           float: left;
           margin-left: 0;
           margin-right: auto; } }
-  /* line 2383, sass/layout/_main.scss */
+  /* line 2384, sass/layout/_main.scss */
   .main-wrapper.buybasket .basket-success-message {
     margin-bottom: 30px;
     background-color: #e9f8ec;
     border: 1px dashed #3BBB5A; }
-    /* line 2387, sass/layout/_main.scss */
+    /* line 2388, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-success-message .message-row {
       display: block;
       padding: 2px 10px;
       text-align: center; }
-      /* line 2391, sass/layout/_main.scss */
+      /* line 2392, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-success-message .message-row i.fa-check {
         display: inline-block;
         margin-top: 30px; }
-        /* line 2394, sass/layout/_main.scss */
+        /* line 2395, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-success-message .message-row i.fa-check:before {
           background-color: #3BBB5A;
           color: #FFFFFF;
@@ -4237,16 +4238,16 @@ article.grid-item {
           -moz-border-radius: 30px;
           -webkit-border-radius: 30px;
           border-radius: 30px; }
-      /* line 2401, sass/layout/_main.scss */
+      /* line 2402, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-success-message .message-row p {
         color: #4E4E4E;
         line-height: 1.3;
         font-size: 90%; }
-      /* line 2406, sass/layout/_main.scss */
+      /* line 2407, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-success-message .message-row h3.success-header {
         color: #3BBB5A;
         margin: 10px 10px 25px; }
-      /* line 2410, sass/layout/_main.scss */
+      /* line 2411, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-success-message .message-row span.order-code {
         border: 1px dashed #3BBB5A;
         background-color: #FFFFFF;
@@ -4254,7 +4255,7 @@ article.grid-item {
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
         border-radius: 5px; }
-      /* line 2416, sass/layout/_main.scss */
+      /* line 2417, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-success-message .message-row a.coupon-code {
         display: inline-block;
         padding: 10px;
@@ -4264,14 +4265,14 @@ article.grid-item {
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
         border-radius: 5px; }
-        /* line 2424, sass/layout/_main.scss */
+        /* line 2425, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-success-message .message-row a.coupon-code:hover {
           background-color: #FF585B; }
 
-/* line 2435, sass/layout/_main.scss */
+/* line 2436, sass/layout/_main.scss */
 .site-main {
   position: relative; }
-  /* line 2437, sass/layout/_main.scss */
+  /* line 2438, sass/layout/_main.scss */
   .site-main .side-columns-container {
     position: fixed;
     top: 100px;
@@ -4281,18 +4282,18 @@ article.grid-item {
     width: 270px;
     max-width: 90%;
     transform: translateX(272px); }
-    /* line 2448, sass/layout/_main.scss */
+    /* line 2449, sass/layout/_main.scss */
     .site-main .side-columns-container a.side-column-more {
       width: 100%;
       text-align: center;
       display: none; }
-    /* line 2453, sass/layout/_main.scss */
+    /* line 2454, sass/layout/_main.scss */
     .site-main .side-columns-container span.f-toggler {
       position: absolute;
       top: 10px;
       left: -43px;
       cursor: pointer; }
-      /* line 2460, sass/layout/_main.scss */
+      /* line 2461, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i:before {
         cursor: pointer;
         -moz-box-shadow: 0px 0px 5px #1b1b1b;
@@ -4303,38 +4304,38 @@ article.grid-item {
         font-size: 140%;
         background-color: #125688;
         opacity: 0.7; }
-      /* line 2469, sass/layout/_main.scss */
+      /* line 2470, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.fa-th-large {
         display: none;
         opacity: 0; }
-      /* line 2473, sass/layout/_main.scss */
+      /* line 2474, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.fa-times {
         display: none;
         opacity: 0; }
-        /* line 2476, sass/layout/_main.scss */
+        /* line 2477, sass/layout/_main.scss */
         .site-main .side-columns-container span.f-toggler i.fa-times:before {
           padding: 8px 12px 12px; }
-      /* line 2480, sass/layout/_main.scss */
+      /* line 2481, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.current {
         display: block;
         opacity: 1; }
-      /* line 2487, sass/layout/_main.scss */
+      /* line 2488, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler:hover i:before {
         background-color: #FFFFFF;
         color: #125688;
         opacity: 1; }
-    /* line 2496, sass/layout/_main.scss */
+    /* line 2497, sass/layout/_main.scss */
     .site-main .side-columns-container ul.side-tab-list {
       padding: 0px;
       margin: 0px;
       overflow: hidden; }
-      /* line 2500, sass/layout/_main.scss */
+      /* line 2501, sass/layout/_main.scss */
       .site-main .side-columns-container ul.side-tab-list li {
         display: inline-block;
         float: right;
         text-align: center;
         width: 50%; }
-        /* line 2505, sass/layout/_main.scss */
+        /* line 2506, sass/layout/_main.scss */
         .site-main .side-columns-container ul.side-tab-list li a {
           width: 100%;
           display: inline-block;
@@ -4342,14 +4343,14 @@ article.grid-item {
           color: #125688;
           border-bottom: 1px dashed #E6E7E7;
           border-left: 1px dashed #E6E7E7; }
-          /* line 2513, sass/layout/_main.scss */
+          /* line 2514, sass/layout/_main.scss */
           .site-main .side-columns-container ul.side-tab-list li a:last-child {
             border-left: 0px; }
-          /* line 2516, sass/layout/_main.scss */
+          /* line 2517, sass/layout/_main.scss */
           .site-main .side-columns-container ul.side-tab-list li a:hover {
             color: #FF585B;
             background-color: #F8F8F8; }
-    /* line 2526, sass/layout/_main.scss */
+    /* line 2527, sass/layout/_main.scss */
     .site-main .side-columns-container .side-followers-container {
       position: relative;
       margin: 0px 1%;
@@ -4357,30 +4358,30 @@ article.grid-item {
       height: 100%;
       display: none;
       opacity: 0; }
-      /* line 2535, sass/layout/_main.scss */
+      /* line 2536, sass/layout/_main.scss */
       .site-main .side-columns-container .side-followers-container h3 {
         display: none; }
-      /* line 2538, sass/layout/_main.scss */
+      /* line 2539, sass/layout/_main.scss */
       .site-main .side-columns-container .side-followers-container ul {
         text-align: right;
         padding: 0px;
         margin: 20px 0px; }
-        /* line 2542, sass/layout/_main.scss */
+        /* line 2543, sass/layout/_main.scss */
         .site-main .side-columns-container .side-followers-container ul li {
           width: 100%;
           margin-bottom: 10px;
           overflow: hidden; }
-          /* line 2548, sass/layout/_main.scss */
+          /* line 2549, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li .user-state {
             top: 6px;
             right: 10px; }
-            /* line 2551, sass/layout/_main.scss */
+            /* line 2552, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title {
               left: 0px; }
-              /* line 2554, sass/layout/_main.scss */
+              /* line 2555, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title::before, .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title::after {
                 left: calc(50% + 27px); }
-          /* line 2559, sass/layout/_main.scss */
+          /* line 2560, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li > span {
             display: inline-block;
             font-size: 90%;
@@ -4388,15 +4389,15 @@ article.grid-item {
             float: right;
             margin-right: 5px;
             margin-top: 10px; }
-          /* line 2567, sass/layout/_main.scss */
+          /* line 2568, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li a.follow-link {
             display: inline-block;
             float: left;
             margin-top: 10px; }
-            /* line 2572, sass/layout/_main.scss */
+            /* line 2573, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link span {
               display: none; }
-            /* line 2575, sass/layout/_main.scss */
+            /* line 2576, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link i:before {
               background-color: #FFFFFF;
               border: 2px solid #E6E7E7;
@@ -4406,17 +4407,17 @@ article.grid-item {
               -moz-border-radius: 30px;
               -webkit-border-radius: 30px;
               border-radius: 30px; }
-            /* line 2584, sass/layout/_main.scss */
+            /* line 2585, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link:hover i:before {
               background-color: #125688;
               color: #F8F8F8; }
-          /* line 2591, sass/layout/_main.scss */
+          /* line 2592, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li img {
             width: 40px;
             float: right;
             margin: 5px 10px 5px 5px; }
       @media (min-width: 54em) {
-        /* line 2526, sass/layout/_main.scss */
+        /* line 2527, sass/layout/_main.scss */
         .site-main .side-columns-container .side-followers-container {
           right: 0px;
           position: absolute;
@@ -4426,7 +4427,7 @@ article.grid-item {
           max-width: 180px;
           display: block;
           opacity: 1; }
-          /* line 2607, sass/layout/_main.scss */
+          /* line 2608, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container h3 {
             text-align: center;
             border-bottom: 1px dashed #E6E7E7;
@@ -4435,7 +4436,7 @@ article.grid-item {
             display: block;
             margin-bottom: 5px;
             line-height: 1.8; }
-            /* line 2615, sass/layout/_main.scss */
+            /* line 2616, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container h3 span.visitors-count {
               line-height: 1;
               float: right;
@@ -4446,12 +4447,12 @@ article.grid-item {
               -webkit-border-radius: 15px;
               border-radius: 15px;
               color: #FFFFFF; }
-          /* line 2625, sass/layout/_main.scss */
+          /* line 2626, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul {
             text-align: center;
             padding: 0px;
             margin: 0px; }
-            /* line 2629, sass/layout/_main.scss */
+            /* line 2630, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li {
               -moz-box-shadow: 0px 0px 5px #1b1b1b;
               -webkit-box-shadow: 0px 0px 5px #1b1b1b;
@@ -4460,50 +4461,50 @@ article.grid-item {
               width: 100%;
               margin-bottom: 10px;
               overflow: hidden; }
-              /* line 2635, sass/layout/_main.scss */
+              /* line 2636, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li > span {
                 display: inline-block;
                 width: 100%;
                 font-size: 90%;
                 word-break: break-all;
                 margin: auto; }
-              /* line 2642, sass/layout/_main.scss */
+              /* line 2643, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li a.follow-link {
                 display: inline-block;
                 width: 100%; }
-                /* line 2645, sass/layout/_main.scss */
+                /* line 2646, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link span {
                   display: block;
                   background-color: #125688;
                   color: #FFFFFF; }
-                /* line 2650, sass/layout/_main.scss */
+                /* line 2651, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link i {
                   display: none; }
-                /* line 2654, sass/layout/_main.scss */
+                /* line 2655, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link:hover span {
                   background-color: #0c3a5b; }
-              /* line 2660, sass/layout/_main.scss */
+              /* line 2661, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li img {
                 max-width: 100%;
                 width: 100%;
                 height: auto;
                 margin: auto; } }
-    /* line 2672, sass/layout/_main.scss */
+    /* line 2673, sass/layout/_main.scss */
     .site-main .side-columns-container .side-important-apps {
       opacity: 0;
       position: relative;
       width: 100%;
       margin: 0px 1%;
       display: none; }
-      /* line 2679, sass/layout/_main.scss */
+      /* line 2680, sass/layout/_main.scss */
       .site-main .side-columns-container .side-important-apps h3 {
         display: none; }
-      /* line 2682, sass/layout/_main.scss */
+      /* line 2683, sass/layout/_main.scss */
       .site-main .side-columns-container .side-important-apps ul {
         text-align: right;
         padding: 0px;
         margin: 20px 0px; }
-        /* line 2686, sass/layout/_main.scss */
+        /* line 2687, sass/layout/_main.scss */
         .site-main .side-columns-container .side-important-apps ul li {
           margin-bottom: 10px;
           width: 100%;
@@ -4511,26 +4512,26 @@ article.grid-item {
           overflow: hidden;
           display: block;
           position: relative; }
-          /* line 2693, sass/layout/_main.scss */
+          /* line 2694, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul li span {
             display: inline-block;
             float: right;
             line-height: 1.6; }
-            /* line 2697, sass/layout/_main.scss */
+            /* line 2698, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li span.app-name {
               color: #125688;
               paddin-top: 5px;
               font-size: 90%;
               margin-right: 60px;
               width: 100%; }
-            /* line 2704, sass/layout/_main.scss */
+            /* line 2705, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li span.taken {
               color: #4E4E4E;
               font-size: 80%;
               margin-top: -2px;
               width: 100%;
               margin-right: 60px; }
-          /* line 2712, sass/layout/_main.scss */
+          /* line 2713, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul li a {
             display: inline-block;
             overflow: hidden;
@@ -4538,13 +4539,13 @@ article.grid-item {
             position: absolute;
             top: 0;
             right: 0; }
-            /* line 2719, sass/layout/_main.scss */
+            /* line 2720, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li a img {
               width: 40px;
               margin: 5px 10px 5px 5px;
               float: right; }
       @media (min-width: 54em) {
-        /* line 2672, sass/layout/_main.scss */
+        /* line 2673, sass/layout/_main.scss */
         .site-main .side-columns-container .side-important-apps {
           position: absolute;
           top: 0px;
@@ -4553,7 +4554,7 @@ article.grid-item {
           display: block;
           opacity: 1;
           margin: 0px 1% 10px; }
-          /* line 2737, sass/layout/_main.scss */
+          /* line 2738, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps h3 {
             text-align: center;
             border-bottom: 1px dashed #E6E7E7;
@@ -4561,12 +4562,12 @@ article.grid-item {
             font-size: 90%;
             display: block;
             margin-bottom: 5px; }
-          /* line 2745, sass/layout/_main.scss */
+          /* line 2746, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul {
             text-align: center;
             padding: 0px;
             margin: 0px; }
-            /* line 2749, sass/layout/_main.scss */
+            /* line 2750, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li {
               -moz-box-shadow: 0px 0px 5px #1b1b1b;
               -webkit-box-shadow: 0px 0px 5px #1b1b1b;
@@ -4575,43 +4576,43 @@ article.grid-item {
               background-color: #F8F8F8;
               width: 100%;
               padding: 0px 10px; }
-              /* line 2756, sass/layout/_main.scss */
+              /* line 2757, sass/layout/_main.scss */
               .site-main .side-columns-container .side-important-apps ul li span {
                 display: inline-block;
                 width: 100%;
                 float: none; }
-                /* line 2760, sass/layout/_main.scss */
+                /* line 2761, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li span.app-name {
                   color: #125688;
                   paddin-top: 5px;
                   padding-bottom: 5px;
                   font-size: 90%;
                   margin: auto; }
-                /* line 2767, sass/layout/_main.scss */
+                /* line 2768, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li span.taken {
                   color: #4E4E4E;
                   font-size: 80%;
                   margin-top: -2px;
                   margin: auto; }
-              /* line 2775, sass/layout/_main.scss */
+              /* line 2776, sass/layout/_main.scss */
               .site-main .side-columns-container .side-important-apps ul li a {
                 display: inline-block;
                 width: 100%;
                 overflow: hidden;
                 max-height: 85px;
                 position: relative; }
-                /* line 2781, sass/layout/_main.scss */
+                /* line 2782, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li a img {
                   width: 100%;
                   margin: auto;
                   float: none; } }
-    /* line 2796, sass/layout/_main.scss */
+    /* line 2797, sass/layout/_main.scss */
     .site-main .side-columns-container .side-followers-container.current,
     .site-main .side-columns-container .side-important-apps.current {
       display: block;
       opacity: 1; }
     @media (min-width: 54em) {
-      /* line 2437, sass/layout/_main.scss */
+      /* line 2438, sass/layout/_main.scss */
       .site-main .side-columns-container {
         -moz-box-shadow: 0px 0px 0px #FFFFFF;
         -webkit-box-shadow: 0px 0px 0px #FFFFFF;
@@ -4626,43 +4627,43 @@ article.grid-item {
         overflow: inherit;
         width: 100%;
         max-width: 100%; }
-        /* line 2814, sass/layout/_main.scss */
+        /* line 2815, sass/layout/_main.scss */
         .site-main .side-columns-container a.side-column-more {
           display: inline-block; }
-        /* line 2817, sass/layout/_main.scss */
+        /* line 2818, sass/layout/_main.scss */
         .site-main .side-columns-container ul.side-tab-list {
           display: none; } }
-    /* line 2821, sass/layout/_main.scss */
+    /* line 2822, sass/layout/_main.scss */
     .site-main .side-columns-container.show-side {
       transform: translateX(0px); }
 
-/* line 2829, sass/layout/_main.scss */
+/* line 2830, sass/layout/_main.scss */
 .main-wrapper.chat {
   padding: 0px;
   margin: 0px; }
 
-/* line 2833, sass/layout/_main.scss */
+/* line 2834, sass/layout/_main.scss */
 .chat-container {
   overflow: hidden; }
-  /* line 2835, sass/layout/_main.scss */
+  /* line 2836, sass/layout/_main.scss */
   .chat-container .chat-box-container {
     background-color: #FFFFFF;
     overflow-y: auto;
     width: 100%; }
     @media (min-width: 54em) {
-      /* line 2835, sass/layout/_main.scss */
+      /* line 2836, sass/layout/_main.scss */
       .chat-container .chat-box-container {
         width: 30%;
         height: 100%;
         float: right;
         border-left: 2px solid #E6E7E7; } }
-    /* line 2846, sass/layout/_main.scss */
+    /* line 2847, sass/layout/_main.scss */
     .chat-container .chat-box-container .chat-box-header {
       background-color: #FFFFFF; }
-      /* line 2848, sass/layout/_main.scss */
+      /* line 2849, sass/layout/_main.scss */
       .chat-container .chat-box-container .chat-box-header form.search-chats-list {
         position: relative; }
-        /* line 2851, sass/layout/_main.scss */
+        /* line 2852, sass/layout/_main.scss */
         .chat-container .chat-box-container .chat-box-header form.search-chats-list::before {
           content: "\f002";
           position: absolute;
@@ -4671,7 +4672,7 @@ article.grid-item {
           vertical-align: middle;
           color: #989c9c;
           font-size: 120%; }
-        /* line 2860, sass/layout/_main.scss */
+        /* line 2861, sass/layout/_main.scss */
         .chat-container .chat-box-container .chat-box-header form.search-chats-list input {
           width: 96%;
           padding: 10px 10px 10px 30px;
@@ -4683,18 +4684,18 @@ article.grid-item {
           -moz-border-radius: 0px;
           -webkit-border-radius: 0px;
           border-radius: 0px; }
-          /* line 2873, sass/layout/_main.scss */
+          /* line 2874, sass/layout/_main.scss */
           .chat-container .chat-box-container .chat-box-header form.search-chats-list input:focus {
             background-color: #F2F2F2;
             border-color: #ffd8d8; }
-        /* line 2878, sass/layout/_main.scss */
+        /* line 2879, sass/layout/_main.scss */
         .chat-container .chat-box-container .chat-box-header form.search-chats-list input[type="submit"] {
           display: none; }
-    /* line 2886, sass/layout/_main.scss */
+    /* line 2887, sass/layout/_main.scss */
     .chat-container .chat-box-container ul.chat-box-list {
       margin: 0px;
       padding: 0px; }
-      /* line 2889, sass/layout/_main.scss */
+      /* line 2890, sass/layout/_main.scss */
       .chat-container .chat-box-container ul.chat-box-list li {
         position: relative;
         display: block;
@@ -4704,10 +4705,10 @@ article.grid-item {
         padding: 7px 10px;
         cursor: pointer;
         overflow: hidden; }
-        /* line 2898, sass/layout/_main.scss */
+        /* line 2899, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li .user-avatar-container {
           width: 70px; }
-          /* line 2900, sass/layout/_main.scss */
+          /* line 2901, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li .user-avatar-container img {
             width: 60px;
             height: auto;
@@ -4717,7 +4718,7 @@ article.grid-item {
             -webkit-border-radius: 30px;
             border-radius: 30px;
             border: 2px solid #F2F2F2; }
-        /* line 2909, sass/layout/_main.scss */
+        /* line 2910, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li span {
           float: right;
           display: block;
@@ -4725,15 +4726,15 @@ article.grid-item {
           text-align: right;
           width: calc(100% - 70px);
           line-height: 1.7; }
-          /* line 2916, sass/layout/_main.scss */
+          /* line 2917, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.user-name {
             color: #125688;
             font-weight: 600; }
-          /* line 2920, sass/layout/_main.scss */
+          /* line 2921, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.chat-excerpt {
             color: #686868;
             font-size: 84%; }
-          /* line 2924, sass/layout/_main.scss */
+          /* line 2925, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.new-messages-count {
             position: absolute;
             bottom: 10px;
@@ -4747,7 +4748,7 @@ article.grid-item {
             border-radius: 20px;
             color: #FFFFFF;
             font-size: 80%; }
-          /* line 2937, sass/layout/_main.scss */
+          /* line 2938, sass/layout/_main.scss */
           .chat-container .chat-box-container ul.chat-box-list li span.last-message-date {
             width: auto;
             position: absolute;
@@ -4755,13 +4756,13 @@ article.grid-item {
             left: 0px;
             font-size: 90%;
             color: #989c9c; }
-        /* line 2950, sass/layout/_main.scss */
+        /* line 2951, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li:hover {
           background-color: #F2F2F2; }
-        /* line 2953, sass/layout/_main.scss */
+        /* line 2954, sass/layout/_main.scss */
         .chat-container .chat-box-container ul.chat-box-list li.active {
           background-color: #ffd8d8; }
-  /* line 2962, sass/layout/_main.scss */
+  /* line 2963, sass/layout/_main.scss */
   .chat-container .chat-content-container {
     background: url('../images/background/chat-back.jpg?1463133616') top left repeat, #4E4E4E;
     width: 100%;
@@ -4769,37 +4770,37 @@ article.grid-item {
     background-position: center;
     background-attachment: fixed; }
     @media (min-width: 54em) {
-      /* line 2962, sass/layout/_main.scss */
+      /* line 2963, sass/layout/_main.scss */
       .chat-container .chat-content-container {
         width: 70%;
         height: 100%;
         float: left; } }
-    /* line 2974, sass/layout/_main.scss */
+    /* line 2975, sass/layout/_main.scss */
     .chat-container .chat-content-container .chat-content-header {
       background-color: #4E4E4E; }
-    /* line 2980, sass/layout/_main.scss */
+    /* line 2981, sass/layout/_main.scss */
     .chat-container .chat-content-container .chat-wrapper ul.chat-content-list {
       margin: 0px;
       padding: 0px; }
-      /* line 2983, sass/layout/_main.scss */
+      /* line 2984, sass/layout/_main.scss */
       .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li {
         display: block;
         width: 100%;
         clear: both;
         margin: 0px;
         padding: 10px 0px; }
-        /* line 2989, sass/layout/_main.scss */
+        /* line 2990, sass/layout/_main.scss */
         .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content {
           width: 80%;
           margin: auto;
           display: block;
           overflow: hidden; }
-          /* line 2994, sass/layout/_main.scss */
+          /* line 2995, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .user-avatar-container {
             float: right;
             width: 60px;
             padding-left: 10px; }
-            /* line 2998, sass/layout/_main.scss */
+            /* line 2999, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .user-avatar-container img {
               height: auto;
               max-width: 100%;
@@ -4807,7 +4808,7 @@ article.grid-item {
               -moz-border-radius: 30px;
               -webkit-border-radius: 30px;
               border-radius: 30px; }
-          /* line 3007, sass/layout/_main.scss */
+          /* line 3008, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container {
             -moz-border-radius: 5px;
             -webkit-border-radius: 5px;
@@ -4818,27 +4819,27 @@ article.grid-item {
             color: #111;
             width: calc(100% - 65px);
             float: left; }
-            /* line 3017, sass/layout/_main.scss */
+            /* line 3018, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this {
               border-right: 3px solid #FF585B;
               display: block;
               margin: 5px 0px;
               padding: 0px 10px;
               line-height: 1.5; }
-              /* line 3024, sass/layout/_main.scss */
+              /* line 3025, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this span.sender-user-name {
                 color: #FF585B;
                 display: block; }
-              /* line 3028, sass/layout/_main.scss */
+              /* line 3029, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this span.message-excerpt {
                 color: #4E4E4E; }
-            /* line 3033, sass/layout/_main.scss */
+            /* line 3034, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.user-name {
               color: #125688;
               font-weight: 600;
               width: 100%;
               display: block; }
-            /* line 3039, sass/layout/_main.scss */
+            /* line 3040, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date {
               color: #989c9c;
               font-size: 90%;
@@ -4846,10 +4847,10 @@ article.grid-item {
               display: inline-block;
               padding: 0px 0px 2px 5px;
               margin-right: 22px; }
-              /* line 3046, sass/layout/_main.scss */
+              /* line 3047, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.sent {
                 position: relative; }
-                /* line 3048, sass/layout/_main.scss */
+                /* line 3049, sass/layout/_main.scss */
                 .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.sent::before {
                   content: "";
                   height: 12px;
@@ -4858,10 +4859,10 @@ article.grid-item {
                   top: 10px;
                   right: -22px;
                   background: url('../images/icons/sent.png?1463133616') top left no-repeat; }
-              /* line 3059, sass/layout/_main.scss */
+              /* line 3060, sass/layout/_main.scss */
               .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.checked {
                 position: relative; }
-                /* line 3061, sass/layout/_main.scss */
+                /* line 3062, sass/layout/_main.scss */
                 .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.checked::before {
                   content: "";
                   height: 12px;
@@ -4870,7 +4871,7 @@ article.grid-item {
                   top: 10px;
                   right: -22px;
                   background: url('../images/icons/checked.png?1463133616') top left no-repeat; }
-            /* line 3072, sass/layout/_main.scss */
+            /* line 3073, sass/layout/_main.scss */
             .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container::before {
               content: '';
               position: absolute;
@@ -4881,26 +4882,26 @@ article.grid-item {
               border-top: 10px solid transparent;
               border-left: 10px solid #FFFFFF;
               border-bottom: 10px solid transparent; }
-        /* line 3091, sass/layout/_main.scss */
+        /* line 3092, sass/layout/_main.scss */
         .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .user-avatar-container {
           padding-left: 0px;
           padding-right: 10px;
           float: left; }
-        /* line 3096, sass/layout/_main.scss */
+        /* line 3097, sass/layout/_main.scss */
         .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container {
           background-color: #ffd8d8;
           float: right; }
-          /* line 3099, sass/layout/_main.scss */
+          /* line 3100, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container::before {
             top: 11px;
             right: auto;
             left: -9px;
             border-right: 10px solid #ffd8d8;
             border-left: 0px; }
-          /* line 3107, sass/layout/_main.scss */
+          /* line 3108, sass/layout/_main.scss */
           .chat-container .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container span.user-name {
             text-align: left; }
-    /* line 3122, sass/layout/_main.scss */
+    /* line 3123, sass/layout/_main.scss */
     .chat-container .chat-content-container .chat-content-footer {
       background-color: #4E4E4E; }
 
