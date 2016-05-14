@@ -2083,9 +2083,7 @@ article.grid-item{
   .pay-container{
     .bank-container{
       width : 100%;
-      form.payment_select_form{
-        display : none;
-      }
+
       ul.bank-handler{
         margin : 0px;
         padding : 15px;
@@ -2179,8 +2177,14 @@ article.grid-item{
       .payment-info{
         display: block;
         clear: both;
+        form.payment_select_form{
+          select,input[type="submit"],option{
+            display : none;
+          }
+        }
         .inform{
           display: inline-block;
+          margin-bottom : 20px;
           float : right;
           margin-top : 20px;
           background-color: $white2;
@@ -2201,12 +2205,14 @@ article.grid-item{
           }
         }
         .payable{
+          margin-top : -16px;
           display: inline-block;
           float : left;
           background-color: lighten($gol,30%);
           border : 1px dashed $gol;
           padding : 25px;
           span{
+            font-weight: 600;
             display : block;
             text-align: center;
             padding-bottom : 5px;

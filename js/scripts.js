@@ -82,6 +82,12 @@ jQuery(document).ready(function($){
 		);
 	}
 
+	if(typeof $.fn.select_payment !== 'undefined') {
+		$('#bankHandler').select_payment({
+			selectID : '#paymentMethod'
+		});
+	}
+
 
 
 	if(typeof $.fn.owlCarousel !== 'undefined') {

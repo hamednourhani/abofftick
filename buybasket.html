@@ -422,13 +422,7 @@
             <section class="layout">
                 <div class="bank-container">
 
-                    <form action="" class="payment_select_form" id="paymanetSelectForm">
-                        <seclect name="paymanetmethod" id="paymentMethod" class="payment-method">
-                            <option value="melat" id="melatBank" >MelatBank</option>
-                            <option value="direct" id="directBank">DirectTransfer</option>
-                        </seclect>
-                        <input type="submit">
-                    </form>
+
 
                     <ul class="bank-handler" id="bankHandler">
                         <li id="melat" class="active">
@@ -454,14 +448,24 @@
                 <!--bank-container-->
 
                 <div class="payment-info">
-                    <div class="inform">
-                        <i class="fa fa-info" aria-hidden="true"></i>
-                        <span>با انتخاب نحوه پرداخت به صفحه بانک هدایت خواهید شد و بعد از پرداخت به آفتیک باز می گردید</span>
-                    </div>
                     <div class="payable">
                         <span>مبلغ قابل پرداخت</span>
                         <span class="payable-price">11،000 تومان</span>
                     </div>
+                    <form action="" class="payment_select_form" id="paymanetSelectForm">
+                        <seclect name="paymanetmethod" id="paymentMethod" class="payment-method">
+                            <option value="melat" id="melatBank" checked="checked">MelatBank</option>
+                            <option value="direct" id="directBank">DirectTransfer</option>
+                        </seclect>
+                        <input type="submit">
+                        <label>خرید از محل اعتبار : </label>
+                        <input type="text" name="credit-qty">
+                    </form>
+                    <div class="inform">
+                        <i class="fa fa-info" aria-hidden="true"></i>
+                        <span>با انتخاب نحوه پرداخت به صفحه بانک هدایت خواهید شد و بعد از پرداخت به آفتیک باز می گردید</span>
+                    </div>
+
                 </div>
                 <!--payment-info-->
                 </section>
@@ -602,6 +606,7 @@
 <script type="text/javascript" src="js/lib/jalali/calendar.js"></script>
 <script type="text/javascript" src="js/lib/jalali/calendar-setup.js"></script>
 <script type="text/javascript" src="js/lib/jalali/lang/calendar-fa.js"></script>
+<script type="text/javascript" src="js/plugins/select-payment.js"></script>
 <script type="text/javascript" src="js/lib/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 </html>
