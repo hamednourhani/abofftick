@@ -4218,8 +4218,8 @@ article.grid-item {
   /* line 2383, sass/layout/_main.scss */
   .main-wrapper.buybasket .basket-success-message {
     margin-bottom: 30px;
-    background-color: #fff1f1;
-    border: 1px dashed #FF585B; }
+    background-color: #e9f8ec;
+    border: 1px dashed #3BBB5A; }
     /* line 2387, sass/layout/_main.scss */
     .main-wrapper.buybasket .basket-success-message .message-row {
       display: block;
@@ -4231,7 +4231,7 @@ article.grid-item {
         margin-top: 30px; }
         /* line 2394, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-success-message .message-row i.fa-check:before {
-          background-color: #FF585B;
+          background-color: #3BBB5A;
           color: #FFFFFF;
           padding: 10px;
           -moz-border-radius: 30px;
@@ -4244,11 +4244,11 @@ article.grid-item {
         font-size: 90%; }
       /* line 2406, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-success-message .message-row h3.success-header {
-        color: #FF585B;
+        color: #3BBB5A;
         margin: 10px 10px 25px; }
       /* line 2410, sass/layout/_main.scss */
       .main-wrapper.buybasket .basket-success-message .message-row span.order-code {
-        border: 1px dashed #FF585B;
+        border: 1px dashed #3BBB5A;
         background-color: #FFFFFF;
         padding: 10px;
         -moz-border-radius: 5px;
@@ -4259,14 +4259,14 @@ article.grid-item {
         display: inline-block;
         padding: 10px;
         color: #FFFFFF;
-        background-color: #FF585B;
+        background-color: #3BBB5A;
         margin-bottom: 25px;
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
         border-radius: 5px; }
         /* line 2424, sass/layout/_main.scss */
         .main-wrapper.buybasket .basket-success-message .message-row a.coupon-code:hover {
-          background-color: #125688; }
+          background-color: #FF585B; }
 
 /* line 2435, sass/layout/_main.scss */
 .site-main {
