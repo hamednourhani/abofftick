@@ -111,6 +111,11 @@ jQuery(document).ready(function($){
 			}
 		});
 	}
+
+	//if(typeof $.fn.imagepicker !== 'undefined') {
+	//	$("#PaymentMethod").imagepicker();
+	//}
+
 	if(typeof $.fn.sliderPro !== 'undefined') {
 		$('#offer-slider').sliderPro({
 			width: '100%',

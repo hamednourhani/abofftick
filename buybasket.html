@@ -225,7 +225,33 @@
             <!--basket-header-->
         <div class="basket-content">
             <section class="layout">
-            <div class="items-table-container">
+
+            <div class="basket-success-message">
+                <div class="message-row">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                </div>
+                <div class="message-row">
+                    <h3 class="success-header">ممنون از خرید شما !</h3>
+                </div>
+                <div class="message-row">
+                    <span class="order-code">شماره سفارش شما : 100212345</span>
+                </div>
+                <div class="message-row">
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, rem.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="message-row">
+                    <a href="#" class="coupon-code">0-7422-RXCMNJ20</a>
+                </div>
+            </div>
+                <!--basket-success-message-->
+
+
+
+
+
+                <div class="items-table-container">
                 <table class="items-table">
                     <tbody>
                     <tr>
@@ -316,20 +342,22 @@
                 </table>
             </div>
             <!--items-table-container-->
+
             <div class="basket-title">
                 <h3>ورود به حساب کاربری یا ثبت نام درسایت</h3>
                 <div class="steps-nav">
                     <a href="#" class="next-step">
-                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                         <span>بعدی</span>
                     </a>
                     <a href="#" class="previous-step">
                         <span>قبلی</span>
-                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
             <!--basket-title-->
+
             <div class="basket-forms-container">
                 <section class="layout">
                     <div class="right-col">
@@ -386,10 +414,60 @@
             </div>
             <!--basket-forms-container-->
 
-                <!--basket-social-->
             </section>
         </div>
             <!--basket-content-->
+
+        <div class="pay-container">
+            <section class="layout">
+                <div class="bank-container">
+
+                    <form action="" class="payment_select_form" id="paymanetSelectForm">
+                        <seclect name="paymanetmethod" id="paymentMethod" class="payment-method">
+                            <option value="melat" id="melatBank" >MelatBank</option>
+                            <option value="direct" id="directBank">DirectTransfer</option>
+                        </seclect>
+                        <input type="submit">
+                    </form>
+
+                    <ul class="bank-handler" id="bankHandler">
+                        <li id="melat" class="active">
+                            <img src="images/mellat-bank-100px.png" alt="">
+                            <span>پرداخت اینترنتی - بانک ملت</span>
+                            <span>[قابل پرداخت با تمامی کارتهای عضو شتاب]</span>
+                        </li>
+                        <li id="direct" class="double-col">
+                            <div class="right-half">
+                                <img src="images/credit-150px.png" alt="">
+                                <span>پرداخت کارت به کارت</span>
+                            </div>
+                            <div class="left-half">
+                                <span>بعد از کارت به کارت کردن مبلغ قابل پرداخت و ارسال شماره پیگریی آفرهای خریداری شده برای شما ارسال خواهد شد.</span>
+                                <span>شماره کارت 123456789</span>
+                                <span>بانک سامان به نام ...</span>
+                            </div>
+
+                        </li>
+                    </ul>
+
+                </div>
+                <!--bank-container-->
+
+                <div class="payment-info">
+                    <div class="inform">
+                        <i class="fa fa-info" aria-hidden="true"></i>
+                        <span>با انتخاب نحوه پرداخت به صفحه بانک هدایت خواهید شد و بعد از پرداخت به آفتیک باز می گردید</span>
+                    </div>
+                    <div class="payable">
+                        <span>مبلغ قابل پرداخت</span>
+                        <span class="payable-price">11،000 تومان</span>
+                    </div>
+                </div>
+                <!--payment-info-->
+                </section>
+            </div>
+        <!--pay-container-->
+
         </div>
         <!--main-wrapper-->
 
