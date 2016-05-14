@@ -74,6 +74,10 @@ jQuery(document).ready(function($){
 
 	});
 
+	//if(typeof QRCode !== 'undefined') {
+	//	new QRCode(document.getElementById("qrCode"), "http://offtick.com");
+	//}
+
 	if(typeof $.fn.hide_site_section !== 'undefined') {
 		$('#hideFooter').hide_site_section({
 				togglerID: 'hideFooterToggler',
