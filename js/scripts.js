@@ -153,6 +153,32 @@ jQuery(document).ready(function($){
 			interval: 2000
 		});
 	}
+
+	if(typeof $.fn.chat_box !== 'undefined') {
+		$("#chatContainer").chat_box();
+	}
+
+	if(typeof $.fn.emojiarea !== 'undefined') {
+		$.emojiarea.path = 'images/icons/emojies/';
+		$.emojiarea.icons = {
+			':smile:': 'smile.png',
+			':angry:': 'angry.png',
+			':flushed:': 'flushed.png',
+			':neckbeard:': 'neckbeard.png',
+			':laughing:': 'laughing.png',
+			':smile:': 'smile.png',
+			':angry:': 'angry.png',
+			':flushed:': 'flushed.png',
+			':neckbeard:': 'neckbeard.png',
+			':laughing:': 'laughing.png',
+			':smile:': 'smile.png',
+			':angry:': 'angry.png',
+			':flushed:': 'flushed.png',
+			':neckbeard:': 'neckbeard.png',
+			':laughing:': 'laughing.png'
+		};
+		$('#currentMessage').emojiarea({button: '#emojiButton'});
+	}
 	//if(typeof $.fn.dropzone !== 'undefined') {
 	//	$("input#userImageUpload").dropzone({ url: "/file/post" });
 	//}
