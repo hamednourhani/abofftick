@@ -2610,18 +2610,20 @@ article.grid-item{
   background: $white;
 
   &.register-p1{
-    background: image_url('background/P1.jpg') top left no-repeat,$white;
-    background-size: cover;
+    background: image_url('background/P1.jpg') top left no-repeat,#BF0000;
+    background-position: center;
+
 
   }
   &.register-p2{
-    background: image_url('background/P2.jpg') top left no-repeat,$white;
-    background-size: cover;
+    background: image_url('background/P2.jpg') top left no-repeat,$black1;
+    background-position: center;
+
 
   }
   &.register-p3{
-    background: image_url('background/P3.jpg') top left no-repeat,$white;
-    background-size: cover;
+    background: image_url('background/P3.jpg') top left no-repeat,$black1;
+    background-position: center;
 
   }
 
@@ -2643,20 +2645,43 @@ article.grid-item{
           clear: both;
           //border-bottom: 1px solid $grey2;
           margin-bottom: 10px;
-          padding:  15px 20px;
+          padding:  15px 20px 10px;
           font-size: 120%;
           display: inline-block;
           color : $grey3;
           border : 1px dashed $grey3;
           background-color: $glassyWhite;
-          span.register-step{
-            display : inline-block;
-            font-size : 90%;
+          line-height: 1.7;
+          ul{
+            display: inline-block;
+            padding : 0px;
+            margin : 4px 14px 0px 5px;
+            float : left;
+
+            li{
+              display: inline-block;
+              padding : 2px 7px;
+              height : 30px;
+              width : 30px;
+              font-size : 80%;
+              background-color: $grey3;
+              color : $grey1;
+              @include border-radius(15px);
+              overflow: hidden;
+              &.passed{
+                background: image_url('icons/passed.png') center center no-repeat, $gol;
+                span{
+                  display : none;
+                }
+              }
+              &.current{
+                background-color: $green;
+              }
+            }
           }
         }
 
         @include at-breakpoint($medium) {
-          text-align: right;
           max-width: 80%;
           margin : 10px auto;
         }
@@ -2696,17 +2721,20 @@ article.grid-item{
               display: inline-block;
               @include border-radius(3px);
               padding : 5px 10px;
-              background-color: rgba(255,255,255,0.3);
+              background-color: rgba(255,255,255,0.7);
             }
             label{
-              font-size : 110%;
+              font-size : 120%;
+              font-weight: 600;
               width : auto;
               display: inline-block;
               margin : 10px 0px 5px;
-              @include text-shadow(2px 2px 10px $grey3);
+              background-color: rgba(255,255,255,0.5);
               &.required{
                 position: relative;
                 @extend .fa;
+                font-size : 120%;
+                font-weight: 600;
                 padding : 11px;
                 font-family: $web_yekan;
                 &::after{
@@ -2754,7 +2782,6 @@ article.grid-item{
               display : block;
               margin : 10px auto;
               background-color: $gol;
-              opacity: 0.8;
               color : $white;
               &:hover{
                 background-color: $blue;
@@ -2801,10 +2828,10 @@ article.grid-item{
 
             display: inline-block;
             background-color: $gol;
-            opacity: 0.8;
             color: $white;
-            padding : 5px 10px;
+            padding : 7px 12px;
             border : 1px dashed $grey1;
+            font-size: 110%;
             i:before{
               font-size : 120%;
               vertical-align: middle;
@@ -2820,12 +2847,7 @@ article.grid-item{
             @include at-breakpoint($medium){
               width: auto;
               margin: 10px;
-              &.previous{
-                float : right;
-              }
-              &.next{
-                float : left;
-              }
+
             }
           }
         }
