@@ -2604,6 +2604,241 @@ article.grid-item{
     }
   }
 }
+//print-page
+
+.main-wrapper.register{
+  background: $white;
+
+  &.register-p1{
+    background: image_url('background/P1.jpg') top left no-repeat,$white;
+    background-size: cover;
+
+  }
+  &.register-p2{
+    background: image_url('background/P2.jpg') top left no-repeat,$white;
+    background-size: cover;
+
+  }
+  &.register-p3{
+    background: image_url('background/P3.jpg') top left no-repeat,$white;
+    background-size: cover;
+
+  }
+
+  .register-wrapper {
+    .register-container {
+
+      .register-title {
+        position: relative;
+        overflow: hidden;
+        display: block;
+        clear: both;
+        min-height: 60px;
+        margin-top: 10px;
+        text-align: center;
+        h3 {
+          position: relative;
+          margin-right: 30px;
+          font-size : 120%;
+          clear: both;
+          //border-bottom: 1px solid $grey2;
+          margin-bottom: 10px;
+          padding:  15px 20px;
+          font-size: 120%;
+          display: inline-block;
+          color : $grey3;
+          border : 1px dashed $grey3;
+          background-color: $glassyWhite;
+          span.register-step{
+            display : inline-block;
+            font-size : 90%;
+          }
+        }
+
+        @include at-breakpoint($medium) {
+          text-align: right;
+          max-width: 80%;
+          margin : 10px auto;
+        }
+      }
+      //basket-title
+
+      .register-forms-container{
+        clear : both;
+          max-width : 100%;
+          padding : 10px 25px 20px;
+          border : 1px dashed $grey1;
+          background-color: rgba(255,255,255,0.6);
+          margin-top : 20px;
+          margin-bottom : 30px;
+
+          form{
+
+            .right-grid{
+              @include span-columns(12,12);
+              @include at-breakpoint($mediumplus) {
+                @include span-columns(6, 12);
+                margin-right: auto;
+              }
+            }
+            .left-grid{
+              @include span-columns(12,12);
+              @include at-breakpoint($mediumplus) {
+                @include span-columns(6 omega, 12);
+                margin-right: auto;
+              }
+            }
+            .left-grid,.right-grid{
+              padding : 20px;
+            }
+            label,input,select{
+              width : 100%;
+              display: inline-block;
+              @include border-radius(3px);
+              padding : 5px 10px;
+              background-color: rgba(255,255,255,0.3);
+            }
+            label{
+              font-size : 110%;
+              width : auto;
+              display: inline-block;
+              margin : 10px 0px 5px;
+              @include text-shadow(2px 2px 10px $grey3);
+              &.required{
+                position: relative;
+                @extend .fa;
+                padding : 11px;
+                font-family: $web_yekan;
+                &::after{
+                  font-family: "FontAwesome";
+                  content : "\f005";
+                  position: absolute;
+                  top: 4px;
+                  left: 3px;
+                  font-size : 70%;
+                  color: $gol;
+                }
+              }
+            }
+            input{
+              @extend .def-transition;
+              border : 1px dashed $grey3;
+              @include border-radius(0px);
+              outline : none;
+              color : $white;
+              font-size : 110%;
+              color : $grey3;
+              &:focus{
+                border-color : $gol;
+              }
+              &.date_input{
+                width : auto;
+              }
+              &.date_btn{
+                width : 52px;
+                height : 50px;
+                position: relative;
+                opacity: 0.8;
+                background: image_url('icons/calendar.png') top left no-repeat,$gol;
+                &:hover{
+                  opacity : 1;
+                }
+              }
+            }
+            input[type="checkbox"]{
+              width : auto;
+              margin-top: 20px;
+            }
+            input[type="submit"]{
+              width : auto;
+              display : block;
+              margin : 10px auto;
+              background-color: $gol;
+              opacity: 0.8;
+              color : $white;
+              &:hover{
+                background-color: $blue;
+              }
+            }
+            input[type="file"]{
+              color : $grey3;
+              padding : 20px;
+            }
+            select{
+              border : 1px dashed $grey3;
+              &:focus{
+                border-color : $gol;
+              }
+            }
+            .calendar-container{
+              display: block;
+              width : 100%;
+            }
+            span.remember-title{
+              display : inline-block;
+              clear : left;
+              padding: 5px;
+            }
+            a.forgat-password{
+              clear : both;
+              padding : 10px;
+              width: 100%;
+              display: block;
+            }
+
+          }
+
+        @include at-breakpoint($mediumplus){
+          max-width : 80%;
+          margin : 20px auto 30px;
+        }
+
+        .register-buttons-container{
+          width : 100%;
+          clear : both ;
+          text-align: center;
+          .register-button {
+
+            display: inline-block;
+            background-color: $gol;
+            opacity: 0.8;
+            color: $white;
+            padding : 5px 10px;
+            border : 1px dashed $grey1;
+            i:before{
+              font-size : 120%;
+              vertical-align: middle;
+              padding : 5px;
+            }
+            &:hover {
+              background-color: $blue;
+            }
+
+            float : none  !important;
+            width : 70%;
+            margin : 10px auto;
+            @include at-breakpoint($medium){
+              width: auto;
+              margin: 10px;
+              &.previous{
+                float : right;
+              }
+              &.next{
+                float : left;
+              }
+            }
+          }
+        }
+        //register-buttons-container
+      }
+      //register-forms-container
+
+
+    }
+    //registeration-container
+  }
+  //registration-wrapper
+}
 .site-main {
   position: relative;
   .side-columns-container {
