@@ -4607,17 +4607,72 @@ article.grid-item {
       padding: 10px;
       width: 100%;
       display: block; }
+    /* line 2815, sass/layout/_main.scss */
+    .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-input-container {
+      height: 46px;
+      width: 120px;
+      background-color: #FF585B;
+      border: 1px dashed #FFFFFF;
+      position: relative;
+      margin-top: 20px; }
+      /* line 2822, sass/layout/_main.scss */
+      .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-input-container span {
+        width: 100%;
+        height: 100%;
+        padding: 5px 10px;
+        color: #FFFFFF;
+        font-size: 110%;
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        cursor: pointer; }
+      /* line 2837, sass/layout/_main.scss */
+      .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-input-container input.image-input {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        border: 0px;
+        margin: 0px;
+        cursor: pointer; }
+    /* line 2853, sass/layout/_main.scss */
+    .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-container {
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      float: left;
+      display: inline-block;
+      border: 1px dashed #4E4E4E;
+      padding: 5px; }
+      /* line 2861, sass/layout/_main.scss */
+      .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-container img.image-reader {
+        width: 100%;
+        height: auto;
+        max-width: 100%; }
+    /* line 2867, sass/layout/_main.scss */
+    .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-cropper-container {
+      display: none;
+      position: fixed;
+      top: 40%;
+      left: 40%; }
     @media (min-width: 54em) {
       /* line 2691, sass/layout/_main.scss */
       .main-wrapper.register .register-wrapper .register-container .register-forms-container {
         max-width: 80%;
         margin: 20px auto 30px; } }
-    /* line 2823, sass/layout/_main.scss */
+    /* line 2887, sass/layout/_main.scss */
     .main-wrapper.register .register-wrapper .register-container .register-forms-container .register-buttons-container {
       width: 100%;
       clear: both;
       text-align: center; }
-      /* line 2827, sass/layout/_main.scss */
+      /* line 2891, sass/layout/_main.scss */
       .main-wrapper.register .register-wrapper .register-container .register-forms-container .register-buttons-container .register-button {
         display: inline-block;
         background-color: #FF585B;
@@ -4628,24 +4683,24 @@ article.grid-item {
         float: none  !important;
         width: 70%;
         margin: 10px auto; }
-        /* line 2835, sass/layout/_main.scss */
+        /* line 2899, sass/layout/_main.scss */
         .main-wrapper.register .register-wrapper .register-container .register-forms-container .register-buttons-container .register-button i:before {
           font-size: 120%;
           vertical-align: middle;
           padding: 5px; }
-        /* line 2840, sass/layout/_main.scss */
+        /* line 2904, sass/layout/_main.scss */
         .main-wrapper.register .register-wrapper .register-container .register-forms-container .register-buttons-container .register-button:hover {
           background-color: #125688; }
         @media (min-width: 45em) {
-          /* line 2827, sass/layout/_main.scss */
+          /* line 2891, sass/layout/_main.scss */
           .main-wrapper.register .register-wrapper .register-container .register-forms-container .register-buttons-container .register-button {
             width: auto;
             margin: 10px; } }
 
-/* line 2864, sass/layout/_main.scss */
+/* line 2928, sass/layout/_main.scss */
 .site-main {
   position: relative; }
-  /* line 2866, sass/layout/_main.scss */
+  /* line 2930, sass/layout/_main.scss */
   .site-main .side-columns-container {
     position: fixed;
     top: 100px;
@@ -4655,18 +4710,18 @@ article.grid-item {
     width: 270px;
     max-width: 90%;
     transform: translateX(272px); }
-    /* line 2877, sass/layout/_main.scss */
+    /* line 2941, sass/layout/_main.scss */
     .site-main .side-columns-container a.side-column-more {
       width: 100%;
       text-align: center;
       display: none; }
-    /* line 2882, sass/layout/_main.scss */
+    /* line 2946, sass/layout/_main.scss */
     .site-main .side-columns-container span.f-toggler {
       position: absolute;
       top: 10px;
       left: -43px;
       cursor: pointer; }
-      /* line 2889, sass/layout/_main.scss */
+      /* line 2953, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i:before {
         cursor: pointer;
         -moz-box-shadow: 0px 0px 5px #1b1b1b;
@@ -4677,38 +4732,38 @@ article.grid-item {
         font-size: 140%;
         background-color: #125688;
         opacity: 0.7; }
-      /* line 2898, sass/layout/_main.scss */
+      /* line 2962, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.fa-th-large {
         display: none;
         opacity: 0; }
-      /* line 2902, sass/layout/_main.scss */
+      /* line 2966, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.fa-times {
         display: none;
         opacity: 0; }
-        /* line 2905, sass/layout/_main.scss */
+        /* line 2969, sass/layout/_main.scss */
         .site-main .side-columns-container span.f-toggler i.fa-times:before {
           padding: 8px 12px 12px; }
-      /* line 2909, sass/layout/_main.scss */
+      /* line 2973, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.current {
         display: block;
         opacity: 1; }
-      /* line 2916, sass/layout/_main.scss */
+      /* line 2980, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler:hover i:before {
         background-color: #FFFFFF;
         color: #125688;
         opacity: 1; }
-    /* line 2925, sass/layout/_main.scss */
+    /* line 2989, sass/layout/_main.scss */
     .site-main .side-columns-container ul.side-tab-list {
       padding: 0px;
       margin: 0px;
       overflow: hidden; }
-      /* line 2929, sass/layout/_main.scss */
+      /* line 2993, sass/layout/_main.scss */
       .site-main .side-columns-container ul.side-tab-list li {
         display: inline-block;
         float: right;
         text-align: center;
         width: 50%; }
-        /* line 2934, sass/layout/_main.scss */
+        /* line 2998, sass/layout/_main.scss */
         .site-main .side-columns-container ul.side-tab-list li a {
           width: 100%;
           display: inline-block;
@@ -4716,14 +4771,14 @@ article.grid-item {
           color: #125688;
           border-bottom: 1px dashed #E6E7E7;
           border-left: 1px dashed #E6E7E7; }
-          /* line 2942, sass/layout/_main.scss */
+          /* line 3006, sass/layout/_main.scss */
           .site-main .side-columns-container ul.side-tab-list li a:last-child {
             border-left: 0px; }
-          /* line 2945, sass/layout/_main.scss */
+          /* line 3009, sass/layout/_main.scss */
           .site-main .side-columns-container ul.side-tab-list li a:hover {
             color: #FF585B;
             background-color: #F8F8F8; }
-    /* line 2955, sass/layout/_main.scss */
+    /* line 3019, sass/layout/_main.scss */
     .site-main .side-columns-container .side-followers-container {
       position: relative;
       margin: 0px 1%;
@@ -4731,30 +4786,30 @@ article.grid-item {
       height: 100%;
       display: none;
       opacity: 0; }
-      /* line 2964, sass/layout/_main.scss */
+      /* line 3028, sass/layout/_main.scss */
       .site-main .side-columns-container .side-followers-container h3 {
         display: none; }
-      /* line 2967, sass/layout/_main.scss */
+      /* line 3031, sass/layout/_main.scss */
       .site-main .side-columns-container .side-followers-container ul {
         text-align: right;
         padding: 0px;
         margin: 20px 0px; }
-        /* line 2971, sass/layout/_main.scss */
+        /* line 3035, sass/layout/_main.scss */
         .site-main .side-columns-container .side-followers-container ul li {
           width: 100%;
           margin-bottom: 10px;
           overflow: hidden; }
-          /* line 2977, sass/layout/_main.scss */
+          /* line 3041, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li .user-state {
             top: 6px;
             right: 10px; }
-            /* line 2980, sass/layout/_main.scss */
+            /* line 3044, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title {
               left: 0px; }
-              /* line 2983, sass/layout/_main.scss */
+              /* line 3047, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title::before, .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title::after {
                 left: calc(50% + 27px); }
-          /* line 2988, sass/layout/_main.scss */
+          /* line 3052, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li > span {
             display: inline-block;
             font-size: 90%;
@@ -4762,15 +4817,15 @@ article.grid-item {
             float: right;
             margin-right: 5px;
             margin-top: 10px; }
-          /* line 2996, sass/layout/_main.scss */
+          /* line 3060, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li a.follow-link {
             display: inline-block;
             float: left;
             margin-top: 10px; }
-            /* line 3001, sass/layout/_main.scss */
+            /* line 3065, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link span {
               display: none; }
-            /* line 3004, sass/layout/_main.scss */
+            /* line 3068, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link i:before {
               background-color: #FFFFFF;
               border: 2px solid #E6E7E7;
@@ -4780,17 +4835,17 @@ article.grid-item {
               -moz-border-radius: 30px;
               -webkit-border-radius: 30px;
               border-radius: 30px; }
-            /* line 3013, sass/layout/_main.scss */
+            /* line 3077, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link:hover i:before {
               background-color: #125688;
               color: #F8F8F8; }
-          /* line 3020, sass/layout/_main.scss */
+          /* line 3084, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li img {
             width: 40px;
             float: right;
             margin: 5px 10px 5px 5px; }
       @media (min-width: 54em) {
-        /* line 2955, sass/layout/_main.scss */
+        /* line 3019, sass/layout/_main.scss */
         .site-main .side-columns-container .side-followers-container {
           right: 0px;
           position: absolute;
@@ -4800,7 +4855,7 @@ article.grid-item {
           max-width: 180px;
           display: block;
           opacity: 1; }
-          /* line 3036, sass/layout/_main.scss */
+          /* line 3100, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container h3 {
             text-align: center;
             border-bottom: 1px dashed #E6E7E7;
@@ -4809,7 +4864,7 @@ article.grid-item {
             display: block;
             margin-bottom: 5px;
             line-height: 1.8; }
-            /* line 3044, sass/layout/_main.scss */
+            /* line 3108, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container h3 span.visitors-count {
               line-height: 1;
               float: right;
@@ -4820,12 +4875,12 @@ article.grid-item {
               -webkit-border-radius: 15px;
               border-radius: 15px;
               color: #FFFFFF; }
-          /* line 3054, sass/layout/_main.scss */
+          /* line 3118, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul {
             text-align: center;
             padding: 0px;
             margin: 0px; }
-            /* line 3058, sass/layout/_main.scss */
+            /* line 3122, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li {
               -moz-box-shadow: 0px 0px 5px #1b1b1b;
               -webkit-box-shadow: 0px 0px 5px #1b1b1b;
@@ -4834,50 +4889,50 @@ article.grid-item {
               width: 100%;
               margin-bottom: 10px;
               overflow: hidden; }
-              /* line 3064, sass/layout/_main.scss */
+              /* line 3128, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li > span {
                 display: inline-block;
                 width: 100%;
                 font-size: 90%;
                 word-break: break-all;
                 margin: auto; }
-              /* line 3071, sass/layout/_main.scss */
+              /* line 3135, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li a.follow-link {
                 display: inline-block;
                 width: 100%; }
-                /* line 3074, sass/layout/_main.scss */
+                /* line 3138, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link span {
                   display: block;
                   background-color: #125688;
                   color: #FFFFFF; }
-                /* line 3079, sass/layout/_main.scss */
+                /* line 3143, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link i {
                   display: none; }
-                /* line 3083, sass/layout/_main.scss */
+                /* line 3147, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link:hover span {
                   background-color: #0c3a5b; }
-              /* line 3089, sass/layout/_main.scss */
+              /* line 3153, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li img {
                 max-width: 100%;
                 width: 100%;
                 height: auto;
                 margin: auto; } }
-    /* line 3101, sass/layout/_main.scss */
+    /* line 3165, sass/layout/_main.scss */
     .site-main .side-columns-container .side-important-apps {
       opacity: 0;
       position: relative;
       width: 100%;
       margin: 0px 1%;
       display: none; }
-      /* line 3108, sass/layout/_main.scss */
+      /* line 3172, sass/layout/_main.scss */
       .site-main .side-columns-container .side-important-apps h3 {
         display: none; }
-      /* line 3111, sass/layout/_main.scss */
+      /* line 3175, sass/layout/_main.scss */
       .site-main .side-columns-container .side-important-apps ul {
         text-align: right;
         padding: 0px;
         margin: 20px 0px; }
-        /* line 3115, sass/layout/_main.scss */
+        /* line 3179, sass/layout/_main.scss */
         .site-main .side-columns-container .side-important-apps ul li {
           margin-bottom: 10px;
           width: 100%;
@@ -4885,26 +4940,26 @@ article.grid-item {
           overflow: hidden;
           display: block;
           position: relative; }
-          /* line 3122, sass/layout/_main.scss */
+          /* line 3186, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul li span {
             display: inline-block;
             float: right;
             line-height: 1.6; }
-            /* line 3126, sass/layout/_main.scss */
+            /* line 3190, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li span.app-name {
               color: #125688;
               paddin-top: 5px;
               font-size: 90%;
               margin-right: 60px;
               width: 100%; }
-            /* line 3133, sass/layout/_main.scss */
+            /* line 3197, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li span.taken {
               color: #4E4E4E;
               font-size: 80%;
               margin-top: -2px;
               width: 100%;
               margin-right: 60px; }
-          /* line 3141, sass/layout/_main.scss */
+          /* line 3205, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul li a {
             display: inline-block;
             overflow: hidden;
@@ -4912,13 +4967,13 @@ article.grid-item {
             position: absolute;
             top: 0;
             right: 0; }
-            /* line 3148, sass/layout/_main.scss */
+            /* line 3212, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li a img {
               width: 40px;
               margin: 5px 10px 5px 5px;
               float: right; }
       @media (min-width: 54em) {
-        /* line 3101, sass/layout/_main.scss */
+        /* line 3165, sass/layout/_main.scss */
         .site-main .side-columns-container .side-important-apps {
           position: absolute;
           top: 0px;
@@ -4927,7 +4982,7 @@ article.grid-item {
           display: block;
           opacity: 1;
           margin: 0px 1% 10px; }
-          /* line 3166, sass/layout/_main.scss */
+          /* line 3230, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps h3 {
             text-align: center;
             border-bottom: 1px dashed #E6E7E7;
@@ -4935,12 +4990,12 @@ article.grid-item {
             font-size: 90%;
             display: block;
             margin-bottom: 5px; }
-          /* line 3174, sass/layout/_main.scss */
+          /* line 3238, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul {
             text-align: center;
             padding: 0px;
             margin: 0px; }
-            /* line 3178, sass/layout/_main.scss */
+            /* line 3242, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li {
               -moz-box-shadow: 0px 0px 5px #1b1b1b;
               -webkit-box-shadow: 0px 0px 5px #1b1b1b;
@@ -4949,43 +5004,43 @@ article.grid-item {
               background-color: #F8F8F8;
               width: 100%;
               padding: 0px 10px; }
-              /* line 3185, sass/layout/_main.scss */
+              /* line 3249, sass/layout/_main.scss */
               .site-main .side-columns-container .side-important-apps ul li span {
                 display: inline-block;
                 width: 100%;
                 float: none; }
-                /* line 3189, sass/layout/_main.scss */
+                /* line 3253, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li span.app-name {
                   color: #125688;
                   paddin-top: 5px;
                   padding-bottom: 5px;
                   font-size: 90%;
                   margin: auto; }
-                /* line 3196, sass/layout/_main.scss */
+                /* line 3260, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li span.taken {
                   color: #4E4E4E;
                   font-size: 80%;
                   margin-top: -2px;
                   margin: auto; }
-              /* line 3204, sass/layout/_main.scss */
+              /* line 3268, sass/layout/_main.scss */
               .site-main .side-columns-container .side-important-apps ul li a {
                 display: inline-block;
                 width: 100%;
                 overflow: hidden;
                 max-height: 85px;
                 position: relative; }
-                /* line 3210, sass/layout/_main.scss */
+                /* line 3274, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li a img {
                   width: 100%;
                   margin: auto;
                   float: none; } }
-    /* line 3225, sass/layout/_main.scss */
+    /* line 3290, sass/layout/_main.scss */
     .site-main .side-columns-container .side-followers-container.current,
     .site-main .side-columns-container .side-important-apps.current {
       display: block;
       opacity: 1; }
     @media (min-width: 54em) {
-      /* line 2866, sass/layout/_main.scss */
+      /* line 2930, sass/layout/_main.scss */
       .site-main .side-columns-container {
         -moz-box-shadow: 0px 0px 0px #FFFFFF;
         -webkit-box-shadow: 0px 0px 0px #FFFFFF;
@@ -5000,23 +5055,23 @@ article.grid-item {
         overflow: inherit;
         width: 100%;
         max-width: 100%; }
-        /* line 3243, sass/layout/_main.scss */
+        /* line 3308, sass/layout/_main.scss */
         .site-main .side-columns-container a.side-column-more {
           display: inline-block; }
-        /* line 3246, sass/layout/_main.scss */
+        /* line 3311, sass/layout/_main.scss */
         .site-main .side-columns-container ul.side-tab-list {
           display: none; } }
-    /* line 3250, sass/layout/_main.scss */
+    /* line 3315, sass/layout/_main.scss */
     .site-main .side-columns-container.show-side {
       transform: translateX(0px); }
 
-/* line 3262, sass/layout/_main.scss */
+/* line 3327, sass/layout/_main.scss */
 .chat-container {
   overflow: hidden;
   position: fixed;
   z-index: 999998;
   max-width: 100% !important; }
-  /* line 3269, sass/layout/_main.scss */
+  /* line 3334, sass/layout/_main.scss */
   .chat-container .chat-box-wrapper {
     background-color: #FFFFFF;
     position: relative;
@@ -5025,25 +5080,25 @@ article.grid-item {
     padding: 0px;
     margin: 0px;
     overflow: hidden; }
-    /* line 3277, sass/layout/_main.scss */
+    /* line 3342, sass/layout/_main.scss */
     .chat-container .chat-box-wrapper .chat-box-container {
       background-color: #FFFFFF;
       overflow-y: auto;
       width: 100%; }
       @media (min-width: 54em) {
-        /* line 3277, sass/layout/_main.scss */
+        /* line 3342, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-box-container {
           width: 30%;
           height: 100%;
           float: right;
           border-left: 2px solid #E6E7E7; } }
-      /* line 3288, sass/layout/_main.scss */
+      /* line 3353, sass/layout/_main.scss */
       .chat-container .chat-box-wrapper .chat-box-container .chat-box-header {
         background-color: #FFFFFF; }
-        /* line 3290, sass/layout/_main.scss */
+        /* line 3355, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-box-container .chat-box-header form.search-chats-list {
           position: relative; }
-          /* line 3293, sass/layout/_main.scss */
+          /* line 3358, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container .chat-box-header form.search-chats-list::before {
             content: "\f002";
             position: absolute;
@@ -5052,7 +5107,7 @@ article.grid-item {
             vertical-align: middle;
             color: #989c9c;
             font-size: 120%; }
-          /* line 3302, sass/layout/_main.scss */
+          /* line 3367, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container .chat-box-header form.search-chats-list input {
             width: 96%;
             max-width: 100%;
@@ -5065,18 +5120,18 @@ article.grid-item {
             -moz-border-radius: 0px;
             -webkit-border-radius: 0px;
             border-radius: 0px; }
-            /* line 3316, sass/layout/_main.scss */
+            /* line 3381, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container .chat-box-header form.search-chats-list input:focus {
               background-color: #F2F2F2;
               border-color: #ffd8d8; }
-          /* line 3321, sass/layout/_main.scss */
+          /* line 3386, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container .chat-box-header form.search-chats-list input[type="submit"] {
             display: none; }
-      /* line 3329, sass/layout/_main.scss */
+      /* line 3394, sass/layout/_main.scss */
       .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list {
         margin: 0px;
         padding: 0px; }
-        /* line 3332, sass/layout/_main.scss */
+        /* line 3397, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li {
           position: relative;
           display: block;
@@ -5086,10 +5141,10 @@ article.grid-item {
           padding: 7px 10px;
           cursor: pointer;
           overflow: hidden; }
-          /* line 3341, sass/layout/_main.scss */
+          /* line 3406, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li .user-avatar-container {
             width: 70px; }
-            /* line 3343, sass/layout/_main.scss */
+            /* line 3408, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li .user-avatar-container img {
               width: 60px;
               height: auto;
@@ -5099,7 +5154,7 @@ article.grid-item {
               -webkit-border-radius: 30px;
               border-radius: 30px;
               border: 2px solid #F2F2F2; }
-          /* line 3352, sass/layout/_main.scss */
+          /* line 3417, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li span {
             float: right;
             display: block;
@@ -5107,15 +5162,15 @@ article.grid-item {
             text-align: right;
             width: calc(100% - 70px);
             line-height: 1.7; }
-            /* line 3359, sass/layout/_main.scss */
+            /* line 3424, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li span.user-name {
               color: #125688;
               font-weight: 600; }
-            /* line 3363, sass/layout/_main.scss */
+            /* line 3428, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li span.chat-excerpt {
               color: #686868;
               font-size: 84%; }
-            /* line 3367, sass/layout/_main.scss */
+            /* line 3432, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li span.new-messages-count {
               position: absolute;
               bottom: 10px;
@@ -5129,7 +5184,7 @@ article.grid-item {
               border-radius: 20px;
               color: #FFFFFF;
               font-size: 80%; }
-            /* line 3380, sass/layout/_main.scss */
+            /* line 3445, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li span.last-message-date {
               width: auto;
               position: absolute;
@@ -5137,13 +5192,13 @@ article.grid-item {
               left: 0px;
               font-size: 90%;
               color: #989c9c; }
-          /* line 3393, sass/layout/_main.scss */
+          /* line 3458, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li:hover {
             background-color: #F2F2F2; }
-          /* line 3396, sass/layout/_main.scss */
+          /* line 3461, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li.active {
             background-color: #ffd8d8; }
-    /* line 3405, sass/layout/_main.scss */
+    /* line 3470, sass/layout/_main.scss */
     .chat-container .chat-box-wrapper .chat-content-container {
       background: url('../images/background/chat-back.jpg?1463133616') top left repeat, #4E4E4E;
       width: 100%;
@@ -5151,73 +5206,73 @@ article.grid-item {
       background-attachment: fixed;
       position: relative; }
       @media (min-width: 54em) {
-        /* line 3405, sass/layout/_main.scss */
+        /* line 3470, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container {
           width: 70%;
           height: 100%;
           float: left; } }
-      /* line 3419, sass/layout/_main.scss */
+      /* line 3484, sass/layout/_main.scss */
       .chat-container .chat-box-wrapper .chat-content-container .chat-content-header {
         background-color: #FFFFFF;
         border-bottom: 1px solid #E6E7E7;
         position: relative; }
-        /* line 3423, sass/layout/_main.scss */
+        /* line 3488, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container .chat-content-header span.list-toggler {
           position: absolute;
           top: 10px;
           right: 15px;
           cursor: pointer; }
-          /* line 3428, sass/layout/_main.scss */
+          /* line 3493, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-header span.list-toggler i:before {
             font-size: 180%; }
-          /* line 3432, sass/layout/_main.scss */
+          /* line 3497, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-header span.list-toggler:hover i:before {
             color: #FF585B; }
           @media (min-width: 54em) {
-            /* line 3423, sass/layout/_main.scss */
+            /* line 3488, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-header span.list-toggler {
               display: none; } }
-        /* line 3441, sass/layout/_main.scss */
+        /* line 3506, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container .chat-content-header ul {
           padding-right: 30px;
           margin: 0px; }
-          /* line 3444, sass/layout/_main.scss */
+          /* line 3509, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-header ul li {
             display: list-item;
             padding: 9px 10px 6px;
             line-height: 0.7; }
-            /* line 3451, sass/layout/_main.scss */
+            /* line 3516, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-header ul li.userstate {
               color: #686868;
               font-size: 90%; }
-      /* line 3460, sass/layout/_main.scss */
+      /* line 3525, sass/layout/_main.scss */
       .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper {
         overflow: auto;
         height: 100%;
         padding-bottom: 70px; }
-        /* line 3465, sass/layout/_main.scss */
+        /* line 3530, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list {
           margin: 0px;
           padding: 0px; }
-          /* line 3469, sass/layout/_main.scss */
+          /* line 3534, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li {
             display: block;
             width: 100%;
             clear: both;
             margin: 0px;
             padding: 10px 0px; }
-            /* line 3475, sass/layout/_main.scss */
+            /* line 3540, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content {
               width: 80%;
               margin: auto;
               display: block;
               overflow: hidden; }
-              /* line 3480, sass/layout/_main.scss */
+              /* line 3545, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .user-avatar-container {
                 float: right;
                 width: 60px;
                 padding-left: 10px; }
-                /* line 3484, sass/layout/_main.scss */
+                /* line 3549, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .user-avatar-container img {
                   height: auto;
                   max-width: 100%;
@@ -5225,7 +5280,7 @@ article.grid-item {
                   -moz-border-radius: 30px;
                   -webkit-border-radius: 30px;
                   border-radius: 30px; }
-              /* line 3493, sass/layout/_main.scss */
+              /* line 3558, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container {
                 -moz-border-radius: 5px;
                 -webkit-border-radius: 5px;
@@ -5236,27 +5291,27 @@ article.grid-item {
                 color: #111;
                 width: calc(100% - 65px);
                 float: left; }
-                /* line 3503, sass/layout/_main.scss */
+                /* line 3568, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this {
                   border-right: 3px solid #FF585B;
                   display: block;
                   margin: 5px 0px;
                   padding: 0px 10px;
                   line-height: 1.5; }
-                  /* line 3510, sass/layout/_main.scss */
+                  /* line 3575, sass/layout/_main.scss */
                   .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this span.sender-user-name {
                     color: #FF585B;
                     display: block; }
-                  /* line 3514, sass/layout/_main.scss */
+                  /* line 3579, sass/layout/_main.scss */
                   .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this span.message-excerpt {
                     color: #4E4E4E; }
-                /* line 3519, sass/layout/_main.scss */
+                /* line 3584, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.user-name {
                   color: #125688;
                   font-weight: 600;
                   width: 100%;
                   display: block; }
-                /* line 3525, sass/layout/_main.scss */
+                /* line 3590, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date {
                   color: #989c9c;
                   font-size: 90%;
@@ -5264,10 +5319,10 @@ article.grid-item {
                   display: inline-block;
                   padding: 0px 0px 2px 5px;
                   margin-right: 22px; }
-                  /* line 3532, sass/layout/_main.scss */
+                  /* line 3597, sass/layout/_main.scss */
                   .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.sent {
                     position: relative; }
-                    /* line 3534, sass/layout/_main.scss */
+                    /* line 3599, sass/layout/_main.scss */
                     .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.sent::before {
                       content: "";
                       height: 12px;
@@ -5276,10 +5331,10 @@ article.grid-item {
                       top: 10px;
                       right: -22px;
                       background: url('../images/icons/sent.png?1463133616') top left no-repeat; }
-                  /* line 3545, sass/layout/_main.scss */
+                  /* line 3610, sass/layout/_main.scss */
                   .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.checked {
                     position: relative; }
-                    /* line 3547, sass/layout/_main.scss */
+                    /* line 3612, sass/layout/_main.scss */
                     .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.checked::before {
                       content: "";
                       height: 12px;
@@ -5288,7 +5343,7 @@ article.grid-item {
                       top: 10px;
                       right: -22px;
                       background: url('../images/icons/checked.png?1463133616') top left no-repeat; }
-                /* line 3558, sass/layout/_main.scss */
+                /* line 3623, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container::before {
                   content: '';
                   position: absolute;
@@ -5299,26 +5354,26 @@ article.grid-item {
                   border-top: 10px solid transparent;
                   border-left: 10px solid #FFFFFF;
                   border-bottom: 10px solid transparent; }
-            /* line 3576, sass/layout/_main.scss */
+            /* line 3641, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .user-avatar-container {
               padding-left: 0px;
               padding-right: 10px;
               float: left; }
-            /* line 3581, sass/layout/_main.scss */
+            /* line 3646, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container {
               background-color: #ffd8d8;
               float: right; }
-              /* line 3584, sass/layout/_main.scss */
+              /* line 3649, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container::before {
                 top: 11px;
                 right: auto;
                 left: -9px;
                 border-right: 10px solid #ffd8d8;
                 border-left: 0px; }
-              /* line 3592, sass/layout/_main.scss */
+              /* line 3657, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container span.user-name {
                 text-align: left; }
-      /* line 3607, sass/layout/_main.scss */
+      /* line 3672, sass/layout/_main.scss */
       .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer {
         min-height: 50px;
         background-color: #FFFFFF;
@@ -5326,11 +5381,11 @@ article.grid-item {
         bottom: 0px;
         right: 0px;
         left: 0px; }
-        /* line 3614, sass/layout/_main.scss */
+        /* line 3679, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr {
           position: relative;
           display: inline-block; }
-          /* line 3618, sass/layout/_main.scss */
+          /* line 3683, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr i:before {
             font-size: 170%;
             color: #8e8e8e;
@@ -5340,10 +5395,10 @@ article.grid-item {
             padding: 10px 10px;
             vertical-align: middle;
             cursor: pointer; }
-          /* line 3631, sass/layout/_main.scss */
+          /* line 3696, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr i:hover:before {
             color: #FF585B; }
-          /* line 3637, sass/layout/_main.scss */
+          /* line 3702, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items {
             opacity: 0;
             visibility: hidden;
@@ -5354,44 +5409,44 @@ article.grid-item {
             margin: 5px;
             padding: 0px;
             width: 160px; }
-            /* line 3650, sass/layout/_main.scss */
+            /* line 3715, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items li {
               padding: 5px 10px;
               cursor: pointer;
               display: list-item;
               border-bottom: 1px solid #E6E7E7; }
-              /* line 3658, sass/layout/_main.scss */
+              /* line 3723, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items li span {
                 padding: 5px 5px 5px 15px; }
-              /* line 3661, sass/layout/_main.scss */
+              /* line 3726, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items li:hover {
                 background-color: #F2F2F2; }
-                /* line 3663, sass/layout/_main.scss */
+                /* line 3728, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items li:hover i:before {
                   color: #FF585B; }
-              /* line 3667, sass/layout/_main.scss */
+              /* line 3732, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items li:last-child {
                 border: 0px; }
-          /* line 3673, sass/layout/_main.scss */
+          /* line 3738, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr:hover ul.chat-items {
             opacity: 1;
             visibility: visible; }
-        /* line 3681, sass/layout/_main.scss */
+        /* line 3746, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form {
           position: relative;
           float: left;
           width: calc(100% - 50px);
           display: inline-block; }
-          /* line 3686, sass/layout/_main.scss */
+          /* line 3751, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form #emojieButtonContainer {
             position: absolute;
             top: 0px;
             left: 45px; }
-            /* line 3690, sass/layout/_main.scss */
+            /* line 3755, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form #emojieButtonContainer .emoji-menu {
               top: auto !important;
               bottom: 100% !important; }
-            /* line 3696, sass/layout/_main.scss */
+            /* line 3761, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form #emojieButtonContainer i:before {
               font-size: 170%;
               color: #8e8e8e;
@@ -5401,10 +5456,10 @@ article.grid-item {
               padding: 10px 10px;
               vertical-align: middle;
               cursor: pointer; }
-            /* line 3706, sass/layout/_main.scss */
+            /* line 3771, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form #emojieButtonContainer i:hover {
               color: #FF585B; }
-          /* line 3711, sass/layout/_main.scss */
+          /* line 3776, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form textarea, .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form .emoji-wysiwyg-editor {
             border: 0px;
             outline: none;
@@ -5415,7 +5470,7 @@ article.grid-item {
             -webkit-border-radius: 0px;
             border-radius: 0px;
             width: calc(100% - 100px); }
-          /* line 3721, sass/layout/_main.scss */
+          /* line 3786, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form input[type="submit"] {
             position: absolute;
             top: 0px;
@@ -5427,7 +5482,7 @@ article.grid-item {
             padding: 5px 10px;
             color: #4E4E4E;
             font-size: 110%; }
-            /* line 3732, sass/layout/_main.scss */
+            /* line 3797, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form input[type="submit"]:hover {
               color: #FF585B; }
 
@@ -5670,6 +5725,315 @@ nav.footer-nav {
 /* dividers style */
 /* table style */
 /* other style */
+/*!
+ * Cropper v2.3.0
+ * https://github.com/fengyuanchen/cropper
+ *
+ * Copyright (c) 2014-2016 Fengyuan Chen and contributors
+ * Released under the MIT license
+ *
+ * Date: 2016-02-22T02:13:13.332Z
+ */
+/* line 10, sass/modules/_cropper.scss */
+.cropper-container {
+  font-size: 0;
+  line-height: 0;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  direction: ltr !important;
+  -ms-touch-action: none;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; }
+
+/* line 28, sass/modules/_cropper.scss */
+.cropper-container img {
+  display: block;
+  width: 100%;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: 100%;
+  min-height: 0 !important;
+  max-height: none !important;
+  image-orientation: 0deg !important; }
+
+/* line 41, sass/modules/_cropper.scss */
+.cropper-wrap-box,
+.cropper-canvas,
+.cropper-drag-box,
+.cropper-crop-box,
+.cropper-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+/* line 53, sass/modules/_cropper.scss */
+.cropper-wrap-box {
+  overflow: hidden; }
+
+/* line 57, sass/modules/_cropper.scss */
+.cropper-drag-box {
+  opacity: 0;
+  background-color: #fff;
+  filter: alpha(opacity=0); }
+
+/* line 64, sass/modules/_cropper.scss */
+.cropper-modal {
+  opacity: .5;
+  background-color: #000;
+  filter: alpha(opacity=50); }
+
+/* line 71, sass/modules/_cropper.scss */
+.cropper-view-box {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  outline: 1px solid #39f;
+  outline-color: rgba(51, 153, 255, 0.75); }
+
+/* line 82, sass/modules/_cropper.scss */
+.cropper-dashed {
+  position: absolute;
+  display: block;
+  opacity: .5;
+  border: 0 dashed #eee;
+  filter: alpha(opacity=50); }
+
+/* line 93, sass/modules/_cropper.scss */
+.cropper-dashed.dashed-h {
+  top: 33.33333%;
+  left: 0;
+  width: 100%;
+  height: 33.33333%;
+  border-top-width: 1px;
+  border-bottom-width: 1px; }
+
+/* line 104, sass/modules/_cropper.scss */
+.cropper-dashed.dashed-v {
+  top: 0;
+  left: 33.33333%;
+  width: 33.33333%;
+  height: 100%;
+  border-right-width: 1px;
+  border-left-width: 1px; }
+
+/* line 115, sass/modules/_cropper.scss */
+.cropper-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 0;
+  opacity: .75;
+  filter: alpha(opacity=75); }
+
+/* line 130, sass/modules/_cropper.scss */
+.cropper-center:before,
+.cropper-center:after {
+  position: absolute;
+  display: block;
+  content: ' ';
+  background-color: #eee; }
+
+/* line 141, sass/modules/_cropper.scss */
+.cropper-center:before {
+  top: 0;
+  left: -3px;
+  width: 7px;
+  height: 1px; }
+
+/* line 149, sass/modules/_cropper.scss */
+.cropper-center:after {
+  top: -3px;
+  left: 0;
+  width: 1px;
+  height: 7px; }
+
+/* line 157, sass/modules/_cropper.scss */
+.cropper-face,
+.cropper-line,
+.cropper-point {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: .1;
+  filter: alpha(opacity=10); }
+
+/* line 172, sass/modules/_cropper.scss */
+.cropper-face {
+  top: 0;
+  left: 0;
+  background-color: #fff; }
+
+/* line 179, sass/modules/_cropper.scss */
+.cropper-line {
+  background-color: #39f; }
+
+/* line 183, sass/modules/_cropper.scss */
+.cropper-line.line-e {
+  top: 0;
+  right: -3px;
+  width: 5px;
+  cursor: e-resize; }
+
+/* line 192, sass/modules/_cropper.scss */
+.cropper-line.line-n {
+  top: -3px;
+  left: 0;
+  height: 5px;
+  cursor: n-resize; }
+
+/* line 201, sass/modules/_cropper.scss */
+.cropper-line.line-w {
+  top: 0;
+  left: -3px;
+  width: 5px;
+  cursor: w-resize; }
+
+/* line 210, sass/modules/_cropper.scss */
+.cropper-line.line-s {
+  bottom: -3px;
+  left: 0;
+  height: 5px;
+  cursor: s-resize; }
+
+/* line 219, sass/modules/_cropper.scss */
+.cropper-point {
+  width: 5px;
+  height: 5px;
+  opacity: .75;
+  background-color: #39f;
+  filter: alpha(opacity=75); }
+
+/* line 229, sass/modules/_cropper.scss */
+.cropper-point.point-e {
+  top: 50%;
+  right: -3px;
+  margin-top: -3px;
+  cursor: e-resize; }
+
+/* line 238, sass/modules/_cropper.scss */
+.cropper-point.point-n {
+  top: -3px;
+  left: 50%;
+  margin-left: -3px;
+  cursor: n-resize; }
+
+/* line 247, sass/modules/_cropper.scss */
+.cropper-point.point-w {
+  top: 50%;
+  left: -3px;
+  margin-top: -3px;
+  cursor: w-resize; }
+
+/* line 256, sass/modules/_cropper.scss */
+.cropper-point.point-s {
+  bottom: -3px;
+  left: 50%;
+  margin-left: -3px;
+  cursor: s-resize; }
+
+/* line 265, sass/modules/_cropper.scss */
+.cropper-point.point-ne {
+  top: -3px;
+  right: -3px;
+  cursor: ne-resize; }
+
+/* line 272, sass/modules/_cropper.scss */
+.cropper-point.point-nw {
+  top: -3px;
+  left: -3px;
+  cursor: nw-resize; }
+
+/* line 279, sass/modules/_cropper.scss */
+.cropper-point.point-sw {
+  bottom: -3px;
+  left: -3px;
+  cursor: sw-resize; }
+
+/* line 286, sass/modules/_cropper.scss */
+.cropper-point.point-se {
+  right: -3px;
+  bottom: -3px;
+  width: 20px;
+  height: 20px;
+  cursor: se-resize;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+/* line 300, sass/modules/_cropper.scss */
+.cropper-point.point-se:before {
+  position: absolute;
+  right: -50%;
+  bottom: -50%;
+  display: block;
+  width: 200%;
+  height: 200%;
+  content: ' ';
+  opacity: 0;
+  background-color: #39f;
+  filter: alpha(opacity=0); }
+
+@media (min-width: 768px) {
+  /* line 319, sass/modules/_cropper.scss */
+  .cropper-point.point-se {
+    width: 15px;
+    height: 15px; } }
+@media (min-width: 992px) {
+  /* line 326, sass/modules/_cropper.scss */
+  .cropper-point.point-se {
+    width: 10px;
+    height: 10px; } }
+@media (min-width: 1200px) {
+  /* line 333, sass/modules/_cropper.scss */
+  .cropper-point.point-se {
+    width: 5px;
+    height: 5px;
+    opacity: .75;
+    filter: alpha(opacity=75); } }
+/* line 343, sass/modules/_cropper.scss */
+.cropper-invisible {
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+/* line 349, sass/modules/_cropper.scss */
+.cropper-bg {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAAA3NCSVQICAjb4U/gAAAABlBMVEXMzMz////TjRV2AAAACXBIWXMAAArrAAAK6wGCiw1aAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABFJREFUCJlj+M/AgBVhF/0PAH6/D/HkDxOGAAAAAElFTkSuQmCC"); }
+
+/* line 353, sass/modules/_cropper.scss */
+.cropper-hide {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0; }
+
+/* line 362, sass/modules/_cropper.scss */
+.cropper-hidden {
+  display: none !important; }
+
+/* line 366, sass/modules/_cropper.scss */
+.cropper-move {
+  cursor: move; }
+
+/* line 370, sass/modules/_cropper.scss */
+.cropper-crop {
+  cursor: crosshair; }
+
+/* line 374, sass/modules/_cropper.scss */
+.cropper-disabled .cropper-drag-box,
+.cropper-disabled .cropper-face,
+.cropper-disabled .cropper-line,
+.cropper-disabled .cropper-point {
+  cursor: not-allowed; }
+
 /* line 1, sass/modules/_slider.scss */
 .dg-container {
   width: 100%;

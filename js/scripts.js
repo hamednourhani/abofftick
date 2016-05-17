@@ -166,29 +166,24 @@ jQuery(document).ready(function($){
 			':flushed:': 'flushed.png',
 			':neckbeard:': 'neckbeard.png',
 			':laughing:': 'laughing.png',
-			':smile:': 'smile.png',
-			':angry:': 'angry.png',
-			':flushed:': 'flushed.png',
-			':neckbeard:': 'neckbeard.png',
-			':laughing:': 'laughing.png',
-			':smile:': 'smile.png',
-			':angry:': 'angry.png',
-			':flushed:': 'flushed.png',
-			':neckbeard:': 'neckbeard.png',
-			':laughing:': 'laughing.png'
+
 		};
 		$('#currentMessage').emojiarea({button: '#emojiButton'});
 	}
-	//if(typeof $.fn.dropzone !== 'undefined') {
-	//	$("input#userImageUpload").dropzone({ url: "/file/post" });
-	//}
 
-		Calendar.setup({
-			inputField: 'date_input',
-			button: 'date_btn',
-			ifFormat: '%Y/%m/%d',
-			dateType: 'jalali'
+	if(typeof $.fn.image_reader !== 'undefined') {
+		$('#imageReader').image_reader({
+			inputID : '#userImageUpload',
 		});
+	}
+
+
+	Calendar.setup({
+		inputField: 'date_input',
+		button: 'date_btn',
+		ifFormat: '%Y/%m/%d',
+		dateType: 'jalali'
+	});
 
 	var changeLayout = function(){
 		var window_width = $(window).innerWidth();
