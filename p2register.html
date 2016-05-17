@@ -225,18 +225,16 @@
                                 <div class="left-grid">
 
                                     <label>انتخاب عکس پروفایل</label>
-                                    <div class="image-container">
-                                        <img src="images/user-image-placeholder.png" id="imageReader" class="image-reader">
+                                    <div class="image-container" id="imageHolderID">
+                                        <div class="image-grid" id="placeholderImageGrid">
+                                            <img src="images/user-image-placeholder.png"  class="image-reader">
+                                        </div>
                                     </div>
-                                    <div class="image-input-container">
+                                    <div class="image-input-container" >
                                         <span>بارگذاری فایل</span>
-                                        <input type="file" name="userimage" id="userImageUpload" class="image-input"/>
+                                        <input type="file" name="userimage" id="userPhotoUploader" class="image-input"/>
                                     </div>
-                                    <div class="image-corpper">
-                                       <div class="image-cropper-inner">
-                                           <img src="" alt="">
-                                       </div>
-                                    </div>
+
                                 </div>
 
 
@@ -400,6 +398,7 @@
 <script type="text/javascript" src="js/lib/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/lib/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/lib/cropper.min.js"></script>
-<script type="text/javascript" src="js/plugins/image-reader.js"></script>
+<!--<script type="text/javascript" src="js/plugins/modal-box.js"></script>-->
+<script type="text/javascript" src="js/plugins/offtick-image-uploader.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 </html>

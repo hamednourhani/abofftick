@@ -1,0 +1,35 @@
+.offtick_block_page{
+  display: none;
+  position:absolute;
+  top:0;
+  left:0;
+  background-color : $glassyBlack;
+  z-index:99999998;
+}
+.offtick_modal_box {
+  @extend .dark-box-shadow;
+  display: none;
+  position: absolute;
+  border: 1px solid $white;
+  @include border-radius(10px);
+  background: $white2;
+  z-index: 99999999;
+  .offtick_modal_close {
+    @extend .fa;
+    &:before {
+      content: "\f0d9";
+      top: -25px;
+      left: 20px;
+      float: right;
+      display: block;
+      height: 50px;
+      width: 50px;
+    }
+  }
+  .offtick_inner_modal_box {
+    background-color: $white;
+    padding: 10px;
+    margin: 15px;
+    @include border-radius(10px);
+  }
+}

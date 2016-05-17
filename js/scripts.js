@@ -171,19 +171,23 @@ jQuery(document).ready(function($){
 		$('#currentMessage').emojiarea({button: '#emojiButton'});
 	}
 
-	if(typeof $.fn.image_reader !== 'undefined') {
-		$('#imageReader').image_reader({
-			inputID : '#userImageUpload',
+	if(typeof $.fn.offtick_image_uploader !== 'undefined') {
+		$('#userPhotoUploader').offtick_image_uploader({
+			imageHolderID : '#imageHolderID',
+			singleUpload : true,
+			placeholder_src : "images/user-image-placeholder.png",
 		});
 	}
 
+	if(typeof Calendar !== 'undefined') {
 
-	Calendar.setup({
-		inputField: 'date_input',
-		button: 'date_btn',
-		ifFormat: '%Y/%m/%d',
-		dateType: 'jalali'
-	});
+		Calendar.setup({
+			inputField: 'date_input',
+			button: 'date_btn',
+			ifFormat: '%Y/%m/%d',
+			dateType: 'jalali'
+		});
+	}
 
 	var changeLayout = function(){
 		var window_width = $(window).innerWidth();
