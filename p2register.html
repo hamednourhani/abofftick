@@ -217,14 +217,15 @@
                             <form action="upload.php" class="register-form" name="registerForm" method="post" enctype="multipart/form-data">
 
                                 <div class="right-grid">
-                                    <label class="required">نام کاربری مثل (Abbas76)</label>
+                                    <div class="label-wrapper">
+                                        <label class="required">نام کاربری مثل (Abbas76)</label>
+                                    </div>
                                     <input type="text" name="username" placeholder="UserName"/>
 
                                 </div>
 
                                 <div class="left-grid">
-
-                                    <label>انتخاب عکس پروفایل</label>
+                                        <label>انتخاب عکس پروفایل</label>
                                     <div class="image-container" id="imageHolderID">
                                         <div class="image-grid" id="placeholderImageGrid">
                                             <img src="images/user-image-placeholder.png"  class="image-reader">
@@ -245,6 +246,10 @@
                                 <a href="#" class="register-button previous">
                                     <i class="fa fa-angle-right"></i>
                                     مرحله قبل
+                                </a>
+
+                                <a href="#" class="register-button next">
+                                    ذخیره
                                 </a>
                                 <a href="#" class="register-button ">این اطلاعات را بعدا پر خواهم کرد</a>
                                 <a href="#" class="register-button next">

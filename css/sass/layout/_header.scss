@@ -965,7 +965,19 @@ nav.mobile-nav {
     }
   }
   //company-nav
-
+  .slider-title-container{
+    text-align: center;
+    display: inline-block;
+    float: left;
+    margin-left: 151px;
+    .slider-title{
+      color : $white;
+      margin : 10px 5px;
+      padding : 10px;
+      font-size : 160%;
+    }
+  }
+  //slider-title-container
   .company-logo-container{
     background-color: $blue;
     display: inline-block;

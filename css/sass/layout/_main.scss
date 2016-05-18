@@ -155,22 +155,7 @@
   }
   //followers-button-container
 
-  .slider-title-container{
-    @include span-columns(12,12);
-    @include at-breakpoint($medium){
-      @include span-columns(4 omega,12);
-      margin-right:auto ;
-    }
-    text-align: center;
-    .slider-title{
-      color : $blue;
-      border-bottom : 1px dashed $grey2;
-      margin : 10px 5px;
-      padding : 10px;
-      font-size : 160%;
-    }
-  }
-  //slider-title-container
+
 }
 //followers-container
 
@@ -2617,12 +2602,12 @@ article.grid-item{
   }
   &.register-p2{
     background: image_url('background/P2.jpg') top left no-repeat,$black1;
-    background-position: center;
+    background-position: top center;
 
 
   }
   &.register-p3{
-    background: image_url('background/P3.jpg') top left no-repeat,$black1;
+    background: image_url('background/P3.jpg') top left no-repeat,#4E2B17;
     background-position: center;
 
   }
@@ -2645,7 +2630,7 @@ article.grid-item{
           clear: both;
           //border-bottom: 1px solid $grey2;
           margin-bottom: 10px;
-          padding:  15px 20px 10px;
+          padding:  5px 7px 3px;
           font-size: 120%;
           display: inline-block;
           color : $grey3;
@@ -2682,7 +2667,7 @@ article.grid-item{
         }
 
         @include at-breakpoint($medium) {
-          max-width: 80%;
+          max-width: 60%;
           margin : 10px auto;
         }
       }
@@ -2691,9 +2676,9 @@ article.grid-item{
       .register-forms-container{
         clear : both;
           max-width : 100%;
-          padding : 10px 25px 20px;
+          padding: 10px 5px 10px;
           border : 1px dashed $grey1;
-          background-color: rgba(255,255,255,0.6);
+          background-color: rgba(255,255,255,0.4);
           margin-top : 20px;
           margin-bottom : 30px;
 
@@ -2716,14 +2701,39 @@ article.grid-item{
             .left-grid,.right-grid{
               padding : 20px;
             }
-            label,input,select{
+            .right-grid.boxed{
+              border : 1px dashed $grey3;
+              position: relative;
+              padding-top : 35px;
+              &>span{
+                position: absolute;
+                top: -1px;
+                right: 20%;
+                display: inline-block;
+                border: 1px dashed black;
+                padding: 3px 10px;
+                background-color: rgba(255,255,255,0.9);
+              }
+            }
+            label,input,select,textarea{
               width : 100%;
               display: inline-block;
               @include border-radius(3px);
               padding : 5px 10px;
               background-color: rgba(255,255,255,0.7);
+              max-width : 80%;
+            }
+            textarea{
+              background-color: rgba(255,255,255,0.5);
+              border : 1px dashed $grey3;
+              @include border-radius(0px);
+              outline : none;
+              //color : $white;
+              font-size : 110%;
+              color : $grey3;
             }
             label{
+              //@include clearfix();
               font-size : 120%;
               font-weight: 600;
               width : auto;
@@ -2753,7 +2763,7 @@ article.grid-item{
               border : 1px dashed $grey3;
               @include border-radius(0px);
               outline : none;
-              color : $white;
+              //color : $white;
               font-size : 110%;
               color : $grey3;
               &:focus{

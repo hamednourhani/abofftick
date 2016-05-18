@@ -2,46 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="171cc630-4ab3-417c-8f2f-9f85b4586422" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/plugins/cropper-example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/upload.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/example-amd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/example.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/html5tooltips.animation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/html5tooltips.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/html5tooltips.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.0.7.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.0.8.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.0.9.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.0.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.0.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.2.2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.2.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.2.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.2.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.3.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.3.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.4.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.4.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/html5tooltipsjs-master/html5tooltipsjs-master/versions/html5tooltips.1.4.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Backup_of_offtick-logo.cdr" afterPath="$PROJECT_DIR$/images/Backup_of_offtick-logo.cdr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo/offtick-en.png" afterPath="$PROJECT_DIR$/images/logo/offtick-en.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo/offtick-en12.png" afterPath="$PROJECT_DIR$/images/logo/offtick-en12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo/offtick-fa4.png" afterPath="$PROJECT_DIR$/images/logo/offtick-fa4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/offtick-logo-69x50.png" afterPath="$PROJECT_DIR$/images/offtick-logo-69x50.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/offtick-logo.cdr" afterPath="$PROJECT_DIR$/images/offtick-logo.cdr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/offtick-off-110.png" afterPath="$PROJECT_DIR$/images/offtick-off-110.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company-profile-loggedin.html" afterPath="$PROJECT_DIR$/company-profile-loggedin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/layout/_header.scss" afterPath="$PROJECT_DIR$/css/sass/layout/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/layout/_main.scss" afterPath="$PROJECT_DIR$/css/sass/layout/_main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sass/modules/_modal-box.scss" afterPath="$PROJECT_DIR$/css/sass/modules/_modal-box.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.min.css" afterPath="$PROJECT_DIR$/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/plugins/modal-box.js" afterPath="$PROJECT_DIR$/js/plugins/modal-box.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/plugins/offtick-image-uploader.js" afterPath="$PROJECT_DIR$/js/plugins/offtick-image-uploader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p1register.html" afterPath="$PROJECT_DIR$/p1register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p2register.html" afterPath="$PROJECT_DIR$/p2register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/p3register.html" afterPath="$PROJECT_DIR$/p3register.html" />
     </list>
     <ignored path="abofftick.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,14 +38,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="p2register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/p2register.html">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/sass/layout/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077">
-              <caret line="229" column="88" selection-start-line="229" selection-start-column="88" selection-end-line="229" selection-end-column="88" />
+            <state vertical-scroll-proportion="-2.3506494">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#45089#46658#0" expanded="false" />
+                <element signature="e#50357#53410#0" expanded="false" />
+                <element signature="e#56163#57863#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/sass/layout/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23232323">
+              <caret line="970" column="16" selection-start-line="970" selection-start-column="16" selection-end-line="970" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,6 +67,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="176" column="32" selection-start-line="176" selection-start-column="32" selection-end-line="176" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company-profile-loggedin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company-profile-loggedin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.307693">
+              <caret line="215" column="45" selection-start-line="215" selection-start-column="45" selection-end-line="215" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -123,10 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_modal-box.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_modal-box.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/sass/modules/_modal-box.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4028436">
+            <state vertical-scroll-proportion="-3.3333333">
               <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
               <folding />
             </state>
@@ -157,21 +154,23 @@
         <option value="$PROJECT_DIR$/chat.html" />
         <option value="$PROJECT_DIR$/css/sass/base/_variables.scss" />
         <option value="$PROJECT_DIR$/js/plugins/chat-box.js" />
-        <option value="$PROJECT_DIR$/p3register.html" />
-        <option value="$PROJECT_DIR$/p1register.html" />
         <option value="$PROJECT_DIR$/js/plugins/jQuery-plugin-width-function.js" />
         <option value="$PROJECT_DIR$/js/plugins/file-reader.js" />
         <option value="$PROJECT_DIR$/css/sass/modules/_cropper.scss" />
         <option value="$PROJECT_DIR$/css/sass/style.scss" />
         <option value="$PROJECT_DIR$/js/plugins/image-reader.js" />
         <option value="$PROJECT_DIR$/upload.php" />
-        <option value="$PROJECT_DIR$/p2register.html" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/js/plugins/cropper-example.js" />
-        <option value="$PROJECT_DIR$/css/sass/layout/_main.scss" />
         <option value="$PROJECT_DIR$/js/plugins/offtick-image-uploader.js" />
         <option value="$PROJECT_DIR$/js/plugins/modal-box.js" />
         <option value="$PROJECT_DIR$/css/sass/modules/_modal-box.scss" />
+        <option value="$PROJECT_DIR$/p1register.html" />
+        <option value="$PROJECT_DIR$/p3register.html" />
+        <option value="$PROJECT_DIR$/p2register.html" />
+        <option value="$PROJECT_DIR$/company-profile-loggedin.html" />
+        <option value="$PROJECT_DIR$/css/sass/layout/_main.scss" />
+        <option value="$PROJECT_DIR$/css/sass/layout/_header.scss" />
       </list>
     </option>
   </component>
@@ -536,7 +535,7 @@
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.42685372" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.42685372" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5731463" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -593,6 +592,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -609,9 +611,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="3202" column="21" selection-start-line="3202" selection-start-column="9" selection-end-line="3202" selection-end-column="21" />
           <folding>
-            <element signature="e#45472#47041#0" expanded="false" />
-            <element signature="e#50740#53793#0" expanded="false" />
-            <element signature="e#56546#58246#0" expanded="false" />
+            <element signature="e#45089#46658#0" expanded="false" />
+            <element signature="e#50357#53410#0" expanded="false" />
+            <element signature="e#56163#57863#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -643,9 +645,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="3202" column="21" selection-start-line="3202" selection-start-column="9" selection-end-line="3202" selection-end-column="21" />
           <folding>
-            <element signature="e#45472#47041#0" expanded="false" />
-            <element signature="e#50740#53793#0" expanded="false" />
-            <element signature="e#56546#58246#0" expanded="false" />
+            <element signature="e#45089#46658#0" expanded="false" />
+            <element signature="e#50357#53410#0" expanded="false" />
+            <element signature="e#56163#57863#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -691,9 +693,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2581" column="9" selection-start-line="2581" selection-start-column="9" selection-end-line="2581" selection-end-column="9" />
           <folding>
-            <element signature="e#45472#47041#0" expanded="false" />
-            <element signature="e#50740#53793#0" expanded="false" />
-            <element signature="e#56546#58246#0" expanded="false" />
+            <element signature="e#45089#46658#0" expanded="false" />
+            <element signature="e#50357#53410#0" expanded="false" />
+            <element signature="e#56163#57863#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -725,9 +727,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2581" column="9" selection-start-line="2581" selection-start-column="9" selection-end-line="2581" selection-end-column="9" />
           <folding>
-            <element signature="e#45472#47041#0" expanded="false" />
-            <element signature="e#50740#53793#0" expanded="false" />
-            <element signature="e#56546#58246#0" expanded="false" />
+            <element signature="e#45089#46658#0" expanded="false" />
+            <element signature="e#50357#53410#0" expanded="false" />
+            <element signature="e#56163#57863#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -751,13 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20484172">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company-profile-loggedin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.864971">
-          <caret line="945" column="15" selection-start-line="942" selection-start-column="8" selection-end-line="945" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -869,20 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/p1register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03803132">
-          <caret line="203" column="51" selection-start-line="203" selection-start-column="51" selection-end-line="203" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p3register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03803132">
-          <caret line="205" column="55" selection-start-line="205" selection-start-column="55" selection-end-line="205" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/sass/modules/_cropper.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21327014">
@@ -909,16 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="e#6#33#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -934,28 +905,6 @@
           <folding>
             <marker date="1463572278185" expanded="true" signature="7414:7426" placeholder="..." />
             <marker date="1463572278185" expanded="true" signature="7514:7526" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sass/layout/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3033175">
-          <caret line="3019" column="11" selection-start-line="3019" selection-start-column="11" selection-end-line="3019" selection-end-column="11" />
-          <folding>
-            <element signature="e#45472#47041#0" expanded="false" />
-            <element signature="e#50740#53793#0" expanded="false" />
-            <element signature="e#56546#58246#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/p2register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="229" column="88" selection-start-line="229" selection-start-column="88" selection-end-line="229" selection-end-column="88" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -983,8 +932,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/sass/modules/_modal-box.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4028436">
+        <state vertical-scroll-proportion="-3.3333333">
           <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p1register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35346755">
+          <caret line="216" column="59" selection-start-line="216" selection-start-column="31" selection-end-line="216" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p3register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8478747">
+          <caret line="244" column="36" selection-start-line="244" selection-start-column="36" selection-end-line="244" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/p2register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.192307">
+          <caret line="228" column="0" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company-profile-loggedin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.307693">
+          <caret line="215" column="45" selection-start-line="215" selection-start-column="45" selection-end-line="215" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sass/layout/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3506494">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="e#45089#46658#0" expanded="false" />
+            <element signature="e#50357#53410#0" expanded="false" />
+            <element signature="e#56163#57863#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sass/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23232323">
+          <caret line="970" column="16" selection-start-line="970" selection-start-column="16" selection-end-line="970" selection-end-column="16" />
           <folding />
         </state>
       </provider>

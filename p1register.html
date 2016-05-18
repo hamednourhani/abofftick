@@ -200,11 +200,7 @@
                         <div class="register-title">
                         <h3>
                             ثبت نام کاربر جدید
-                            <ul>
-                                <li class="current"><span>1</span></li>
-                                <li ><span>2</span></li>
-                                <li><span>3</span></li>
-                            </ul>
+
 
                         </h3>
                     </div>
@@ -216,18 +212,27 @@
 
                         <form action="" class="register-form" name="registerForm">
 
-                            <div class="right-grid">
-                                <label class="required">شماره تلفن</label>
+                            <div class="right-grid boxed">
+                                <span>حداقل یکی از موارد زیر را تکمیل نمایید : </span>
+                                <div class="label-wrapper">
+                                    <label class="required">شماره تلفن</label>
+                                </div>
                                 <input type="text" name="phone" placeholder="09123456789"/>
-                                <label class="required">پست الکترونیک</label>
+                                <div class="label-wrapper">
+                                    <label class="required">پست الکترونیک</label>
+                                </div>
                                 <input type="email" name="email" placeholder="info@example.com"/>
 
                            </div>
 
                             <div class="left-grid">
-                                <label class="required">کلمه عبور</label>
+                                <div class="label-wrapper">
+                                    <label class="required">کلمه عبور</label>
+                                </div>
                                 <input type="text" name="password" placeholder="12gheHJli"/>
-                                <label class="required">شهر</label>
+                                <div class="label-wrapper">
+                                    <label class="required">شهر</label>
+                                </div>
                                 <select name="city">
                                     <option value="tehran">تهران</option>
                                     <option value="esfehan">اصفهان</option>
@@ -242,9 +247,9 @@
                         <div class="register-buttons-container">
 
                             <a href="#" class="register-button next">
-                                مرحله بعد
-                                <i class="fa fa-angle-left"></i>
+                                ذخیره
                             </a>
+
                         </div>
                         <!--register-buttons-container-->
 
