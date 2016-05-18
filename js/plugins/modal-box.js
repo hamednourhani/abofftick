@@ -1,82 +1,88 @@
-(function($){
 
-    // Defining our jQuery plugin
+/**
+ * Created by itstar on 2016/05/12.
+ */
 
-    $.fn.create_modal_box = function(prop){
 
-        // Default parameters
+var Modal_Crop_Box = function($) {
 
-        var options = $.extend({
-            height : "250",
-            width : "500",
-            title:"JQuery Modal Box Demo",
-            description: "Example of how to create a modal box.",
-            top: "20%",
-            left: "30%",
-            input_tag: "",
-        },prop);
+    'strict'
+    var modal_crop_box_instance = this;
 
-        input_tag.change(function(e){
-            var image_src = get_image_src(options.input_tag,options.image_tag);
-            add_block_page();
-            create_popup_box(image_src);
-            add_styles();
+    this.methods = {
+        modal_overlay: $('<div class="site-overlay" id="sietOverlay"></div>'),
 
-            $('.offtick_modal_box').fadeIn();
-            $('#modalImageTag').cropper({
-                aspectRatio: 1 / 1,
-                crop: function(e) {
-                    // Output the result data for cropping image.
-                    console.log(e.x);
-                    console.log(e.y);
-                    console.log(e.width);
-                    console.log(e.height);
-                    console.log(e.rotate);
-                    console.log(e.scaleX);
-                    console.log(e.scaleY);
-                }
+        modal_box: $('<div class="modal-box" id="modalBox"></div>'),
+        modal_content: $('<div class="modal-content" id="modalContent"></div>'),
+
+        modal_image_tag: $('<img class="modal-image-tag" id="modalImageTag"/>'),
+        modal_box_wrapper: $('<div class="modal-box-warpper"></div>'),
+
+        close_button: $('<span class="close-modal" id="closeModal" data-method="getImageData" data-target="#imageData" data-option=""><i class="fa fa-times"></i> بستن</span>'),
+        crop_button: $('<span class="crop-button" id="cropButton" data-method="getImageData" data-target="#imageData" data-option=""><i class="fa fa-crop"></i> برش تصویر</span>'),
+        rotate_right: $('<span class="rotate-right" id="rotateRight" data-method="rotate" data-option="10"><i class="fa fa-repeat" aria-hidden="true"></i></span>'),
+        rotate_left: $('<span class="rotate-left" id="rotateLeft" data-method="rotate" data-option="-10"><i class="fa fa-undo" aria-hidden="true"></i></span>'),
+        zoom_in: $('<span class="zoom-in" id="zoomIn" data-method="zoom" data-option="0.1"><i class="fa fa-plus-square" aria-hidden="true"></i></span>'),
+        zoom_out: $('<span class="zoom-out" id="zoomOut" data-method="zoom" data-option="-0.1"><i class="fa fa-minus-square" aria-hidden="true"></i></span>'),
+
+        modal_header: $('<div class="modal-header"></div>'),
+        modal_footer: $('<div class="modal-footer" id="modalFooter"></div>'),
+
+        setup_crop_box: function () {
+            this.modal_footer.append(this.crop_button, this.rotate_right, this.rotate_left, this.zoom_in, this.zoom_out,this.close_button);
+            //this. modal_header.append(this.close_button);
+
+            //this.modal_box.append(this.modal_header);
+            this.modal_box.append(this.modal_content);
+            this.modal_box.append(this.modal_footer);
+
+            this.modal_box_wrapper.append(this.modal_box);
+
+            $('body').append(this.modal_overlay);
+            $('body').append(this.modal_box_wrapper);
+
+
+
+
+
+
+        },
+        init_crop_box: function (image_src,image_data_id) {
+            this.modal_image_tag.attr('src', image_src);
+            this.modal_content.empty();
+            this.modal_content.append(this.modal_image_tag);
+            this.crop_button.attr('data-target','#'+image_data_id);
+            this.close_button.attr('data-target','#'+image_data_id);
+        },
+        layout_crop_box: function () {
+            this.modal_box_wrapper.css({
+                'top' : Math.floor($(window).innerHeight()/2) - Math.floor(this.modal_box_wrapper.outerHeight()/2),
+                'left' : Math.floor($(window).innerWidth()/2) - Math.floor(this.modal_box_wrapper.outerWidth()/2),
             });
-        });
 
-        function add_styles(){
-            $('.offtick_modal_box').css({
-                'left':options.left,
-                'top':options.top,
-                'height': options.height + 'px',
-                'width': options.width + 'px',
-            });
+        },
+        show_overlay: function () {
+            this.modal_overlay.fadeIn();
+        },
+        show_crop_box: function () {
+            this.modal_box_wrapper.fadeIn();
+        },
+        hide_crop_box: function () {
+            this.modal_box_wrapper.fadeOut();
+        },
+        hide_overlay: function () {
+            this.modal_overlay.fadeOut();
+        },
+        close_modal:function(){
 
-            var pageHeight = $(document).height();
-            var pageWidth = $(window).width();
 
-            $('.offtick_block_page').css({
-                'height':pageHeight,
-                'width':pageWidth,
-            }).fadeIn();
-            $('.offtick_inner_modal_box').css({
-                'height':(options.height - 50) + 'px',
-                'width':(options.width - 50) + 'px',
-            });
+            this.hide_crop_box();
+            this.hide_overlay();
         }
-
-        function add_block_page(){
-            var block_page = $('<div class="offtick_block_page"></div>');
-
-            $(block_page).appendTo('body');
-        }
-
-        function create_popup_box(image_src){
-
-            var pop_up = $('<div class="offtick_modal_box"><div class="offtick_inner_modal_box"><h2>'
-                + options.title + '</h2><img id="modalImageTag" src="'+image_src+'"/></div></div>');
-            $(pop_up).appendTo('.offtick_block_page');
-
-
-        }
-
-
-
-        return this;
     };
 
-})(jQuery);
+
+
+
+}
+

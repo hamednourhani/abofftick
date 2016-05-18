@@ -1,6 +1,6 @@
 
 jQuery(document).ready(function($){
-	
+	'strict'
 
 	$('.menu-search-area span#submit').click(function(e){
 		console.log("i am clicked");

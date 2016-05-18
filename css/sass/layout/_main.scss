@@ -2860,6 +2860,7 @@ article.grid-item{
               max-width : 100%;
               width : 160px;
               height : 160px;
+              direction: ltr;
 
               .image-grid {
                 position: relative;
@@ -2868,39 +2869,13 @@ article.grid-item{
                 margin : 5px;
                 display : inline-block;
                 float : right;
+                overflow:hidden;
                 img {
                   width: 100%;
                   height: auto;
                   max-width: 100%;
                 }
-                span.remove,span.crop{
-                  @extend .def-transition;
-                  position: absolute;
-                  bottom : 2px;
-                  left : 2px;
-                  display : inline-block;
-                  cursor: pointer;
-                  i:before{
-                    fonts-size : 120%;
-                    background-color: $gol;
-                    padding : 5px 7px;
-                    color : $white;
-                    display: inline-block;
-                    opacity: 0.8;
-                  }
-                  &:hover{
-                    i:before{
-                      opacity : 1;
-                    }
-                  }
-                }
-                span.crop{
-                  bottom : 2px ;
-                  left : 30px;
-                  i:before{
-                    background-color: $blue;
-                  }
-                }
+
                 &:hover{
                   span.remove,span.crop{
                     display: inline-block;
