@@ -1968,9 +1968,9 @@ nav.mobile-nav {
     /* line 973, sass/layout/_header.scss */
     .profile-menu-bar .slider-title-container .slider-title {
       color: #FFFFFF;
-      margin: 10px 5px;
+      margin: 5px;
       padding: 10px;
-      font-size: 180%;
+      font-size: 200%;
       font-weight: bold;
       text-shadow: 0px 0px 5px #FFFFFF; }
   /* line 983, sass/layout/_header.scss */
