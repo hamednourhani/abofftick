@@ -4744,29 +4744,31 @@ article.grid-item {
       padding: 10px;
       width: 100%;
       display: block; }
-    /* line 2849, sass/layout/_main.scss */
-    .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-input-container {
-      height: 46px;
-      width: 120px;
-      background-color: #FF585B;
-      border: 1px dashed #FFFFFF;
-      position: relative;
-      margin-top: 20px; }
-      /* line 2856, sass/layout/_main.scss */
-      .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-input-container span {
-        width: 100%;
-        height: 100%;
-        padding: 5px 10px;
-        color: #FFFFFF;
-        font-size: 110%;
-        display: inline-block;
-        position: absolute;
-        top: 0px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        cursor: pointer; }
-      /* line 2871, sass/layout/_main.scss */
+    @media (min-width: 34em) {
+      /* line 2849, sass/layout/_main.scss */
+      .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-input-container {
+        height: 46px;
+        width: 120px;
+        background-color: #FF585B;
+        border: 1px dashed #FFFFFF;
+        position: relative;
+        margin-top: 20px; }
+        /* line 2857, sass/layout/_main.scss */
+        .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-input-container span {
+          width: 100%;
+          height: 100%;
+          padding: 5px 10px;
+          color: #FFFFFF;
+          font-size: 110%;
+          display: inline-block;
+          position: absolute;
+          top: 0px;
+          bottom: 0px;
+          left: 0px;
+          right: 0px;
+          cursor: pointer; } }
+    @media (min-width: 34em) {
+      /* line 2873, sass/layout/_main.scss */
       .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-input-container input.image-input {
         position: absolute;
         top: 0px;
@@ -4778,19 +4780,23 @@ article.grid-item {
         height: 100%;
         border: 0px;
         margin: 0px;
-        cursor: pointer; }
-    /* line 2887, sass/layout/_main.scss */
+        cursor: pointer; } }
+    /* line 2890, sass/layout/_main.scss */
     .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-container {
+      display: none;
       overflow: hidden;
       float: left;
-      display: inline-block;
       padding: 0px;
       border: 1px dashed #4E4E4E;
       max-width: 100%;
       width: 160px;
       height: 160px;
       direction: ltr; }
-      /* line 2899, sass/layout/_main.scss */
+      @media (min-width: 34em) {
+        /* line 2890, sass/layout/_main.scss */
+        .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-container {
+          display: inline-block; } }
+      /* line 2904, sass/layout/_main.scss */
       .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-container .image-grid {
         position: relative;
         width: 150px;
@@ -4799,12 +4805,12 @@ article.grid-item {
         display: inline-block;
         float: right;
         overflow: hidden; }
-        /* line 2907, sass/layout/_main.scss */
+        /* line 2912, sass/layout/_main.scss */
         .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-container .image-grid img {
           width: 100%;
           height: auto;
           max-width: 100%; }
-        /* line 2914, sass/layout/_main.scss */
+        /* line 2919, sass/layout/_main.scss */
         .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-container .image-grid:hover span.remove, .main-wrapper.register .register-wrapper .register-container .register-forms-container form .image-container .image-grid:hover span.crop {
           display: inline-block; }
     @media (min-width: 54em) {
@@ -4812,12 +4818,12 @@ article.grid-item {
       .main-wrapper.register .register-wrapper .register-container .register-forms-container {
         max-width: 70%;
         margin: 20px auto 30px; } }
-    /* line 2929, sass/layout/_main.scss */
+    /* line 2934, sass/layout/_main.scss */
     .main-wrapper.register .register-wrapper .register-container .register-forms-container .register-buttons-container {
       width: 100%;
       clear: both;
       text-align: center; }
-      /* line 2933, sass/layout/_main.scss */
+      /* line 2938, sass/layout/_main.scss */
       .main-wrapper.register .register-wrapper .register-container .register-forms-container .register-buttons-container .register-button {
         display: inline-block;
         background-color: #FF585B;
@@ -4828,20 +4834,20 @@ article.grid-item {
         float: none  !important;
         width: 70%;
         margin: 10px auto; }
-        /* line 2941, sass/layout/_main.scss */
+        /* line 2946, sass/layout/_main.scss */
         .main-wrapper.register .register-wrapper .register-container .register-forms-container .register-buttons-container .register-button i:before {
           font-size: 120%;
           vertical-align: middle;
           padding: 5px; }
-        /* line 2946, sass/layout/_main.scss */
+        /* line 2951, sass/layout/_main.scss */
         .main-wrapper.register .register-wrapper .register-container .register-forms-container .register-buttons-container .register-button:hover {
           background-color: #125688; }
         @media (min-width: 45em) {
-          /* line 2933, sass/layout/_main.scss */
+          /* line 2938, sass/layout/_main.scss */
           .main-wrapper.register .register-wrapper .register-container .register-forms-container .register-buttons-container .register-button {
             width: auto;
             margin: 10px; } }
-  /* line 2973, sass/layout/_main.scss */
+  /* line 2978, sass/layout/_main.scss */
   .main-wrapper.register .login-wrapper .login-container .login-title {
     position: relative;
     overflow: hidden;
@@ -4850,7 +4856,7 @@ article.grid-item {
     min-height: 60px;
     margin-top: 10px;
     text-align: center; }
-    /* line 2981, sass/layout/_main.scss */
+    /* line 2986, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-title h3 {
       position: relative;
       margin-right: 30px;
@@ -4864,13 +4870,13 @@ article.grid-item {
       border: 1px dashed #4E4E4E;
       background-color: rgba(255, 255, 255, 0.85);
       line-height: 1.7; }
-      /* line 2995, sass/layout/_main.scss */
+      /* line 3000, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-title h3 ul {
         display: inline-block;
         padding: 0px;
         margin: 4px 14px 0px 5px;
         float: left; }
-        /* line 3001, sass/layout/_main.scss */
+        /* line 3006, sass/layout/_main.scss */
         .main-wrapper.register .login-wrapper .login-container .login-title h3 ul li {
           display: inline-block;
           padding: 2px 7px;
@@ -4883,21 +4889,21 @@ article.grid-item {
           -webkit-border-radius: 15px;
           border-radius: 15px;
           overflow: hidden; }
-          /* line 3011, sass/layout/_main.scss */
+          /* line 3016, sass/layout/_main.scss */
           .main-wrapper.register .login-wrapper .login-container .login-title h3 ul li.passed {
             background: url('../images/icons/passed.png?1470283162') center center no-repeat, #FF585B; }
-            /* line 3013, sass/layout/_main.scss */
+            /* line 3018, sass/layout/_main.scss */
             .main-wrapper.register .login-wrapper .login-container .login-title h3 ul li.passed span {
               display: none; }
-          /* line 3017, sass/layout/_main.scss */
+          /* line 3022, sass/layout/_main.scss */
           .main-wrapper.register .login-wrapper .login-container .login-title h3 ul li.current {
             background-color: #3BBB5A; }
     @media (min-width: 45em) {
-      /* line 2973, sass/layout/_main.scss */
+      /* line 2978, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-title {
         max-width: 50%;
         margin: 10px auto; } }
-  /* line 3031, sass/layout/_main.scss */
+  /* line 3036, sass/layout/_main.scss */
   .main-wrapper.register .login-wrapper .login-container .login-forms-container {
     clear: both;
     max-width: 100%;
@@ -4906,57 +4912,57 @@ article.grid-item {
     background-color: rgba(255, 255, 255, 0.4);
     margin-top: 20px;
     margin-bottom: 30px; }
-    /* line 3041, sass/layout/_main.scss */
+    /* line 3046, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form .login-desc {
       display: block;
       padding: 5px 20px;
       display: inline-block;
       position: relative; }
-      /* line 3044, sass/layout/_main.scss */
+      /* line 3049, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form .login-desc a {
         color: #FF585B; }
-      /* line 3049, sass/layout/_main.scss */
+      /* line 3054, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form .login-desc::before {
         content: "\f10c";
         position: absolute;
         top: 12px;
         right: 0px;
         color: #FF585B; }
-    /* line 3058, sass/layout/_main.scss */
+    /* line 3063, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form .right-grid {
       width: 100%;
       float: right;
       margin-left: 1.53846%;
       display: inline; }
       @media (min-width: 54em) {
-        /* line 3058, sass/layout/_main.scss */
+        /* line 3063, sass/layout/_main.scss */
         .main-wrapper.register .login-wrapper .login-container .login-forms-container form .right-grid {
           width: 49.23077%;
           float: right;
           margin-left: 1.53846%;
           margin-right: auto; } }
-    /* line 3065, sass/layout/_main.scss */
+    /* line 3070, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form .left-grid {
       width: 100%;
       float: right;
       margin-left: 1.53846%;
       display: inline; }
       @media (min-width: 54em) {
-        /* line 3065, sass/layout/_main.scss */
+        /* line 3070, sass/layout/_main.scss */
         .main-wrapper.register .login-wrapper .login-container .login-forms-container form .left-grid {
           width: 49.23077%;
           float: left;
           margin-left: 0;
           margin-right: auto; } }
-    /* line 3072, sass/layout/_main.scss */
+    /* line 3077, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form .left-grid, .main-wrapper.register .login-wrapper .login-container .login-forms-container form .right-grid {
       padding: 0px 20px 10px; }
-    /* line 3075, sass/layout/_main.scss */
+    /* line 3080, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form .right-grid.boxed {
       border: 1px dashed #4E4E4E;
       position: relative;
       padding-top: 35px; }
-      /* line 3079, sass/layout/_main.scss */
+      /* line 3084, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form .right-grid.boxed > span {
         position: absolute;
         top: -1px;
@@ -4965,17 +4971,17 @@ article.grid-item {
         border: 1px dashed black;
         padding: 3px 10px;
         background-color: rgba(255, 255, 255, 0.9); }
-    /* line 3089, sass/layout/_main.scss */
+    /* line 3094, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form .right-grid.minimal {
       padding-top: 30px; }
-      /* line 3091, sass/layout/_main.scss */
+      /* line 3096, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form .right-grid.minimal label {
         max-width: 34%; }
-      /* line 3094, sass/layout/_main.scss */
+      /* line 3099, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form .right-grid.minimal input, .main-wrapper.register .login-wrapper .login-container .login-forms-container form .right-grid.minimal select, .main-wrapper.register .login-wrapper .login-container .login-forms-container form .right-grid.minimal .calendar-container {
         float: left;
         max-width: 65%; }
-    /* line 3099, sass/layout/_main.scss */
+    /* line 3104, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form label, .main-wrapper.register .login-wrapper .login-container .login-forms-container form input, .main-wrapper.register .login-wrapper .login-container .login-forms-container form select, .main-wrapper.register .login-wrapper .login-container .login-forms-container form textarea {
       width: 100%;
       display: inline-block;
@@ -4985,7 +4991,7 @@ article.grid-item {
       padding: 5px 10px;
       background-color: rgba(255, 255, 255, 0.7);
       max-width: 100%; }
-    /* line 3107, sass/layout/_main.scss */
+    /* line 3112, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form textarea {
       background-color: rgba(255, 255, 255, 0.5);
       border: 1px dashed #4E4E4E;
@@ -4995,7 +5001,7 @@ article.grid-item {
       outline: none;
       font-size: 110%;
       color: #4E4E4E; }
-    /* line 3116, sass/layout/_main.scss */
+    /* line 3121, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form label {
       font-size: 120%;
       font-weight: 600;
@@ -5003,14 +5009,14 @@ article.grid-item {
       display: inline-block;
       margin: 10px 0px 5px;
       background-color: rgba(255, 255, 255, 0.5); }
-      /* line 3124, sass/layout/_main.scss */
+      /* line 3129, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form label.required {
         position: relative;
         font-size: 120%;
         font-weight: 600;
         padding: 11px;
         font-family: "Weblogma_Yekan"; }
-        /* line 3131, sass/layout/_main.scss */
+        /* line 3136, sass/layout/_main.scss */
         .main-wrapper.register .login-wrapper .login-container .login-forms-container form label.required::after {
           font-family: "FontAwesome";
           content: "\f005";
@@ -5019,7 +5025,7 @@ article.grid-item {
           left: 3px;
           font-size: 70%;
           color: #FF585B; }
-    /* line 3142, sass/layout/_main.scss */
+    /* line 3147, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form input {
       border: 1px dashed #4E4E4E;
       -moz-border-radius: 0px;
@@ -5028,62 +5034,62 @@ article.grid-item {
       outline: none;
       font-size: 110%;
       color: #4E4E4E; }
-      /* line 3150, sass/layout/_main.scss */
+      /* line 3155, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form input:focus {
         border-color: #FF585B; }
-      /* line 3153, sass/layout/_main.scss */
+      /* line 3158, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form input.date_input {
         width: auto; }
-      /* line 3156, sass/layout/_main.scss */
+      /* line 3161, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form input.date_btn {
         width: 52px;
         height: 50px;
         position: relative;
         opacity: 0.8;
         background: url('../images/icons/calendar.png?1470283162') top left no-repeat, #FF585B; }
-        /* line 3162, sass/layout/_main.scss */
+        /* line 3167, sass/layout/_main.scss */
         .main-wrapper.register .login-wrapper .login-container .login-forms-container form input.date_btn:hover {
           opacity: 1; }
-    /* line 3167, sass/layout/_main.scss */
+    /* line 3172, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form input[type="checkbox"] {
       width: auto;
       margin-top: 20px; }
-    /* line 3171, sass/layout/_main.scss */
+    /* line 3176, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form input[type="submit"] {
       width: auto;
       display: block;
       margin: 10px auto;
       background-color: #FF585B;
       color: #FFFFFF; }
-      /* line 3178, sass/layout/_main.scss */
+      /* line 3183, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form input[type="submit"]:hover {
         background-color: #125688; }
-    /* line 3182, sass/layout/_main.scss */
+    /* line 3187, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form input[type="file"] {
       color: #4E4E4E;
       padding: 20px; }
-    /* line 3186, sass/layout/_main.scss */
+    /* line 3191, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form select {
       border: 1px dashed #4E4E4E; }
-      /* line 3188, sass/layout/_main.scss */
+      /* line 3193, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form select:focus {
         border-color: #FF585B; }
-    /* line 3192, sass/layout/_main.scss */
+    /* line 3197, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form .calendar-container {
       display: block;
       width: 100%; }
-    /* line 3196, sass/layout/_main.scss */
+    /* line 3201, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form span.remember-title {
       display: inline-block;
       clear: left;
       padding: 5px; }
-    /* line 3201, sass/layout/_main.scss */
+    /* line 3206, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form a.forgat-password {
       clear: both;
       padding: 10px;
       width: 100%;
       display: block; }
-    /* line 3207, sass/layout/_main.scss */
+    /* line 3212, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form .image-input-container {
       height: 46px;
       width: 120px;
@@ -5091,7 +5097,7 @@ article.grid-item {
       border: 1px dashed #FFFFFF;
       position: relative;
       margin-top: 20px; }
-      /* line 3214, sass/layout/_main.scss */
+      /* line 3219, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form .image-input-container span {
         width: 100%;
         height: 100%;
@@ -5105,7 +5111,7 @@ article.grid-item {
         left: 0px;
         right: 0px;
         cursor: pointer; }
-      /* line 3229, sass/layout/_main.scss */
+      /* line 3234, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form .image-input-container input.image-input {
         position: absolute;
         top: 0px;
@@ -5118,7 +5124,7 @@ article.grid-item {
         border: 0px;
         margin: 0px;
         cursor: pointer; }
-    /* line 3245, sass/layout/_main.scss */
+    /* line 3250, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container form .image-container {
       overflow: hidden;
       float: left;
@@ -5129,7 +5135,7 @@ article.grid-item {
       width: 160px;
       height: 160px;
       direction: ltr; }
-      /* line 3257, sass/layout/_main.scss */
+      /* line 3262, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container form .image-container .image-grid {
         position: relative;
         width: 150px;
@@ -5138,25 +5144,25 @@ article.grid-item {
         display: inline-block;
         float: right;
         overflow: hidden; }
-        /* line 3265, sass/layout/_main.scss */
+        /* line 3270, sass/layout/_main.scss */
         .main-wrapper.register .login-wrapper .login-container .login-forms-container form .image-container .image-grid img {
           width: 100%;
           height: auto;
           max-width: 100%; }
-        /* line 3272, sass/layout/_main.scss */
+        /* line 3277, sass/layout/_main.scss */
         .main-wrapper.register .login-wrapper .login-container .login-forms-container form .image-container .image-grid:hover span.remove, .main-wrapper.register .login-wrapper .login-container .login-forms-container form .image-container .image-grid:hover span.crop {
           display: inline-block; }
     @media (min-width: 54em) {
-      /* line 3031, sass/layout/_main.scss */
+      /* line 3036, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container {
         max-width: 70%;
         margin: 20px auto 30px; } }
-    /* line 3287, sass/layout/_main.scss */
+    /* line 3292, sass/layout/_main.scss */
     .main-wrapper.register .login-wrapper .login-container .login-forms-container .login-buttons-container {
       width: 100%;
       clear: both;
       text-align: center; }
-      /* line 3291, sass/layout/_main.scss */
+      /* line 3296, sass/layout/_main.scss */
       .main-wrapper.register .login-wrapper .login-container .login-forms-container .login-buttons-container .login-button {
         display: inline-block;
         background-color: #FF585B;
@@ -5167,24 +5173,24 @@ article.grid-item {
         float: none  !important;
         width: 70%;
         margin: 10px auto; }
-        /* line 3299, sass/layout/_main.scss */
+        /* line 3304, sass/layout/_main.scss */
         .main-wrapper.register .login-wrapper .login-container .login-forms-container .login-buttons-container .login-button i:before {
           font-size: 120%;
           vertical-align: middle;
           padding: 5px; }
-        /* line 3304, sass/layout/_main.scss */
+        /* line 3309, sass/layout/_main.scss */
         .main-wrapper.register .login-wrapper .login-container .login-forms-container .login-buttons-container .login-button:hover {
           background-color: #125688; }
         @media (min-width: 45em) {
-          /* line 3291, sass/layout/_main.scss */
+          /* line 3296, sass/layout/_main.scss */
           .main-wrapper.register .login-wrapper .login-container .login-forms-container .login-buttons-container .login-button {
             width: auto;
             margin: 10px; } }
 
-/* line 3328, sass/layout/_main.scss */
+/* line 3333, sass/layout/_main.scss */
 .site-main {
   position: relative; }
-  /* line 3330, sass/layout/_main.scss */
+  /* line 3335, sass/layout/_main.scss */
   .site-main .side-columns-container {
     position: fixed;
     top: 100px;
@@ -5194,18 +5200,18 @@ article.grid-item {
     width: 270px;
     max-width: 90%;
     transform: translateX(272px); }
-    /* line 3341, sass/layout/_main.scss */
+    /* line 3346, sass/layout/_main.scss */
     .site-main .side-columns-container a.side-column-more {
       width: 100%;
       text-align: center;
       display: none; }
-    /* line 3346, sass/layout/_main.scss */
+    /* line 3351, sass/layout/_main.scss */
     .site-main .side-columns-container span.f-toggler {
       position: absolute;
       top: 10px;
       left: -43px;
       cursor: pointer; }
-      /* line 3353, sass/layout/_main.scss */
+      /* line 3358, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i:before {
         cursor: pointer;
         -moz-box-shadow: 0px 0px 5px #1b1b1b;
@@ -5216,38 +5222,38 @@ article.grid-item {
         font-size: 140%;
         background-color: #125688;
         opacity: 0.7; }
-      /* line 3362, sass/layout/_main.scss */
+      /* line 3367, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.fa-th-large {
         display: none;
         opacity: 0; }
-      /* line 3366, sass/layout/_main.scss */
+      /* line 3371, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.fa-times {
         display: none;
         opacity: 0; }
-        /* line 3369, sass/layout/_main.scss */
+        /* line 3374, sass/layout/_main.scss */
         .site-main .side-columns-container span.f-toggler i.fa-times:before {
           padding: 8px 12px 12px; }
-      /* line 3373, sass/layout/_main.scss */
+      /* line 3378, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler i.current {
         display: block;
         opacity: 1; }
-      /* line 3380, sass/layout/_main.scss */
+      /* line 3385, sass/layout/_main.scss */
       .site-main .side-columns-container span.f-toggler:hover i:before {
         background-color: #FFFFFF;
         color: #125688;
         opacity: 1; }
-    /* line 3389, sass/layout/_main.scss */
+    /* line 3394, sass/layout/_main.scss */
     .site-main .side-columns-container ul.side-tab-list {
       padding: 0px;
       margin: 0px;
       overflow: hidden; }
-      /* line 3393, sass/layout/_main.scss */
+      /* line 3398, sass/layout/_main.scss */
       .site-main .side-columns-container ul.side-tab-list li {
         display: inline-block;
         float: right;
         text-align: center;
         width: 50%; }
-        /* line 3398, sass/layout/_main.scss */
+        /* line 3403, sass/layout/_main.scss */
         .site-main .side-columns-container ul.side-tab-list li a {
           width: 100%;
           display: inline-block;
@@ -5255,14 +5261,14 @@ article.grid-item {
           color: #125688;
           border-bottom: 1px dashed #E6E7E7;
           border-left: 1px dashed #E6E7E7; }
-          /* line 3406, sass/layout/_main.scss */
+          /* line 3411, sass/layout/_main.scss */
           .site-main .side-columns-container ul.side-tab-list li a:last-child {
             border-left: 0px; }
-          /* line 3409, sass/layout/_main.scss */
+          /* line 3414, sass/layout/_main.scss */
           .site-main .side-columns-container ul.side-tab-list li a:hover {
             color: #FF585B;
             background-color: #F8F8F8; }
-    /* line 3419, sass/layout/_main.scss */
+    /* line 3424, sass/layout/_main.scss */
     .site-main .side-columns-container .side-followers-container {
       position: relative;
       margin: 0px 1%;
@@ -5270,30 +5276,30 @@ article.grid-item {
       height: 100%;
       display: none;
       opacity: 0; }
-      /* line 3428, sass/layout/_main.scss */
+      /* line 3433, sass/layout/_main.scss */
       .site-main .side-columns-container .side-followers-container h3 {
         display: none; }
-      /* line 3431, sass/layout/_main.scss */
+      /* line 3436, sass/layout/_main.scss */
       .site-main .side-columns-container .side-followers-container ul {
         text-align: right;
         padding: 0px;
         margin: 20px 0px; }
-        /* line 3435, sass/layout/_main.scss */
+        /* line 3440, sass/layout/_main.scss */
         .site-main .side-columns-container .side-followers-container ul li {
           width: 100%;
           margin-bottom: 10px;
           overflow: hidden; }
-          /* line 3441, sass/layout/_main.scss */
+          /* line 3446, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li .user-state {
             top: 6px;
             right: 10px; }
-            /* line 3444, sass/layout/_main.scss */
+            /* line 3449, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title {
               left: 0px; }
-              /* line 3447, sass/layout/_main.scss */
+              /* line 3452, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title::before, .site-main .side-columns-container .side-followers-container ul li .user-state span.user-state-title::after {
                 left: calc(50% + 27px); }
-          /* line 3452, sass/layout/_main.scss */
+          /* line 3457, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li > span {
             display: inline-block;
             font-size: 90%;
@@ -5301,15 +5307,15 @@ article.grid-item {
             float: right;
             margin-right: 5px;
             margin-top: 10px; }
-          /* line 3460, sass/layout/_main.scss */
+          /* line 3465, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li a.follow-link {
             display: inline-block;
             float: left;
             margin-top: 10px; }
-            /* line 3465, sass/layout/_main.scss */
+            /* line 3470, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link span {
               display: none; }
-            /* line 3468, sass/layout/_main.scss */
+            /* line 3473, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link i:before {
               background-color: #FFFFFF;
               border: 2px solid #E6E7E7;
@@ -5319,17 +5325,17 @@ article.grid-item {
               -moz-border-radius: 30px;
               -webkit-border-radius: 30px;
               border-radius: 30px; }
-            /* line 3477, sass/layout/_main.scss */
+            /* line 3482, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li a.follow-link:hover i:before {
               background-color: #125688;
               color: #F8F8F8; }
-          /* line 3484, sass/layout/_main.scss */
+          /* line 3489, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul li img {
             width: 40px;
             float: right;
             margin: 5px 10px 5px 5px; }
       @media (min-width: 54em) {
-        /* line 3419, sass/layout/_main.scss */
+        /* line 3424, sass/layout/_main.scss */
         .site-main .side-columns-container .side-followers-container {
           right: 0px;
           position: absolute;
@@ -5339,7 +5345,7 @@ article.grid-item {
           max-width: 180px;
           display: block;
           opacity: 1; }
-          /* line 3500, sass/layout/_main.scss */
+          /* line 3505, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container h3 {
             text-align: center;
             border-bottom: 1px dashed #E6E7E7;
@@ -5348,7 +5354,7 @@ article.grid-item {
             display: block;
             margin-bottom: 5px;
             line-height: 1.8; }
-            /* line 3508, sass/layout/_main.scss */
+            /* line 3513, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container h3 span.visitors-count {
               line-height: 1;
               float: right;
@@ -5359,12 +5365,12 @@ article.grid-item {
               -webkit-border-radius: 15px;
               border-radius: 15px;
               color: #FFFFFF; }
-          /* line 3518, sass/layout/_main.scss */
+          /* line 3523, sass/layout/_main.scss */
           .site-main .side-columns-container .side-followers-container ul {
             text-align: center;
             padding: 0px;
             margin: 0px; }
-            /* line 3522, sass/layout/_main.scss */
+            /* line 3527, sass/layout/_main.scss */
             .site-main .side-columns-container .side-followers-container ul li {
               -moz-box-shadow: 0px 0px 5px #1b1b1b;
               -webkit-box-shadow: 0px 0px 5px #1b1b1b;
@@ -5373,50 +5379,50 @@ article.grid-item {
               width: 100%;
               margin-bottom: 10px;
               overflow: hidden; }
-              /* line 3528, sass/layout/_main.scss */
+              /* line 3533, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li > span {
                 display: inline-block;
                 width: 100%;
                 font-size: 90%;
                 word-break: break-all;
                 margin: auto; }
-              /* line 3535, sass/layout/_main.scss */
+              /* line 3540, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li a.follow-link {
                 display: inline-block;
                 width: 100%; }
-                /* line 3538, sass/layout/_main.scss */
+                /* line 3543, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link span {
                   display: block;
                   background-color: #125688;
                   color: #FFFFFF; }
-                /* line 3543, sass/layout/_main.scss */
+                /* line 3548, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link i {
                   display: none; }
-                /* line 3547, sass/layout/_main.scss */
+                /* line 3552, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-followers-container ul li a.follow-link:hover span {
                   background-color: #0c3a5b; }
-              /* line 3553, sass/layout/_main.scss */
+              /* line 3558, sass/layout/_main.scss */
               .site-main .side-columns-container .side-followers-container ul li img {
                 max-width: 100%;
                 width: 100%;
                 height: auto;
                 margin: auto; } }
-    /* line 3565, sass/layout/_main.scss */
+    /* line 3570, sass/layout/_main.scss */
     .site-main .side-columns-container .side-important-apps {
       opacity: 0;
       position: relative;
       width: 100%;
       margin: 0px 1%;
       display: none; }
-      /* line 3572, sass/layout/_main.scss */
+      /* line 3577, sass/layout/_main.scss */
       .site-main .side-columns-container .side-important-apps h3 {
         display: none; }
-      /* line 3575, sass/layout/_main.scss */
+      /* line 3580, sass/layout/_main.scss */
       .site-main .side-columns-container .side-important-apps ul {
         text-align: right;
         padding: 0px;
         margin: 20px 0px; }
-        /* line 3579, sass/layout/_main.scss */
+        /* line 3584, sass/layout/_main.scss */
         .site-main .side-columns-container .side-important-apps ul li {
           margin-bottom: 10px;
           width: 100%;
@@ -5424,26 +5430,26 @@ article.grid-item {
           overflow: hidden;
           display: block;
           position: relative; }
-          /* line 3586, sass/layout/_main.scss */
+          /* line 3591, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul li span {
             display: inline-block;
             float: right;
             line-height: 1.6; }
-            /* line 3590, sass/layout/_main.scss */
+            /* line 3595, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li span.app-name {
               color: #125688;
               paddin-top: 5px;
               font-size: 90%;
               margin-right: 60px;
               width: 100%; }
-            /* line 3597, sass/layout/_main.scss */
+            /* line 3602, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li span.taken {
               color: #4E4E4E;
               font-size: 80%;
               margin-top: -2px;
               width: 100%;
               margin-right: 60px; }
-          /* line 3605, sass/layout/_main.scss */
+          /* line 3610, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul li a {
             display: inline-block;
             overflow: hidden;
@@ -5451,13 +5457,13 @@ article.grid-item {
             position: absolute;
             top: 0;
             right: 0; }
-            /* line 3612, sass/layout/_main.scss */
+            /* line 3617, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li a img {
               width: 40px;
               margin: 5px 10px 5px 5px;
               float: right; }
       @media (min-width: 54em) {
-        /* line 3565, sass/layout/_main.scss */
+        /* line 3570, sass/layout/_main.scss */
         .site-main .side-columns-container .side-important-apps {
           position: absolute;
           top: 0px;
@@ -5466,7 +5472,7 @@ article.grid-item {
           display: block;
           opacity: 1;
           margin: 0px 1% 10px; }
-          /* line 3630, sass/layout/_main.scss */
+          /* line 3635, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps h3 {
             text-align: center;
             border-bottom: 1px dashed #E6E7E7;
@@ -5474,12 +5480,12 @@ article.grid-item {
             font-size: 90%;
             display: block;
             margin-bottom: 5px; }
-          /* line 3638, sass/layout/_main.scss */
+          /* line 3643, sass/layout/_main.scss */
           .site-main .side-columns-container .side-important-apps ul {
             text-align: center;
             padding: 0px;
             margin: 0px; }
-            /* line 3642, sass/layout/_main.scss */
+            /* line 3647, sass/layout/_main.scss */
             .site-main .side-columns-container .side-important-apps ul li {
               -moz-box-shadow: 0px 0px 5px #1b1b1b;
               -webkit-box-shadow: 0px 0px 5px #1b1b1b;
@@ -5488,43 +5494,43 @@ article.grid-item {
               background-color: #F8F8F8;
               width: 100%;
               padding: 0px 10px; }
-              /* line 3649, sass/layout/_main.scss */
+              /* line 3654, sass/layout/_main.scss */
               .site-main .side-columns-container .side-important-apps ul li span {
                 display: inline-block;
                 width: 100%;
                 float: none; }
-                /* line 3653, sass/layout/_main.scss */
+                /* line 3658, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li span.app-name {
                   color: #125688;
                   paddin-top: 5px;
                   padding-bottom: 5px;
                   font-size: 90%;
                   margin: auto; }
-                /* line 3660, sass/layout/_main.scss */
+                /* line 3665, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li span.taken {
                   color: #4E4E4E;
                   font-size: 80%;
                   margin-top: -2px;
                   margin: auto; }
-              /* line 3668, sass/layout/_main.scss */
+              /* line 3673, sass/layout/_main.scss */
               .site-main .side-columns-container .side-important-apps ul li a {
                 display: inline-block;
                 width: 100%;
                 overflow: hidden;
                 max-height: 85px;
                 position: relative; }
-                /* line 3674, sass/layout/_main.scss */
+                /* line 3679, sass/layout/_main.scss */
                 .site-main .side-columns-container .side-important-apps ul li a img {
                   width: 100%;
                   margin: auto;
                   float: none; } }
-    /* line 3690, sass/layout/_main.scss */
+    /* line 3695, sass/layout/_main.scss */
     .site-main .side-columns-container .side-followers-container.current,
     .site-main .side-columns-container .side-important-apps.current {
       display: block;
       opacity: 1; }
     @media (min-width: 54em) {
-      /* line 3330, sass/layout/_main.scss */
+      /* line 3335, sass/layout/_main.scss */
       .site-main .side-columns-container {
         -moz-box-shadow: 0px 0px 0px #FFFFFF;
         -webkit-box-shadow: 0px 0px 0px #FFFFFF;
@@ -5539,23 +5545,23 @@ article.grid-item {
         overflow: inherit;
         width: 100%;
         max-width: 100%; }
-        /* line 3708, sass/layout/_main.scss */
+        /* line 3713, sass/layout/_main.scss */
         .site-main .side-columns-container a.side-column-more {
           display: inline-block; }
-        /* line 3711, sass/layout/_main.scss */
+        /* line 3716, sass/layout/_main.scss */
         .site-main .side-columns-container ul.side-tab-list {
           display: none; } }
-    /* line 3715, sass/layout/_main.scss */
+    /* line 3720, sass/layout/_main.scss */
     .site-main .side-columns-container.show-side {
       transform: translateX(0px); }
 
-/* line 3727, sass/layout/_main.scss */
+/* line 3732, sass/layout/_main.scss */
 .chat-container {
   overflow: hidden;
   position: fixed;
   z-index: 999998;
   max-width: 100% !important; }
-  /* line 3734, sass/layout/_main.scss */
+  /* line 3739, sass/layout/_main.scss */
   .chat-container .chat-box-wrapper {
     background-color: #FFFFFF;
     position: relative;
@@ -5564,25 +5570,25 @@ article.grid-item {
     padding: 0px;
     margin: 0px;
     overflow: hidden; }
-    /* line 3742, sass/layout/_main.scss */
+    /* line 3747, sass/layout/_main.scss */
     .chat-container .chat-box-wrapper .chat-box-container {
       background-color: #FFFFFF;
       overflow-y: auto;
       width: 100%; }
       @media (min-width: 54em) {
-        /* line 3742, sass/layout/_main.scss */
+        /* line 3747, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-box-container {
           width: 30%;
           height: 100%;
           float: right;
           border-left: 2px solid #E6E7E7; } }
-      /* line 3753, sass/layout/_main.scss */
+      /* line 3758, sass/layout/_main.scss */
       .chat-container .chat-box-wrapper .chat-box-container .chat-box-header {
         background-color: #FFFFFF; }
-        /* line 3755, sass/layout/_main.scss */
+        /* line 3760, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-box-container .chat-box-header form.search-chats-list {
           position: relative; }
-          /* line 3758, sass/layout/_main.scss */
+          /* line 3763, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container .chat-box-header form.search-chats-list::before {
             content: "\f002";
             position: absolute;
@@ -5591,7 +5597,7 @@ article.grid-item {
             vertical-align: middle;
             color: #989c9c;
             font-size: 120%; }
-          /* line 3767, sass/layout/_main.scss */
+          /* line 3772, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container .chat-box-header form.search-chats-list input {
             width: 96%;
             max-width: 100%;
@@ -5604,18 +5610,18 @@ article.grid-item {
             -moz-border-radius: 0px;
             -webkit-border-radius: 0px;
             border-radius: 0px; }
-            /* line 3781, sass/layout/_main.scss */
+            /* line 3786, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container .chat-box-header form.search-chats-list input:focus {
               background-color: #F2F2F2;
               border-color: #ffd8d8; }
-          /* line 3786, sass/layout/_main.scss */
+          /* line 3791, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container .chat-box-header form.search-chats-list input[type="submit"] {
             display: none; }
-      /* line 3794, sass/layout/_main.scss */
+      /* line 3799, sass/layout/_main.scss */
       .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list {
         margin: 0px;
         padding: 0px; }
-        /* line 3797, sass/layout/_main.scss */
+        /* line 3802, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li {
           position: relative;
           display: block;
@@ -5625,10 +5631,10 @@ article.grid-item {
           padding: 7px 10px;
           cursor: pointer;
           overflow: hidden; }
-          /* line 3806, sass/layout/_main.scss */
+          /* line 3811, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li .user-avatar-container {
             width: 70px; }
-            /* line 3808, sass/layout/_main.scss */
+            /* line 3813, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li .user-avatar-container img {
               width: 60px;
               height: auto;
@@ -5638,7 +5644,7 @@ article.grid-item {
               -webkit-border-radius: 30px;
               border-radius: 30px;
               border: 2px solid #F2F2F2; }
-          /* line 3817, sass/layout/_main.scss */
+          /* line 3822, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li span {
             float: right;
             display: block;
@@ -5646,15 +5652,15 @@ article.grid-item {
             text-align: right;
             width: calc(100% - 70px);
             line-height: 1.7; }
-            /* line 3824, sass/layout/_main.scss */
+            /* line 3829, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li span.user-name {
               color: #125688;
               font-weight: 600; }
-            /* line 3828, sass/layout/_main.scss */
+            /* line 3833, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li span.chat-excerpt {
               color: #686868;
               font-size: 84%; }
-            /* line 3832, sass/layout/_main.scss */
+            /* line 3837, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li span.new-messages-count {
               position: absolute;
               bottom: 10px;
@@ -5668,7 +5674,7 @@ article.grid-item {
               border-radius: 20px;
               color: #FFFFFF;
               font-size: 80%; }
-            /* line 3845, sass/layout/_main.scss */
+            /* line 3850, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li span.last-message-date {
               width: auto;
               position: absolute;
@@ -5676,13 +5682,13 @@ article.grid-item {
               left: 0px;
               font-size: 90%;
               color: #989c9c; }
-          /* line 3858, sass/layout/_main.scss */
+          /* line 3863, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li:hover {
             background-color: #F2F2F2; }
-          /* line 3861, sass/layout/_main.scss */
+          /* line 3866, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-box-container ul.chat-box-list li.active {
             background-color: #ffd8d8; }
-    /* line 3870, sass/layout/_main.scss */
+    /* line 3875, sass/layout/_main.scss */
     .chat-container .chat-box-wrapper .chat-content-container {
       background: url('../images/background/chat-back.jpg?1470283162') top left repeat, #4E4E4E;
       width: 100%;
@@ -5690,73 +5696,73 @@ article.grid-item {
       background-attachment: fixed;
       position: relative; }
       @media (min-width: 54em) {
-        /* line 3870, sass/layout/_main.scss */
+        /* line 3875, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container {
           width: 70%;
           height: 100%;
           float: left; } }
-      /* line 3884, sass/layout/_main.scss */
+      /* line 3889, sass/layout/_main.scss */
       .chat-container .chat-box-wrapper .chat-content-container .chat-content-header {
         background-color: #FFFFFF;
         border-bottom: 1px solid #E6E7E7;
         position: relative; }
-        /* line 3888, sass/layout/_main.scss */
+        /* line 3893, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container .chat-content-header span.list-toggler {
           position: absolute;
           top: 10px;
           right: 15px;
           cursor: pointer; }
-          /* line 3893, sass/layout/_main.scss */
+          /* line 3898, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-header span.list-toggler i:before {
             font-size: 180%; }
-          /* line 3897, sass/layout/_main.scss */
+          /* line 3902, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-header span.list-toggler:hover i:before {
             color: #FF585B; }
           @media (min-width: 54em) {
-            /* line 3888, sass/layout/_main.scss */
+            /* line 3893, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-header span.list-toggler {
               display: none; } }
-        /* line 3906, sass/layout/_main.scss */
+        /* line 3911, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container .chat-content-header ul {
           padding-right: 30px;
           margin: 0px; }
-          /* line 3909, sass/layout/_main.scss */
+          /* line 3914, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-header ul li {
             display: list-item;
             padding: 9px 10px 6px;
             line-height: 0.7; }
-            /* line 3916, sass/layout/_main.scss */
+            /* line 3921, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-header ul li.userstate {
               color: #686868;
               font-size: 90%; }
-      /* line 3925, sass/layout/_main.scss */
+      /* line 3930, sass/layout/_main.scss */
       .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper {
         overflow: auto;
         height: 100%;
         padding-bottom: 70px; }
-        /* line 3930, sass/layout/_main.scss */
+        /* line 3935, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list {
           margin: 0px;
           padding: 0px; }
-          /* line 3934, sass/layout/_main.scss */
+          /* line 3939, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li {
             display: block;
             width: 100%;
             clear: both;
             margin: 0px;
             padding: 10px 0px; }
-            /* line 3940, sass/layout/_main.scss */
+            /* line 3945, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content {
               width: 80%;
               margin: auto;
               display: block;
               overflow: hidden; }
-              /* line 3945, sass/layout/_main.scss */
+              /* line 3950, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .user-avatar-container {
                 float: right;
                 width: 60px;
                 padding-left: 10px; }
-                /* line 3949, sass/layout/_main.scss */
+                /* line 3954, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .user-avatar-container img {
                   height: auto;
                   max-width: 100%;
@@ -5764,7 +5770,7 @@ article.grid-item {
                   -moz-border-radius: 30px;
                   -webkit-border-radius: 30px;
                   border-radius: 30px; }
-              /* line 3958, sass/layout/_main.scss */
+              /* line 3963, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container {
                 -moz-border-radius: 5px;
                 -webkit-border-radius: 5px;
@@ -5775,27 +5781,27 @@ article.grid-item {
                 color: #111;
                 width: calc(100% - 65px);
                 float: left; }
-                /* line 3968, sass/layout/_main.scss */
+                /* line 3973, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this {
                   border-right: 3px solid #FF585B;
                   display: block;
                   margin: 5px 0px;
                   padding: 0px 10px;
                   line-height: 1.5; }
-                  /* line 3975, sass/layout/_main.scss */
+                  /* line 3980, sass/layout/_main.scss */
                   .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this span.sender-user-name {
                     color: #FF585B;
                     display: block; }
-                  /* line 3979, sass/layout/_main.scss */
+                  /* line 3984, sass/layout/_main.scss */
                   .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container .reply-to-this span.message-excerpt {
                     color: #4E4E4E; }
-                /* line 3984, sass/layout/_main.scss */
+                /* line 3989, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.user-name {
                   color: #125688;
                   font-weight: 600;
                   width: 100%;
                   display: block; }
-                /* line 3990, sass/layout/_main.scss */
+                /* line 3995, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date {
                   color: #989c9c;
                   font-size: 90%;
@@ -5803,10 +5809,10 @@ article.grid-item {
                   display: inline-block;
                   padding: 0px 0px 2px 5px;
                   margin-right: 22px; }
-                  /* line 3997, sass/layout/_main.scss */
+                  /* line 4002, sass/layout/_main.scss */
                   .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.sent {
                     position: relative; }
-                    /* line 3999, sass/layout/_main.scss */
+                    /* line 4004, sass/layout/_main.scss */
                     .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.sent::before {
                       content: "";
                       height: 12px;
@@ -5815,10 +5821,10 @@ article.grid-item {
                       top: 10px;
                       right: -22px;
                       background: url('../images/icons/sent.png?1470283162') top left no-repeat; }
-                  /* line 4010, sass/layout/_main.scss */
+                  /* line 4015, sass/layout/_main.scss */
                   .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.checked {
                     position: relative; }
-                    /* line 4012, sass/layout/_main.scss */
+                    /* line 4017, sass/layout/_main.scss */
                     .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container span.message-date.checked::before {
                       content: "";
                       height: 12px;
@@ -5827,7 +5833,7 @@ article.grid-item {
                       top: 10px;
                       right: -22px;
                       background: url('../images/icons/checked.png?1470283162') top left no-repeat; }
-                /* line 4023, sass/layout/_main.scss */
+                /* line 4028, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li .single-message-content .message-container::before {
                   content: '';
                   position: absolute;
@@ -5838,26 +5844,26 @@ article.grid-item {
                   border-top: 10px solid transparent;
                   border-left: 10px solid #FFFFFF;
                   border-bottom: 10px solid transparent; }
-            /* line 4041, sass/layout/_main.scss */
+            /* line 4046, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .user-avatar-container {
               padding-left: 0px;
               padding-right: 10px;
               float: left; }
-            /* line 4046, sass/layout/_main.scss */
+            /* line 4051, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container {
               background-color: #ffd8d8;
               float: right; }
-              /* line 4049, sass/layout/_main.scss */
+              /* line 4054, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container::before {
                 top: 11px;
                 right: auto;
                 left: -9px;
                 border-right: 10px solid #ffd8d8;
                 border-left: 0px; }
-              /* line 4057, sass/layout/_main.scss */
+              /* line 4062, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-wrapper ul.chat-content-list li.my-message .single-message-content .message-container span.user-name {
                 text-align: left; }
-      /* line 4072, sass/layout/_main.scss */
+      /* line 4077, sass/layout/_main.scss */
       .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer {
         min-height: 50px;
         background-color: #FFFFFF;
@@ -5865,11 +5871,11 @@ article.grid-item {
         bottom: 0px;
         right: 0px;
         left: 0px; }
-        /* line 4079, sass/layout/_main.scss */
+        /* line 4084, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr {
           position: relative;
           display: inline-block; }
-          /* line 4083, sass/layout/_main.scss */
+          /* line 4088, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr i:before {
             font-size: 170%;
             color: #8e8e8e;
@@ -5879,10 +5885,10 @@ article.grid-item {
             padding: 10px 10px;
             vertical-align: middle;
             cursor: pointer; }
-          /* line 4096, sass/layout/_main.scss */
+          /* line 4101, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr i:hover:before {
             color: #FF585B; }
-          /* line 4102, sass/layout/_main.scss */
+          /* line 4107, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items {
             opacity: 0;
             visibility: hidden;
@@ -5893,44 +5899,44 @@ article.grid-item {
             margin: 5px;
             padding: 0px;
             width: 160px; }
-            /* line 4115, sass/layout/_main.scss */
+            /* line 4120, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items li {
               padding: 5px 10px;
               cursor: pointer;
               display: list-item;
               border-bottom: 1px solid #E6E7E7; }
-              /* line 4123, sass/layout/_main.scss */
+              /* line 4128, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items li span {
                 padding: 5px 5px 5px 15px; }
-              /* line 4126, sass/layout/_main.scss */
+              /* line 4131, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items li:hover {
                 background-color: #F2F2F2; }
-                /* line 4128, sass/layout/_main.scss */
+                /* line 4133, sass/layout/_main.scss */
                 .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items li:hover i:before {
                   color: #FF585B; }
-              /* line 4132, sass/layout/_main.scss */
+              /* line 4137, sass/layout/_main.scss */
               .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr ul.chat-items li:last-child {
                 border: 0px; }
-          /* line 4138, sass/layout/_main.scss */
+          /* line 4143, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer .chat-items-conatienr:hover ul.chat-items {
             opacity: 1;
             visibility: visible; }
-        /* line 4146, sass/layout/_main.scss */
+        /* line 4151, sass/layout/_main.scss */
         .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form {
           position: relative;
           float: left;
           width: calc(100% - 50px);
           display: inline-block; }
-          /* line 4151, sass/layout/_main.scss */
+          /* line 4156, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form #emojieButtonContainer {
             position: absolute;
             top: 0px;
             left: 45px; }
-            /* line 4155, sass/layout/_main.scss */
+            /* line 4160, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form #emojieButtonContainer .emoji-menu {
               top: auto !important;
               bottom: 100% !important; }
-            /* line 4161, sass/layout/_main.scss */
+            /* line 4166, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form #emojieButtonContainer i:before {
               font-size: 170%;
               color: #8e8e8e;
@@ -5940,10 +5946,10 @@ article.grid-item {
               padding: 10px 10px;
               vertical-align: middle;
               cursor: pointer; }
-            /* line 4171, sass/layout/_main.scss */
+            /* line 4176, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form #emojieButtonContainer i:hover {
               color: #FF585B; }
-          /* line 4176, sass/layout/_main.scss */
+          /* line 4181, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form textarea, .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form .emoji-wysiwyg-editor {
             border: 0px;
             outline: none;
@@ -5954,7 +5960,7 @@ article.grid-item {
             -webkit-border-radius: 0px;
             border-radius: 0px;
             width: calc(100% - 100px); }
-          /* line 4186, sass/layout/_main.scss */
+          /* line 4191, sass/layout/_main.scss */
           .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form input[type="submit"] {
             position: absolute;
             top: 0px;
@@ -5966,7 +5972,7 @@ article.grid-item {
             padding: 5px 10px;
             color: #4E4E4E;
             font-size: 110%; }
-            /* line 4197, sass/layout/_main.scss */
+            /* line 4202, sass/layout/_main.scss */
             .chat-container .chat-box-wrapper .chat-content-container .chat-content-footer form.chat-input-form input[type="submit"]:hover {
               color: #FF585B; }
 
