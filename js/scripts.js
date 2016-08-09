@@ -277,13 +277,13 @@ jQuery(document).ready(function($){
 		});
 	}
 	if(typeof $.fn.gallery !== 'undefined') {
-		if ($(window).width() > 526) {
+
 			$('#dg-container').gallery({
 				current: 0,
 				autoplay: true,
 				interval: 2000
 			});
-		}
+
 	}
 
 	if(typeof $.fn.chat_box !== 'undefined') {
@@ -304,12 +304,13 @@ jQuery(document).ready(function($){
 	}
 
 	if(typeof $.fn.offtick_image_uploader !== 'undefined') {
-
-		$('#userPhotoUploader').offtick_image_uploader({
-			imageHolderID : '#imageHolderID',
-			singleUpload : true,
-			placeholder_src : "images/user-image-placeholder.png",
-		});
+		if ($(window).width() > 526) {
+			$('#userPhotoUploader').offtick_image_uploader({
+				imageHolderID: '#imageHolderID',
+				singleUpload: true,
+				placeholder_src: "images/user-image-placeholder.png",
+			});
+		}
 	}
 
 	if(typeof Calendar !== 'undefined') {
