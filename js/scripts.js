@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
 			maxWidth : '526'
 		});
 	}
-	
+
 	var lastScrollTop = 0;
 	$(window).scroll(function(event){
 		var st = $(this).scrollTop();
@@ -277,11 +277,13 @@ jQuery(document).ready(function($){
 		});
 	}
 	if(typeof $.fn.gallery !== 'undefined') {
-		$('#dg-container').gallery({
-			current: 0,
-			autoplay: true,
-			interval: 2000
-		});
+		if ($(window).width() > 526) {
+			$('#dg-container').gallery({
+				current: 0,
+				autoplay: true,
+				interval: 2000
+			});
+		}
 	}
 
 	if(typeof $.fn.chat_box !== 'undefined') {
@@ -302,6 +304,7 @@ jQuery(document).ready(function($){
 	}
 
 	if(typeof $.fn.offtick_image_uploader !== 'undefined') {
+
 		$('#userPhotoUploader').offtick_image_uploader({
 			imageHolderID : '#imageHolderID',
 			singleUpload : true,
