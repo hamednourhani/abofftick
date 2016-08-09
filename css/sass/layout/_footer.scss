@@ -2,27 +2,27 @@
   background-color: lighten($grey3,5%);
   color : $white;
   position: relative;
+
   span.hide-footer-toggler{
     i{
       &:before{
-
-      @extend .def-transition;
-      cursor: pointer;
-      color : $grey3;
-      background-color: $grey1;
-      padding : 10px;
-      position: absolute;
-      top : -30px;
-      right : 10px;
-      font-size : 140%;cursor: pointer;
-      color: $white;
-      background-color: lighten($grey3,5%);
-      @include border-top-radius(5px);
-      padding: 5px 15px 10px;
-      position: absolute;
-      top: -58px;
-      right: 14px;
-      font-size: 180%;
+        @extend .def-transition;
+        cursor: pointer;
+        color : $grey3;
+        background-color: $grey1;
+        padding : 10px;
+        position: absolute;
+        top : -30px;
+        right : 10px;
+        font-size : 140%;cursor: pointer;
+        color: $white;
+        background-color: lighten($grey3,5%);
+        @include border-top-radius(5px);
+        padding: 5px 15px 10px;
+        position: absolute;
+        top: -58px;
+        right: 14px;
+        font-size: 180%;
       }
       &.fa-angle-up{
 
@@ -55,9 +55,12 @@
   .site-credit{
     padding : 8px;
     padding-bottom : 48px;
+    height : 47px;
     @include at-breakpoint($xmedium){
       padding-bottom : 8px;
+      height : auto;
     }
+
     text-align : center;
     background-color: darken($grey3, 10%);
     color : $white;
@@ -80,17 +83,23 @@
 .footer-columns{
   padding : 20px 0px;
   overflow: hidden;
+  display: none;
+  @include at-breakpoint($xmedium){
+    display: block;
+  }
   aside.footer-col{
     @include span-columns(12,12);
     @include at-breakpoint($medium){
       @include span-columns(3,12);
       margin-right : auto;
+
     }
     &:nth-of-type(4n){
       @include span-columns(12,12);
       @include at-breakpoint($medium){
         @include span-columns(3 omega,12);
         margin-right : auto;
+
       }
     }
 
@@ -109,6 +118,10 @@
 nav.footer-nav{
   @extend .def-transition;
   background-color: $grey3;
+  display: block;
+  @include at-breakpoint($xmedium){
+   display: none;
+  }
   @include box-shadow(0px 0px 4px $grey3);
   text-align: center;
   display : block;
@@ -121,9 +134,7 @@ nav.footer-nav{
   &:hover{
     opacity: 1;
   }
-  @include at-breakpoint($xmedium){
-    display : none;
-  }
+
   ul.footer-icons{
     padding:0px;
     margin: 0px;
@@ -161,74 +172,34 @@ nav.footer-nav{
           font-size : 180%;
         }
         &:hover{
-          background-color: $blue;
+          background-color: $gol;
           color : $grey1;
         }
       }
-      &.plus-icon{
-        a{
-          background-color: $gol;
-        }
-      }
+      //&.plus-icon{
+      //  a{
+      //    background-color: $gol;
+      //  }
+      //}
       &.active{
         a{
-          background-color: $blue;
-          &:hover{
-            background-color: $blue;
-            color : $grey1;
-          }
-        }
-      }
-      &.plus-icon{
-        a{
           background-color: $gol;
           &:hover{
-            background-color: $blue;
+            background-color: $gol;
             color : $grey1;
           }
         }
       }
+      //&.plus-icon{
+      //  a{
+      //    background-color: $gol;
+      //    &:hover{
+      //      background-color: $blue;
+      //      color : $grey1;
+      //    }
+      //  }
+      //}
     }
-    div.buttom-search-container{
 
-      position: absolute;
-      bottom : 101%;
-      left : 0px;
-      width : 100%;
-      background-color: $blue;
-      display: none;
-      padding : 10px 15px;
-      text-align: center;
-      opacity: 0.8;
-      &:hover{
-        opacity: 1;
-      }
-      input,select{
-        padding : 4px;
-        margin : 0px;
-        color : $black1;
-
-      }
-      select.search-city{
-        border : 1px solid darken($grey2,15%);
-        @include border-right-radius(10px);
-        margin-left : -5px;
-        padding : 3px 12px;
-        color : $black1;
-      }
-      input.search-text{
-        border : 1px solid darken($grey2,15%);
-        @include border-left-radius(10px);
-        @include border-right-radius(0px);
-        color : $black1;
-      }
-      input.searchbutton{
-        background: none;
-        border : 0px;
-        outline : none;
-
-      }
-      
-    }
   }
 }

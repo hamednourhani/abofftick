@@ -49,9 +49,13 @@
     position : absolute;
     padding : 10px;
     top : 0px ;
-   right : 38%;
+    visibility: hidden;
+    opacity: 0;
     @include at-breakpoint($xmedium){
       right : 50%;
+      visibility: visible;
+      opacity: 1;
+
     }
     @include at-breakpoint($medium){
       right : 46%;
@@ -507,8 +511,19 @@ nav.mobile-nav {
  }
 
 .menu-bar{
+
   @include box-shadow(0px 0px 5px 0px $grey3);
   background-color: $gol;
+  //opacity: 1;
+  //visibility: visible;
+  //height : auto;
+  //overflow: inherit;
+  //&.hide-menubar{
+  //  height : 0px;
+  //  overflow: hidden;
+  //  opacity: 0;
+  //  visibility: hidden;
+  //}
   .category-icons{
     float : left;
     direction: ltr;
@@ -551,83 +566,101 @@ nav.mobile-nav {
 
 
           &.allofftiks {
-            background-position: 40px 81px;
+            background-position: 224px 93px;
             &:hover,&.active {
-              background-position: 40px 41px;
+              background-position: 224px 45px;
             }
           }
           &.feature {
-            background-position: 139px 80px;
+            background-position: 344px 92px;
             &:hover,&.active {
-              background-position: 139px 40px;
+              background-position: 344px 45px;
             }
           }
           &.building {
-            background-position: 88px 80px;
+            background-position: 1172px 92px;
             &:hover,&.active {
-              background-position: 88px 40px;
+              background-position: 1172px 45px;
             }
           }
           &.car {
-            background-position: 189px 80px;
+            background-position: 1290px 92px;
             &:hover,&.active {
-              background-position: 189px 40px;
+              background-position: 1290px 45px;
             }
           }
 
           &.resturant {
-            background-position: 337px 81px;
+            background-position: 1468px 94px;
             &:hover,&.active {
-              background-position: 337px 41px;
+              background-position: 1468px 45px;
             }
           }
 
           &.travel {
-            background-position: 238px 81px;
+            background-position: 1351px 94px;
             &:hover,&.active {
-              background-position: 238px 41px;
+              background-position: 1351px 45px;
             }
           }
 
           &.theater {
-            background-position: 1029px 80px;
+            background-position: 1588px 94px;
             &:hover,&.active {
-              background-position: 1029px 40px;
+              background-position: 1588px 45px;
             }
           }
 
           &.sport {
-            background-position: 1176px 80px;
+            background-position: 1765px 92px;
             &:hover,&.active {
-              background-position: 1176px 40px;
+              background-position: 1765px 45px;
             }
           }
 
           &.health {
-            background-position: 537px 81px;
+            background-position: 1707px 94px;
             &:hover,&.active {
-              background-position: 537px 41px;
+              background-position: 1707px 45px;
             }
           }
 
           &.sale {
-            background-position: 288px 81px;
+            background-position: 1408px 94px;
             &:hover,&.active {
-              background-position: 288px 41px;
+              background-position: 1408px 45px;
             }
           }
 
           &.education {
-            background-position: 1077px 80px;
+            background-position: 1648px 94px;
             &:hover,&.active {
-              background-position: 1077px 40px;
+              background-position: 1648px 45px;
             }
           }
 
           &.beauty {
-            background-position: 976px 80px;
+            background-position: 1528px 94px;
             &:hover,&.active {
-              background-position: 976px 40px;
+              background-position: 1528px 45px;
+            }
+          }
+          &.services {
+            background-position: 45px 94px;
+            &:hover,&.active {
+              background-position: 45px 45px;
+            }
+          }
+          &.engineering {
+            background-position: 106px 94px;
+            &:hover,&.active {
+              background-position: 106px 45px;
+            }
+          }
+          &.ticket {
+            background-position: 165px 94px;
+            &:hover,&.active {
+              background-position: 165px 45px;
             }
           }
           span.icon-title {
@@ -646,11 +679,67 @@ nav.mobile-nav {
 
         }
       }
+      &.off{
+        display: block;
+        li{
+          display : inline-block;
+        }
+      }
     }
   }
   //category-icons
+  .owl-nav{
+    display: none;
+  }
 }
 //menu-bar
+
+div.buttom-search-container{
+
+
+
+  left : 0px;
+  width : 100%;
+  right : 0px;
+  background-color: $blue;
+  display: none;
+  padding : 10px 15px;
+  text-align: center;
+  opacity: 0.8;
+  @include at-breakpoint($xmedium) {
+    display: none !important;
+  }
+  &:hover{
+    opacity: 1;
+  }
+  input,select{
+    padding : 4px;
+    margin : 0px;
+    color : $black1;
+
+  }
+  select.search-city{
+    border : 1px solid darken($grey2,15%);
+    @include border-right-radius(5px);
+    margin-left : -5px;
+    padding : 3px 12px;
+    color : $black1;
+  }
+  input.search-text{
+    border : 1px solid darken($grey2,15%);
+    @include border-left-radius(5px);
+    @include border-right-radius(0px);
+    color : $black1;
+    width : calc(100% - 100px);
+  }
+  input.searchbutton{
+    background: none;
+    border : 0px;
+    outline : none;
+    display: none;
+  }
+
+}
 
 .profile-menu-bar{
   z-index: 999999;

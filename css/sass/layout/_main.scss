@@ -2447,15 +2447,7 @@ article.grid-item{
         margin-bottom : 10px;
         padding-top: 5px;
         font-size : 120%;
-        display: inline-block;
-        &::before{
-          @extend .fa;
-          content : "\f10c";
-          position : absolute;
-          top : 12px;
-          right : -23px;
-          color : $gol;
-        }
+
       }
       h1{
         &::before{
@@ -2632,6 +2624,7 @@ article.grid-item{
     background-position: center;
 
   }
+  &.login{}
 
   .register-wrapper {
     .register-container {
@@ -2973,6 +2966,364 @@ article.grid-item{
     //registeration-container
   }
   //registration-wrapper
+
+  .login-wrapper {
+    .login-container {
+
+      .login-title {
+        position: relative;
+        overflow: hidden;
+        display: block;
+        clear: both;
+        min-height: 60px;
+        margin-top: 10px;
+        text-align: center;
+        h3 {
+          position: relative;
+          margin-right: 30px;
+          font-size : 120%;
+          clear: both;
+          //border-bottom: 1px solid $grey2;
+          margin-bottom: 10px;
+          padding:  5px 7px 3px;
+          font-size: 120%;
+          display: inline-block;
+          color : $grey3;
+          border : 1px dashed $grey3;
+          background-color: $glassyWhite;
+          line-height: 1.7;
+          ul{
+            display: inline-block;
+            padding : 0px;
+            margin : 4px 14px 0px 5px;
+            float : left;
+
+            li{
+              display: inline-block;
+              padding : 2px 7px;
+              height : 30px;
+              width : 30px;
+              font-size : 80%;
+              background-color: $grey3;
+              color : $grey1;
+              @include border-radius(15px);
+              overflow: hidden;
+              &.passed{
+                background: image_url('icons/passed.png') center center no-repeat, $gol;
+                span{
+                  display : none;
+                }
+              }
+              &.current{
+                background-color: $green;
+              }
+            }
+          }
+        }
+
+        @include at-breakpoint($medium) {
+          max-width: 50%;
+          margin : 10px auto;
+        }
+      }
+      //basket-title
+
+      .login-forms-container{
+        clear : both;
+        max-width : 100%;
+        padding: 10px 5px 10px;
+        border : 1px dashed $grey1;
+        background-color: rgba(255,255,255,0.4);
+        margin-top : 20px;
+        margin-bottom : 30px;
+
+        form{
+          .login-desc{
+            display : block;
+            padding : 5px 20px;
+            a{
+              color : $gol;
+            }
+            display: inline-block;
+            position: relative;
+            &::before{
+              @extend .fa;
+              content : "\f10c";
+              position : absolute;
+              top : 12px;
+              right : 0px;
+              color : $gol;
+            }
+          }
+          .right-grid{
+            @include span-columns(12,12);
+            @include at-breakpoint($mediumplus) {
+              @include span-columns(6, 12);
+              margin-right: auto;
+            }
+          }
+          .left-grid{
+            @include span-columns(12,12);
+            @include at-breakpoint($mediumplus) {
+              @include span-columns(6 omega, 12);
+              margin-right: auto;
+            }
+          }
+          .left-grid,.right-grid{
+            padding : 0px 20px 10px;
+          }
+          .right-grid.boxed{
+            border : 1px dashed $grey3;
+            position: relative;
+            padding-top : 35px;
+            &>span{
+              position: absolute;
+              top: -1px;
+              right: 10%;
+              display: inline-block;
+              border: 1px dashed black;
+              padding: 3px 10px;
+              background-color: rgba(255,255,255,0.9);
+            }
+          }
+          .right-grid.minimal{
+            padding-top : 30px;
+            label{
+              max-width : 34%;
+            }
+            input,select,.calendar-container{
+              float : left ;
+              max-width : 65%;
+            }
+          }
+          label,input,select,textarea{
+            width : 100%;
+            display: inline-block;
+            @include border-radius(3px);
+            padding : 5px 10px;
+            background-color: rgba(255,255,255,0.7);
+            max-width : 100%;
+          }
+          textarea{
+            background-color: rgba(255,255,255,0.5);
+            border : 1px dashed $grey3;
+            @include border-radius(0px);
+            outline : none;
+            //color : $white;
+            font-size : 110%;
+            color : $grey3;
+          }
+          label{
+            //@include clearfix();
+            font-size : 120%;
+            font-weight: 600;
+            width : auto;
+            display: inline-block;
+            margin : 10px 0px 5px;
+            background-color: rgba(255,255,255,0.5);
+            &.required{
+              position: relative;
+              @extend .fa;
+              font-size : 120%;
+              font-weight: 600;
+              padding : 11px;
+              font-family: $web_yekan;
+              &::after{
+                font-family: "FontAwesome";
+                content : "\f005";
+                position: absolute;
+                top: 4px;
+                left: 3px;
+                font-size : 70%;
+                color: $gol;
+              }
+            }
+          }
+          input{
+            @extend .def-transition;
+            border : 1px dashed $grey3;
+            @include border-radius(0px);
+            outline : none;
+            //color : $white;
+            font-size : 110%;
+            color : $grey3;
+            &:focus{
+              border-color : $gol;
+            }
+            &.date_input{
+              width : auto;
+            }
+            &.date_btn{
+              width : 52px;
+              height : 50px;
+              position: relative;
+              opacity: 0.8;
+              background: image_url('icons/calendar.png') top left no-repeat,$gol;
+              &:hover{
+                opacity : 1;
+              }
+            }
+          }
+          input[type="checkbox"]{
+            width : auto;
+            margin-top: 20px;
+          }
+          input[type="submit"]{
+            width : auto;
+            display : block;
+            margin : 10px auto;
+            background-color: $gol;
+            color : $white;
+
+            &:hover{
+              background-color: $blue;
+            }
+          }
+          input[type="file"]{
+            color : $grey3;
+            padding : 20px;
+          }
+          select{
+            border : 1px dashed $grey3;
+            &:focus{
+              border-color : $gol;
+            }
+          }
+          .calendar-container{
+            display: block;
+            width : 100%;
+          }
+          span.remember-title{
+            display : inline-block;
+            clear : left;
+            padding: 5px;
+          }
+          a.forgat-password{
+            clear : both;
+            padding : 10px;
+            width: 100%;
+            display: block;
+          }
+          .image-input-container{
+            height : 46px;
+            width : 120px;
+            background-color: $gol;
+            border : 1px dashed $white;
+            position: relative;
+            margin-top : 20px;
+            span{
+              width : 100%;
+              height : 100%;
+              padding : 5px 10px;
+              color : $white;
+              font-size : 110%;
+              display: inline-block;
+              position: absolute;
+              top : 0px;
+              bottom : 0px;
+              left : 0px;
+              right : 0px;
+              cursor: pointer;
+
+            }
+            input.image-input{
+              position: absolute;
+              top : 0px;
+              bottom : 0px;
+              left : 0px;
+              right : 0px;
+              opacity : 0;
+              width : 100%;
+              height : 100%;
+              border : 0px;
+              margin : 0px;
+              cursor: pointer;
+
+            }
+
+          }
+          .image-container {
+
+            overflow: hidden;
+            float : left;
+            display: inline-block;
+            padding : 0px;
+            border: 1px dashed $grey3;
+            max-width : 100%;
+            width : 160px;
+            height : 160px;
+            direction: ltr;
+
+            .image-grid {
+              position: relative;
+              width : 150px;
+              height : 150px;
+              margin : 5px;
+              display : inline-block;
+              float : right;
+              overflow:hidden;
+              img {
+                width: 100%;
+                height: auto;
+                max-width: 100%;
+              }
+
+              &:hover{
+                span.remove,span.crop{
+                  display: inline-block;
+                }
+              }
+            }
+          }
+
+
+        }
+
+        @include at-breakpoint($mediumplus){
+          max-width : 70%;
+          margin : 20px auto 30px;
+        }
+
+        .login-buttons-container{
+          width : 100%;
+          clear : both ;
+          text-align: center;
+          .login-button {
+
+            display: inline-block;
+            background-color: $gol;
+            color: $white;
+            padding : 7px 25px;
+            border : 1px dashed $grey1;
+            font-size: 110%;
+            i:before{
+              font-size : 120%;
+              vertical-align: middle;
+              padding : 5px;
+            }
+            &:hover {
+              background-color: $blue;
+            }
+
+            float : none  !important;
+            width : 70%;
+            margin : 10px auto;
+            @include at-breakpoint($medium){
+              width: auto;
+              margin: 10px;
+
+            }
+          }
+        }
+        //login-buttons-container
+      }
+      //login-forms-container
+
+
+    }
+    //login-container
+  }
+  //login
 }
 .site-main {
   position: relative;

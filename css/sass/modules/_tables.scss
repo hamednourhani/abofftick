@@ -1,1 +1,26 @@
 /* table style */
+.table-wrapper{
+  padding : 20px 30px;
+  width : 100%;
+  @include at-breakpoint($xmedium){
+    padding : 20px 10px;
+  }
+}
+.tablesaw{
+  max-width: 100%;
+  border : 1px solid $grey2;
+  direction: rtl;
+  th,td{
+    text-align: right;
+  }
+  thead{
+    th{
+      text-align: right;
+    }
+  }
+  tr{
+    &:nth-of-type(2n){
+      background-color: $grey1;
+    }
+  }
+}
