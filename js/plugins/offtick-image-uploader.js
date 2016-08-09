@@ -230,4 +230,37 @@
         return this;
     };
 
+    $.fn.offtick_mobile_image_uploader =  function (prop) {
+        'strict'
+        var options = $.extend({
+            imageHolderID : '#imageHolderID',
+            placeholder_src : "",
+
+        }, prop );
+        var image_reader = $(options.imageHolderID).children().children('img');
+        var input_file = this;
+
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                console.log(input.files);
+                reader.onload = function (e) {
+                    image_reader.attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        input_file.change(function(){
+            console.log(input_file);
+            readURL(this);
+        });
+
+        return this;
+    }
+
+
+
 }( jQuery ));

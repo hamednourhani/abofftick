@@ -2847,7 +2847,7 @@ article.grid-item{
               display: block;
             }
             .image-input-container{
-              @include at-breakpoint($xmedium) {
+
                 height : 46px;
                 width : 120px;
                 background-color: $gol;
@@ -2869,9 +2869,9 @@ article.grid-item{
                   cursor: pointer;
                 }
 
-              }
+
               input.image-input{
-                @include at-breakpoint($xmedium) {
+
                   position: absolute;
                   top: 0px;
                   bottom: 0px;
@@ -2883,15 +2883,12 @@ article.grid-item{
                   border: 0px;
                   margin: 0px;
                   cursor: pointer;
-                }
+
               }
 
             }
             .image-container {
-              display: none;
-              @include at-breakpoint($xmedium){
-                display: inline-block;
-              }
+
               overflow: hidden;
               float : left;
               padding : 0px;

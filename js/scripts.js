@@ -310,6 +310,13 @@ jQuery(document).ready(function($){
 				singleUpload: true,
 				placeholder_src: "images/user-image-placeholder.png",
 			});
+		} else {
+
+				$('#userPhotoUploader').offtick_mobile_image_uploader({
+					imageHolderID: '#imageHolderID',
+					placeholder_src: "images/user-image-placeholder.png",
+				});
+				
 		}
 	}
 
