@@ -1,6 +1,11 @@
 .site-header{
   padding : 0px;
   margin : 0px;
+  &.scroll-to-fixed-fixed{
+    .top-bar {
+      background-color: $grey1 !important;
+    }
+  }
 }
 .top-bar{
   width : 100%;
